@@ -1,7 +1,7 @@
 import createMiddleware from "next-intl/middleware";
 import { NextRequest, NextResponse } from "next/server";
 import { routing } from "./i18n/routing";
-import { getPublicSettings } from "./lib/api/settings";
+import API_ROUTES from "./lib/api/routes";
 
 const intlMiddleware = createMiddleware(routing);
 
@@ -48,20 +48,38 @@ function isAllowedDuringMaintenance(pathname: string) {
 }
 
 const MAINTENANCE_FALLBACK = {
-  maintenanceMode: true,
+  maintenanceMode: false,
   comingSoonMode: false,
 } as const;
 
 async function loadSettings() {
+  const baseUrl = process.env.NEXT_PUBLIC_BACKEND_URL;
+
+  if (!baseUrl) {
+    return MAINTENANCE_FALLBACK;
+  }
+
   try {
-    const settings = await getPublicSettings();
-    if (!settings) {
+    const response = await fetch(`${baseUrl}${API_ROUTES.PUBLIC_SETTINGS}`, {
+      headers: { Accept: "application/json" },
+      next: { revalidate: 60 },
+    });
+
+    if (!response.ok) {
+      return MAINTENANCE_FALLBACK;
+    }
+
+    const body = (await response.json()) as {
+      data?: { maintenanceMode?: boolean; comingSoonMode?: boolean };
+    };
+
+    if (!body.data) {
       return MAINTENANCE_FALLBACK;
     }
 
     return {
-      maintenanceMode: settings.maintenanceMode ?? false,
-      comingSoonMode: settings.comingSoonMode ?? false,
+      maintenanceMode: body.data.maintenanceMode ?? false,
+      comingSoonMode: body.data.comingSoonMode ?? false,
     };
   } catch {
     return MAINTENANCE_FALLBACK;
