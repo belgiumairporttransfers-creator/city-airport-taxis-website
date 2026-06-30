@@ -1,0 +1,37 @@
+{
+  "nationwide": {
+    "title": "Belgium-Wide Coverage",
+    "image_alt": "Chauffeur with a luxury vehicle ready for airport transfers across Belgium",
+    "categories": [
+      {
+        "label": "Major Cities",
+        "items": [
+          "Brussels",
+          "Antwerp",
+          "Ghent",
+          "Bruges",
+          "Liège"
+        ]
+      },
+      {
+        "label": "Major Airports",
+        "items": [
+          "Brussels (BRU)",
+          "Charleroi (CRL)",
+          "Antwerp (ANR)",
+          "Liège (LGG)",
+          "Ostend (OST)"
+        ]
+      },
+      {
+        "label": "Popular Destinations",
+        "items": [
+          "EU District",
+          "Business Hubs",
+          "Coastal Towns",
+          "Wallonia Region"
+        ]
+      }
+    ]
+  }
+}

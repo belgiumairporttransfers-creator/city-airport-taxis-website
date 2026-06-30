@@ -1,0 +1,222 @@
+{
+  "title": "Airport Transfers Belgium | Premium Taxi Service",
+  "description": "Book reliable airport transfers and chauffeur services across Belgium. Professional drivers, fixed pricing, and 24/7 support for Brussels, Antwerp, Charleroi, and Liège.",
+  "keywords": "airport transfer belgium, brussels airport taxi, antwerp airport transfer, charleroi airport taxi, chauffeur service belgium",
+  "auth": {
+    "login": {
+      "title": "Login | Airport Transfers Belgium",
+      "description": "Log in to your account to manage your airport transfer bookings and profile across Belgium.",
+      "keywords": "login, airport transfer belgium, account access, manage booking"
+    },
+    "register": {
+      "title": "Register | Airport Transfers Belgium",
+      "description": "Create an account for seamless airport transfers and chauffeur services across Belgium.",
+      "keywords": "register, sign up, taxi account belgium, airport transfer account"
+    },
+    "forgot_password": {
+      "title": "Forgot Password | Airport Transfers Belgium",
+      "description": "Reset your account password to regain access to your bookings.",
+      "keywords": "forgot password, reset password, account recovery"
+    },
+    "reset_password": {
+      "title": "Reset Password | Airport Transfers Belgium",
+      "description": "Set a new password for your airport transfer account.",
+      "keywords": "new password, reset password, account security"
+    }
+  },
+  "business": {
+    "partner": {
+      "title": "Partner With Us | Airport Transfers Belgium",
+      "description": "Partner with us and join our growing network of professional drivers across Belgium. Flexible working hours and competitive earnings.",
+      "keywords": "partner, taxi driver belgium, join team, chauffeur network belgium"
+    },
+    "corporate": {
+      "title": "Corporate Travel Solutions | Airport Transfers Belgium",
+      "description": "Professional corporate travel and executive transportation solutions for businesses across Belgium.",
+      "keywords": "corporate travel belgium, business taxi, executive travel brussels"
+    },
+    "corporate_register": {
+      "title": "Corporate Registration | Airport Transfers Belgium",
+      "description": "Register for corporate travel solutions and dedicated account management in Belgium.",
+      "keywords": "corporate registration, business account, corporate taxi belgium"
+    }
+  },
+  "about": {
+    "title": "About Us | Premium Airport Transfers Belgium",
+    "description": "Learn about our professional airport transfer and chauffeur service across Belgium—reliable, safe, and premium transportation since 2013.",
+    "keywords": "about airport transfer belgium, chauffeur service belgium, premium taxi service, airport transportation brussels antwerp charleroi"
+  },
+  "contact": {
+    "title": "Contact Us | Airport Transfers Belgium",
+    "description": "Contact us for airport transfers, chauffeur services, and corporate transportation across Belgium. Our support team is available 24/7.",
+    "keywords": "contact airport transfer belgium, chauffeur booking contact, brussels airport taxi contact, corporate transportation inquiry belgium"
+  },
+  "fleets": {
+    "title": "Our Fleet | Airport Transfers Belgium",
+    "description": "Explore our premium fleet of sedans, executive vehicles, and vans for airport transfers and chauffeur travel across Belgium.",
+    "keywords": "taxi fleet belgium, luxury airport transfer vehicles, executive sedan brussels, chauffeur van belgium"
+  },
+  "help": {
+    "title": "Help Desk & FAQ | Airport Transfers Belgium",
+    "description": "Find answers to frequently asked questions and get help with your airport transfer bookings in Belgium.",
+    "keywords": "help desk, faq, taxi support belgium, booking assistance"
+  },
+  "legal": {
+    "disclaimer": {
+      "title": "Disclaimer | Airport Transfers Belgium",
+      "description": "Legal disclaimer for our airport transfer services and website usage in Belgium.",
+      "keywords": "disclaimer, legal notice, terms of use"
+    },
+    "privacy": {
+      "title": "Privacy Policy | Airport Transfers Belgium",
+      "description": "Learn how we protect your privacy and handle your personal data when you book airport transfers in Belgium.",
+      "keywords": "privacy policy, data protection belgium, GDPR privacy"
+    },
+    "terms": {
+      "title": "Terms & Conditions | Airport Transfers Belgium",
+      "description": "Read the terms and conditions for using our airport transfer and chauffeur services in Belgium.",
+      "keywords": "terms and conditions, user agreement, service terms belgium"
+    }
+  },
+  "services": {
+    "airline_crew": {
+      "title": "Airline Crew Transportation Belgium | 24/7 Crew Transfers",
+      "description": "Professional airline crew transportation across Belgium. Reliable crew transfers, hotel shuttles, crew rotations, and 24/7 airport transportation.",
+      "keywords": "airline crew transportation belgium, crew transfer service, hotel crew shuttle, crew rotation transport, airport crew transfers 24/7"
+    },
+    "cargo_crew": {
+      "title": "Cargo Crew Transportation | Airport Transfers Belgium",
+      "description": "Book cargo crew transportation for reliable service at Belgian airports and logistics hubs.",
+      "keywords": "cargo crew taxi belgium, freight crew transport, airport cargo shuttle"
+    },
+    "city_rides": {
+      "title": "City Rides | Airport Transfers Belgium",
+      "description": "Book private city rides and local chauffeur service across Belgian cities with fixed pricing.",
+      "keywords": "city rides belgium, private taxi brussels, antwerp city transfer"
+    },
+    "hourly_ride": {
+      "title": "Hourly Rides | Airport Transfers Belgium",
+      "description": "Book flexible hourly chauffeur service across Belgium for business, events, and private travel.",
+      "keywords": "hourly taxi belgium, chauffeur by the hour, private driver brussels"
+    },
+    "private_jet": {
+      "title": "Private Jet Transfer | Airport Transfers Belgium",
+      "description": "Book private jet ground transfers and executive airport shuttle service in Belgium.",
+      "keywords": "private jet transfer belgium, executive airport shuttle, VIP transfer brussels"
+    },
+    "airport_transfer": {
+      "title": "Airport Transfer Services Belgium | Premium Chauffeur Service",
+      "description": "Reliable airport pickup and drop-off services across Belgium. Professional chauffeurs, flight tracking, meet & greet, and fixed pricing available 24/7.",
+      "keywords": "airport transfer services belgium, airport pickup brussels, airport drop off, professional chauffeur, flight tracking, meet and greet airport, fixed pricing airport transfer"
+    },
+    "city_ride": {
+      "title": "City-to-City Rides Belgium | Private Intercity Transfers",
+      "description": "Book comfortable city-to-city rides across Belgium. Private chauffeur-driven vehicles, fixed pricing, and safe intercity transportation.",
+      "keywords": "city to city rides belgium, private intercity transfer, chauffeur driven intercity, luxury intercity transportation, fixed pricing city rides"
+    }
+  },
+  "airport_transfers": {
+    "brussels": {
+      "title": "Brussels Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Brussels Airport (Zaventem) transfer services. 24/7 airport pickup, drop-off, chauffeur, and corporate transportation across Brussels.",
+      "keywords": "brussels airport transfer, BRU airport taxi, zaventem airport pickup, brussels chauffeur service, corporate airport transportation brussels"
+    },
+    "charleroi": {
+      "title": "Charleroi Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Brussels South Charleroi Airport transfer services. 24/7 pickup, drop-off, and chauffeur transfers to Brussels and Wallonia.",
+      "keywords": "charleroi airport transfer, CRL airport taxi, brussels south charleroi pickup, charleroi chauffeur service"
+    },
+    "antwerp": {
+      "title": "Antwerp Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Antwerp International Airport transfer services. 24/7 airport pickup, drop-off, and chauffeur transportation.",
+      "keywords": "antwerp airport transfer, antwerp airport taxi, ANR airport pickup, antwerp chauffeur service"
+    },
+    "liege": {
+      "title": "Liège Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Liège Airport transfer services. 24/7 airport pickup, drop-off, and regional chauffeur transportation.",
+      "keywords": "liege airport transfer, liege airport taxi, LGG airport pickup, liege chauffeur service"
+    },
+    "ostend": {
+      "title": "Ostend-Bruges Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Ostend-Bruges Airport transfer services. 24/7 pickup, drop-off, and coastal region chauffeur transportation.",
+      "keywords": "ostend airport transfer, ostend bruges airport taxi, OST airport pickup, bruges airport transfer"
+    },
+    "karachi_jinnah": {
+      "title": "Brussels Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Brussels Airport transfer services. 24/7 airport pickup, drop-off, chauffeur, and corporate transportation across Belgium.",
+      "keywords": "brussels airport transfer, BRU airport taxi, belgium airport pickup, chauffeur service belgium"
+    },
+    "islamabad": {
+      "title": "Charleroi Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Charleroi Airport transfer services. 24/7 airport pickup, drop-off, and chauffeur transfers across Belgium.",
+      "keywords": "charleroi airport transfer, CRL airport taxi, belgium airport pickup, chauffeur service belgium"
+    },
+    "lahore": {
+      "title": "Antwerp Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Antwerp Airport transfer services. 24/7 airport pickup, drop-off, and chauffeur transportation across Belgium.",
+      "keywords": "antwerp airport transfer, ANR airport taxi, belgium airport pickup, chauffeur service belgium"
+    },
+    "skardu": {
+      "title": "Liège Airport Transfer | 24/7 Taxi Service",
+      "description": "Book reliable Liège Airport transfer services. 24/7 airport pickup, drop-off, hotel transfers, and chauffeur transportation.",
+      "keywords": "liege airport transfer, LGG airport shuttle, belgium hotel transfer, chauffeur service belgium"
+    },
+    "gwadar": {
+      "title": "Ostend Airport Transfer | Airport Transfers Belgium",
+      "description": "Book reliable Ostend-Bruges Airport transfers. Professional taxi and chauffeur service across Belgium.",
+      "keywords": "ostend airport taxi, ostend transfer, belgium airport transfer"
+    },
+    "peshawar": {
+      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
+      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
+      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    },
+    "multan": {
+      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
+      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
+      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    },
+    "faisalabad": {
+      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
+      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
+      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    },
+    "quetta": {
+      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
+      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
+      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    },
+    "sialkot": {
+      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
+      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
+      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    },
+    "sukkur": {
+      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
+      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
+      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    }
+  },
+  "booking": {
+    "select_vehicle": {
+      "title": "Select Vehicle | Airport Transfers Belgium",
+      "description": "Choose the best vehicle for your airport transfer or chauffeur journey in Belgium.",
+      "keywords": "select vehicle, taxi fleet belgium, airport booking"
+    },
+    "passenger_details": {
+      "title": "Passenger Details | Airport Transfers Belgium",
+      "description": "Provide your details to complete your airport transfer booking in Belgium.",
+      "keywords": "passenger details, contact info, booking belgium"
+    },
+    "payment_success": {
+      "title": "Booking Confirmed | Airport Transfers Belgium",
+      "description": "Your airport transfer booking has been confirmed. Thank you for choosing our service.",
+      "keywords": "booking confirmed, success, payment success belgium"
+    },
+    "payment_cancel": {
+      "title": "Payment Canceled | Airport Transfers Belgium",
+      "description": "Your payment was canceled. You can try again to complete your airport transfer booking.",
+      "keywords": "payment canceled, cancel, retry payment"
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "welcome_back": "Welcome back",
+  "loading": "Loading...",
+  "overview_subtitle": "Here is your dashboard overview for today.",
+  "ride_discounts": {
+    "title": "Your Ride Discounts",
+    "subtitle": "Discounts are applied automatically during booking.",
+    "one_way": "One-way: {discount}%",
+    "return": "Return: {discount}%"
+  },
+  "spending_bookings": {
+    "title": "Spending & Bookings",
+    "months": "{value}M"
+  },
+  "stats": {
+    "total_rides": {
+      "label": "Total rides",
+      "trend": "All time"
+    },
+    "completed_rides": {
+      "label": "Completed rides",
+      "trend": "Successfully finished"
+    },
+    "upcoming_rides": {
+      "label": "Upcoming rides",
+      "trend": "Next: {date}"
+    },
+    "empty_date": "---"
+  },
+  "quick_actions": {
+    "book_transfer": {
+      "title": "Book a transfer",
+      "subtitle": "Search and book a new ride"
+    },
+    "statements": {
+      "title": "Statements",
+      "subtitle": "View monthly reports"
+    },
+    "passengers": {
+      "title": "Passengers",
+      "subtitle": "Manage your travelers"
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Account and preferences"
+    }
+  },
+  "next_rides": {
+    "title": "Your next rides",
+    "view_all": "View all",
+    "no_rides": "No upcoming rides found.",
+    "order": "Order #{number}"
+  },
+  "activity_overview": {
+    "title": "Activity overview",
+    "upcoming": "Upcoming rides",
+    "completed": "Completed rides",
+    "cancelled": "Cancelled rides",
+    "revenue": {
+      "label": "Total Revenue",
+      "subtitle": "Lifetime spending"
+    },
+    "average_value": "Average ride value",
+    "top_destinations": {
+      "title": "Top Destinations",
+      "no_data": "No destination data available yet."
+    },
+    "security": {
+      "title": "Security & Account",
+      "last_session": {
+        "label": "Last Session",
+        "empty": "---"
+      },
+      "status": {
+        "label": "Security Status",
+        "strong": "Strong",
+        "review": "Review",
+        "sessions_count": "{count} active session(s)",
+        "no_sessions": "No active sessions"
+      },
+      "device": {
+        "label": "Device",
+        "empty": "---",
+        "member_since": "Member since {date}"
+      }
+    },
+    "help": {
+      "title": "Need help?",
+      "subtitle": "Our support team is available 24/7 to assist you with any issues.",
+      "button": "Contact Support"
+    }
+  },
+  "chart": {
+    "spending": "Spending",
+    "bookings": "Bookings",
+    "months": {
+      "jan": "January",
+      "feb": "February",
+      "mar": "March",
+      "apr": "April",
+      "may": "May",
+      "jun": "June",
+      "jul": "July",
+      "aug": "August",
+      "sep": "September",
+      "oct": "October",
+      "nov": "November",
+      "dec": "December"
+    }
+  },
+  "bookings_page": {
+    "title": "My Bookings",
+    "search_placeholder": "Booking Number",
+    "bulk_delete": {
+      "title": "Confirm Bulk Deletion",
+      "description": "Are you sure you want to delete {count} selected bookings? This action cannot be undone.",
+      "success": "{count} bookings deleted successfully"
+    }
+  },
+  "payments_page": {
+    "title": "My Payments",
+    "search_placeholder": "Payment ID",
+    "bulk_delete": {
+      "title": "Confirm Bulk Deletion",
+      "description": "Are you sure you want to delete {count} selected payments? This action cannot be undone.",
+      "success": "{count} payments deleted successfully"
+    }
+  },
+  "profile_page": {
+    "title": "My Profile",
+    "loading": "Loading...",
+    "email_loading": "...",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "security": {
+      "title": "Security",
+      "subtitle": "Sign out this account from all active devices and sessions.",
+      "logout_all_button": "Logout from all devices",
+      "dialog_title": "Logout from all devices?",
+      "dialog_description": "This will sign you out from all active sessions across devices. You will need to log in again.",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "logging_out": "Logging out..."
+    }
+  },
+  "statements_page": {
+    "title": "Statements",
+    "subtitle": "Download monthly statements from your account join date.",
+    "joined": "Joined: {date}",
+    "loading": "Loading statements...",
+    "failed": "Failed to load statements.",
+    "no_data": "No monthly statements are available yet.",
+    "refreshing": "Refreshing statements...",
+    "table": {
+      "month": "Month",
+      "bookings": "Bookings",
+      "completed": "Completed",
+      "spent": "Spent",
+      "action": "Action",
+      "download_pdf": "Download PDF"
+    }
+  },
+  "table_columns": {
+    "booking_id": "Booking ID",
+    "passenger": "Passenger",
+    "pickup": "Pickup",
+    "dropoff": "Drop-off",
+    "amount": "Amount",
+    "payment": "Payment",
+    "status": "Status",
+    "booked_on": "Booked On",
+    "actions": "Actions",
+    "transaction": "Transaction",
+    "booking": "Booking",
+    "method": "Method",
+    "card": "Card",
+    "payment_status": "Payment Status",
+    "paid_on": "Paid On",
+    "na": "N/A",
+    "cash": "Cash",
+    "online": "Card",
+    "cancel_ride": "Cancel Ride",
+    "delete": "Delete",
+    "cancel_confirm_title": "Cancel This Ride?",
+    "cancel_confirm_desc": "You can only cancel up to 4 hours before pickup time. This action will mark the booking as cancelled.",
+    "cancel_success": "Ride cancelled successfully.",
+    "delete_success": "Booking deleted successfully."
+  }
+}

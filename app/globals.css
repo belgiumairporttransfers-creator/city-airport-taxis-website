@@ -1,0 +1,212 @@
+@import "tailwindcss";
+
+@theme {
+   /* =========================
+     BRAND COLORS
+  ========================= */
+   --color-primary: #000000;
+   --color-secondary: #6B9AF2;
+
+   /* =========================
+     NEUTRALS / GRAYS
+  ========================= */
+   --color-gray-50: #f9fafb;
+   --color-gray-100: #f3f4f6;
+   --color-gray-200: #e5e7eb;
+   --color-gray-300: #d1d5db;
+   --color-gray-400: #9ca3af;
+   --color-gray-500: #6b7280;
+   --color-gray-600: #4b5563;
+   --color-gray-700: #374151;
+   --color-gray-800: #1f2937;
+   --color-gray-900: #111827;
+
+   --color-gray: var(--color-gray-200);
+
+   /* =========================
+     SEMANTIC TOKENS
+  ========================= */
+   --color-background: hsl(210 40% 96%);
+   --color-foreground: #171717;
+
+   --color-card: #ffffff;
+   --color-card-foreground: #171717;
+
+   --color-muted: var(--color-gray-100);
+   --color-muted-foreground: var(--color-gray-500);
+
+   --color-border: var(--color-gray-200);
+   --color-input: #ffffff;
+   --color-ring: #00000080;
+
+   /* =========================
+     STATES
+  ========================= */
+   --color-success: #16a34a;
+   --color-warning: #f59e0b;
+   --color-error: #dc2626;
+   --color-destructive: #dc2626;
+
+   /* =========================
+     GRADIENTS
+  ========================= */
+   --background-image-brand-gradient: linear-gradient(135deg,
+         var(--color-primary) 0%,
+         #333333 100%);
+
+   --background-image-accent-gradient: linear-gradient(135deg,
+         var(--color-secondary) 0%,
+         #ffc140 100%);
+
+   /* =========================
+     TYPOGRAPHY
+  ========================= */
+   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+   /* =========================
+     RADIUS & SHADOWS
+  ========================= */
+   --radius-sm: 4px;
+   --radius-md: 6px;
+   --radius-lg: 8px;
+
+   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   AUTOFILL OVERRIDES
+========================= */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+   -webkit-text-fill-color: inherit !important;
+   -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+   background-color: transparent !important;
+   background-clip: content-box !important;
+   transition: background-color 5000s ease-in-out 0s !important;
+}
+
+/* Specific fix for white text inputs (like Newsletter) when autofilled */
+.newsletter-input:-webkit-autofill,
+.newsletter-input:-webkit-autofill:hover,
+.newsletter-input:-webkit-autofill:focus,
+.newsletter-input:-webkit-autofill:active {
+   -webkit-text-fill-color: white !important;
+}
+
+/* =========================
+   ROOT VARIABLES
+========================= */
+:root {
+   --background: hsl(210 40% 96%);
+   --foreground: #171717;
+   --card: #ffffff;
+   --card-foreground: #171717;
+   --muted: var(--color-gray-100);
+   --muted-foreground: var(--color-gray-500);
+   --border: var(--color-gray-200);
+   --input: #ffffff;
+   --ring: #00000080;
+}
+
+/* =========================
+   BASE STYLES
+========================= */
+html,
+body {
+   /* background-color: var(--color-background); */
+   color: var(--color-foreground);
+   font-family: var(--font-sans);
+   -webkit-font-smoothing: antialiased;
+}
+
+/* =========================
+   SWIPER – COMMON LAYOUT
+========================= */
+.swiper .swiper-wrapper {
+   align-items: stretch;
+}
+
+.swiper .swiper-slide {
+   height: auto;
+   display: flex;
+}
+
+/* =========================
+   SWIPER – PAGINATION DOTS
+========================= */
+.swiper-pagination {
+   position: relative !important;
+   bottom: auto !important;
+   margin-top: 24px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 6px;
+}
+
+.swiper-pagination-bullet {
+   width: 12px !important;
+   height: 8px !important;
+   border-radius: 9999px !important;
+   background: var(--color-secondary) !important;
+   opacity: 0.35 !important;
+   transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+   cursor: pointer;
+}
+
+.swiper-pagination-bullet:hover {
+   opacity: 0.6 !important;
+}
+
+.swiper-pagination-bullet-active {
+   width: 32px !important;
+   opacity: 1 !important;
+   background: var(--color-secondary) !important;
+}
+
+/* Dark-section variant (add class "swiper-dark" to the Swiper) */
+.swiper-dark .swiper-pagination-bullet {
+   background: var(--color-secondary) !important;
+}
+
+.swiper-dark .swiper-pagination-bullet:hover {
+   background: var(--color-secondary) !important;
+}
+
+.swiper-dark .swiper-pagination-bullet-active {
+   background: var(--color-secondary) !important;
+}
+
+/* Continuous marquee-style autoplay */
+.linear-swiper .swiper-wrapper {
+   transition-timing-function: linear !important;
+}
+
+.airports-banner-swiper .swiper-slide {
+   width: auto;
+}
+
+.pac-container {
+   z-index: 9999 !important;
+}
+
+.pac-container {
+   pointer-events: auto !important;
+}
+
+input,
+select,
+textarea,
+.text-sm-input {
+   font-size: 16px !important;
+}

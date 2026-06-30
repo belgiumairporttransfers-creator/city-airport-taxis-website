@@ -1,0 +1,30 @@
+import React from "react";
+import { cn } from "@/lib/utils";
+
+interface RouteIconProps {
+    className?: string;
+    size?: number;
+}
+
+export function RouteIcon({ className, size = 16 }: RouteIconProps) {
+    return (
+        <svg
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width={size}
+            height={size}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className={cn("shrink-0", className)}
+            role="img"
+        >
+            <circle cx="6" cy="19" r="3" />
+            <path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" />
+            <circle cx="18" cy="5" r="3" />
+        </svg>
+    );
+}

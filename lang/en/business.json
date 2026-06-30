@@ -1,0 +1,331 @@
+{
+  "partner": {
+    "banner": {
+      "top_text": "Partner With Us",
+      "title": "Join Our Elite Team",
+      "description": "Become a part of the most professional taxi network in Pakistan. We offer flexible schedules, competitive earnings, and a steady stream of premium bookings."
+    },
+    "cards": {
+      "earnings": {
+        "title": "Maximized Earnings",
+        "description": "Benefit from our competitive commission structures and high-demand routes.",
+        "value": "Top Tier Rates",
+        "cta": "Scale Your Income"
+      },
+      "flexibility": {
+        "title": "Ultimate Flexibility",
+        "description": "Choose your own hours and manage your schedule through our intuitive driver app.",
+        "value": "Work When You Want",
+        "cta": "Set Your Schedule"
+      },
+      "support": {
+        "title": "24/7 Driver Support",
+        "description": "Our dedicated operations team is available around the clock to assist you.",
+        "value": "Always by Your Side",
+        "cta": "Get Started"
+      }
+    },
+    "form": {
+      "top_text": "Join the Network",
+      "title": "Ready to Drive with Airport Transfer?",
+      "description": "Complete the form to register your interest. Our recruitment team will review your application and guide you through the next steps.",
+      "benefits": {
+        "onboarding": {
+          "title": "Swift Onboarding",
+          "desc": "Get verified and ready to drive in as little as 48 hours."
+        },
+        "payments": {
+          "title": "Weekly Payments",
+          "desc": "Receive your earnings directly to your account every week."
+        },
+        "fleet": {
+          "title": "Premium Fleet",
+          "desc": "Access to high-end clients looking for top-tier transportation."
+        }
+      },
+      "labels": {
+        "country": "Operating Country",
+        "city": "Operating City",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "cartype": "Car Type",
+        "carcolor": "Car Color",
+        "license_plate": "License Plate",
+        "experience": "Years of Experience",
+        "address": "Home Address",
+        "documents": "Required Documents",
+        "documents_desc": "Please upload clear copies (PNG, JPG, or PDF) of the following documents.",
+        "pass_front": "Professional Driver Permit (Front)",
+        "pass_back": "Professional Driver Permit (Back)",
+        "kiwa": "Airport Transfer Permit",
+        "license_front": "Driver License (Front)",
+        "license_back": "Driver License (Back)",
+        "business_insurance": "Business & Insurance",
+        "insurance": "Commercial Vehicle Insurance Policy",
+        "kvk": "NTN Certificate",
+        "bankpas": "Bank Card Copy",
+        "vehicle_photos": "Vehicle Photos",
+        "vehicle_photos_desc": "Please upload clear photos of your vehicle from the following angles.",
+        "car_front": "Car Front View",
+        "car_back": "Car Back View",
+        "car_left": "Car Left Side View",
+        "car_right": "Car Right Side View",
+        "car_inside": "Car Inside View",
+        "car_plate": "License Plate View",
+        "car_year_model": "Car Year / Model",
+        "shift": "Shift (Day / Night)",
+        "driver_timing": "Driver Timing",
+        "timing_from": "From",
+        "timing_to": "To",
+        "car_card": "Vehicle Registration Document"
+      },
+      "shift_options": {
+        "day": "Day Shift",
+        "night": "Night Shift"
+      },
+      "placeholders": {
+        "country": "Select Operating Country",
+        "city": "Select Operating City",
+        "firstname": "Enter First Name",
+        "lastname": "Enter Last Name",
+        "email": "Enter Email Address",
+        "phone": "Enter Phone Number",
+        "cartype": "Enter Car Type",
+        "carcolor": "Enter Car Color",
+        "license_plate": "Enter License Plate",
+        "experience": "Enter Experience",
+        "car_year_model": "e.g. 2022 Toyota Corolla",
+        "shift": "Select shift",
+        "timing_from": "Start time",
+        "timing_to": "End time",
+        "address": "Enter Home Address"
+      },
+      "button": "Apply to Join"
+    }
+  },
+  "corporate": {
+    "banner": {
+      "top_text": "Corporate Travel Solutions",
+      "title": "Professional Travel Solutions for Your Business",
+      "description": "Simplify your company's ground transportation with a reliable executive travel platform built for businesses across Pakistan.",
+      "button": "Join Our Network"
+    },
+    "stats": [
+      {
+        "title": "Excellence",
+        "description": "In Every Detail"
+      },
+      {
+        "title": "Reliability",
+        "description": "Always On Time"
+      },
+      {
+        "title": "Comfort",
+        "description": "First Class Experience"
+      },
+      {
+        "title": "Privacy",
+        "description": "Guaranteed Discretion"
+      }
+    ],
+    "story": {
+      "top_text": "main business features",
+      "title": "Trusted Corporate Transport for Businesses Across Pakistan",
+      "description": "Centralize your business travel operations with a streamlined booking and management platform. Schedule rides, monitor expenses, and control employee transportation with ease",
+      "badge": "Focused on Excellence",
+      "features": {
+        "ride_mgmt": {
+          "title": "Flexible Ride Management",
+          "description": "Book, modify, and monitor rides for executives and employees in real time."
+        },
+        "expense_ctrl": {
+          "title": "Expense & Payment Control",
+          "description": "Simplify invoicing, approvals, and billing with centralized financial management."
+        },
+        "coverage": {
+          "title": "Nationwide Coverage",
+          "description": "Professional transfer and chauffeur service throughout Pakistan."
+        },
+        "api": {
+          "title": "Business API & Integrations",
+          "description": "Connect our transport platform with your internal systems via secure API."
+        }
+      }
+    },
+    "process": {
+      "top_text": "PROCESS",
+      "title": "Business Corporate in 3 Simple Steps",
+      "description": "Here is the streamlined travel solutions for your business needs",
+      "button": "Start Booking",
+      "steps": [
+        {
+          "id": "Step 01",
+          "title": "Register Your Account",
+          "description": "Create your corporate account in minutes. Add your team members and billing preferences from one secure dashboard."
+        },
+        {
+          "id": "Step 02",
+          "title": "Schedule Business Rides",
+          "description": "Book, modify, and monitor rides for executives, employees, and guests in real time across Pakistan."
+        },
+        {
+          "id": "Step 03",
+          "title": "Track & Manage",
+          "description": "Monitor all bookings and expenses from one dashboard. Your transport team will be ready and waiting on time."
+        }
+      ]
+    },
+    "parallax": {
+      "top_text": "trusted nationwide",
+      "title": "Manage Your Business Transportation with Confidence",
+      "description": "A platform built for reliability, control, and premium service — trusted by companies across Pakistan.",
+      "cards": [
+        {
+          "title": "Centralized Invoicing",
+          "description": "Full reporting dashboard for all corporate rides and expenses."
+        },
+        {
+          "title": "Guest Ride Booking",
+          "description": "Manage traveler accounts and book rides on behalf of guests."
+        },
+        {
+          "title": "Full Trip Oversight",
+          "description": "Complete visibility for internal travel coordinators."
+        }
+      ]
+    },
+    "register": {
+      "title": "Register for Corporate Travel Solutions",
+      "description": "Streamline your business transportation with our professional executive travel platform. Partner with Airport Transfer for reliable, seamless ground transport."
+    },
+    "cards": {
+      "executive": {
+        "title": "Executive Service",
+        "description": "Premium vehicles and highly trained chauffeurs for your team and guests.",
+        "value": "Top Tier Quality",
+        "cta": "Register Now"
+      },
+      "invoicing": {
+        "title": "Monthly Invoicing",
+        "description": "Simplified billing with consolidated monthly invoices and expense tracking.",
+        "value": "Easy Accounting",
+        "cta": "Simplify Expenses"
+      },
+      "support": {
+        "title": "Priority Support",
+        "description": "Dedicated account manager and priority 24/7 customer support.",
+        "value": "Always Available",
+        "cta": "Get Support"
+      }
+    },
+    "form": {
+      "top_text": "Partner With Us",
+      "title": "Register Your Business Account",
+      "description": "Complete the form to register your company. Our corporate onboarding team will review your application and set up your business dashboard.",
+      "labels": {
+        "agency_name": "Company / Agency Name",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "email": "Business Email",
+        "phone": "Phone Number"
+      },
+      "placeholders": {
+        "agency_name": "e.g. Acme Pakistan Pvt Ltd",
+        "firstname": "Enter First Name",
+        "lastname": "Enter Last Name",
+        "email": "Enter Business Email",
+        "phone": "Enter Phone Number"
+      },
+      "button": "Register Account"
+    }
+  },
+  "partner_page": {
+    "banner": {
+      "top_text": "PARTNER WITH US",
+      "title": "Become a Professional<br/>Chauffeur Partner",
+      "description": "Grow your business with consistent ride requests across major Pakistani cities.",
+      "button_text": "Apply Now"
+    },
+    "demand": {
+      "title": "Unlock steady demand across Pakistan",
+      "description": "Connect with clients traveling within cities like Karachi, Lahore, Islamabad, and Faisalabad. Accept only the rides that fit your schedule."
+    },
+    "features": {
+      "earnings": {
+        "title": "Increase your earnings",
+        "description": "Receive high-quality ride requests from business and private clients."
+      },
+      "payments": {
+        "title": "Easy payments",
+        "description": "Get paid reliably with transparent pricing and no hidden fees."
+      },
+      "schedule": {
+        "title": "Define your schedule",
+        "description": "Work when you want. Accept or decline rides based on your availability."
+      },
+      "trust": {
+        "title": "Trust your operations",
+        "description": "Dedicated support and a structured platform to manage your rides efficiently."
+      }
+    },
+    "parallax": {
+      "title": "Built for modern mobility in Pakistan",
+      "subtitle": "EXPERIENCE A SEAMLESS EXPERIENCE",
+      "description": "We support professional chauffeurs with efficient ride distribution, optimized routes, and a growing demand for premium transport services across Pakistani cities.",
+      "button_text": "Learn More"
+    },
+    "faq": {
+      "top_text": "FREQUENTLY ASKED QUESTIONS",
+      "title": "Everything you need to know about partnering with us",
+      "description": "Find answers to the most common questions about becoming a chauffeur partner with Airport Transfer. From requirements and payments to operations and support, we've got you covered.",
+      "items": {
+        "q1": {
+          "question": "Who can become a partner?",
+          "answer": "Any licensed chauffeur or transport company operating in Pakistan with valid NTN registration."
+        },
+        "q2": {
+          "question": "What are the requirements?",
+          "answer": "Valid driver's license, registered commercial vehicle, Airport Transfer permit, and professional appearance and service quality."
+        },
+        "q3": {
+          "question": "How do I get paid?",
+          "answer": "Payments are processed securely and transferred directly to your Pakistani bank account."
+        },
+        "q4": {
+          "question": "Can I choose my rides?",
+          "answer": "Yes, you have full control to accept or decline requests."
+        },
+        "q5": {
+          "question": "Which cities do you operate in?",
+          "answer": "We currently operate across major cities in Pakistan including Karachi, Lahore, Islamabad, Faisalabad, Multan, and Peshawar."
+        }
+      }
+    },
+    "cta": {
+      "title": "Still have questions?",
+      "description": "Our team is ready to help you with any questions you may have.",
+      "button_text": "Contact Us"
+    }
+  },
+  "partner_register": {
+    "banner": {
+      "top_text": "APPLY TO DRIVE",
+      "title": "Apply to Drive with Airport Transfer",
+      "description": "Join our network of professional chauffeurs and access a steady stream of ride requests across Pakistan. Start earning more with flexible work and reliable payouts."
+    },
+    "modal": {
+      "title": "Where are you located?",
+      "description": "Select your operating location to continue.",
+      "country_label": "Operating Country",
+      "country_placeholder": "Select your country",
+      "city_label": "Operating City",
+      "city_placeholder": "Select your city",
+      "button_loading": "Entering {city}...",
+      "button_ready": "Start Registration",
+      "button_disabled": "Select City to Continue",
+      "no_city_found": "No city found."
+    }
+  }
+}

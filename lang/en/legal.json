@@ -1,0 +1,127 @@
+{
+  "disclaimer": {
+    "banner": {
+      "top_text": "Service Notice",
+      "title": "Website Disclaimer",
+      "description": "Legal information regarding the use of our website and external resources."
+    },
+    "sidebar": {
+      "notice": "Important Notice",
+      "liability_title": "Limited Liability",
+      "liability_desc": "This disclaimer regulates the legal limitations of the information provided on our digital platforms.",
+      "verified_title": "Verified Content",
+      "verified_desc": "While we strive for accuracy, users should verify critical information before reliance."
+    },
+    "content": {
+      "service_title": "Service Provision",
+      "service_desc": "Airport Transfer provides the website as a service to the public. We are not responsible for, and expressly disclaim all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site.",
+      "accuracy_title": "Accuracy Guarantee",
+      "accuracy_desc": "While the information contained within the site is periodically updated, no guarantee is given that the information provided in this website is correct, complete, and up-to-date.",
+      "links_title": "External Links",
+      "links_desc": "This website may include links providing direct access to other Internet resources, including websites. Airport Transfer is not responsible for the accuracy or content of information contained in these sites.",
+      "endorsement_title": "No Endorsements",
+      "endorsement_desc": "Links to third-party sites do not constitute an endorsement by Airport Transfer of the parties or their products and services. The appearance of advertisements or service information does not constitute an endorsement."
+    },
+    "last_reviewed": "Last reviewed"
+  },
+  "privacy": {
+    "banner": {
+      "top_text": "Documentation",
+      "title": "Privacy Policy",
+      "description": "Comprehensive guide on how we collect, use, and safeguard your personal information."
+    },
+    "sidebar": {
+      "protocol": "Data Security Protocol",
+      "overview": "Policy Overview",
+      "desc": "Airport Transfer monitors all data processing to ensure compliance with applicable Pakistani privacy and data protection standards.",
+      "agreement": "By using our services, you agree to our privacy practices as outlined here.",
+      "updated": "Last Updated",
+      "support": "Quick Support",
+      "contact_dpo": "Contact Privacy Officer"
+    },
+    "content": {
+      "overview": "Privacy Policy Overview",
+      "standards": "Data protection standards and compliance.",
+      "intro_title": "Introduction & Scope",
+      "intro_desc": "Airport Transfer respects its users' privacy and recognizes the need to protect any personal information you share with us via our website. We follow industry-standard practices to protect your privacy across our entire digital infrastructure.",
+      "applies": "This Privacy Policy applies to your use of our website and our services booked through our platform.",
+      "agreement_box": "By using our services, you agree to the terms of this privacy policy. Please review the following documentation carefully to understand our data handling practices.",
+      "sections": [
+        { "title": "01", "label": "User Identification", "content": "We collect your name, mobile number, password and email address while registering you as a user. These details are required to identify you as a unique user in order to provide you our services." },
+        { "title": "02", "label": "Transaction Security", "content": "All online payments are handled via a secure connection on a secure payment page. We collect payment details only for booking requests and do not save this information on our internal servers." },
+        { "title": "03", "label": "Logistics & Location Data", "content": "We collect travel details like current location, travel time, source address and destination location for booking requests. Users can choose to save favorite addresses for a more convenient booking experience." },
+        { "title": "04", "label": "Travel History Tracking", "content": "Our system saves addresses from recent travels to allow instant booking for frequent routes. This enhances the user experience for our regular commuters." },
+        { "title": "05", "label": "Service Optimization", "content": "We collect feedback, ratings, mobile OS types, and device IDs to improve our service offerings and send relevant push notifications." }
+      ],
+      "utilization_title": "Information Utilization",
+      "utilization_desc": "We require the information to identify you as a user, improve our services and provide better service to our users. Except for payment details, we keep this information for internal record keeping purposes only to serve you again in the future. Contact details are used for trip-related updates, service notifications, and occasional promotional information relative to new offerings or special deals.",
+      "security_title": "Security Assurance",
+      "security_desc": "We have implemented advanced technology features and strict policy guidelines to safeguard the privacy of your personally identifiable information from unauthorized access and improper use.",
+      "third_party": "We do not sell or rent any personal information to any third parties."
+    }
+  },
+  "terms": {
+    "banner": {
+      "top_text": "Agreement",
+      "title": "Terms & Conditions",
+      "description": "Please read these terms and conditions carefully before using our website and services."
+    },
+    "sidebar": {
+      "identity": "Identity of the Entrepreneur",
+      "trading_name": "Trading Name",
+      "url": "URL",
+      "email": "E-mail",
+      "kvk": "NTN Number",
+      "vat": "Sales Tax Number",
+      "knv_title": "SECP Registration",
+      "knv_desc": "Airport Transfer operates in accordance with applicable Pakistani transport regulations and SECP corporate registration requirements.",
+      "knv_link_transfers": "Transfer Service Terms",
+      "knv_link_coach": "Coach Service Terms"
+    },
+    "content": {
+      "intro_title": "Introduction & Definitions",
+      "intro_desc": "Please read these terms and conditions carefully before using this website. In this notification the use and all material of this website are regulated. By accessing this website you accept that you are bound by these Terms of Use.",
+      "entrepreneur_title": "Entrepreneur",
+      "entrepreneur_desc": "The natural or legal person who offers products and / or services at a distance to passengers.",
+      "passenger_title": "Passenger / User",
+      "passenger_desc": "The natural person who use our services by making a booking on our website.",
+      "availability_title": "Availability of Service",
+      "availability_desc": "References on the site to our services do constitute an offer to sell or supply that service. Our services are offered based on availability. We supply 98.9% of the services offered by us but it is possible that we can not deliver a particular service or vehicle type.",
+      "cancellation_title": "Cancellation Policy",
+      "cancellation_types": [
+        { "title": "Regular Transfers", "time": "24 Hours Notice", "details": "Customers will receive a full refund or credit with notice. No-shows will be charged the full price." },
+        { "title": "Hourly & Events", "time": "48 Hours Notice", "details": "Applicable for roadshows, weddings, and hourly bookings with full refund eligibility." },
+        { "title": "Guided Tours", "time": "21 Days Notice", "details": "Notice period required for sightseeing tours to receive a full refund or credit." },
+        { "title": "Coach transfers", "time": "30 Days Notice", "details": "Large vehicle group transfers require a 30-day notice for full refund." }
+      ],
+      "fee_note_title": "Note on Transaction Fees",
+      "fee_note_desc": "We will refund the paid amount minus the charged costs by the payment provider (e.g. card or mobile wallet processing fees).",
+      "waiting_title": "Waiting Time & Costs",
+      "waiting_included": "Included Waiting Period",
+      "airport_pickups": "Airport Pickups",
+      "train_stations": "Train Stations",
+      "minutes": "Minutes",
+      "after_landing": "Included after landing",
+      "after_arrival": "Included after arrival",
+      "additional_costs": "Additional Waiting Costs (Per Vehicle)",
+      "per_hour": "hour",
+      "tracking_note": "We track flight and train arrival times. Please ensure your phone is turned on after arrival so we can coordinate meeting points.",
+      "hourly_title": "Hourly Bookings",
+      "hourly_desc": "Mostly used for sightseeing tours, business visits, and weddings. Minimum period is 4 hours and maximum is 14 hours/day. Hourly transfers always end at original pickup.",
+      "liability_title": "Liability & Pakistani Law",
+      "liability_desc": "The information on this site does not constitute medical, legal or investment advice. Pakistani law is applicable to all issues related to the use of this website.",
+      "submission_title": "Submission of Information",
+      "submission_desc": "By submitting information to us, you agree that we may use this material to provide the requested services."
+    }
+  },
+  "common": {
+    "clarification": "Need clarification?",
+    "questions_legal": "Questions? Contact our legal team",
+    "questions_policy": "Questions about this policy?",
+    "incorrect_info": "If you believe any information we hold is incorrect or incomplete, let us know immediately. We will promptly correct any details found to be inaccurate.",
+    "contact_email": "If you have any questions or complaints about this site, please contact us by email",
+    "email_support": "Email Support",
+    "contact_form": "Contact Form",
+    "contact_page": "Contact Page"
+  }
+}

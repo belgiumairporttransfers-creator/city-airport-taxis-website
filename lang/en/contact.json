@@ -1,0 +1,132 @@
+{
+  "banner": {
+    "top_text_primary": "Contact Us",
+    "top_text_suffix": "Belgium Airport Transfers",
+    "title_line1": "Contact",
+    "title_accent": "Our Team",
+    "description": "We understand that travel plans can change, schedules can be tight, and transportation needs can vary. That's why our dedicated support team is available 24/7 to provide prompt assistance, answer your questions, and help you book the perfect airport transfer anywhere in Belgium.",
+    "image_alt": "Professional chauffeur greeting travelers at a Belgian airport"
+  },
+  "cards": {
+    "phone": {
+      "title": "Phone & WhatsApp",
+      "description": "Speak directly with our support team"
+    },
+    "email": {
+      "title": "Email",
+      "description": "General inquiries and corporate quotes"
+    },
+    "hours": {
+      "title": "Operating Hours",
+      "description": "Available 24 hours a day, 7 days a week"
+    }
+  },
+  "form": {
+    "top_text": "Message Us",
+    "title": "Let's Start a Conversation",
+    "description": "We value your time and interest. Fill out the form and our team will get back to you shortly to discuss your airport transfer or chauffeur requirements.",
+    "benefits": {
+      "personalized": {
+        "title": "Personalized Service",
+        "description": "Tailored solutions for your specific travel needs."
+      },
+      "privacy": {
+        "title": "Privacy Guaranteed",
+        "description": "Your information is handled with discretion."
+      }
+    },
+    "labels": {
+      "firstname": "First Name",
+      "lastname": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "placeholders": {
+      "firstname": "Enter your first name",
+      "lastname": "Enter your last name",
+      "email": "Enter your email address",
+      "phone": "+32 470 00 00 00",
+      "subject": "Enter your subject",
+      "message": "Enter your message"
+    },
+    "button": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! Your message has been sent successfully.",
+    "error": "Something went wrong. Please try again."
+  },
+  "service_locations": {
+    "title": "Our Service Locations Across Belgium",
+    "image_alt": "Professional chauffeur with a luxury vehicle ready for airport transfers across Belgium",
+    "categories": [
+      {
+        "label": "Major Cities",
+        "items": [
+          "Brussels",
+          "Antwerp",
+          "Ghent",
+          "Bruges",
+          "Liège",
+          "Charleroi",
+          "Leuven",
+          "Namur"
+        ]
+      },
+      {
+        "label": "Major Airports",
+        "items": [
+          "Brussels Airport (BRU)",
+          "Brussels South Charleroi (CRL)",
+          "Antwerp International (ANR)",
+          "Liège Airport (LGG)",
+          "Ostend-Bruges Airport (OST)"
+        ]
+      },
+      {
+        "label": "Popular Destinations",
+        "items": [
+          "EU District Brussels",
+          "Antwerp Port",
+          "Bruges Historic Centre",
+          "Wallonia Business Hubs"
+        ]
+      }
+    ]
+  },
+  "why_choose": {
+    "sidebar": {
+      "title": "Let's Get You Moving",
+      "subtitle": "Our mission is to provide premium transportation across Belgium backed by professionalism, punctuality, and exceptional customer care.",
+      "features": [
+        "24/7 Availability",
+        "Professional Chauffeurs",
+        "Premium Fleet",
+        "Flight Monitoring",
+        "Fixed Pricing",
+        "Belgium-Wide Coverage"
+      ],
+      "button": "Book Now"
+    },
+    "title": "Why Choose Our Professional Taxi Service?",
+    "description": "Thousands of travelers across Belgium choose us because we consistently deliver:",
+    "reasons": [
+      "Professional Chauffeurs",
+      "24/7 Availability",
+      "Belgium-Wide Coverage",
+      "Premium Fleet Options",
+      "Meet & Greet Service",
+      "Flight Monitoring",
+      "Fixed Pricing",
+      "Safe & Reliable Transportation",
+      "Corporate Travel Solutions",
+      "Exceptional Customer Service"
+    ],
+    "highlight": {
+      "tag": "Booking Assistance",
+      "title": "Need Help Booking Your Ride?",
+      "description": "Our team can help you choose the right transportation option based on your travel requirements. Whether you're traveling alone, with family, as part of a corporate delegation, or with a larger group, we'll recommend the most suitable vehicle and service package.",
+      "cta_text": "Send Quick Quote"
+    }
+  }
+}

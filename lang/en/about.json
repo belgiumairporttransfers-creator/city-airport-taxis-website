@@ -1,0 +1,194 @@
+{
+  "banner": {
+    "top_text_primary": "About Us",
+    "top_text_suffix": "Belgium Airport Transfers",
+    "title_line1": "About",
+    "title_accent": "Our Professional Taxi Service",
+    "description": "Your trusted partner for airport transfers and chauffeur services across Belgium. We believe every journey should begin and end with comfort, reliability, and peace of mind—delivering premium travel experiences for individuals, families, tourists, business executives, and corporate clients.",
+    "image_alt": "Professional chauffeur fleet providing luxury airport transfers across Belgium"
+  },
+  "stats": {
+    "corporate_partners": "Corporate Partners",
+    "vip_transfers": "VIP Transfers",
+    "on_time_rate": "On-Time Rate",
+    "concierge_support": "24/7 Support"
+  },
+  "story": {
+    "top_text": "OUR STORY",
+    "title": "Built Around the Needs of Modern Travelers",
+    "image_alt": "Professional chauffeur opening a luxury vehicle door for a passenger at a Belgian airport",
+    "badge": {
+      "value": "10+",
+      "label": "Years of Excellence"
+    },
+    "paragraphs": [
+      "Travel has evolved, and so have the expectations of travelers. Today's passengers demand more than simply getting from one location to another—they expect reliability, convenience, safety, professionalism, and a seamless transportation experience. We were established to meet these expectations by combining modern technology, professional chauffeurs, premium vehicles, and customer-focused service standards.",
+      "We recognized a growing need for dependable airport transportation across Belgium—a service travelers could trust whether arriving from abroad, traveling for business, attending an event, or exploring Belgian cities. Since 2013, we have remained committed to providing transportation solutions that eliminate travel stress and let our customers focus on what matters most."
+    ],
+    "stats": [
+      { "value": "5k+", "label": "Happy Clients" },
+      { "value": "5+", "label": "Major Airports" }
+    ]
+  },
+  "mission_vision": {
+    "items": [
+      {
+        "icon": "Rocket",
+        "title": "Our Mission",
+        "subtitle": "Delivering Reliable Transportation Across Belgium",
+        "description": "Our mission is to provide the most reliable, professional, and customer-focused airport transfer and chauffeur services in Belgium.",
+        "list_title": "We strive to:",
+        "points": [
+          "Make airport travel stress-free",
+          "Ensure every passenger travels safely",
+          "Deliver consistent service excellence",
+          "Provide comfortable premium transportation options",
+          "Support business and leisure travelers alike",
+          "Maintain the highest standards of professionalism",
+          "Build long-term relationships with our clients"
+        ]
+      },
+      {
+        "icon": "Eye",
+        "title": "Our Vision",
+        "subtitle": "Belgium's Leading Airport Transfer Provider",
+        "description": "Our vision is to become the most trusted and recognized airport transfer and chauffeur service provider across Belgium.",
+        "list_title": "We aim to set new standards for transportation excellence by focusing on:",
+        "points": [
+          "Service quality",
+          "Customer satisfaction",
+          "Operational efficiency",
+          "Innovation",
+          "Safety",
+          "Belgium-wide accessibility"
+        ]
+      }
+    ]
+  },
+  "drivers_safety": {
+    "drivers": {
+      "title": "Professional Drivers You Can Trust",
+      "description": "That's why we carefully select and train our chauffeurs to ensure they meet our high standards of professionalism and customer service across Belgium.",
+      "list_title": "Our drivers are known for:",
+      "points": [
+        "Professional appearance",
+        "Safe driving practices",
+        "Extensive route knowledge",
+        "Punctuality",
+        "Courtesy and respect",
+        "Local expertise across Belgium"
+      ],
+      "image_alt": "Professional chauffeurs standing beside luxury vehicles at a Belgian airport"
+    },
+    "safety": {
+      "title": "Safety Is Our Highest Priority",
+      "features": [
+        {
+          "icon": "MapPin",
+          "title": "24/7 GPS Monitoring",
+          "description": "Real-time tracking for every active journey across Belgium."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Vehicle Inspections",
+          "description": "Regular safety checks and mechanical audits on our entire fleet."
+        },
+        {
+          "icon": "ShieldPlus",
+          "title": "Comprehensive Insurance",
+          "description": "Full coverage for passengers and luggage on every trip."
+        }
+      ]
+    }
+  },
+  "future": {
+    "title": "Looking Toward the Future",
+    "description": "We are committed to becoming the preferred transportation partner for travelers across Belgium and beyond.",
+    "items": [
+      {
+        "title": "Expanding Service Coverage",
+        "description": "Reaching more cities, airports, and destinations across Belgium."
+      },
+      {
+        "title": "Enhancing Technology",
+        "description": "Improving booking systems, flight tracking, and customer communication."
+      },
+      {
+        "title": "Growing Our Fleet",
+        "description": "Adding new vehicle categories and premium transportation options."
+      },
+      {
+        "title": "Strengthening Corporate Partnerships",
+        "description": "Supporting more businesses, hotels, and organizations across Belgium."
+      },
+      {
+        "title": "Raising Industry Standards",
+        "description": "Setting new benchmarks for quality, reliability, and professionalism."
+      }
+    ]
+  },
+  "why_choose": {
+    "sidebar": {
+      "title": "Travel With Confidence",
+      "subtitle": "We don't simply provide transportation—we deliver dependable travel experiences designed around your comfort, safety, and convenience across Belgium.",
+      "features": [
+        "24/7 Availability",
+        "Professional Chauffeurs",
+        "Premium Fleet",
+        "Flight Monitoring",
+        "Fixed Pricing",
+        "Belgium-Wide Coverage"
+      ],
+      "button": "Book Now"
+    },
+    "title": "Why Choose Our Professional Taxi Service?",
+    "description": "Thousands of travelers across Belgium choose us because we consistently deliver:",
+    "reasons": [
+      "Professional Chauffeurs",
+      "24/7 Availability",
+      "Belgium-Wide Coverage",
+      "Premium Fleet Options",
+      "Meet & Greet Service",
+      "Flight Monitoring",
+      "Fixed Pricing",
+      "Safe & Reliable Transportation",
+      "Corporate Travel Solutions",
+      "Exceptional Customer Service"
+    ],
+    "highlight": {
+      "title": "Safety First on Every Journey",
+      "description": "Your safety remains our highest priority. We follow strict operational standards to ensure every trip across Belgium is secure and dependable.",
+      "list_title": "Our Safety Standards Include:",
+      "list_items": [
+        "Professionally trained chauffeurs",
+        "Licensed drivers",
+        "Regular vehicle maintenance",
+        "GPS-monitored journeys",
+        "Clean and comfortable interiors",
+        "Long-distance travel expertise"
+      ]
+    }
+  },
+  "corporate_travel": {
+    "title": "Business & Corporate Travel Solutions",
+    "paragraphs": [
+      "We proudly serve corporate clients, hotels, travel agencies, event organizers, and multinational companies across Belgium.",
+      "If you're seeking a long-term transportation partner, our corporate team can provide customized solutions designed around your operational requirements."
+    ],
+    "benefits_title": "Corporate Benefits:",
+    "benefits": [
+      "Professional Chauffeurs",
+      "Luxury Executive Vehicles",
+      "Flexible Scheduling",
+      "Confidential Transportation",
+      "Reliable Service Standards",
+      "Corporate Account Options"
+    ],
+    "account_card": {
+      "title": "Corporate Accounts",
+      "description": "Whether you're attending meetings, conferences, site visits, or client appointments across Belgium, our transportation solutions help maximize productivity and efficiency.",
+      "cta_text": "Apply Now",
+      "cta_href": "/corporate-travel-solutions/register"
+    }
+  }
+}

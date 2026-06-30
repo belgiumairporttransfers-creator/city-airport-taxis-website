@@ -1,0 +1,1167 @@
+{
+  "common_features": [
+    {
+      "title": "Meticulously Maintained",
+      "description": "Every vehicle undergoes a rigorous 150-point inspection before every rental."
+    },
+    {
+      "title": "Comprehensive Insurance",
+      "description": "Drive with peace of mind knowing you're covered with our premium insurance packages."
+    },
+    {
+      "title": "24/7 Roadside Support",
+      "description": "Our dedicated support team is just a call away, anytime, anywhere."
+    },
+    {
+      "title": "Free Cancellation",
+      "description": "Plans change. Cancel up to 24 hours before your trip for a full refund."
+    }
+  ],
+  "karachi_jinnah": {
+    "banner": {
+      "top_text_primary": "Karachi Airport Transfer",
+      "top_text_suffix": "Pakistan",
+      "title_line1": "Karachi Airport Transfer —",
+      "title_accent": "Reliable 24/7 Airport Pickup & Drop-Off Service",
+      "description": "Traveling to or from Jinnah International Airport should be comfortable, efficient, and stress-free. AirportTransfers.pk provides professional Karachi Airport Transfer services designed to meet the transportation needs of business travelers, tourists, families, overseas Pakistanis, and corporate clients.",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Jinnah International Airport terminal in Karachi with professional airport transfer service at dusk"
+    },
+    "transfer_services": {
+      "title": "Our Karachi Airport Transfer Services",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation services for every type of traveler.",
+      "items": [
+        {
+          "icon": "PlaneLanding",
+          "title": "Airport Pickup Service Karachi",
+          "description": "",
+          "points": [
+            "International travelers",
+            "Business executives",
+            "Families",
+            "Tourists",
+            "Overseas Pakistanis"
+          ]
+        },
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Airport Drop-Off Service Karachi",
+          "description": "Our Airport Drop-Off Service Karachi provides reliable transportation from your home, hotel, or office directly to the airport, ensuring timely arrival before your flight."
+        },
+        {
+          "icon": "PlaneLanding",
+          "title": "Private Airport Transfer",
+          "description": "Enjoy a personalized and direct transportation experience without sharing your ride with other passengers."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Executive Airport Transfer",
+          "description": "Designed for professionals, executives, diplomats, and VIP guests requiring premium transportation services."
+        },
+        {
+          "icon": "Car",
+          "title": "Airport Chauffeur Service",
+          "description": "Travel in style and comfort with our professional Airport Chauffeur Service."
+        },
+        {
+          "icon": "Users",
+          "title": "Corporate Airport Transfer Karachi",
+          "description": "AirportTransfers.pk offers dedicated transportation solutions for corporate clients, business meetings, conferences, and executive travel."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Hotel Airport Transfer Karachi",
+          "description": "We provide direct transfers between Jinnah International Airport and hotels throughout Karachi."
+        }
+      ]
+    },
+    "booking_steps": {
+      "title": "How to Book Your Karachi Airport Transfer",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation solutions for individuals, families, and corporate travelers.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Submit Your Travel Details",
+          "description": "Provide your pickup location, destination, flight information, and travel date."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Receive an Instant Quote",
+          "description": "Get transparent pricing with no hidden fees."
+        },
+        {
+          "icon": "CalendarCheck",
+          "title": "Confirm Your Booking",
+          "description": "Secure your reservation through our easy booking system."
+        },
+        {
+          "icon": "Car",
+          "title": "Travel Comfortably",
+          "description": "Your professional driver will arrive on time and ensure a smooth transfer."
+        }
+      ]
+    },
+    "coverage_areas": {
+      "title": "Airport Coverage Areas",
+      "description": "AirportTransfers.pk provides Karachi Airport Transfer services across Karachi and nearby regions.",
+      "areas": [
+        "DHA Karachi",
+        "Clifton",
+        "PECHS",
+        "Gulshan-e-Iqbal",
+        "Gulistan-e-Johar",
+        "North Nazimabad",
+        "Federal B Area",
+        "Saddar",
+        "Bahria Town Karachi",
+        "Malir",
+        "Korangi",
+        "Defence View",
+        "Karachi Cantt",
+        "Scheme 33",
+        "Shahrah-e-Faisal"
+      ],
+      "popular_routes": {
+        "title": "Popular Karachi Airport Transfer Routes",
+        "route_label": "Jinnah International Airport to",
+        "destinations": [
+          "DHA Karachi",
+          "Clifton",
+          "PECHS",
+          "Gulshan-e-Iqbal",
+          "Bahria Town Karachi",
+          "Shahrah-e-Faisal",
+          "Karachi Cantt",
+          "Hotels in Karachi",
+          "Corporate Offices",
+          "Port Area"
+        ]
+      }
+    },
+    "why_choose_safety": {
+      "why_choose": {
+        "title": "Why Choose Airport Transfers.pk for Karachi Airport Transfer?",
+        "subtitle": "AirportTransfers.pk is committed to delivering reliable, comfortable, and professional airport transfer services throughout Karachi.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ]
+      },
+      "safety": {
+        "title": "Safety & Reliability Standards",
+        "subtitle": "Passenger safety remains a top priority at AirportTransfers.pk.",
+        "features": [
+          {
+            "icon": "UserCheck",
+            "title": "Trained Drivers",
+            "description": "All drivers are carefully selected and trained to deliver professional service."
+          },
+          {
+            "icon": "Wrench",
+            "title": "Regular Vehicle Maintenance",
+            "description": "Vehicles undergo routine inspections and preventive maintenance to ensure safety and reliability."
+          },
+          {
+            "icon": "ShieldPlus",
+            "title": "Clean and Sanitized Vehicles",
+            "description": "We maintain strict cleanliness standards to provide a comfortable travel environment."
+          },
+          {
+            "icon": "Headset",
+            "title": "Real-Time Coordination",
+            "description": "Our operations team continuously monitors bookings and flight schedules to ensure seamless service delivery."
+          },
+          {
+            "icon": "ThumbsUp",
+            "title": "Customer-Centric Approach",
+            "description": "Every Karachi Airport Transfer booking receives personalized attention to ensure customer satisfaction."
+          }
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Booking with AirportTransfers.pk",
+      "description": "When you choose AirportTransfers.pk, you gain access to several advantages that improve your overall travel experience.",
+      "image_alt": "Professional chauffeur opening a luxury vehicle at Jinnah International Airport Karachi",
+      "ideal_for": {
+        "title": "Our services are ideal for:",
+        "items": [
+          "Corporate travelers",
+          "Tourists",
+          "Students",
+          "Overseas Pakistanis",
+          "Corporate clients"
+        ]
+      },
+      "highlights": [
+        "Save Time",
+        "Comfortable Travel",
+        "Reliable Transportation",
+        "Professional Customer Support"
+      ]
+    },
+    "booking_cta": {
+      "title": "Book Your Karachi Airport Transfer Today",
+      "description": "If you're looking for a dependable, comfortable, and professional Karachi Airport Transfer service, AirportTransfers.pk is your trusted transportation partner.",
+      "book_online": "Book Online Now",
+      "call_support": "Call 24/7 Support"
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Is your Karachi Airport Transfer service available 24/7?",
+          "answer": "Yes. AirportTransfers.pk operates 24 hours a day, seven days a week."
+        },
+        {
+          "question": "Do you provide airport pickup services from Jinnah International Airport?",
+          "answer": "Yes. We offer reliable airport pickup services for domestic and international arrivals."
+        },
+        {
+          "question": "Can I book a private airport transfer?",
+          "answer": "Absolutely. We provide private airport transfer options for individuals, families, and corporate travelers."
+        },
+        {
+          "question": "Do you offer corporate airport transportation?",
+          "answer": "Yes. Our Corporate Airport Transfer Karachi service is designed specifically for business travelers and organizations."
+        },
+        {
+          "question": "Can I reserve my airport transfer in advance?",
+          "answer": "Yes. Advance booking is recommended to guarantee vehicle availability and a seamless travel experience."
+        },
+        {
+          "question": "Are your prices fixed?",
+          "answer": "Yes. AirportTransfers.pk offers transparent pricing without hidden charges."
+        }
+      ]
+    },
+    "about": {
+      "title": "About Jinnah International Airport (KHI)",
+      "description": "Jinnah International Airport (KHI) is Pakistan's busiest aviation gateway and the primary hub for Karachi. Located in the Malir district, roughly 15 kilometres east of the city centre, it handles domestic and international traffic for business, family visits, and connecting flights across the region. With Airport Transfer, you get punctual pickups, courteous chauffeurs, and clean, modern vehicles for reliable journeys to and from Karachi's main international airport."
+    },
+    "story1": {
+      "title": "Jinnah International Airport (KHI) Transfers in Karachi",
+      "description1": "Enjoy a smooth, dependable airport transfer to and from Jinnah International Airport (KHI). As Pakistan's largest airport by passenger volume, KHI can be busy at peak hours—pre-booking with Airport Transfer gives you a comfortable alternative to hailing cabs on arrival, with a driver ready when you land.",
+      "description2": "Our pricing is fully transparent, with taxes and fees included upfront so you know the fare before you confirm. Share your flight number and your chauffeur will track your arrival and adjust pickup if your flight is delayed. Whether you need transport to Clifton, DHA, the business district, or elsewhere in Sindh, Airport Transfer keeps every leg of your journey reliable and stress-free."
+    },
+    "story2": {
+      "title": "Transfers from Jinnah International Airport (KHI)",
+      "description1": "Airport Transfer prioritises a calm, hassle-free experience in Karachi. Every driver is licensed, professional, and familiar with local routes, traffic patterns, and terminal layouts at KHI. On arrival, your chauffeur meets you at the agreed pickup point, helps with luggage, and takes you directly to your hotel, office, or residence.",
+      "description2": "Choose from business sedans, premium vehicles for extra comfort, or spacious vans for families and small groups—all maintained to a high standard. Beyond city transfers, we also arrange intercity rides from KHI to Hyderabad, Sukkur, and other destinations across Pakistan when you book in advance."
+    },
+    "story3": {
+      "title": "Transfers from Jinnah International Airport to Karachi City",
+      "description1": "Booking your KHI airport transfer takes about a minute. Enter your pickup location, destination, and preferred vehicle type, review the fare, and confirm—your reservation is locked in and confirmation follows shortly.",
+      "description2": "With clear, upfront pricing and no hidden charges, business and frequent travellers know the exact cost before they travel. Airport Transfer also serves point-to-point and hourly chauffeur needs throughout your stay in Karachi, so one booking covers your whole trip."
+    },
+    "cta": {
+      "title": "Book Your Karachi Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Jinnah International Airport (KHI). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "islamabad": {
+    "banner": {
+      "top_text_primary": "Islamabad Airport Transfer",
+      "top_text_suffix": "Pakistan",
+      "title_line1": "Islamabad Airport Transfer —",
+      "title_accent": "Reliable 24/7 Airport Pickup & Drop-Off Service",
+      "description": "Traveling to or from Islamabad International Airport should be convenient, comfortable, and stress-free. AirportTransfers.pk provides professional Islamabad Airport Transfer services designed to meet the needs of business travelers, tourists, diplomats, families, overseas Pakistanis, and corporate clients.",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Islamabad International Airport terminal with professional airport transfer service at dusk"
+    },
+    "transfer_services": {
+      "title": "Our Islamabad Airport Transfer Services",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation services designed for every type of traveler.",
+      "items": [
+        {
+          "icon": "PlaneLanding",
+          "title": "Airport Pickup Service Islamabad",
+          "description": "",
+          "points": [
+            "International travelers",
+            "Business executives",
+            "Families",
+            "Tourists",
+            "Overseas Pakistanis"
+          ]
+        },
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Airport Drop-Off Service Islamabad",
+          "description": "Avoid last-minute transportation worries with our dependable Airport Drop-Off Service Islamabad. We ensure timely arrivals at the airport for domestic and international flights."
+        },
+        {
+          "icon": "PlaneLanding",
+          "title": "Private Airport Transfer",
+          "description": "Enjoy direct transportation without sharing your ride with other passengers."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Executive Airport Transfer",
+          "description": "Our Executive Airport Transfer service is ideal for business professionals, diplomats, and corporate clients."
+        },
+        {
+          "icon": "Car",
+          "title": "Airport Chauffeur Service",
+          "description": "Travel in comfort with our premium Airport Chauffeur Service featuring professional drivers and luxury vehicles."
+        },
+        {
+          "icon": "Users",
+          "title": "Corporate Airport Transfer Islamabad",
+          "description": "AirportTransfers.pk provides dedicated transportation solutions for corporate travelers, executives, conferences, and business events."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Hotel Airport Transfer Islamabad",
+          "description": "We offer direct transfers between Islamabad International Airport and hotels throughout Islamabad and Rawalpindi."
+        }
+      ]
+    },
+    "booking_steps": {
+      "title": "How to Book Your Islamabad Airport Transfer",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation solutions for individuals, families, and corporate travelers.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Submit Your Travel Details",
+          "description": "Provide your pickup location, destination, flight information, and travel date."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Receive an Instant Quote",
+          "description": "Get transparent pricing with no hidden fees."
+        },
+        {
+          "icon": "CalendarCheck",
+          "title": "Confirm Your Booking",
+          "description": "Secure your reservation through our easy booking system."
+        },
+        {
+          "icon": "Car",
+          "title": "Travel Comfortably",
+          "description": "Your professional driver will arrive on time and ensure a smooth transfer."
+        }
+      ]
+    },
+    "coverage_areas": {
+      "title": "Airport Coverage Areas",
+      "description": "AirportTransfers.pk provides Islamabad Airport Transfer services across Islamabad, Rawalpindi, and nearby regions.",
+      "areas": [
+        "Blue Area",
+        "F-6",
+        "F-7",
+        "F-8",
+        "F-10",
+        "F-11",
+        "G-9",
+        "E-11",
+        "Chak Shahzad",
+        "G-10",
+        "G-11",
+        "DHA Islamabad",
+        "Bahria Town Rawalpindi",
+        "DHA Phase II",
+        "Gulberg Greens",
+        "Gulberg Residencia",
+        "Rawalpindi Cantonment"
+      ],
+      "popular_routes": {
+        "title": "Popular Islamabad Airport Transfer Routes",
+        "route_label": "Islamabad International Airport to",
+        "destinations": [
+          "Blue Area",
+          "Bahria Town Rawalpindi",
+          "F-6",
+          "Gulberg Greens",
+          "F-7",
+          "Serena Hotel Islamabad",
+          "F-10",
+          "Marriott Hotel Islamabad",
+          "DHA Islamabad",
+          "Rawalpindi"
+        ]
+      }
+    },
+    "why_choose_safety": {
+      "why_choose": {
+        "title": "Why Choose Airport Transfers.pk for Islamabad Airport Transfer?",
+        "subtitle": "AirportTransfers.pk is committed to delivering reliable, comfortable, and professional airport transfer services throughout Islamabad.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ]
+      },
+      "safety": {
+        "title": "Safety & Reliability Standards",
+        "subtitle": "Passenger safety remains a top priority at AirportTransfers.pk.",
+        "features": [
+          {
+            "icon": "UserCheck",
+            "title": "Trained Drivers",
+            "description": "All drivers are carefully selected and trained to deliver professional service."
+          },
+          {
+            "icon": "Wrench",
+            "title": "Regular Vehicle Maintenance",
+            "description": "Vehicles undergo routine inspections and preventive maintenance to ensure safety and reliability."
+          },
+          {
+            "icon": "ShieldPlus",
+            "title": "Clean and Sanitized Vehicles",
+            "description": "We maintain strict cleanliness standards to provide a comfortable travel environment."
+          },
+          {
+            "icon": "Headset",
+            "title": "Real-Time Coordination",
+            "description": "Our operations team continuously monitors bookings and flight schedules to ensure seamless service delivery."
+          },
+          {
+            "icon": "ThumbsUp",
+            "title": "Customer-Centric Approach",
+            "description": "Every Islamabad Airport Transfer booking receives personalized attention to ensure customer satisfaction."
+          }
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Booking with AirportTransfers.pk",
+      "description": "When you choose AirportTransfers.pk, you gain access to several advantages that improve your overall travel experience.",
+      "image_alt": "Professional chauffeur opening a luxury vehicle at Islamabad International Airport",
+      "ideal_for": {
+        "title": "Our services are ideal for:",
+        "items": [
+          "Corporate travelers",
+          "Tourists",
+          "Students",
+          "Overseas Pakistanis",
+          "Corporate clients"
+        ]
+      },
+      "highlights": [
+        "Save Time",
+        "Comfortable Travel",
+        "Reliable Transportation",
+        "Professional Customer Support"
+      ]
+    },
+    "booking_cta": {
+      "title": "Book Your Islamabad Airport Transfer Today",
+      "description": "If you're searching for a dependable, comfortable, and professional Islamabad Airport Transfer service, AirportTransfers.pk is your trusted transportation partner.",
+      "book_online": "Book Online Now",
+      "call_support": "Call 24/7 Support"
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Is your Islamabad Airport Transfer service available 24/7?",
+          "answer": "Yes. AirportTransfers.pk operates 24 hours a day, seven days a week."
+        },
+        {
+          "question": "Do you provide airport pickup services from Islamabad International Airport?",
+          "answer": "Yes. We offer reliable airport pickup services for domestic and international arrivals."
+        },
+        {
+          "question": "Can I book a private airport transfer?",
+          "answer": "Absolutely. We provide private airport transfer options for individuals, families, and corporate travelers."
+        },
+        {
+          "question": "Do you offer corporate airport transportation?",
+          "answer": "Yes. Our Corporate Airport Transfer Islamabad service is designed specifically for business travelers and organizations."
+        },
+        {
+          "question": "Can I reserve my airport transfer in advance?",
+          "answer": "Yes. Advance booking is recommended to guarantee vehicle availability and a seamless travel experience."
+        },
+        {
+          "question": "Are your prices fixed?",
+          "answer": "Yes. AirportTransfers.pk offers transparent pricing without hidden charges."
+        }
+      ]
+    },
+    "about": {
+      "title": "About Islamabad International Airport (ISB)",
+      "description": "Islamabad International Airport (ISB), also known as New Islamabad International Airport, serves the federal capital and twin cities of Rawalpindi and Islamabad. Located near Fateh Jang in Attock district, it is a modern facility designed for growing domestic and international demand. Book a dependable ISB transfer with Airport Transfer for punctual pickups, fixed pricing, and door-to-door service that skips crowded shuttles and uncertain street fares."
+    },
+    "story1": {
+      "title": "Convenient Transfer Services at Islamabad International Airport (ISB)",
+      "description1": "Islamabad International Airport (ISB) welcomes travellers around the clock, and pre-booked transfers are the most reliable way to leave the terminal quickly. Airport Transfer provides licensed, professional chauffeurs and clearly marked pickup coordination so you are not left searching for transport after a long flight.",
+      "description2": "Reserve your ride online before you land for a planned, stress-free arrival. Our drivers know the fastest routes to Blue Area, F-6, Bahria Town, Rawalpindi, and motorway connections toward Lahore and Peshawar. For first-time visitors and corporate guests alike, Airport Transfer removes the guesswork from getting into the capital."
+    },
+    "story2": {
+      "title": "Easy Access to Islamabad, Rawalpindi, and Beyond",
+      "description1": "Transfers from ISB to central Islamabad or Rawalpindi typically take 45 to 75 minutes depending on traffic and your exact destination. Door-to-door service is ideal when travelling with luggage, children, or tight meeting schedules.",
+      "description2": "Unlike public transport, there are no changes or long walks with bags. Airport Transfer also covers trips to Murree, Abbottabad, and other northern routes when arranged in advance. Whether you arrive on a late flight or an early morning connection, your private transfer is ready when you are."
+    },
+    "cta": {
+      "title": "Book Your Islamabad Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Islamabad International Airport (ISB). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "gwadar": {
+    "banner": {
+      "top_text": "Gwadar International Airport",
+      "title": "Gwadar <br /> Airport Transfers",
+      "description": "Airport Transfer provides premium airport taxi service with professional drivers and comfortable vehicles. Book your GWD transfer today."
+    },
+    "about": {
+      "title": "About Gwadar International Airport (GWD)",
+      "description": "Gwadar International Airport (GWD) supports the rapidly developing port city and Balochistan's coastal corridor. As trade, logistics, and tourism grow in the region, reliable ground transport from the airport is essential for business delegations, project teams, and visitors. Airport Transfer offers punctual pickups, experienced local drivers, and well-maintained vehicles for smooth journeys to Gwadar city, the port zone, and surrounding areas."
+    },
+    "story1": {
+      "title": "Efficient Transfer Services at Gwadar International Airport (GWD)",
+      "description1": "Gwadar International Airport (GWD) serves a focused mix of domestic and international traffic tied to the port and regional development. Airport Transfer coordinates pickups to match your flight schedule, whether you book in advance or need a confirmed ride after landing.",
+      "description2": "Licensed chauffeurs provide safe, direct transport without unnecessary stops. Vehicles are clean and suited to local road conditions, and our team assists with luggage and clear communication on pickup points. Pre-booking is especially valuable during peak project travel periods."
+    },
+    "story2": {
+      "title": "Direct Connectivity to Gwadar City and the Port",
+      "description1": "From GWD, Airport Transfer connects you quickly to Gwadar city centre, hotels, industrial zones, and the deep-sea port area. Travel times are short compared with major hubs, but having a reserved vehicle avoids uncertainty in a growing market.",
+      "description2": "Door-to-door service suits offshore teams, investors, and families alike. We also arrange longer transfers to Turbat, Karachi, and other Balochistan destinations on request. For business and leisure travellers, Airport Transfer is the straightforward way to start your time in Gwadar."
+    },
+    "cta": {
+      "title": "Book Your Gwadar Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Gwadar International Airport (GWD). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "lahore": {
+    "banner": {
+      "top_text_primary": "Lahore Airport Transfer",
+      "top_text_suffix": "Pakistan",
+      "title_line1": "Lahore Airport Transfer —",
+      "title_accent": "Reliable 24/7 Airport Pickup & Drop-Off Service",
+      "description": "Traveling to or from Allama Iqbal International Airport should be comfortable, stress-free, and reliable. AirportTransfers.pk provides professional Lahore Airport Transfer services designed to meet the transportation needs of business travelers, tourists, families, overseas Pakistanis, and corporate clients.",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Allama Iqbal International Airport terminal in Lahore with professional airport transfer service"
+    },
+    "transfer_services": {
+      "title": "Our Lahore Airport Transfer Services",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation solutions for individuals, families, and corporate travelers.",
+      "items": [
+        {
+          "icon": "PlaneLanding",
+          "title": "Airport Pickup Service Lahore",
+          "description": "",
+          "points": [
+            "International travelers",
+            "Business executives",
+            "Families",
+            "Tourists",
+            "Overseas Pakistanis"
+          ]
+        },
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Airport Drop-Off Service Lahore",
+          "description": "Need a dependable ride to the airport? Our Airport Drop-Off Service Lahore ensures timely arrival at the airport with ample time for check-in and security procedures."
+        },
+        {
+          "icon": "PlaneLanding",
+          "title": "Private Airport Transfer",
+          "description": "Enjoy a personalized travel experience with our Private Airport Transfer service. Travel directly to your destination without sharing your ride with other passengers."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Executive Airport Transfer",
+          "description": "Business travelers can benefit from our Executive Airport Transfer solutions featuring premium vehicles and professional chauffeur services."
+        },
+        {
+          "icon": "Car",
+          "title": "Airport Chauffeur Service",
+          "description": "Our Airport Chauffeur Service combines luxury, professionalism, and convenience for travelers seeking a premium transportation experience."
+        },
+        {
+          "icon": "Users",
+          "title": "Corporate Airport Transfer Lahore",
+          "description": "AirportTransfers.pk provides customized transportation solutions for corporate clients, executives, visiting partners, and business teams."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Hotel Airport Transfer Lahore",
+          "description": "Traveling to a hotel in Lahore? We offer direct transfers between Allama Iqbal International Airport and major hotels throughout the city."
+        }
+      ]
+    },
+    "booking_steps": {
+      "title": "How to Book Your Lahore Airport Transfer",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation solutions for individuals, families, and corporate travelers.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Submit Your Travel Details",
+          "description": "Provide your pickup location, destination, flight information, and travel date."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Receive an Instant Quote",
+          "description": "Get transparent pricing with no hidden fees."
+        },
+        {
+          "icon": "CalendarCheck",
+          "title": "Confirm Your Booking",
+          "description": "Secure your reservation through our easy booking system."
+        },
+        {
+          "icon": "Car",
+          "title": "Travel Comfortably",
+          "description": "Your professional driver will arrive on time and ensure a smooth transfer."
+        }
+      ]
+    },
+    "coverage_areas": {
+      "title": "Airport Coverage Areas",
+      "description": "That's why we carefully select and train our chauffeurs to ensure they meet our high standards of professionalism and customer service.",
+      "areas": [
+        "Gulberg",
+        "Bahria Town Lahore",
+        "Model Town",
+        "Wapda Town",
+        "Garden Town",
+        "Valencia Town",
+        "DHA Lahore",
+        "Johar Town",
+        "Lahore Cantt",
+        "Township",
+        "Faisal Town",
+        "Askari Housing Schemes"
+      ],
+      "popular_routes": {
+        "title": "Popular Lahore Airport Transfer Routes",
+        "route_label": "Allama Iqbal International Airport to",
+        "destinations": [
+          "DHA Lahore",
+          "Gulberg",
+          "Bahria Town Lahore",
+          "Johar Town",
+          "Universities",
+          "Model Town",
+          "Lahore Cantt",
+          "Lahore Airport to Hotels",
+          "Corporate Offices"
+        ]
+      }
+    },
+    "why_choose_safety": {
+      "why_choose": {
+        "title": "Why Choose Airport Transfers.pk for Lahore Airport Transfer?",
+        "subtitle": "AirportTransfers.pk is committed to delivering reliable, comfortable, and professional airport transfer services throughout Lahore.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ]
+      },
+      "safety": {
+        "title": "Safety & Reliability Standards",
+        "subtitle": "Passenger safety remains a top priority at AirportTransfers.pk.",
+        "features": [
+          {
+            "icon": "UserCheck",
+            "title": "Trained Drivers",
+            "description": "All drivers are carefully selected and trained to deliver professional service."
+          },
+          {
+            "icon": "Wrench",
+            "title": "Regular Vehicle Maintenance",
+            "description": "Vehicles undergo routine inspections and preventive maintenance to ensure safety and reliability."
+          },
+          {
+            "icon": "ShieldPlus",
+            "title": "Clean and Sanitized Vehicles",
+            "description": "We maintain strict cleanliness standards to provide a comfortable travel environment."
+          },
+          {
+            "icon": "Headset",
+            "title": "Real-Time Coordination",
+            "description": "Our operations team continuously monitors bookings and flight schedules to ensure timely pickups."
+          },
+          {
+            "icon": "ThumbsUp",
+            "title": "Customer-Centric Approach",
+            "description": "Every Lahore Airport Transfer booking is handled with personalized attention and responsive support."
+          }
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Booking with AirportTransfers.pk",
+      "description": "When you choose AirportTransfers.pk, you gain access to several advantages that improve your overall travel experience.",
+      "image_alt": "Allama Iqbal International Airport terminal with professional airport transfer service at sunset",
+      "ideal_for": {
+        "title": "Our services are ideal for:",
+        "items": [
+          "Business travelers",
+          "Tourists",
+          "Families",
+          "Overseas Pakistanis",
+          "Corporate clients",
+          "Students"
+        ]
+      },
+      "highlights": [
+        "Reliable Airport Transportation",
+        "Professional Customer Support",
+        "Comfortable Travel Experience"
+      ]
+    },
+    "booking_cta": {
+      "title": "Book Your Lahore Airport Transfer Today",
+      "description": "If you are looking for a dependable, comfortable, and professional Lahore Airport Transfer service, AirportTransfers.pk is your trusted transportation partner.",
+      "book_online": "Book Online Now",
+      "call_support": "Call 24/7 Support"
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Is your Lahore Airport Transfer service available 24/7?",
+          "answer": "Yes. AirportTransfers.pk operates 24 hours a day, seven days a week."
+        },
+        {
+          "question": "Do you provide airport pickup services from Allama Iqbal International Airport?",
+          "answer": "Yes. We offer reliable airport pickup services for domestic and international arrivals."
+        },
+        {
+          "question": "Can I book a private airport transfer?",
+          "answer": "Absolutely. We provide private airport transfer options for individuals, families, and corporate travelers."
+        },
+        {
+          "question": "Do you offer corporate airport transportation?",
+          "answer": "Yes. Our Corporate Airport Transfer Lahore service is designed specifically for business travelers and organizations."
+        },
+        {
+          "question": "Can I schedule my transfer in advance?",
+          "answer": "Yes. Advance booking is recommended to guarantee vehicle availability and a seamless travel experience."
+        },
+        {
+          "question": "Are your prices fixed?",
+          "answer": "Yes. AirportTransfers.pk offers transparent pricing without hidden charges."
+        }
+      ]
+    },
+    "about": {
+      "title": "About Allama Iqbal International Airport (LHE)",
+      "description": "Allama Iqbal International Airport (LHE) is Punjab's primary aviation hub and one of Pakistan's busiest airports. Situated near the city of Lahore, it links the cultural heart of the country to domestic and international destinations. With Airport Transfer, you enjoy punctual pickups, professional chauffeurs, and comfortable vehicles for stress-free travel to Gulberg, DHA, the old city, and industrial zones across Lahore."
+    },
+    "story1": {
+      "title": "Comfort, Safety, and Transparent Fares at LHE",
+      "description1": "Airport Transfer at Allama Iqbal International Airport (LHE) is built around passenger comfort and safety. Vehicles are modern, regularly maintained, and chosen to suit solo travellers, families, and corporate groups. Fixed fares for popular zones mean no surprises at the end of your ride.",
+      "description2": "Drivers are courteous, experienced with Lahore traffic, and happy to assist with luggage. Cash and card payment options are available where applicable. LHE's terminals are well organised; a pre-booked transfer lets you move from baggage claim to your destination without delay."
+    },
+    "story2": {
+      "title": "Reliable Transfer Services at Lahore Airport (LHE)",
+      "description1": "Whether you arrive on a domestic flight or an international connection, Airport Transfer provides 24/7 coverage at LHE. Your chauffeur meets you at the agreed point and drives you directly to your address—no shared shuttles or multiple stops.",
+      "description2": "Pre-book online for peak travel seasons, weddings, and conference weeks in Lahore. We also offer intercity transfers from LHE to Islamabad, Faisalabad, and Multan when scheduled in advance. For business and leisure alike, Airport Transfer is the dependable choice at Lahore's main airport."
+    },
+    "cta": {
+      "title": "Book Your Lahore Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Allama Iqbal International Airport (LHE). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "peshawar": {
+    "banner": {
+      "top_text": "Peshawar Bacha Khan International Airport",
+      "title": "Peshawar Bacha Khan <br /> Airport Transfers",
+      "description": "Airport Transfer offers premium airport taxi service with professional drivers and comfortable vehicles. Book your PEW transfer today."
+    },
+    "about": {
+      "title": "About Bacha Khan International Airport (PEW)",
+      "description": "Bacha Khan International Airport (PEW) serves Peshawar and Pakistan's Khyber Pakhtunkhwa province, connecting the region to major domestic hubs and selected international routes. Located close to the city, it is a key gateway for government, NGO, business, and family travel. Airport Transfer provides reliable PEW transfers with punctual pickups, transparent pricing, and professional chauffeurs tailored to your schedule."
+    },
+    "story1": {
+      "title": "Reliable Transfer Services at Bacha Khan International Airport (PEW)",
+      "description1": "Bacha Khan International Airport (PEW) operates throughout the day with steady passenger flow from across KP and adjacent areas. Airport Transfer ensures a licensed driver is ready at arrivals, with meet-and-greet coordination and flight monitoring when you supply your flight number.",
+      "description2": "Pre-booking online avoids queues and negotiation after landing—especially helpful during busy periods and for travellers unfamiliar with local transport. Our drivers use efficient routes into Peshawar Cantonment, University Town, Hayatabad, and other districts."
+    },
+    "story2": {
+      "title": "Quick and Comfortable Connections in Peshawar",
+      "description1": "The drive from PEW to central Peshawar is typically short, making a private transfer the fastest way to reach your hotel or meeting. Door-to-door service is essential when carrying baggage or travelling with family.",
+      "description2": "Airport Transfer also arranges longer journeys to Mardan, Swat, Islamabad, and motorway destinations when booked ahead. With upfront fares and 24/7 availability, PEW transfers through Airport Transfer stay predictable and professional from touchdown to drop-off."
+    },
+    "cta": {
+      "title": "Book Your Peshawar Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Bacha Khan International Airport (PEW). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "multan": {
+    "banner": {
+      "top_text": "Multan International Airport",
+      "title": "Multan <br /> Airport Transfers",
+      "description": "Airport Transfer provides premium meet-and-greet service with professional drivers and comfortable vehicles. Book your MUX transfer today."
+    },
+    "about": {
+      "title": "About Multan International Airport (MUX)",
+      "description": "Multan International Airport (MUX) serves southern Punjab and the historic city of Multan, a centre for trade, agriculture, and religious tourism. The airport links the region to Karachi, Lahore, Islamabad, and international points. Book your MUX transfer with Airport Transfer for punctual pickups, clear pricing, and comfortable rides to city hotels, industrial areas, and onward road connections."
+    },
+    "story1": {
+      "title": "Easy and Accessible Transfer Services at Multan International Airport (MUX)",
+      "description1": "Multan International Airport (MUX) offers straightforward terminal access, and a pre-booked transfer is the smoothest way to continue your journey. Airport Transfer operates 24/7 with licensed drivers stationed to meet scheduled arrivals.",
+      "description2": "Reserve online to secure your vehicle class and fare before you fly—particularly useful during Urs season, harvest-related travel, and corporate visits. Drivers know local routes to Cantt, Gulgasht, and the motorway interchange for Lahore and Karachi."
+    },
+    "story2": {
+      "title": "Seamless Travel to Multan and Southern Punjab",
+      "description1": "From MUX, Airport Transfer takes you directly to your destination in Multan city, typically within a short drive depending on traffic. Door-to-door service beats shared vans when you have luggage or tight timelines.",
+      "description2": "We also provide intercity transfers to Bahawalpur, Khanewal, and other Punjab cities on request. With private, air-conditioned vehicles and professional chauffeurs, Airport Transfer is the practical choice for arrivals at Multan's international airport."
+    },
+    "cta": {
+      "title": "Book Your Multan Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Multan International Airport (MUX). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "faisalabad": {
+    "banner": {
+      "top_text": "Faisalabad International Airport",
+      "title": "Faisalabad <br /> Airport Transfers",
+      "description": "Airport Transfer delivers premium airport taxi service with professional drivers and well-maintained vehicles. Book your LYP transfer today."
+    },
+    "about": {
+      "title": "About Faisalabad International Airport (LYP)",
+      "description": "Faisalabad International Airport (LYP) supports Pakistan's textile and industrial capital, handling domestic flights and growing international connectivity. The airport is an important link for exporters, factory visits, and family travel across central Punjab. Airport Transfer offers dependable LYP pickups with professional drivers and comfortable vehicles for efficient trips into Faisalabad and the wider region."
+    },
+    "story1": {
+      "title": "Efficient Transport at Faisalabad International Airport (LYP)",
+      "description1": "Faisalabad International Airport (LYP) serves business and leisure passengers who value time and predictability. Airport Transfer provides 24/7 meet-and-greet service with flight tracking and fixed fares quoted before you travel.",
+      "description2": "Chauffeurs are trained for city and intercity routes, with vehicles suited to executives, families, and small groups. Pre-booking removes uncertainty at a regional airport where on-demand cab availability can vary by time of day."
+    },
+    "story2": {
+      "title": "Smooth Connections Across Faisalabad and Central Punjab",
+      "description1": "Transfers from LYP to central Faisalabad, Satiana Road industrial zones, and surrounding towns are direct with Airport Transfer—no train changes or multiple pickups.",
+      "description2": "We also arrange rides to Lahore, Multan, and Islamabad when booked in advance. Door-to-door privacy, luggage assistance, and upfront pricing make Airport Transfer the preferred option for LYP-area business travel and family visits alike."
+    },
+    "cta": {
+      "title": "Book Your Faisalabad Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Faisalabad International Airport (LYP). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "quetta": {
+    "banner": {
+      "top_text": "Quetta International Airport",
+      "title": "Quetta <br /> Airport Transfers",
+      "description": "Airport Transfer offers premium meet-and-greet service with professional drivers and comfortable vehicles. Book your UET transfer today."
+    },
+    "about": {
+      "title": "About Quetta International Airport (UET)",
+      "description": "Quetta International Airport (UET) is the main air gateway for Balochistan's capital and surrounding highland regions. It connects Quetta to Karachi, Islamabad, and other domestic hubs for government, military, business, and family travel. Airport Transfer provides reliable UET transfers with shorter terminal walks than mega-hubs and punctual, professional service into the city and beyond."
+    },
+    "story1": {
+      "title": "Smooth Transfers at Quetta International Airport (UET)",
+      "description1": "Quetta International Airport (UET) offers a compact passenger experience where pre-arranged transport saves time. Airport Transfer meets arrivals with clear pickup instructions and vehicles matched to your group size.",
+      "description2": "Licensed drivers know Quetta's road network and seasonal traffic patterns. Pre-book for peace of mind during winter travel and peak domestic periods. Every vehicle is clean, insured, and maintained for comfort on city and mountain-bound routes."
+    },
+    "story2": {
+      "title": "Quick Access to Quetta City and Balochistan",
+      "description1": "From UET, Airport Transfer drives you directly to hotels, government offices, and residential areas in Quetta without shared-ride delays. Typical city journeys are short, but having a confirmed driver is essential for late arrivals.",
+      "description2": "Longer transfers toward Chaman, Ziarat, or other destinations can be arranged when you book ahead. For luggage-heavy and group travel, door-to-door service from Airport Transfer is the most practical way to leave Quetta International Airport."
+    },
+    "cta": {
+      "title": "Book Your Quetta Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Quetta International Airport (UET). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "sialkot": {
+    "banner": {
+      "top_text": "Sialkot International Airport",
+      "title": "Sialkot <br /> Airport Transfers",
+      "description": "Airport Transfer provides premium meet-and-greet service with professional drivers and comfortable vehicles. Book your SKT transfer today."
+    },
+    "about": {
+      "title": "About Sialkot International Airport (SKT)",
+      "description": "Sialkot International Airport (SKT) is Pakistan's first privately operated international airport and a vital link for the Sialkot export and manufacturing belt. Serving sports goods, surgical instrument, and leather industries—as well as diaspora travel—it demands reliable ground transport. Airport Transfer delivers punctual SKT pickups, flight monitoring, and comfortable vehicles for business and leisure passengers."
+    },
+    "story1": {
+      "title": "Sialkot International Airport (SKT) Transfers",
+      "description1": "Enjoy a seamless Airport Transfer service designed for stress-free arrivals and departures at Sialkot International Airport (SKT). Pre-booked rides mean no negotiating fares at the curb and no waiting in uncertain queues after long flights.",
+      "description2": "Our chauffeurs know routes across Sialkot, Daska, Wazirabad, and the motorway toward Lahore and Gujranwala. We monitor flight schedules and adjust pickup times when delays occur, so your driver is there when you land.",
+      "description3": "Booking takes minutes: enter your details, choose a sedan, executive car, or van, and confirm. Transparent pricing, no hidden fees, and 24/7 support make Airport Transfer the dependable private transfer choice at SKT."
+    },
+    "story2": {
+      "title": "Transfers from Sialkot Airport to Factories, Hotels, and Cities",
+      "description1": "Airport Transfer provides direct door-to-door rides from SKT to industrial estates, hotels, and homes across the Sialkot region—ideal for trade visitors with sample luggage and tight factory schedules.",
+      "description2": "We serve solo travellers, families, and corporate groups with sedans and spacious vans, all maintained for comfort and ample baggage space.",
+      "description3": "Avoid multiple connections and heavy lifting through public transport. Whether you need a short hop into Sialkot city or a longer run to Lahore, Airport Transfer delivers reliable, safe, and convenient SKT airport transfers every time."
+    },
+    "cta": {
+      "title": "Book Your Sialkot Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Sialkot International Airport (SKT). Book with Airport Transfer for fixed prices and professional service."
+    }
+  },
+  "sukkur": {
+    "banner": {
+      "top_text": "Sukkur Airport",
+      "title": "Sukkur <br /> Airport Transfers",
+      "description": "Airport Transfer offers dependable regional airport transfers with professional drivers and comfortable vehicles throughout Sindh."
+    },
+    "about": {
+      "title": "About Sukkur Airport (SKZ)",
+      "description": "Sukkur Airport (SKZ) serves the historic city of Sukkur and upper Sindh, supporting domestic connectivity for business, government, and family travel along the Indus corridor. As a regional facility, it benefits from quick terminal processing and growing road links across the province. Airport Transfer provides reliable SKZ transfers with punctual pickups, clear fares, and professional chauffeurs for journeys into Sukkur, Rohri, and connecting routes toward Hyderabad and Karachi."
+    },
+    "features": [
+      {
+        "title": "Strategic Location in Upper Sindh",
+        "description": "Sukkur Airport (SKZ) offers convenient access to Sukkur, Rohri, Khairpur, and the Indus Highway corridor for trade and travel across southern Pakistan."
+      },
+      {
+        "title": "Regional Airport Efficiency",
+        "description": "Smaller terminals mean faster arrivals; a pre-booked Airport Transfer avoids waiting for informal transport at the curb."
+      },
+      {
+        "title": "Domestic Connectivity",
+        "description": "Regular domestic links to Karachi, Lahore, and Islamabad make SKZ a practical hub for Sindh-based passengers."
+      },
+      {
+        "title": "24/7 Transfer Availability",
+        "description": "Airport Transfer operates around the clock so early and late flights are covered with the same professional service."
+      }
+    ],
+    "story1": {
+      "title": "Reliable Transfers at Sukkur Airport (SKZ)",
+      "description1": "Sukkur Airport (SKZ) handles essential domestic traffic for the region. Airport Transfer coordinates meet-and-greet pickups with vehicles suited to individuals, families, and small delegations.",
+      "description2": "Drivers are familiar with Sukkur city routes, barrage roads, and connections toward Shikarpur and Larkana. Upfront pricing and flight-number tracking keep your journey predictable from booking to drop-off.",
+      "description3": "Whether you visit for infrastructure projects, family events, or provincial business, pre-booking your SKZ transfer ensures a smooth start and end to every trip."
+    },
+    "story2": {
+      "title": "Dependable Door-to-Door Service in Sukkur",
+      "description1": "From SKZ, Airport Transfer takes you directly to hotels, offices, and residential areas without shared-ride detours. Door-to-door service matters when carrying luggage or travelling in heat and peak season.",
+      "description2": "We arrange longer transfers to Hyderabad, Karachi, and other Sindh destinations when scheduled in advance. Professional chauffeurs, maintained vehicles, and transparent fares define every SKZ ride.",
+      "description3": "Contact Airport Transfer for fixed-price Sukkur Airport transfers and experience the same quality standards we deliver at Pakistan's major international hubs."
+    },
+    "cta": {
+      "title": "Book Your Sukkur Airport Transfer",
+      "description": "Reliable 24/7 transfers to and from Sukkur Airport (SKZ). Book with Airport Transfer today for fixed prices and professional service."
+    }
+  },
+  "skardu": {
+    "banner": {
+      "top_text_primary": "Skardu Airport Transfer",
+      "top_text_suffix": "Pakistan",
+      "title_line1": "Skardu Airport Transfer —",
+      "title_accent": "Reliable 24/7 Airport Pickup & Drop-Off Service",
+      "description": "Traveling to the breathtaking mountains of Gilgit-Baltistan begins with a comfortable and reliable airport transfer. AirportTransfers.pk provides professional Skardu Airport Transfer services for tourists, adventure travelers, families, corporate guests, and international visitors arriving at or departing from Skardu Airport (KDU).",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Skardu Airport with professional transfer service in the mountains of Gilgit-Baltistan"
+    },
+    "transfer_services": {
+      "title": "Our Skardu Airport Transfer Services",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation solutions for visitors arriving in Skardu.",
+      "items": [
+        {
+          "icon": "PlaneLanding",
+          "title": "Airport Pickup Service Skardu",
+          "description": "",
+          "points": [
+            "Tourists",
+            "Families",
+            "Trekking groups",
+            "International visitors",
+            "Business travelers",
+            "Travel agencies"
+          ]
+        },
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Airport Drop-Off Service Skardu",
+          "description": "Avoid transportation stress before your flight. Our Airport Drop-Off Service Skardu ensures timely arrival at Skardu Airport."
+        },
+        {
+          "icon": "PlaneLanding",
+          "title": "Private Airport Transfer",
+          "description": "Enjoy direct transportation without sharing your ride with other passengers."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Executive Airport Transfer",
+          "description": "Business travelers and VIP guests can benefit from our Executive Airport Transfer services featuring premium vehicles and professional chauffeurs."
+        },
+        {
+          "icon": "Car",
+          "title": "Airport Chauffeur Service",
+          "description": "Experience comfort and convenience with our personalized Airport Chauffeur Service."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Tourist Transfer Services",
+          "description": "We offer transportation from Skardu Airport to major tourist destinations throughout Gilgit-Baltistan."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Hotel Airport Transfer Skardu",
+          "description": "AirportTransfers.pk provides direct transfers between Skardu Airport and hotels, resorts, and guest houses across the region."
+        }
+      ]
+    },
+    "booking_steps": {
+      "title": "How to Book Your Skardu Airport Transfer",
+      "description": "AirportTransfers.pk offers a complete range of airport transportation solutions for individuals, families, and corporate travelers.",
+      "steps": [
+        {
+          "icon": "Search",
+          "title": "Submit Your Travel Details",
+          "description": "Provide your pickup location, destination, flight information, and travel date."
+        },
+        {
+          "icon": "CheckCircle2",
+          "title": "Receive an Instant Quote",
+          "description": "Get transparent pricing with no hidden fees."
+        },
+        {
+          "icon": "CalendarCheck",
+          "title": "Confirm Your Booking",
+          "description": "Secure your reservation through our easy booking system."
+        },
+        {
+          "icon": "Car",
+          "title": "Travel Comfortably",
+          "description": "Your professional driver will arrive on time and ensure a smooth transfer."
+        }
+      ]
+    },
+    "coverage_areas": {
+      "title": "Airport Coverage Areas",
+      "description": "AirportTransfers.pk provides Skardu Airport Transfer services across Skardu, Gilgit-Baltistan, and nearby tourist destinations.",
+      "areas": [
+        "Skardu City",
+        "Upper Kachura Lake",
+        "Shigar Valley",
+        "Khaplu Valley",
+        "Sadpara Lake",
+        "Basho Valley",
+        "Satpara Dam",
+        "Gamba Skardu",
+        "Shangrila Resort",
+        "Lower Kachura Lake",
+        "Shigar Fort",
+        "Khaplu Palace",
+        "Deosai National Park",
+        "Manthoka Waterfall",
+        "Hussainabad"
+      ],
+      "popular_routes": {
+        "title": "Popular Skardu Airport Transfer Routes",
+        "route_label": "Skardu Airport to",
+        "destinations": [
+          "Shangrila Resort",
+          "Shigar Valley",
+          "Khaplu Valley",
+          "Sadpara Lake",
+          "Deosai National Park",
+          "Upper Kachura Lake",
+          "Shigar Fort",
+          "Khaplu Palace",
+          "Basho Valley",
+          "Hotels in Skardu"
+        ]
+      }
+    },
+    "why_choose_safety": {
+      "why_choose": {
+        "title": "Why Choose Airport Transfers.pk for Skardu Airport Transfer?",
+        "subtitle": "AirportTransfers.pk is committed to delivering reliable, comfortable, and professional airport transfer services throughout Skardu and Gilgit-Baltistan.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ]
+      },
+      "safety": {
+        "title": "Safety & Reliability Standards",
+        "subtitle": "Passenger safety remains a top priority at AirportTransfers.pk.",
+        "features": [
+          {
+            "icon": "UserCheck",
+            "title": "Trained Drivers",
+            "description": "All drivers are carefully selected and trained to deliver professional service."
+          },
+          {
+            "icon": "Wrench",
+            "title": "Regular Vehicle Maintenance",
+            "description": "Vehicles undergo routine inspections and preventive maintenance to ensure safety and reliability."
+          },
+          {
+            "icon": "ShieldPlus",
+            "title": "Clean and Sanitized Vehicles",
+            "description": "We maintain strict cleanliness standards to provide a comfortable travel environment."
+          },
+          {
+            "icon": "Headset",
+            "title": "Real-Time Coordination",
+            "description": "Our operations team continuously monitors bookings and flight schedules to ensure seamless service delivery."
+          },
+          {
+            "icon": "ThumbsUp",
+            "title": "Customer-Centric Approach",
+            "description": "Every Skardu Airport Transfer booking receives personalized attention to ensure customer satisfaction."
+          }
+        ]
+      }
+    },
+    "benefits": {
+      "title": "Benefits of Booking with AirportTransfers.pk",
+      "description": "When you choose AirportTransfers.pk, you gain access to several advantages that improve your overall travel experience.",
+      "image_alt": "Professional chauffeur service for Skardu Airport transfer in Northern Pakistan",
+      "ideal_for": {
+        "title": "Our services are ideal for:",
+        "items": [
+          "Corporate travelers",
+          "Tourists",
+          "Students",
+          "Overseas Pakistanis",
+          "Corporate clients"
+        ]
+      },
+      "highlights": [
+        "Save Time",
+        "Comfortable Travel",
+        "Reliable Transportation",
+        "Professional Customer Support"
+      ]
+    },
+    "booking_cta": {
+      "title": "Book Your Skardu Airport Transfer Today",
+      "description": "If you're looking for a dependable, comfortable, and professional Skardu Airport Transfer service, AirportTransfers.pk is your trusted transportation partner in Northern Pakistan.",
+      "book_online": "Book Online Now",
+      "call_support": "Call 24/7 Support"
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Is your Skardu Airport Transfer service available year-round?",
+          "answer": "Yes. AirportTransfers.pk provides airport transfer services throughout the year, subject to local weather and road conditions."
+        },
+        {
+          "question": "Do you provide airport pickup services from Skardu Airport?",
+          "answer": "Yes. We offer professional airport pickup and drop-off services from Skardu Airport (KDU)."
+        },
+        {
+          "question": "Can I book a private airport transfer?",
+          "answer": "Absolutely. Private airport transfers are available for individuals, families, and groups."
+        },
+        {
+          "question": "Do you offer transportation to tourist destinations?",
+          "answer": "Yes. We provide transfers to popular attractions throughout Skardu and Gilgit-Baltistan."
+        },
+        {
+          "question": "Are SUVs available for mountain travel?",
+          "answer": "Yes. We offer SUVs and 4x4 vehicles suitable for mountain roads and adventure travel."
+        },
+        {
+          "question": "Can I reserve my transfer in advance?",
+          "answer": "Yes. Advance booking is recommended, especially during the peak tourism season."
+        }
+      ]
+    }
+  }
+}

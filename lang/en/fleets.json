@@ -1,0 +1,36 @@
+{
+  "banner": {
+    "top_text": "The Collection",
+    "title": "Experience the Art of Automotive Excellence",
+    "description": "Discover a curated selection of the world's most prestigious vehicles. Designed for those who appreciate performance, luxury, and the journey itself."
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "Premium Models",
+      "description": "Selected from top luxury brands such as Mercedes S Class,BMW 7, Audi A8 & Mercedes Benz V Class"
+    },
+    {
+      "value": "24/7",
+      "label": "Concierge Service",
+      "description": "Dedicated support team available anytime, anywhere for you"
+    },
+    {
+      "value": "15",
+      "label": "Global Locations",
+      "description": "Seamless pickup and drop-off at major airports and cities"
+    },
+    {
+      "value": "100%",
+      "label": "Maintenance Score",
+      "description": "Rigorous 150-point inspection before every single drive"
+    }
+  ],
+  "list": {
+    "no_vehicles": "No vehicles found",
+    "no_vehicles_desc": "We couldn't find any vehicles matching your criteria. Try selecting another category.",
+    "reset_filters": "Reset Filters",
+    "load_more": "LOAD MORE VEHICLES",
+    "loading": "Loading..."
+  }
+}

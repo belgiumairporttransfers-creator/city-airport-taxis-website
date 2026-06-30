@@ -1,0 +1,15 @@
+export const TRAIN_KEYWORDS = [
+    'station',
+    'centraal',
+    'bahnhof',
+    'gare',
+    'estacion',
+    'stazione',
+    'treinstation',
+    'railway',
+    'eurostar',
+    'thalys',
+    'ice station',
+    'hauptbahnhof',
+    'hbf',
+];

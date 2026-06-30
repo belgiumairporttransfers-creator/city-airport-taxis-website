@@ -1,0 +1,927 @@
+{
+  "airline_crew": {
+    "banner": {
+      "top_text_primary": "Reliable 24/7 Transportation",
+      "top_text_suffix": "Pakistan",
+      "title_line1": "Airline Crew",
+      "title_accent": "Transportation Services in Pakistan",
+      "description": "At AirportTransfers.pk, we provide professional Airline Crew Transportation Services across Pakistan, delivering dependable ground transportation solutions for airlines, crew management companies, private aviation operators, and corporate aviation departments.",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Chauffeur opening a luxury sedan for airline crew at a Pakistani airport terminal"
+    },
+    "story1": {
+      "title": "Crew Airport Transfers",
+      "description": "Airport Transfer provides reliable, fixed-price airport transfers for airline and cabin crew to and from Jinnah International Airport (KHI). We understand the importance of punctuality and comfort for airline staff, ensuring you reach your destination on time, every time.",
+      "points_title": "We provide direct transportation for airline staff between:",
+      "points": [
+        "Jinnah International Airport (KHI)",
+        "Crew hotels near Karachi airport",
+        "Karachi city center",
+        "Other major airports across Pakistan"
+      ],
+      "points_description": "Our service ensures on-time pickups and efficient transfers, even with tight schedules."
+    },
+    "features": {
+      "top_text": "Why Choose Us",
+      "title": "Why Choose Airport Transfer?",
+      "description": "YOUR TRUSTED PARTNER FOR AIRLINE CREW TRANSPORTATION AT KHI AND ACROSS PAKISTAN.",
+      "items": [
+        {
+          "title": "24/7 Availability",
+          "description": "Available for all flight schedules, day and night. We're always ready when you need us."
+        },
+        {
+          "title": "15-Minute Rapid Dispatch",
+          "description": "Based near KHI for immediate service. Rapid response to last-minute bookings."
+        },
+        {
+          "title": "Punctual & Reliable",
+          "description": "On-time pickups guaranteed. Our experienced drivers understand tight crew schedules."
+        },
+        {
+          "title": "Fixed Transparent Pricing",
+          "description": "Know your costs upfront with our fixed and transparent pricing structure."
+        }
+      ]
+    },
+    "story2": {
+      "title": "Last-Minute Crew Transport",
+      "description": "We specialize in last-minute bookings for airline crew. Thanks to our office near KHI and vehicles positioned at the airport, we can:",
+      "points": [
+        "Arrange transportation within 15 minutes",
+        "Handle urgent and unplanned crew movements",
+        "Provide immediate dispatch, even without prior booking"
+      ],
+      "points_description": "This makes us the ideal partner for airline operations teams and crew schedulers who need fast and dependable service."
+    },
+    "cta": {
+      "title": "Book Airline Crew Transport",
+      "description": "Airport Transfer is your trusted partner for airline crew and cabin crew transportation at Jinnah International Airport and across Pakistan. Contact us now for immediate service."
+    },
+    "stats": {
+      "corporate_partners": "Corporate Partners",
+      "vip_transfers": "VIP Transfers",
+      "on_time_rate": "On-Time Rate",
+      "concierge_support": "Concierge Support"
+    },
+    "story": {
+      "image_alt": "Chauffeur assisting travelers with luggage at a Pakistani airport at sunset",
+      "badge": {
+        "value": "10+",
+        "label": "Years of Excellence"
+      },
+      "title_line1": "Airline Crew",
+      "title_accent": "Transportation Services in Pakistan",
+      "paragraphs": [
+        "In the aviation industry, punctuality, reliability, and operational efficiency are essential. Flight schedules operate around the clock, crews work under strict regulations, and transportation delays can disrupt entire operations.",
+        "At AirportTransfers.pk, we provide professional Airline Crew Transportation Services across Pakistan, delivering dependable ground transportation solutions for airlines, crew management companies, private aviation operators, and corporate aviation departments."
+      ],
+      "account": {
+        "title": "Dedicated Account Management",
+        "description": "We understand that airlines and aviation organizations require consistent communication and operational transparency. That's why we provide dedicated account management for corporate and airline clients.",
+        "points": [
+          "Transportation scheduling",
+          "Service coordination",
+          "Billing management",
+          "Performance monitoring",
+          "Operational updates",
+          "Special transportation requirements"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Our Services",
+      "title": "Our Premium Services",
+      "items": [
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Specialized Transportation for the Aviation Industry",
+          "description": "We provide dedicated ground transportation tailored to the operational needs of airlines and aviation partners across Pakistan.",
+          "points": [
+            "Commercial airlines",
+            "International carriers",
+            "Domestic airlines",
+            "Charter operators",
+            "Private aviation companies",
+            "Crew management firms"
+          ]
+        },
+        {
+          "icon": "PlaneLanding",
+          "title": "Airline Crew Airport Transfers",
+          "description": "Our transportation team coordinates directly with flight schedules to ensure smooth and punctual transfers.",
+          "featured": true,
+          "pointGroups": [
+            {
+              "title": "Arrival Crew Transfers",
+              "points": [
+                "Fast airport pickup",
+                "Professional chauffeur",
+                "Schedule monitoring",
+                "Reliable coordination",
+                "Comfortable transport"
+              ]
+            },
+            {
+              "title": "Departure Crew Transfers",
+              "points": [
+                "Scheduled hotel pickups",
+                "Airport transportation",
+                "Multiple crew collection points",
+                "Timely arrivals",
+                "Route optimization"
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "MapPin",
+          "title": "Crew Hotel Transportation",
+          "description": "Reliable transfers between airports, crew hotels, and designated accommodation locations.",
+          "points": [
+            "Consistent Service Standards",
+            "Comfortable Vehicles",
+            "Flexible Scheduling",
+            "Professional Chauffeurs"
+          ]
+        },
+        {
+          "icon": "Clock",
+          "title": "Crew Rotation Transportation",
+          "description": "Coordinated transportation for crew rotations, duty changes, and operational schedule adjustments.",
+          "points": [
+            "Crew swaps",
+            "Duty changes",
+            "Operational rotations",
+            "Multi-leg crew movements",
+            "Schedule-aligned pickups"
+          ]
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Transportation for Corporate Aviation",
+          "description": "Executive ground transportation for private aviation departments and corporate flight operations.",
+          "points": [
+            "Corporate flight departments",
+            "Private jet operators",
+            "Executive travelers",
+            "VIP aviation clients",
+            "Confidential service"
+          ]
+        },
+        {
+          "icon": "PhoneCall",
+          "title": "24/7 Operations & Dispatch Support",
+          "description": "Round-the-clock dispatch coordination for early departures, overnight arrivals, and schedule changes.",
+          "points": [
+            "Early morning departures",
+            "Overnight arrivals",
+            "Delayed flights",
+            "Last-minute crew movements",
+            "Live dispatch support"
+          ]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Partner With AirportTransfers.Pk",
+        "title": "Airline Crew Transportation",
+        "subtitle": "Whether you're managing a commercial airline, charter operation, or crew management company, AirportTransfers.pk provides solutions designed to support your operations.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ],
+        "button": "Book Now"
+      },
+      "title": "Why Choose AirportTransfers.pk?",
+      "description": "Thousands of travelers choose <highlight>AirportTransfers.pk</highlight> because we consistently deliver:",
+      "reasons": [
+        "Professional Chauffeurs",
+        "24/7 Availability",
+        "Nationwide Coverage",
+        "Luxury Fleet Options",
+        "Meet & Greet Service",
+        "Flight Monitoring",
+        "Fixed Pricing",
+        "Safe & Reliable Transportation",
+        "Corporate Travel Solutions",
+        "Exceptional Customer Service"
+      ],
+      "highlight": {
+        "title": "Safety & Reliability Standards",
+        "description": "Safety and reliability are the foundation of our airline transportation services.",
+        "list_title": "Our Commitment Includes:",
+        "list_items": [
+          "Professionally trained chauffeurs",
+          "Licensed and verified drivers",
+          "GPS-enabled vehicles",
+          "Regular maintenance inspections",
+          "Clean and sanitized vehicles",
+          "Operational compliance standards",
+          "Nationwide support network"
+        ]
+      }
+    }
+  },
+  "cargo_crew": {
+    "banner": {
+      "top_text": "Cargo Crew Transportation",
+      "title": "Cargo Crew <br/>Transportation Service",
+      "description": "Professional 24/7 transportation service for cargo crew at Karachi Jinnah International Airport (KHI). 15-minute response for last-minute bookings."
+    },
+    "story1": {
+      "title": "Cargo Crew Transportation Service Karachi KHI",
+      "description": "With more than 15 years of experience in executive transportation and premium ground mobility services across Pakistan, we understand the unique operational requirements and high expectations of airline crews, cargo operators, and aviation professionals. Our focus is on delivering reliable, seamless, and comfortable transportation solutions with exceptional punctuality, flexibility, and personalized service."
+    },
+    "features": {
+      "top_text": "Why Choose Us",
+      "title": "Why Choose Airport Transfer",
+      "items": [
+        {
+          "title": "24/7 Service",
+          "description": "We operate day and night to match all flight schedules, including early morning and late-night arrivals."
+        },
+        {
+          "title": "Long-Distance Specialists",
+          "description": "We specialize in transfers across Pakistan and regional routes to major airports and cities."
+        },
+        {
+          "title": "Professional Drivers",
+          "description": "Experienced drivers who know the best routes for fast and efficient travel."
+        },
+        {
+          "title": "Comfortable Vehicles",
+          "description": "Clean and well-maintained vehicles for a smooth and relaxing journey."
+        },
+        {
+          "title": "Fixed Pricing",
+          "description": "Clear pricing for airport and long-distance transfers with no surprises."
+        },
+        {
+          "title": "15-Min Response",
+          "description": "Fast response for last-minute cargo crew bookings, positioned near KHI."
+        }
+      ]
+    },
+    "areas": {
+      "top_text": "Our Services",
+      "title": "Premium Service Standard",
+      "description": "WE PROVIDE SERVICE IN THESE KEY AREAS.",
+      "items": [
+        {
+          "title": "Jinnah International Airport Transfers",
+          "points": [
+            "KARACHI JINNAH INTERNATIONAL AIRPORT (KHI)",
+            "HOTELS NEAR KHI",
+            "KARACHI CITY CENTER",
+            "BUSINESS DISTRICTS SUCH AS DHA & CLIFTON"
+          ]
+        },
+        {
+          "title": "Pakistan Cities",
+          "points": [
+            "KARACHI",
+            "LAHORE",
+            "ISLAMABAD",
+            "RAWALPINDI",
+            "FAISALABAD",
+            "MULTAN",
+            "PESHAWAR"
+          ]
+        },
+        {
+          "title": "Pakistani Airports",
+          "points": [
+            "ALLAMA IQBAL INTERNATIONAL AIRPORT (LHE)",
+            "ISLAMABAD INTERNATIONAL AIRPORT (ISB)",
+            "SIALKOT INTERNATIONAL AIRPORT (SKT)",
+            "MULTAN INTERNATIONAL AIRPORT (MUX)",
+            "BACHA KHAN INTERNATIONAL AIRPORT (PEW)",
+            "QUETTA INTERNATIONAL AIRPORT (UET)"
+          ]
+        },
+        {
+          "title": "Hotel Transfers",
+          "points": [
+            "AIRPORT HOTELS NEAR KHI",
+            "HOTELS IN KARACHI CITY CENTER",
+            "BUSINESS HOTELS IN DHA & CLIFTON",
+            "HOTELS ACROSS MAJOR PAKISTANI CITIES"
+          ]
+        }
+      ]
+    },
+    "story2": {
+      "title": "Specialized Crew Logistics & Flexible Operations",
+      "description": "We recognize that airline and cargo operations often run on tight schedules and can change without notice. That is why our dedicated team monitors flight activity in real time, ensuring precise and timely pickups and drop-offs regardless of delays, schedule changes, or unexpected operational adjustments. Available 24/7, we remain flexible and ready to accommodate urgent requests and last-minute changes whenever needed.\n\nThrough years of experience serving international cargo airlines and aviation partners, we have developed specialized expertise in crew transportation logistics. We provide smooth, stress-free travel solutions designed around operational schedules and crew requirements. Our professional chauffeurs are experienced, discreet, and highly familiar with key aviation hubs including Jinnah International Airport, cargo terminals, and major hotels throughout Karachi and destinations across Pakistan.",
+      "points_title": "We Can Handle:",
+      "points": [
+        "Arrange transportation within 15 minutes",
+        "Handle urgent and unplanned crew movements",
+        "Provide immediate dispatch, even without prior booking"
+      ],
+      "points_description": "Beyond airport transfers, we also support airline crews with hotel assistance whenever accommodation arrangements have not yet been finalized. Leveraging our extensive local knowledge and industry network, we help identify comfortable and convenient accommodation options near Jinnah International Airport, Karachi city center, and other major Pakistani cities."
+    },
+    "cta": {
+      "title": "Book Cargo Crew Transport",
+      "description": "Our goal is straightforward: to provide dependable, efficient, and premium crew transportation services with a strong commitment to professionalism, operational flexibility, and outstanding personal care at every step of the journey."
+    }
+  },
+  "city_rides": {
+    "banner": {
+      "top_text": "City Rides",
+      "title": "City Ride Service",
+      "description": "Fixed Prices • Better Than Meter Rates • No Surprises. Professional private taxi service in Karachi."
+    },
+    "story1": {
+      "title": "Private City Rides in Karachi",
+      "description": "Whether you're visiting Clifton Beach, attending business meetings in DHA, exploring Saddar, or enjoying Karachi's vibrant dining scene, Airport Transfer ensures comfortable and reliable transportation. Our professional drivers know the city inside out, guaranteeing efficient routes and timely arrivals.",
+      "points_title": "Travel anywhere in Karachi with Airport Transfer, your trusted partner for private city transportation:",
+      "points": [
+        "Fixed prices agreed upfront",
+        "Better value compared to standard meter taxis",
+        "No hidden costs or unexpected charges",
+        "100% private rides – no sharing",
+        "Fast pickup anywhere in Karachi"
+      ],
+      "points_description": "Whether you're heading to a meeting, hotel, or event, we provide a smooth and comfortable ride every time."
+    },
+    "features": {
+      "top_text": "Why Choose Us",
+      "title": "Premium Service Standard",
+      "description": "WE DON'T JUST DO TAXI SERVICE; WE DELIVER A SEAMLESS DRIVING EXPERIENCE BACKED BY PROFESSIONAL SUPPORT AND MAINTENANCE.",
+      "items": [
+        {
+          "title": "Fixed Prices – No Surprises",
+          "description": "You always know the full cost before your ride begins. No unexpected charges."
+        },
+        {
+          "title": "Better Than Meter-Based Fares",
+          "description": "Avoid fluctuating taxi meters and enjoy consistent, transparent pricing."
+        },
+        {
+          "title": "Private & Comfortable",
+          "description": "Exclusive rides designed for your comfort and convenience. No sharing required."
+        },
+        {
+          "title": "Always On Time",
+          "description": "Punctual service you can rely on, every time. Available 24/7 across Karachi."
+        }
+      ]
+    },
+    "story2": {
+      "title": "Intercity Taxi Across Pakistan",
+      "description": "With Airport Transfer, you can travel between cities with comfort and clear pricing.",
+      "points_title": "Popular Routes:",
+      "points": [
+        "Karachi ↔ Lahore",
+        "Karachi ↔ Islamabad",
+        "Karachi ↔ Faisalabad",
+        "Karachi ↔ Multan",
+        "Karachi ↔ Hyderabad / Sukkur"
+      ]
+    },
+    "international": {
+      "top_text": "REGIONAL TRAVEL",
+      "title": "Long-Distance Private Rides",
+      "description": "Planning a longer journey? We provide smooth and private long-distance transportation.",
+      "items": [
+        {
+          "title": "Regional Destinations",
+          "points": [
+            "Karachi → Lahore"
+          ]
+        },
+        {
+          "title": "Regional Destinations",
+          "points": [
+            "Karachi → Islamabad"
+          ]
+        },
+        {
+          "title": "Regional Destinations",
+          "points": [
+            "Karachi → Peshawar"
+          ]
+        },
+        {
+          "title": "Regional Destinations",
+          "points": [
+            "Karachi → Quetta"
+          ]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Book Your Ride Now",
+      "description": "Book your ride for daily city travel, business transportation, events and meetings, leisure trips, and intercity travel. Fixed fare. Professional service. No surprises."
+    }
+  },
+  "hourly_ride": {
+    "banner": {
+      "top_text": "Hourly Rides",
+      "title": "Hourly Ride Service",
+      "description": "Flexible and reliable hourly chauffeur service. Premium cars by the hour for business trips, city tours, and events."
+    },
+    "story1": {
+      "title": "Hourly Taxi Service in Karachi",
+      "description1": "Looking for a flexible and reliable hourly taxi service in Karachi? Airport Transfer offers premium chauffeur-driven cars by the hour, perfect for business trips, city tours, airport transfers, and special events.",
+      "description2": "With our hourly service, you get a private driver at your disposal, allowing you to travel comfortably without booking multiple rides."
+    },
+    "features": {
+      "top_text": "Why Choose Us",
+      "title": "Why Choose Our Hourly Taxi Service?",
+      "description": "WE DON'T JUST DO TAXI SERVICE; WE DELIVER A SEAMLESS DRIVING EXPERIENCE BACKED BY PROFESSIONAL SUPPORT AND MAINTENANCE.",
+      "items": [
+        {
+          "title": "Driver on Standby",
+          "description": "Your chauffeur stays with you throughout your booked time."
+        },
+        {
+          "title": "Unlimited Stops",
+          "description": "Travel anywhere within your booked time with multiple stops."
+        },
+        {
+          "title": "Fixed Hourly Rates",
+          "description": "No hidden fees or unexpected charges."
+        },
+        {
+          "title": "Professional Drivers",
+          "description": "Experienced and courteous chauffeurs for your comfort."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Book Your Hourly Taxi Today",
+      "description": "Call us now or book online to reserve your hourly chauffeur service."
+    }
+  },
+  "private_jet": {
+    "banner": {
+      "top_text": "Private Jet Transfer",
+      "title": "Private Jet Transfer Service",
+      "description": "Professional transportation for private aviation clients. Exclusive service to and from KHI VIP terminals and private aviation facilities."
+    },
+    "story1": {
+      "title": "Executive Taxi Service for KHI Private Aviation",
+      "description1": "Airport Transfer provides professional private jet transfer service at Karachi Jinnah International Airport, including pickups and drop-offs at VIP terminals, the executive aviation area, and private jet facilities near KHI.",
+      "description2": "We serve business travelers, VIP guests, flight crews, and private aviation clients who need reliable ground transportation with comfort, privacy, and punctuality.",
+      "description3": "Our drivers understand the private aviation process at KHI and know how to handle time-sensitive arrivals and departures."
+    },
+    "features": {
+      "top_text": "Why Choose Us",
+      "title": "Why Choose Airport Transfer",
+      "items": [
+        {
+          "title": "Private Jet Experience",
+          "description": "We understand the needs of private aviation clients. Timing, discretion, and service quality matter. Our drivers arrive on time and monitor flight schedules when needed."
+        },
+        {
+          "title": "Direct KHI VIP Pickup",
+          "description": "We provide service to and from the KHI private aviation area with professional coordination and direct vehicle access."
+        },
+        {
+          "title": "Professional Service",
+          "description": "Our service is suitable for CEOs, executives, diplomats, business travelers, and premium clients who expect clean vehicles and professional drivers."
+        },
+        {
+          "title": "24/7 Availability",
+          "description": "Private jet schedules can change at any time. Airport Transfer is available day and night for airport transfers and executive travel."
+        },
+        {
+          "title": "Fixed Rates Available",
+          "description": "We offer clear pricing for airport transfers so clients know what to expect. Transparent and professional pricing."
+        },
+        {
+          "title": "15-Min Response",
+          "description": "Last-minute crew transport available. Thanks to our location near KHI, we can arrange transportation within 15 minutes."
+        }
+      ]
+    },
+    "story2": {
+      "title": "Private Jet Transfer Destinations",
+      "description": "With Airport Transfer, you can travel between cities with comfort and clear pricing.",
+      "points_title": "We provide private jet taxi transfers from Karachi Jinnah to many destinations:",
+      "points": [
+        "Karachi city center",
+        "Karachi hotels",
+        "DHA and Clifton business districts",
+        "Lahore",
+        "Islamabad",
+        "Faisalabad",
+        "Multan",
+        "Peshawar",
+        "Other major Pakistani cities"
+      ]
+    },
+    "story3": {
+      "title": "KHI Private Jet Pickup and Drop-Off",
+      "description1": "If you are flying from or arriving at the private jet center at Karachi Jinnah, Airport Transfer can arrange direct transportation with professional coordination. We aim to make every pickup and drop-off fast, easy, and stress-free.",
+      "description2": "For arriving passengers, your driver can be ready at the agreed meeting point near the private aviation terminal. For departing passengers, we ensure timely arrival so your journey starts without delay."
+    },
+    "cta": {
+      "title": "Book Your Private Jet Transfer",
+      "description": "Experience premium, punctual, and discreet transportation for your private jet travel. Book now for executive service at KHI."
+    }
+  },
+  "airport_transfer": {
+    "banner": {
+      "top_text": "Airport Transfer Service · Pakistan",
+      "title_line1": "Professional Airport Pickup & Drop-Off Services Across",
+      "title_accent": "Pakistan",
+      "description": "Whether you're arriving for business, tourism, family visits, or corporate travel — safe, reliable & available 24/7 nationwide.",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Luxury sedan for professional airport pickup and drop-off service in Pakistan"
+    },
+    "stats": {
+      "corporate_partners": "Corporate Partners",
+      "vip_transfers": "VIP Transfers",
+      "on_time_rate": "On-Time Rate",
+      "concierge_support": "Concierge Support"
+    },
+    "story": {
+      "image_alt": "Family enjoying a comfortable airport transfer with scenic mountain views in Pakistan",
+      "badge": {
+        "value": "10+",
+        "label": "Years of Excellence"
+      },
+      "title": "Premium Airport Transfers Pakistan",
+      "paragraphs": [
+        "Traveling to or from the airport should be comfortable, reliable, and stress-free. At AirportTransfers.pk, we provide premium airport transfer services across Pakistan, offering seamless transportation solutions for business travelers, tourists, families, airline crews, and corporate clients.",
+        "AirportTransfers.pk specializes in delivering a superior travel experience that goes beyond traditional airport taxis."
+      ],
+      "highlights": [
+        "Punctuality",
+        "Comfort",
+        "Professionalism",
+        "Safety",
+        "Transparent Pricing",
+        "Personalized Service"
+      ]
+    },
+    "premium_services": {
+      "top_text": "Our Services",
+      "title": "Our Premium Services",
+      "items": [
+        {
+          "icon": "PlaneLanding",
+          "title": "Airport Pickup",
+          "description": "Our airport pickup service ensures that your chauffeur is waiting for you upon arrival, ready to assist with your luggage and provide a smooth transfer.",
+          "points": [
+            "Professional chauffeur waiting at the airport",
+            "Flight monitoring and schedule adjustments",
+            "Comfortable air-conditioned vehicle",
+            "Assistance with luggage",
+            "Meet and greet service"
+          ]
+        },
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Airport Drop-Off",
+          "description": "Pakistan welcomes thousands of international visitors every year for tourism, business, and family travel.",
+          "featured": true,
+          "points": [
+            "Timely Pickups",
+            "Stress-Free Travel",
+            "Comfortable Journey",
+            "Professional Chauffeurs"
+          ]
+        },
+        {
+          "icon": "MapPin",
+          "title": "Meet & Greet",
+          "description": "Our meet and greet service provides personalized assistance at the airport, ensuring a smooth and welcoming start to your journey.",
+          "points": [
+            "International travelers",
+            "Corporate travelers",
+            "Families with children",
+            "First-time visitors to Pakistan"
+          ]
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Business Travel",
+          "description": "Business travelers require dependable transportation that reflects professionalism and efficiency.",
+          "points": [
+            "CEOs",
+            "Corporate executives",
+            "Business delegates",
+            "International investors",
+            "Conference attendees"
+          ]
+        },
+        {
+          "icon": "Users",
+          "title": "Family Transportation",
+          "description": "Our family-friendly airport transfer service provides spacious vehicles and professional drivers who understand the needs of family travelers.",
+          "points": [
+            "Large luggage capacity",
+            "Spacious seating",
+            "Child-friendly transportation",
+            "Door-to-door service"
+          ]
+        },
+        {
+          "icon": "Compass",
+          "title": "Tourist Services",
+          "description": "Our tourist airport transfer services help visitors travel comfortably from the airport to their destination.",
+          "points": [
+            "Islamabad",
+            "Murree",
+            "Lahore",
+            "Karachi",
+            "Skardu"
+          ]
+        }
+      ]
+    },
+    "why_choose": {
+      "title": "Why Choose AirportTransfers.pk?",
+      "description": "Thousands of travelers choose <highlight>AirportTransfers.pk</highlight> because we consistently deliver:",
+      "reasons": [
+        "Professional Chauffeurs",
+        "24/7 Availability",
+        "Nationwide Coverage",
+        "Luxury Fleet Options",
+        "Meet & Greet Service",
+        "Flight Monitoring",
+        "Fixed Pricing",
+        "Safe & Reliable Transportation",
+        "Corporate Travel Solutions",
+        "Exceptional Customer Service"
+      ],
+      "highlight": {
+        "title": "Our Mission",
+        "description": "Provide the most reliable airport transfer service in Pakistan while ensuring every passenger enjoys a comfortable and stress-free travel experience."
+      },
+      "sidebar": {
+        "title": "Book Your Airport Transfer Today",
+        "subtitle": "Travel Smarter With AirportTransfers.Pk.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ],
+        "button": "Book Now"
+      }
+    },
+    "pre_booking": {
+      "top_text": "Why Book Airport Transfer",
+      "title": "Benefits of Pre-Booking Airport Transfers",
+      "description": "Many travelers wait until they arrive at the airport to arrange transportation. While this may seem convenient, pre-booking offers significant advantages.",
+      "items": [
+        {
+          "icon": "Calendar",
+          "title": "Guaranteed Vehicle Availability",
+          "description": "Your transportation is reserved specifically for your journey."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Fixed & Transparent Pricing",
+          "description": "Know your fare in advance with no hidden costs."
+        },
+        {
+          "icon": "Calendar",
+          "title": "No Waiting in Taxi Lines",
+          "description": "Proceed directly to your waiting chauffeur."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Professional Service",
+          "description": "Receive consistent, high-quality transportation."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Better Travel Planning",
+          "description": "Coordinate your transportation before departure."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Increased Safety",
+          "description": "Travel with licensed, professional chauffeurs and well-maintained vehicles."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Enhanced Comfort",
+          "description": "Choose the vehicle that best suits your travel needs."
+        }
+      ]
+    }
+  },
+  "city_ride": {
+    "banner": {
+      "top_text_primary": "City Ride Service",
+      "top_text_suffix": "Pakistan",
+      "title_line1": "City-to-City",
+      "title_accent": "Rides Across Pakistan",
+      "description": "City Rides service offers professional chauffeur-driven transportation for individuals, families, tourists, corporate travelers, and groups seeking a reliable alternative to public transport, buses, or domestic flights.",
+      "book_ride": "Book Your Ride",
+      "view_fleets": "View Fleets",
+      "image_alt": "Black SUV on a scenic mountain road in Pakistan for city-to-city chauffeur service"
+    },
+    "stats": {
+      "corporate_partners": "Corporate Partners",
+      "vip_transfers": "VIP Transfers",
+      "on_time_rate": "On-Time Rate",
+      "concierge_support": "Concierge Support"
+    },
+    "story": {
+      "image_alt": "Mountain resort scenery in Pakistan for private city-to-city travel",
+      "badge": {
+        "value": "10+",
+        "label": "Years of Excellence"
+      },
+      "title": "Travel Pakistan on Your Schedule",
+      "intro": "Unlike public transportation, our private city-to-city rides give you complete control over your travel experience.",
+      "numbered_points": [
+        {
+          "number": "01",
+          "text": "No crowded buses."
+        },
+        {
+          "number": "02",
+          "text": "No unnecessary stops."
+        },
+        {
+          "number": "03",
+          "text": "No waiting for departures."
+        }
+      ],
+      "closing_paragraphs": [
+        "Simply choose your pickup location, destination, preferred vehicle, and travel time — we'll handle the rest.",
+        "Our professional chauffeurs arrive at your chosen location and transport you directly to your destination with maximum comfort and efficiency."
+      ]
+    },
+    "premium_services": {
+      "top_text": "Why Choose Us",
+      "title": "Why Choose Private Intercity Transportation?",
+      "items": [
+        {
+          "icon": "PlaneTakeoff",
+          "title": "Door-to-Door Service",
+          "description": "We pick you up from your home, hotel, office, airport, or any designated location and drop you directly at your destination."
+        },
+        {
+          "icon": "PlaneLanding",
+          "title": "Comfortable Travel Experience",
+          "description": "Enjoy spacious seating, air-conditioned vehicles, and a relaxing environment throughout your journey.",
+          "featured": true
+        },
+        {
+          "icon": "MapPin",
+          "title": "Flexible Departure Times",
+          "description": "Travel according to your schedule rather than fixed bus or train timetables."
+        },
+        {
+          "icon": "Briefcase",
+          "title": "Professional Chauffeurs",
+          "description": "Experienced drivers familiar with highways, city routes, and long-distance travel ensure a safe journey."
+        },
+        {
+          "icon": "Users",
+          "title": "Fixed Pricing",
+          "description": "Transparent pricing with no hidden fees or unexpected charges."
+        },
+        {
+          "icon": "Compass",
+          "title": "Privacy & Convenience",
+          "description": "Perfect for business travelers, families, tourists, and VIP passengers who value privacy and comfort."
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "title": "Reserve Your City-to-City Ride Today",
+        "subtitle": "Travel Smarter With AirportTransfers.Pk.",
+        "features": [
+          "24/7 Availability",
+          "Professional Chauffeurs",
+          "Luxury Fleet",
+          "Flight Monitoring",
+          "Fixed Pricing",
+          "Nationwide Coverage"
+        ],
+        "button": "Book Now"
+      },
+      "title": "Why Choose AirportTransfers.pk?",
+      "description": "Thousands of travelers choose <highlight>AirportTransfers.pk</highlight> because we consistently deliver:",
+      "reasons": [
+        "Professional Chauffeurs",
+        "24/7 Availability",
+        "Nationwide Coverage",
+        "Luxury Fleet Options",
+        "Meet & Greet Service",
+        "Flight Monitoring",
+        "Fixed Pricing",
+        "Safe & Reliable Transportation",
+        "Corporate Travel Solutions",
+        "Exceptional Customer Service"
+      ],
+      "highlight": {
+        "title": "Safety First on Every Journey",
+        "description": "At AirportTransfers.pk, safety remains our highest priority. We follow strict operational standards to ensure every trip is secure and dependable.",
+        "list_title": "Our Safety Standards Include:",
+        "list_items": [
+          "Professionally trained chauffeurs",
+          "Licensed drivers",
+          "Regular vehicle maintenance",
+          "GPS-monitored journeys",
+          "Sanitized interiors",
+          "Long-distance travel expertise"
+        ]
+      }
+    },
+    "pre_booking": {
+      "top_text": "Why Book Airport Transfer",
+      "title": "Benefits of Booking a Private City Ride",
+      "description": "Why choose AirportTransfers.pk instead of buses, trains, or standard taxis?",
+      "items": [
+        {
+          "icon": "Calendar",
+          "title": "Greater Comfort",
+          "description": "Travel in spacious, air-conditioned vehicles."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Direct Transportation",
+          "description": "No unnecessary stops or route changes."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Better Time Management",
+          "description": "Travel according to your own schedule."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Increased Safety",
+          "description": "Travel with licensed, professional chauffeurs and well-maintained vehicles."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Safer Travel Experience",
+          "description": "Professional drivers and well-maintained vehicles."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Flexible Vehicle Options",
+          "description": "Choose from executive sedans, SUVs, or group transportation vehicles."
+        },
+        {
+          "icon": "Calendar",
+          "title": "Enhanced Privacy",
+          "description": "Ideal for business travelers and families."
+        }
+      ]
+    },
+    "customized_travel": {
+      "title": "Customized Intercity Travel Solutions",
+      "description": "Beyond our popular routes, AirportTransfers.pk provides customized city-to-city transportation throughout Pakistan.",
+      "feature": {
+        "image_alt": "Scenic mountain lake destination in northern Pakistan for intercity travel",
+        "title": "Travel Anywhere in Pakistan",
+        "description": "Whether you're traveling between major cities, tourist destinations, airports, or remote locations, our team can create a transportation solution tailored to your needs."
+      },
+      "routes": {
+        "title": "Popular Customized Routes",
+        "items": [
+          "Islamabad to Murree",
+          "Islamabad to Naran",
+          "Islamabad to Hunza",
+          "Islamabad to Skardu",
+          "Lahore to Islamabad",
+          "Lahore to Faisalabad",
+          "Karachi to Hyderabad",
+          "Multan to Lahore",
+          "Peshawar to Islamabad",
+          "Faisalabad to Lahore"
+        ],
+        "footer": "If your route is not listed, simply contact our team for a personalized travel quote.",
+        "cta": "Request a Quote"
+      }
+    },
+    "corporate_travel": {
+      "title": "Business & Corporate Intercity Travel",
+      "description": "Business travel demands reliability, punctuality, and professionalism. Our executive transportation services are designed to support organizations, corporate executives, government officials, and international visitors traveling between cities.",
+      "benefits_title": "Corporate Benefits:-",
+      "benefits": [
+        "Professional Chauffeurs",
+        "Luxury Executive Vehicles",
+        "Flexible Scheduling",
+        "Confidential Transportation",
+        "Reliable Service Standards",
+        "Corporate Account Options"
+      ],
+      "button": "Corporate Travel Solutions"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "fleets": "Fleets",
+    "about": "About",
+    "partner": "Partner With Us",
+    "contact": "Contact Us",
+    "business": "Business",
+    "services_list": {
+      "airport_transfer": "Airport Transfer",
+      "airline_crew": "Airline Crew",
+      "city_rides": "City Rides",
+      "hourly_ride": "Hourly Ride",
+      "cargo_crew": "Cargo Crew",
+      "private_jet": "Private Jet Transfer"
+    },
+    "business_list": {
+      "solutions": "Business Solutions"
+    }
+  },
+  "buttons": {
+    "book_now": "Book Now",
+    "learn_more": "Learn More",
+    "sign_in": "Sign-in",
+    "subscribe": "Subscribe",
+    "apply": "Apply"
+  },
+  "languages": {
+    "en": "English"
+  },
+  "footer": {
+    "description": "Airport Transfer – Your trusted partner for reliable, comfortable, and professional airport transportation across Pakistan.",
+    "quick_links": "Quick Links",
+    "our_services": "Our Services",
+    "popular_airports": "Popular Airports",
+    "contact_info": "Contact Info",
+    "copyright": "Copyright",
+    "rights": "All rights reserved.",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "fleet": "Fleet",
+      "partner": "Partner With Us",
+      "contact": "Contact",
+      "help_desk": "Help Desk",
+      "privacy_policy": "Privacy Policy",
+      "terms": "Terms and Conditions",
+      "disclaimer": "Disclaimer"
+    }
+  },
+  "airports": {
+    "karachi_jinnah": "Karachi Jinnah International Airport",
+    "islamabad": "Islamabad International Airport",
+    "gwadar": "Gwadar International Airport",
+    "lahore": "Lahore Allama Iqbal Airport",
+    "skardu": "Skardu Airport",
+    "peshawar": "Peshawar Bacha Khan Airport",
+    "multan": "Multan International Airport",
+    "faisalabad": "Faisalabad International Airport",
+    "sialkot": "Sialkot International Airport",
+    "quetta": "Quetta International Airport",
+    "sukkur": "Sukkur Airport"
+  },
+  "vehicle": {
+    "bags": "Bags",
+    "seats": "Seats",
+    "passengers": "Passengers",
+    "similar": "or similar"
+  },
+  "booking_form": {
+    "categories": {
+      "one_way": "One-way",
+      "return": "Return-Trip",
+      "hourly": "By the Hour"
+    },
+    "labels": {
+      "from": "From",
+      "to": "To",
+      "duration": "Duration",
+      "pickup_date": "Pickup date",
+      "pickup_time": "Pickup time",
+      "return_date": "Return date",
+      "return_time": "Return time",
+      "passengers": "Passengers"
+    },
+    "placeholders": {
+      "pickup": "Pickup Address",
+      "dropoff": "Drop Off Address",
+      "location": "Address, airport, hotel, ...",
+      "duration": "Select Duration",
+      "date": "Pickup Date",
+      "time": "Pickup Time",
+      "return_date": "Return Date",
+      "return_time": "Return Time"
+    },
+    "buttons": {
+      "add_return": "Add Return",
+      "remove_return": "Remove Return",
+      "see_prices": "See prices"
+    },
+    "notes": {
+      "chauffeur_wait": "Chauffeur waits up to 45 minutes free at the airport."
+    },
+    "messages": {
+      "location_updated": "Pickup address updated to your current location.",
+      "location_error": "Could not resolve your current location address.",
+      "settings_loading": "Booking settings are not loaded yet. Please try again in a moment.",
+      "general_error": "Could not continue. Please try again."
+    },
+    "stops": {
+      "stop": "Stop",
+      "extra": "Extra",
+      "placeholder": "Address, airport, hotel, ..."
+    }
+  },
+  "maintenance": {
+    "title": "Maintenance",
+    "heading": "We are under maintenance.",
+    "description": "We're making the system more awesome.",
+    "description_line_2": "We'll be back shortly.",
+    "contact_us": "Contact Us",
+    "links": {
+      "privacy": "Privacy Policy",
+      "faq": "FAQ",
+      "contact": "Email Us"
+    }
+  },
+  "coming_soon": {
+    "title": "Coming Soon",
+    "eyebrow": "Coming soon",
+    "heading": "Get notified when we launch",
+    "description": "We're putting the finishing touches on a better way to book airport transfers across Pakistan. Leave your email and we'll notify you as soon as we're live.",
+    "email_placeholder": "Enter your email",
+    "notify_button": "Notify me",
+    "submitting": "Submitting...",
+    "success_message": "Thanks! We'll notify you when we launch.",
+    "email_required": "Email is required",
+    "email_invalid": "Please enter a valid email address",
+    "spam_disclaimer": "We respect your privacy. No spam, ever."
+  },
+  "dashboard": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "bookings": "My Bookings",
+      "payments": "My Payments",
+      "statements": "Statements",
+      "profile": "Profile"
+    },
+    "logout": "Log out",
+    "logging_out": "Logging out...",
+    "loading": "Loading...",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "deleting": "Deleting...",
+    "continue": "Continue"
+  }
+}

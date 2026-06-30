@@ -1,0 +1,108 @@
+{
+  "banner": {
+    "top_text": "Documentation",
+    "title": "Help Desk & FAQ",
+    "description": "Comprehensive guide and frequently asked questions to help you manage your bookings and travel."
+  },
+  "sections": {
+    "general": {
+      "category": "General",
+      "title": "Frequently Asked Questions",
+      "description": "General information about our services, booking process, and company policies."
+    },
+    "complications": {
+      "category": "Booking Issues",
+      "title": "Handling Booking Complications",
+      "description": "Solutions and guidance for common issues encountered during or after the booking process."
+    },
+    "management": {
+      "category": "Management",
+      "title": "By Booking",
+      "description": "How to manage, view, or cancel your existing bookings through our platform."
+    },
+    "travel": {
+      "category": "Travel",
+      "title": "Travel & Arrival Issues",
+      "description": "Information regarding flight delays, lost items, and arrival procedures."
+    }
+  },
+  "faqs": {
+    "booking_advance": {
+      "question": "How far in advance can I make a booking online?",
+      "answer": "We accept bookings online that are <strong_p>at least 4 hours in advance</strong_p>. (from Monday to Sunday). Do you need a taxi or chauffeur service within 3 hours? Call <strong_s>+92 21 111 247 247</strong_s> to check availability."
+    },
+    "airport_meeting": {
+      "question": "Where can I meet my driver?",
+      "answer": "You can meet your driver at the designated pickup area outside Jinnah International Airport arrivals.\n\nAfter clearing immigration and collecting your luggage, exit the arrivals hall and proceed to the meeting point shown in your confirmation email. Your driver will display your name or company sign. If you cannot locate your driver, call the number in your booking confirmation immediately."
+    },
+    "cancellation": {
+      "question": "What's your cancellation policy?",
+      "answer": "Cancellations made more than 24 hours before the scheduled pickup time are generally free of charge. For specific details, please refer to our full terms and conditions."
+    },
+    "payment": {
+      "question": "Which payment method do you accept?",
+      "answer": "We accept all major credit cards, PayPal, and JazzCash. You can pay securely online at the time of booking via our secure payment gateway."
+    },
+    "wait_time": {
+      "question": "How long will the driver wait for us at the Airport?",
+      "answer": "For airport pickups, we include 60 minutes of free waiting time from the actual flight arrival time to allow for luggage collection and customs."
+    },
+    "vip_pickup": {
+      "question": "VIP Pickup?",
+      "answer": "Our VIP Pickup service includes a premium vehicle, meet-and-greet at the arrival hall, and dedicated luggage assistance for a seamless experience."
+    },
+    "luggage": {
+      "question": "Travel information/Luggage's",
+      "answer": "Please ensure you specify the correct number of passengers and luggage items during booking. This helps us assign the most suitable vehicle for your comfort."
+    },
+    "no_journey": {
+      "question": "The journey did not take place",
+      "answer": "If you could not find the driver and the journey did not take place, submit a <a>refund request here</a>."
+    },
+    "no_phone": {
+      "question": "The driver or transfer company does not pick up the phone",
+      "answer": "If you cannot reach the driver, please contact our 24/7 support line immediately. We will help coordinate with the driver or arrange an alternative."
+    },
+    "no_meeting_point": {
+      "question": "I can't find my driver or meeting point",
+      "answer": "Please double-check your confirmation email for exact instructions. If you're still unable to locate the driver, call them directly via the number provided."
+    },
+    "cancel_booking": {
+      "question": "Cancel my booking",
+      "answer": "Please login with your <strong>customer ID and password</strong> which is already sent to your email. If you have any questions contact us directly on quoting your booking ID and we will be delighted to assist you further."
+    },
+    "change_booking": {
+      "question": "Change My Booking",
+      "answer": "You can modify your booking details by logging into your account or by reaching out to our customer service team."
+    },
+    "view_booking": {
+      "question": "View My Booking",
+      "answer": "Access all your booking details, including driver info and status, by logging into your customer portal."
+    },
+    "flight_delayed": {
+      "question": "My flight is delayed",
+      "answer": "When your flight is delayed or cancelled, please call the driver or transfer company directly. If you choose not to call the provider, he might leave the pickup point and you risk not getting your transfer."
+    },
+    "left_item": {
+      "question": "I left an item in the car",
+      "answer": "Please contact us immediately with your booking ID. We will coordinate with the driver to help you retrieve your lost items as soon as possible."
+    },
+    "late_transfer": {
+      "question": "I will be late for my transfer",
+      "answer": "If you anticipate being late, notify your driver or our support team immediately. Please note that waiting fees may apply after the complimentary waiting period."
+    },
+    "local_taxis_connected": {
+      "question": "Are local airport taxis connected with Airport Transfer?",
+      "answer": "No. Local taxis operating at Karachi Airport are independent services and are not associated with Airport Transfer unless the ride was booked directly through our website."
+    },
+    "responsible_all_taxis": {
+      "question": "Is Airport Transfer responsible for all taxis at Karachi Airport?",
+      "answer": "No. Airport Transfer is only responsible for rides that are officially booked and confirmed through our website. We are not responsible for local airport taxis or rides booked on the airport."
+    }
+  },
+  "cta": {
+    "title": "Can’t find what you’re looking for?",
+    "description": "If you can’t find an answer to your question in our Help Desk, our support team is happy to help you with your booking.",
+    "button": "Contact Support"
+  }
+}

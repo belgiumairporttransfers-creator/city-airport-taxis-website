@@ -1,0 +1,32 @@
+{
+  "badge": "FAQ's",
+  "title": "Frequently Asked Questions",
+  "description": "Everything you need to know about booking an airport transfer across Belgium.",
+  "description_secondary": "Can't find the answer you're looking for? Contact our support team—we're happy to help.",
+  "items": [
+    {
+      "question": "How do I book an airport transfer in Belgium?",
+      "answer": "You can book online through our website in just a few minutes. Enter your pickup and drop-off locations, choose your vehicle, and confirm your booking to receive instant confirmation."
+    },
+    {
+      "question": "Which Belgian airports do you serve?",
+      "answer": "We provide transfers to and from all major Belgian airports, including Brussels (Zaventem), Brussels South Charleroi, Antwerp, Liège, and Ostend-Bruges."
+    },
+    {
+      "question": "Are your services available 24/7?",
+      "answer": "Yes. We operate 24 hours a day, 7 days a week, including weekends and public holidays, so you can travel whenever you need."
+    },
+    {
+      "question": "Do you monitor flight delays?",
+      "answer": "Yes. We track your flight in real time and automatically adjust your pickup time if your flight is delayed or arrives early—at no extra charge."
+    },
+    {
+      "question": "Can I book transfers outside major cities?",
+      "answer": "Yes. In addition to Brussels, Antwerp, Charleroi, and Liège, we arrange door-to-door transfers to hotels, offices, and destinations across Belgium."
+    },
+    {
+      "question": "Are your prices fixed?",
+      "answer": "Yes. You receive a clear fixed price when you book—no hidden fees or meter surprises. The fare is confirmed before you travel."
+    }
+  ]
+}
