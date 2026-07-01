@@ -71,7 +71,7 @@ export const Counter: React.FC<CounterProps> = ({
         )}
       >
         {label ? (
-          <span className="text-sm font-bold text-foreground">{label}</span>
+          <span className="text-sm font-medium text-foreground">{label}</span>
         ) : null}
         <div className="mt-auto flex items-end justify-between gap-3">
           <span className="text-lg font-medium text-foreground md:text-xl">{getDisplayValue()}</span>
@@ -81,18 +81,18 @@ export const Counter: React.FC<CounterProps> = ({
               onClick={() => onChange(Math.max(resolvedMin, currentValue - step))}
               disabled={disabled || currentValue <= resolvedMin}
               aria-label="Decrease quantity"
-              className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-md bg-black text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:bg-gray-400 disabled:opacity-100"
+              className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-md bg-secondary/50 text-white transition-colors hover:bg-secondary/60 disabled:cursor-not-allowed"
             >
-              <Minus className="h-3.5 w-3.5" strokeWidth={2.5} />
+              <Minus className="h-3.5 w-3.5 text-white" strokeWidth={2.5} />
             </button>
             <button
               type="button"
               onClick={() => onChange(Math.min(resolvedMax, currentValue + step))}
               disabled={disabled || currentValue >= resolvedMax}
               aria-label="Increase quantity"
-              className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-md bg-black text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:bg-gray-400 disabled:opacity-100"
+              className="flex h-7 w-7 cursor-pointer items-center justify-center rounded-md bg-secondary text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed"
             >
-              <Plus className="h-3.5 w-3.5" strokeWidth={2.5} />
+              <Plus className="h-3.5 w-3.5 text-white" strokeWidth={2.5} />
             </button>
           </div>
         </div>

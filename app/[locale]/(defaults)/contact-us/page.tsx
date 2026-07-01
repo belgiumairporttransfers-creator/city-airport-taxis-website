@@ -29,7 +29,7 @@ export default async function ContactPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 imageAlt={t("banner.image_alt")}
                 topText={
                     <>

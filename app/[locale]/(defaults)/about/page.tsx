@@ -35,7 +35,7 @@ export default async function AboutPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.ABOUT_BANNER}
+                image={IMAGES.ABOUT.BANNER}
                 imageAlt={t("banner.image_alt")}
                 topText={
                     <>
@@ -61,7 +61,7 @@ export default async function AboutPage() {
             />
             <StorySection
                 className="pt-42 pb-12 sm:pt-42 md:pt-52 md:pb-16"
-                image={IMAGES.ABOUT_US.STORY_IMAGE}
+                image={IMAGES.ABOUT.STORY}
                 imageAlt={t("story.image_alt")}
                 topText={t("story.top_text")}
                 title={t("story.title")}
@@ -76,7 +76,7 @@ export default async function AboutPage() {
                 items={t.raw("mission_vision.items") as MissionVisionItem[]}
             />
             <AboutDriversSafetySection
-                image={IMAGES.ABOUT_US.DRIVERS_PANEL}
+                image={IMAGES.ABOUT.DRIVERS_PANEL}
                 drivers={t.raw("drivers_safety.drivers") as DriversSafetyPanel}
                 safety={{
                     title: t("drivers_safety.safety.title"),
@@ -90,7 +90,7 @@ export default async function AboutPage() {
             />
             <NationwideCoverageSection
                 title={tCoverage("nationwide.title")}
-                image={IMAGES.ABOUT_US.NATIONWIDE_COVERAGE}
+                image={IMAGES.ABOUT.NATIONWIDE_COVERAGE}
                 imageAlt={tCoverage("nationwide.image_alt")}
                 categories={tCoverage.raw("nationwide.categories") as CoverageCategory[]}
             />

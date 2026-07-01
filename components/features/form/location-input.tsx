@@ -15,12 +15,12 @@ export interface LocationInputProps {
     error?: boolean
 }
 
-/** Biases Place Autocomplete to the Netherlands (approximate bounding box). */
-const NETHERLANDS_BOUNDS: google.maps.LatLngBoundsLiteral = {
-    north: 53.6,
-    south: 50.7,
-    west: 3.3,
-    east: 7.2,
+/** Biases Place Autocomplete to Belgium (approximate bounding box). */
+const BELGIUM_BOUNDS: google.maps.LatLngBoundsLiteral = {
+    north: 51.55,
+    south: 49.45,
+    west: 2.45,
+    east: 6.45,
 }
 
 export const LocationInput = React.forwardRef<HTMLInputElement, LocationInputProps>(
@@ -69,8 +69,8 @@ export const LocationInput = React.forwardRef<HTMLInputElement, LocationInputPro
                 serviceRef.current.getPlacePredictions(
                     {
                         input: newValue,
-                        bounds: NETHERLANDS_BOUNDS,
-                        componentRestrictions: { country: "nl" },
+                        bounds: BELGIUM_BOUNDS,
+                        componentRestrictions: { country: "be" },
                     },
                     (results, status) => {
                         setLoading(false)
@@ -145,7 +145,7 @@ export const LocationInput = React.forwardRef<HTMLInputElement, LocationInputPro
                     )}
                 >
                     {label ? (
-                        <p className="mb-1.5 text-sm font-bold text-foreground">{label}</p>
+                        <p className="mb-1.5 text-sm font-medium text-foreground">{label}</p>
                     ) : null}
                     <div className="flex items-center gap-2.5">
                         <LocationDotIcon
@@ -212,7 +212,7 @@ export const LocationInput = React.forwardRef<HTMLInputElement, LocationInputPro
                         <div className="px-4 py-2 bg-gray-50/50 border-t border-gray-100 flex items-center justify-between">
                             <div className="flex items-center gap-1">
                                 <span suppressHydrationWarning className="text-sm text-gray-400 font-semibold">powered by</span>
-                                <span suppressHydrationWarning className="text-sm font-bold tracking-tight uppercase text-secondary">Airport Transfer</span>
+                                <span suppressHydrationWarning className="text-sm font-semibold tracking-tight uppercase text-secondary">City Airport Taxi</span>
                             </div>
                             {loading && <Loader2 className="w-3 h-3 animate-spin text-gray-400" />}
                         </div>

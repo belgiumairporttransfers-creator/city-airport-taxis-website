@@ -14,7 +14,7 @@ interface FooterLinksColumnProps {
 export default function FooterLinksColumn({ title, links }: FooterLinksColumnProps) {
   return (
     <div className="flex flex-col items-start">
-      <h3 className="mb-5 text-sm font-semibold tracking-[0.08em] text-white uppercase">{title}</h3>
+      <h3 className="mb-5 text-sm font-semibold tracking-[0.08em] text-secondary uppercase">{title}</h3>
       <ul className="space-y-2.5">
         {links.map((item, index) => (
           <li key={index}>

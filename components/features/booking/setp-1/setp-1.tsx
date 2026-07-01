@@ -294,7 +294,7 @@ function Step1() {
 
           <Button
             type="submit"
-            className="bg-black py-6"
+            className="bg-secondary py-6"
             loading={
               isLoading ||
               calculateRoute.isPending

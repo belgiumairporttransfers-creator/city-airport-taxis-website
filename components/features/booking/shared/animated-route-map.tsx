@@ -5,8 +5,8 @@ import { useBookingStore } from "@/store/use-booking-store";
 import { loadGoogleMaps } from "@/lib/google-maps-loader";
 import { formatDisplayTime, parseAddress } from "@/lib/utils";
 
-const ROUTE_COLOR = "#111827";
-const DROP_OFF_ACCENT = "#f9b233";
+const PRIMARY_COLOR = "#000000";
+const SECONDARY_COLOR = "#6B9AF2";
 
 const MAP_STYLES: google.maps.MapTypeStyle[] = [
   { elementType: "geometry", stylers: [{ color: "#f5f5f5" }] },
@@ -47,30 +47,7 @@ function createRouteLabelOverlay(
     private container: HTMLDivElement | null = null;
 
     onAdd() {
-      /**
-       * Layout strategy
-       * ───────────────
-       * The container is a zero-size anchor placed exactly at the map point.
-       * Everything inside uses absolute positioning relative to that anchor.
-       *
-       *  • The pin SVG is centered horizontally on the anchor (translateX -50%)
-       *    and sits *above* the anchor — its tip (bottom of the SVG) touches y=0.
-       *    So the pin body occupies  top: -(PIN_HEIGHT)  to  top: 0.
-       *
-       *  • The label card sits above the pin with a small gap:
-       *      bottom of card = top of pin = -(PIN_HEIGHT) - gap
-       *    i.e.  top: -(PIN_HEIGHT + cardHeight + gap)
-       *    We can't know cardHeight at creation time, so we use `bottom` on the
-       *    label instead, anchored to the top of the pin.
-       *
-       *  • Horizontal alignment:
-       *      labelAlign="left"  → card starts at the pin center → left: 0
-       *      labelAlign="right" → card ends at the pin center   → right: 0
-       *    Both values keep the card within a short distance of the pin.
-       */
-
       const container = document.createElement("div");
-      // Zero-size anchor; children overflow in all directions via absolute pos
       container.style.cssText = `
         position: absolute;
         width: 0;
@@ -248,7 +225,7 @@ function createRouteLabelOverlay(
 const getCarIcon = (): google.maps.Icon => ({
   url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <rect x="5" y="5" width="14" height="14" rx="4" ry="4" fill="${DROP_OFF_ACCENT}" stroke="#ffffff" stroke-width="2"/>
+      <rect x="5" y="5" width="14" height="14" rx="4" ry="4" fill="${SECONDARY_COLOR}" stroke="#ffffff" stroke-width="2"/>
     </svg>
   `)}`,
   scaledSize: new google.maps.Size(20, 20),
@@ -303,7 +280,7 @@ function AnimatedRouteMap() {
       clearOverlays();
 
       const map = new google.maps.Map(mapRef.current, {
-        center: { lat: 52.3676, lng: 4.9041 },
+        center: { lat: 50.8503, lng: 4.3517 },
         zoom: 11,
         disableDefaultUI: true,
         styles: MAP_STYLES,
@@ -314,7 +291,7 @@ function AnimatedRouteMap() {
         suppressMarkers: true,
         preserveViewport: true,
         polylineOptions: {
-          strokeColor: ROUTE_COLOR,
+          strokeColor: SECONDARY_COLOR,
           strokeWeight: 5,
           strokeOpacity: 1,
         },
@@ -357,7 +334,7 @@ function AnimatedRouteMap() {
               categoryLabel: "Pick up",
               locationName: pickupLocation,
               time: pickupTime,
-              accentColor: ROUTE_COLOR,
+              accentColor: PRIMARY_COLOR,
               labelAlign: "left",
               showPlaneIcon: routeData?.isAirportSelected,
             });
@@ -370,7 +347,7 @@ function AnimatedRouteMap() {
               categoryLabel: "Drop-off",
               locationName: dropOffLocation,
               time: dropOffTime,
-              accentColor: DROP_OFF_ACCENT,
+              accentColor: SECONDARY_COLOR,
               labelAlign: "right",
             });
             dropOffOverlay.setMap(map);

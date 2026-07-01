@@ -20,7 +20,7 @@ export default async function PartnerWithUsRegisterPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("partner_register.banner.top_text")}
                 title={t("partner_register.banner.title")}
                 description={t("partner_register.banner.description")}

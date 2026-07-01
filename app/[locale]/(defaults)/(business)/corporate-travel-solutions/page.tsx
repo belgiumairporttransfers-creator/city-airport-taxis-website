@@ -33,7 +33,7 @@ export default async function CorporateTravelSolutionsPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.CORPORATE_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("corporate.banner.top_text")}
                 title={t("corporate.banner.title")}
                 description={t("corporate.banner.description")}
@@ -44,7 +44,7 @@ export default async function CorporateTravelSolutionsPage() {
             />
             <FeaturesStats items={translatedStats} />
             <StorySection
-                image={IMAGES.ABOUT_US.STORY_IMAGE}
+                image={IMAGES.ABOUT.STORY}
                 topText={t("corporate.story.top_text")}
                 title={t("corporate.story.title")}
                 description={t("corporate.story.description")}
@@ -103,7 +103,7 @@ export default async function CorporateTravelSolutionsPage() {
             />
             <FleetSection />
             <ParallaxCardsSection
-                image={IMAGES.CORPORATE_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("corporate.parallax.top_text")}
                 title={t("corporate.parallax.title")}
                 description={t("corporate.parallax.description")}

@@ -106,7 +106,7 @@ export default function TimePicker({
           }}
         >
           {label ? (
-            <span className="mb-1.5 block text-left text-sm font-bold text-foreground">
+            <span className="mb-1.5 block text-left text-sm font-medium text-foreground">
               {label}
             </span>
           ) : null}

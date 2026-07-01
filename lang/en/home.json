@@ -23,6 +23,34 @@
       }
     }
   },
+  "cities": {
+    "heading": "Pre-Book Your",
+    "headingHighlight": "Airport Transfer",
+    "suffix": "Across Major Cities",
+    "description": "Travel smoothly with premium transfers between Brussels Airport and major cities across Belgium and neighbouring regions — including Paris, Luxembourg, Antwerp, and beyond.",
+    "prev": "Previous cities",
+    "next": "Next cities",
+    "items": {
+      "paris": {
+        "name": "Paris"
+      },
+      "luxembourg": {
+        "name": "Luxembourg"
+      },
+      "antwerp": {
+        "name": "Antwerp Transfer"
+      },
+      "brussels": {
+        "name": "Brussels"
+      },
+      "ghent": {
+        "name": "Ghent"
+      },
+      "liege": {
+        "name": "Liège"
+      }
+    }
+  },
   "destinations": {
     "badge": "Airports We Cover",
     "title": "Major Belgian Airports Served",
@@ -169,6 +197,40 @@
     ],
     "image_alt": "Professional airport transfer booking for travel across Belgium"
   },
+  "servicesSection": {
+    "heading": "Explore Our",
+    "headingHighlight": "Premium",
+    "suffix": "Services in Belgium",
+    "subtitle": "From airport transfers to corporate travel and embassy delegations — professional taxi services across Brussels and Belgium.",
+    "read_more": "Read More",
+    "cards": {
+      "airport_transfers": {
+        "category": "AIRPORT TRANSFERS",
+        "title": "Our Airport Transfers & Taxi Service in Brussels",
+        "description": "Reliable door-to-door airport transfers with meet & greet, flight tracking, and fixed pricing across Belgian airports."
+      },
+      "hourly_taxi": {
+        "category": "HOURLY TAXI SERVICE",
+        "title": "Flexible Hourly Taxi Service in Brussels",
+        "description": "Book a private taxi by the hour for business meetings, city tours, or multi-stop journeys with a dedicated driver."
+      },
+      "event_transport": {
+        "category": "EVENT TRANSPORT SERVICES",
+        "title": "Event Logistics & Group Transport in Brussels",
+        "description": "Coordinated group transport for conferences, weddings, and corporate events with premium vehicles and punctual service."
+      },
+      "corporate_transfers": {
+        "category": "CORPORATE BUSINESS TRANSFERS",
+        "title": "Premium Corporate Business Transfers from Brussels Airport",
+        "description": "Executive airport transfers and business travel solutions with account management, invoicing, and priority support."
+      },
+      "embassy_delegation": {
+        "category": "EMBASSY DELEGATION SERVICE",
+        "title": "Professional Delegation & Embassy Transport Services in Brussels",
+        "description": "Discreet, secure transport for diplomatic delegations, official visits, and VIP guests across Brussels and Belgium."
+      }
+    }
+  },
   "services": {
     "badge": "Our Services",
     "title": "Airport Transfer Services Across Belgium",
@@ -215,6 +277,37 @@
         ]
       }
     }
+  },
+  "howItWorks": {
+    "heading": "How It",
+    "headingHighlight": "Works",
+    "subtitle": "Book your airport transfer in just 3 easy steps",
+    "steps": {
+      "enterLocation": {
+        "title": "Enter Location",
+        "description": "Enter your pickup and drop-off location to get instant pricing"
+      },
+      "chooseVehicle": {
+        "title": "Choose Vehicle",
+        "description": "Select from our premium fleet that best suits your needs"
+      },
+      "confirmBook": {
+        "title": "Confirm & Book",
+        "description": "Complete your booking and receive instant confirmation"
+      }
+    }
+  },
+  "partnersSection": {
+    "title": "Partners & Accreditations",
+    "description": "We are proud members of the world's leading transportation networks, ensuring the highest standards of safety, ethics, and professional excellence for every journey."
+  },
+  "partnersSection": {
+    "title": "Partners & Accreditations",
+    "description": "We are proud members of the world's leading transportation networks, ensuring the highest standards of safety, ethics, and professional excellence for every journey."
+  },
+  "partnersSection": {
+    "title": "Partners & Accreditations",
+    "description": "We are proud members of the world's leading transportation networks, ensuring the highest standards of safety, ethics, and professional excellence for every journey."
   },
   "testimonials": {
     "title": "What Our Customers Say",

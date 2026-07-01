@@ -25,7 +25,7 @@ export default async function PrivacyPolicyPage() {
     return (
         <main className="min-h-screen bg-white">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("privacy.banner.top_text")}
                 title={t("privacy.banner.title")}
                 description={t("privacy.banner.description")}

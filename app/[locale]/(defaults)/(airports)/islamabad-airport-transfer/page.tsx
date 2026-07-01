@@ -30,7 +30,7 @@ export default async function IslamabadAirportTransfersPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.ISLAMABAD_AIRPORT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 imageAlt={t("islamabad.banner.image_alt")}
                 topText={
                     <>
@@ -99,7 +99,7 @@ export default async function IslamabadAirportTransfersPage() {
                 }}
             />
             <BookingBenefitsSection
-                image={IMAGES.SERVICES.AIRPORTS.ISLAMABAD.STORY_IMAGE}
+                image={IMAGES.CONTACT.SERVICE_LOCATIONS}
                 imageAlt={t("islamabad.benefits.image_alt")}
                 title={t("islamabad.benefits.title")}
                 description={t("islamabad.benefits.description")}

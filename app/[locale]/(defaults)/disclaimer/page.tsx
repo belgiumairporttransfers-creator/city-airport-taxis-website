@@ -23,7 +23,7 @@ export default async function DisclaimerPage() {
     return (
         <main className="min-h-screen bg-white">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("disclaimer.banner.top_text")}
                 title={t("disclaimer.banner.title")}
                 description={t("disclaimer.banner.description")}

@@ -86,7 +86,7 @@ export default function Banner({
     stats,
     centerContent = false,
 }: BannerProps) {
-    const defaultImage = IMAGES.HOME_BANNER;
+    const defaultImage = IMAGES.CONTACT.BANNER;
     const hasStats = Boolean(stats?.length);
 
     const renderTitle = (titleContent: string | React.ReactNode) => {

@@ -245,7 +245,7 @@ export const Input: React.FC<InputProps> = ({
                                     error && "ring-1 ring-error"
                                 )}
                             >
-                                <span className="mb-1.5 block text-left text-sm font-bold text-foreground">
+                                <span className="mb-1.5 block text-left text-sm font-medium text-foreground">
                                     {label}
                                 </span>
                                 <SelectTrigger
@@ -426,7 +426,7 @@ export const Input: React.FC<InputProps> = ({
                                 boxed &&
                                 (type === "select" || type === "date" || type === "time" || type === "counter")
                             ) && (
-                            <FormLabel className={cn("text-sm font-semibold text-gray-700", hasError ? "text-error" : undefined)}>
+                            <FormLabel className={cn("text-sm font-medium text-gray-700", hasError ? "text-error" : undefined)}>
                                 {label}
                                 {required && <span className="text-error ml-1">*</span>}
                             </FormLabel>

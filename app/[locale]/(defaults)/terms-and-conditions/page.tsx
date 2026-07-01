@@ -24,7 +24,7 @@ export default async function TermsAndConditionsPage() {
     return (
         <main className="min-h-screen bg-white">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("terms.banner.top_text")}
                 title={t("terms.banner.title")}
                 description={t("terms.banner.description")}

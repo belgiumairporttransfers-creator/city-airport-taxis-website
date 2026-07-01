@@ -38,8 +38,8 @@ function CategoryTabs({ activeTab, onTabChange, disabled }: CategoryTabsProps) {
                             'inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm transition-colors',
                             disabled ? 'cursor-not-allowed' : 'cursor-pointer',
                             isActive
-                                ? 'bg-black font-bold text-white'
-                                : 'bg-transparent font-normal text-foreground hover:bg-gray-50'
+                                ? 'bg-secondary font-bold text-white'
+                                : 'bg-secondary/50 font-normal text-foreground hover:bg-secondary/60'
                         )}
                     >
                         {tab.icon}

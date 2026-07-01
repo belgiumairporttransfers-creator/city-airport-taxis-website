@@ -71,7 +71,7 @@ export default async function PartnerWithUsPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("partner_page.banner.top_text")}
                 title={t.rich("partner_page.banner.title", {
                     br: () => <br />

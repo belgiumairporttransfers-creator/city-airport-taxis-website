@@ -22,7 +22,7 @@ export default async function FleetsPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.FLEETS_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("banner.top_text")}
                 title={t.rich("banner.title", {
                     br: () => <br />

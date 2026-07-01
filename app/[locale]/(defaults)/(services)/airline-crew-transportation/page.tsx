@@ -24,7 +24,7 @@ export default async function AirlineCrewTransportationPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.AIRLINE_CREW_TRANSPORTATION_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 imageAlt={t("airline_crew.banner.image_alt")}
                 topText={
                     <>
@@ -51,7 +51,7 @@ export default async function AirlineCrewTransportationPage() {
             />
             <AirlineCrewStorySection
                 className="pt-42 pb-12 sm:pt-42 md:pt-52 md:pb-16"
-                image={IMAGES.SERVICES.AIRLINE_CREW_TRANSPORTATION.STORY_IMAGE}
+                image={IMAGES.CONTACT.SERVICE_LOCATIONS}
                 imageAlt={t("airline_crew.story.image_alt")}
                 imageBadge={{
                     value: t("airline_crew.story.badge.value"),

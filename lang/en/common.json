@@ -30,23 +30,43 @@
     "en": "English"
   },
   "footer": {
-    "description": "Airport Transfer – Your trusted partner for reliable, comfortable, and professional airport transportation across Pakistan.",
+    "description": "Elite airport transfer service in Belgium. Available 24/7 for your convenience.",
     "quick_links": "Quick Links",
+    "top_cities": "Top Cities",
     "our_services": "Our Services",
-    "popular_airports": "Popular Airports",
-    "contact_info": "Contact Info",
+    "contact_info": "Contact Us",
+    "enterprise_label": "Enterprise NO:",
     "copyright": "Copyright",
     "rights": "All rights reserved.",
     "links": {
       "home": "Home",
-      "about": "About Us",
+      "about": "About",
+      "driver": "Driver",
+      "contact": "Contact",
+      "faqs": "FAQs",
       "fleet": "Fleet",
       "partner": "Partner With Us",
-      "contact": "Contact",
       "help_desk": "Help Desk",
       "privacy_policy": "Privacy Policy",
       "terms": "Terms and Conditions",
       "disclaimer": "Disclaimer"
+    },
+    "cities": {
+      "brussels": "Brussels Transfer",
+      "antwerp": "Antwerp Transfer",
+      "ghent": "Ghent Transfer",
+      "bruges": "Bruges Transfer",
+      "amsterdam": "Amsterdam Transfer",
+      "paris": "Paris Transfer",
+      "luxembourg": "Luxembourg Transfer",
+      "maastricht": "Brussels to Maastricht"
+    },
+    "services": {
+      "airport_transfer": "Airport Transfer",
+      "hourly_transfers": "Hourly Transfers",
+      "event_transfers": "Event Transfers",
+      "corporate_business": "Corporate Business",
+      "embassy_delegation": "Embassy Delegation"
     }
   },
   "airports": {

@@ -1,76 +1,59 @@
+/**
+ * Site image paths. Add files under public/assets/images/ (matching paths below).
+ */
 export const IMAGES = {
-    HOME_BANNER: "/assets/images/banner/home.banner-desktop-1.png",
-    HOME_BANNER_MOBILE: "/assets/images/banner/home.banner-mobile-1.png",
-    AIRPORT_TRANSFER_BANNER: "/assets/images/banner/airport-transfer.banner.png",
-    CITY_RIDE_BANNER: "/assets/images/banner/city-ride.banner.png",
-    AIRLINE_CREW_TRANSPORTATION_BANNER: "/assets/images/banner/airline-crew-transportation.banner.png",
-    ABOUT_BANNER: "/assets/images/banner/about.banner.png",
-    CONTACT_BANNER: "/assets/images/banner/contact.banner-1.png",
-    CONTACT: {
-        SERVICE_LOCATIONS: "/assets/images/contact/service-locations.png",
-    },
-    FLEETS_BANNER: "/assets/images/banner/fleets.banner.png",
-    AIRPORT_RIDE_BANNER: "/assets/images/banner/airport-ride.banner-1.png",
-    CARGO_CREW_TRANSPORTATION_BANNER: "/assets/images/banner/cargo-crew-transportation.banner-2.png",
-    KARACHI_AIRPORT_BANNER: "/assets/images/banner/karachi-airport-transfer.banner.png",
-    ISLAMABAD_AIRPORT_BANNER: "/assets/images/banner/islamabad-airport-transfer.banner.png",
-    LAHORE_AIRPORT_BANNER: "/assets/images/banner/lahore-airport-transfer.banner.png",
-    SKARDU_AIRPORT_BANNER: "/assets/images/banner/skardu-airport-transfer.banner.png",
-    CORPORATE_BANNER: "/assets/images/banner/corporate-travel-solutions.banner.png",
-    CTA_IMAGE: "/assets/images/cta/cta-image-1.png",
-    PAYMENT_METHODS: "/assets/images/payment-methods/payment-methods.png",
-    WHY_CHOOSE_US: "/assets/images/home/why-choose-us-1.png",
+    /** Home page — public/assets/images/home/ */
+    WHY_CHOOSE_US: "/assets/images/home/why-choose-us.png",
+    CORPORATE_TRANSPORTATION: "/assets/images/home/corporate-transportation.png",
     SAFETY_RELIABILITY: "/assets/images/home/safety-reliability.png",
-    BOOK_AIRPORT_TRANSFER: "/assets/images/home/book-airport-transfer-1.png",
-    CORPORATE_TRANSPORTATION: "/assets/images/home/corporate-transportation-1.png",
-    NATIONWIDE_COVERAGE: "/assets/images/home/corporate-transportation-1.png",
-    NEWSLETTER_BG: "/assets/images/home/newsletter-bg-1.png",
-    FEATURED_BG: "/assets/images/home/featured-bg-1.png",
-    DESTINATIONS: {
-        BRUSSELS: "/assets/images/banner/home.banner-desktop-1.png",
-        CHARLEROI: "/assets/images/banner/airport-transfer.banner.png",
-        ANTWERP: "/assets/images/cities/rotterdam.png",
-        LIEGE: "/assets/images/cities/utrecht-1.png",
-        OSTEND: "/assets/images/cities/the_hague-1.png",
-    },
-  
-    CITIES: {
-        KARACHI: "/assets/images/cities/amsterdam-1.png",
-        LAHORE: "/assets/images/cities/rotterdam.png",
-        ISLAMABAD: "/assets/images/cities/utrecht-1.png",
-        RAWALPINDI: "/assets/images/cities/the_hague-1.png",
+    BOOK_AIRPORT_TRANSFER: "/assets/images/home/book-airport-transfer.png",
+    PAYMENT_METHODS: "/assets/images/home/payment-methods.png",
+    CTA_BANNER: "/assets/images/home/cta-banner.png",
+
+    SERVICES: {
+        AIRPORT_TRANSFERS: "/assets/images/home/services/airport-transfers.png",
+        HOURLY_TAXI: "/assets/images/home/services/hourly-taxi.png",
+        EVENT_TRANSPORT: "/assets/images/home/services/event-transport.png",
+        CORPORATE_TRANSFERS: "/assets/images/home/services/corporate-transfers.png",
+        EMBASSY_DELEGATION: "/assets/images/home/services/embassy-delegation.png",
     },
 
-    ABOUT_US: {
-        STORY_IMAGE: "/assets/images/about/about-story.png",
+    DESTINATIONS: {
+        BRUSSELS: "/assets/images/home/destinations/brussels.png",
+        CHARLEROI: "/assets/images/home/destinations/charleroi.png",
+        ANTWERP: "/assets/images/home/destinations/antwerp.png",
+        LIEGE: "/assets/images/home/destinations/liege.png",
+        OSTEND: "/assets/images/home/destinations/ostend.png",
+    },
+
+    CITIES: {
+        PARIS: "/assets/images/home/cities/paris.png",
+        LUXEMBOURG: "/assets/images/home/cities/luxembourg.png",
+        ANTWERP: "/assets/images/home/cities/antwerp.png",
+        BRUSSELS: "/assets/images/home/cities/brussels.png",
+        GHENT: "/assets/images/home/cities/ghent.png",
+        LIEGE: "/assets/images/home/cities/liege.png",
+    },
+
+    PARTNERS: {
+        GBTA: "/assets/images/home/partners/gbta.png",
+        TRAVEL_AWARDS: "/assets/images/home/partners/travel-awards.png",
+        EVENTS: "/assets/images/home/partners/events.png",
+        NLA: "/assets/images/home/partners/nla.png",
+        GNET: "/assets/images/home/partners/gnet.png",
+    },
+
+    /** About page — public/assets/images/about/ */
+    ABOUT: {
+        BANNER: "/assets/images/about/banner.png",
+        STORY: "/assets/images/about/story.png",
         DRIVERS_PANEL: "/assets/images/about/drivers-panel.png",
         NATIONWIDE_COVERAGE: "/assets/images/about/nationwide-coverage.png",
     },
-    SERVICES: {
-        AIRPORT_TRANSFER: {
-            STORY_IMAGE: "/assets/images/services/airport-transfer/airport-transfer-story.png",
-        },
-        CITY_RIDE: {
-            STORY_IMAGE: "/assets/images/services/city-ride/city-ride-story.png",
-            STORY_IMAGE_2: "/assets/images/services/city-ride/city-ride-story-2.png",
-        },
-        AIRLINE_CREW_TRANSPORTATION: {
-            STORY_IMAGE: "/assets/images/services/airline-crew-transportation/airline-crew-transportation-story.png",
-        },
-        AIRPORTS: {
-            KARACHI_JINNAH: {
-                STORY_IMAGE: "/assets/images/airports/karachi-jinnah-airport-transfer/karachi-jinnah-airport-transfer-story.png",
-            },
-          
-            ISLAMABAD: {
-                STORY_IMAGE: "/assets/images/airports/islamabad-airport-transfer/islamabad-airport-transfer-story.png",
-            },
-            LAHORE: {
-                STORY_IMAGE: "/assets/images/airports/lahore-airport-transfer/lahore-airport-transfer-story.png",
-            },
-            SKARDU: {
-                STORY_IMAGE: "/assets/images/airports/skardu-airport-transfer/skardu-airport-transfer-story.png",
-            },
-        }
-    }
+
+    /** Contact page — public/assets/images/contact/ */
+    CONTACT: {
+        BANNER: "/assets/images/contact/banner.png",
+        SERVICE_LOCATIONS: "/assets/images/contact/service-locations.png",
+    },
 } as const;

@@ -61,7 +61,7 @@ export default function CtaNewsletter() {
                         </div>
                         <div className="relative rounded-md overflow-hidden group min-h-[260px] flex-1">
                             <Image
-                                src={IMAGES.FEATURED_BG}
+                                src={IMAGES.CTA_BANNER}
                                 alt="Featured Experience"
                                 fill
                                 className="object-center object-bottom"
@@ -87,7 +87,7 @@ export default function CtaNewsletter() {
                     </div>
                     <div className="lg:col-span-8 relative rounded-md overflow-hidden group min-h-[580px] shadow-lg flex flex-col justify-end p-8 md:p-14 lg:p-16">
                         <Image
-                            src={IMAGES.NEWSLETTER_BG}
+                            src={IMAGES.CTA_BANNER}
                             alt="Subscribe to newsletter"
                             fill
                             className="object-cover"

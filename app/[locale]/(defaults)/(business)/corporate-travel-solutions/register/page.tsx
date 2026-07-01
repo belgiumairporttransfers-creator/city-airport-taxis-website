@@ -22,7 +22,7 @@ export default async function CorporateTravelSolutionsPage() {
     return (
         <main className="min-h-screen">
             <Banner
-                image={IMAGES.CORPORATE_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("corporate.banner.top_text")}
                 title={t("corporate.register.title")}
                 description={t("corporate.register.description")}

@@ -177,7 +177,7 @@ export default async function HelpDeskPage() {
     return (
         <main className="min-h-screen bg-white">
             <Banner
-                image={IMAGES.CONTACT_BANNER}
+                image={IMAGES.CONTACT.BANNER}
                 topText={t("banner.top_text")}
                 title={t("banner.title")}
                 description={t("banner.description")}
