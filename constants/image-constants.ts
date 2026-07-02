@@ -1,6 +1,3 @@
-/**
- * Site image paths. Add files under public/assets/images/ (matching paths below).
- */
 export const IMAGES = {
     /** Home page — public/assets/images/home/ */
     WHY_CHOOSE_US: "/assets/images/home/why-choose-us.png",
