@@ -31,23 +31,29 @@
     "prev": "Previous cities",
     "next": "Next cities",
     "items": {
+      "brussels": {
+        "name": "Brussels"
+      },
+      "antwerp": {
+        "name": "Antwerp"
+      },
+      "ghent": {
+        "name": "Ghent"
+      },
+      "bruges": {
+        "name": "Bruges"
+      },
+      "amsterdam": {
+        "name": "Amsterdam"
+      },
       "paris": {
         "name": "Paris"
       },
       "luxembourg": {
         "name": "Luxembourg"
       },
-      "antwerp": {
-        "name": "Antwerp Transfer"
-      },
-      "brussels": {
-        "name": "Brussels"
-      },
-      "ghent": {
-        "name": "Ghent"
-      },
-      "liege": {
-        "name": "Liège"
+      "maastricht": {
+        "name": "Maastricht"
       }
     }
   },

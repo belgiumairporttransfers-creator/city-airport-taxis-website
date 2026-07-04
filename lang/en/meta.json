@@ -80,9 +80,29 @@
   },
   "services": {
     "airline_crew": {
-      "title": "Airline Crew Transportation Belgium | 24/7 Crew Transfers",
-      "description": "Professional airline crew transportation across Belgium. Reliable crew transfers, hotel shuttles, crew rotations, and 24/7 airport transportation.",
-      "keywords": "airline crew transportation belgium, crew transfer service, hotel crew shuttle, crew rotation transport, airport crew transfers 24/7"
+      "title": "Airline Crew Transfers Brussels | Zaventem Crew Shuttle Service",
+      "description": "High-precision airline crew shuttle services at Brussels Airport (BRU). 24/7 flight monitoring, Mercedes V-Class fleet, Abelag private aviation, and BRU ⇌ CRL crew transfers.",
+      "keywords": "airline crew transfers brussels, zaventem crew shuttle, BRU crew transport, abelag private aviation, crew rotation belgium, mercedes v-class crew van"
+    },
+    "corporate_transfers": {
+      "title": "Corporate Transfers Belgium | Executive Chauffeur Service",
+      "description": "Effortless corporate travel for executives and business teams in Brussels and across Belgium. Premium fleet, English-speaking chauffeurs, centralized billing, and 24/7 availability.",
+      "keywords": "corporate transfers belgium, executive chauffeur brussels, business travel taxi, corporate account taxi, executive airport transfer belgium"
+    },
+    "event_transfers": {
+      "title": "Event Transfers Brussels | Large-Scale Group & MICE Transport",
+      "description": "High-capacity event logistics for congresses, summits, and MICE events in Brussels. 50+ premium vehicles, F1-proven coordination, coaches, minibuses, and on-site dispatch.",
+      "keywords": "event transfers brussels, MICE transport belgium, conference shuttle brussels, event logistics company, group bus transport belgium, brussels expo transfers"
+    },
+    "diplomatic_embassy_transfers": {
+      "title": "Diplomatic & Embassy Transfers Brussels | Delegation Transport",
+      "description": "Protocol-first diplomatic transport in Brussels. NATO, EU Commission & Council expertise, embassy transfers, VIP airport service, and secure delegation logistics with a 50-vehicle fleet.",
+      "keywords": "diplomatic transfers brussels, embassy transport belgium, NATO chauffeur service, EU delegation transport, diplomatic airport transfer zaventem, embassy taxi brussels"
+    },
+    "hourly_transfers": {
+      "title": "Hourly Chauffeur Service Brussels | Flexible As-Directed Hire",
+      "description": "Flexible hourly chauffeur hire in Brussels for business meetings, city tours, multi-stop trips, and shopping. Fixed rates, 24/7 availability, and dedicated professional drivers.",
+      "keywords": "hourly chauffeur brussels, as directed hire belgium, hourly taxi brussels, multi-stop chauffeur service, brussels city tour driver, hourly airport transfer zaventem"
     },
     "cargo_crew": {
       "title": "Cargo Crew Transportation | Airport Transfers Belgium",
@@ -116,6 +136,11 @@
     }
   },
   "airport_transfers": {
+    "hub": {
+      "title": "Brussels Airport Transfers | Zaventem & Charleroi Chauffeur Service",
+      "description": "Professional Brussels Airport (Zaventem) and Charleroi transfers across Belgium. Meet and greet, flight tracking, fixed pricing, and premium chauffeur service 24/7.",
+      "keywords": "brussels airport transfer, zaventem airport taxi, BRU airport chauffeur, charleroi airport transfer, belgium airport taxi, fixed price airport transfer"
+    },
     "brussels": {
       "title": "Brussels Airport Transfer | 24/7 Taxi Service",
       "description": "Book reliable Brussels Airport (Zaventem) transfer services. 24/7 airport pickup, drop-off, chauffeur, and corporate transportation across Brussels.",
@@ -125,76 +150,48 @@
       "title": "Charleroi Airport Transfer | 24/7 Taxi Service",
       "description": "Book reliable Brussels South Charleroi Airport transfer services. 24/7 pickup, drop-off, and chauffeur transfers to Brussels and Wallonia.",
       "keywords": "charleroi airport transfer, CRL airport taxi, brussels south charleroi pickup, charleroi chauffeur service"
+    }
+  },
+  "cities": {
+    "antwerp_city": {
+      "title": "Antwerp Taxi Service | Private Transfers in the Diamond Capital",
+      "description": "Premium Antwerp taxi service for ANR airport pickups, Port of Antwerp transfers, diamond district trips, and Brussels Zaventem connections. Fixed pricing and 24/7 availability.",
+      "keywords": "antwerp taxi service, antwerp airport transfer ANR, port of antwerp taxi, diamond district antwerp, brussels to antwerp taxi, antwerp central station pickup"
     },
-    "antwerp": {
-      "title": "Antwerp Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Antwerp International Airport transfer services. 24/7 airport pickup, drop-off, and chauffeur transportation.",
-      "keywords": "antwerp airport transfer, antwerp airport taxi, ANR airport pickup, antwerp chauffeur service"
+    "brussels_city": {
+      "title": "Brussels Airport Transfer | Door-to-Door Taxi Service",
+      "description": "Professional Brussels Airport (Zaventem) transfers to city centre, EU Quarter, NATO, Avenue Louise, and Midi Station. Fixed pricing, meet-and-greet, and 45 minutes free waiting.",
+      "keywords": "brussels airport transfer, zaventem taxi, BRU airport pickup, eu quarter transfer brussels, nato headquarters taxi, avenue louise airport transfer"
     },
-    "liege": {
-      "title": "Liège Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Liège Airport transfer services. 24/7 airport pickup, drop-off, and regional chauffeur transportation.",
-      "keywords": "liege airport transfer, liege airport taxi, LGG airport pickup, liege chauffeur service"
+    "ghent_city": {
+      "title": "Ghent Taxi Service | Private Transfers in Historic Flanders",
+      "description": "Premium Ghent taxi service from Brussels Airport and Charleroi. Tech hub transfers, Graslei sightseeing, Flanders Expo shuttles, and cross-border links to Bruges, Lille, and Paris.",
+      "keywords": "ghent taxi service, brussels airport to ghent, ghent transfer, flanders expo taxi, ghent to bruges taxi, tech lane ghent transport"
     },
-    "ostend": {
-      "title": "Ostend-Bruges Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Ostend-Bruges Airport transfer services. 24/7 pickup, drop-off, and coastal region chauffeur transportation.",
-      "keywords": "ostend airport transfer, ostend bruges airport taxi, OST airport pickup, bruges airport transfer"
+    "bruges_city": {
+      "title": "Bruges Taxi Service | Brussels to Bruges Private Transfers",
+      "description": "Premium Brussels to Bruges taxi service. Direct airport transfers, Zeebrugge cruise port pickups, BMCC conferences, wait-and-return tours, and fixed all-inclusive pricing.",
+      "keywords": "bruges taxi service, brussels to bruges transfer, bruges private taxi, zeebrugge cruise port taxi, bruges airport transfer, brussels bruges taxi"
     },
-    "karachi_jinnah": {
-      "title": "Brussels Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Brussels Airport transfer services. 24/7 airport pickup, drop-off, chauffeur, and corporate transportation across Belgium.",
-      "keywords": "brussels airport transfer, BRU airport taxi, belgium airport pickup, chauffeur service belgium"
+    "amsterdam_city": {
+      "title": "Brussels Airport to Amsterdam Transfer | Private Taxi Service",
+      "description": "Premium Brussels Airport to Amsterdam transfers. Direct hotel drops, Schiphol links, corporate Zuidas connections, group travel, and fixed intercity rates with border crossing expertise.",
+      "keywords": "brussels airport to amsterdam, bru to amsterdam taxi, amsterdam transfer from brussels, schiphol brussels transfer, amsterdam private taxi, brussels amsterdam intercity"
     },
-    "islamabad": {
-      "title": "Charleroi Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Charleroi Airport transfer services. 24/7 airport pickup, drop-off, and chauffeur transfers across Belgium.",
-      "keywords": "charleroi airport transfer, CRL airport taxi, belgium airport pickup, chauffeur service belgium"
+    "paris_city": {
+      "title": "Brussels to Paris Taxi Service | Private Cross-Border Transfers",
+      "description": "Premium Brussels to Paris taxi service. BRU to Paris transfers, Eurostar alternative, La Défense and CDG connections, hourly roadshows, and fixed all-inclusive cross-border pricing.",
+      "keywords": "brussels to paris taxi, paris transfer from brussels, bru to paris transfer, brussels paris private transfer, cdg to brussels taxi, eurostar alternative brussels paris"
     },
-    "lahore": {
-      "title": "Antwerp Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Antwerp Airport transfer services. 24/7 airport pickup, drop-off, and chauffeur transportation across Belgium.",
-      "keywords": "antwerp airport transfer, ANR airport taxi, belgium airport pickup, chauffeur service belgium"
+    "luxembourg_city": {
+      "title": "Brussels to Luxembourg Taxi Service | Private EU Corridor Transfers",
+      "description": "Premium Brussels to Luxembourg taxi service. BRU to Luxembourg transfers, Kirchberg EU institutions, diplomatic delegations, hourly executive charters, and fixed all-inclusive E411 corridor pricing.",
+      "keywords": "brussels to luxembourg taxi, luxembourg transfer from brussels, bru to luxembourg transfer, kirchberg taxi brussels, luxembourg findel airport transfer, eu corridor brussels luxembourg"
     },
-    "skardu": {
-      "title": "Liège Airport Transfer | 24/7 Taxi Service",
-      "description": "Book reliable Liège Airport transfer services. 24/7 airport pickup, drop-off, hotel transfers, and chauffeur transportation.",
-      "keywords": "liege airport transfer, LGG airport shuttle, belgium hotel transfer, chauffeur service belgium"
-    },
-    "gwadar": {
-      "title": "Ostend Airport Transfer | Airport Transfers Belgium",
-      "description": "Book reliable Ostend-Bruges Airport transfers. Professional taxi and chauffeur service across Belgium.",
-      "keywords": "ostend airport taxi, ostend transfer, belgium airport transfer"
-    },
-    "peshawar": {
-      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
-      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
-      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
-    },
-    "multan": {
-      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
-      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
-      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
-    },
-    "faisalabad": {
-      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
-      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
-      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
-    },
-    "quetta": {
-      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
-      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
-      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
-    },
-    "sialkot": {
-      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
-      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
-      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
-    },
-    "sukkur": {
-      "title": "Airport Transfer Belgium | 24/7 Chauffeur Service",
-      "description": "Book reliable airport transfers across Belgium with professional chauffeurs and fixed pricing.",
-      "keywords": "belgium airport taxi, airport transfer belgium, chauffeur service"
+    "brussels_to_maastricht": {
+      "title": "Brussels Airport to Maastricht Transfer | Private Taxi Service",
+      "description": "Premium Brussels Airport to Maastricht transfers. Meet-and-greet at BRU, TEFAF Maastricht event transport, fixed pricing, flight tracking, and comfortable door-to-door service to Maastricht hotels.",
+      "keywords": "brussels airport to maastricht, bru to maastricht taxi, maastricht transfer, tefaf maastricht transfer, brussels maastricht private taxi, maastricht airport transfer"
     }
   },
   "booking": {

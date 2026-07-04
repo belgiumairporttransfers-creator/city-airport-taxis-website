@@ -64,7 +64,7 @@
         "license_back": "Driver License (Back)",
         "business_insurance": "Business & Insurance",
         "insurance": "Commercial Vehicle Insurance Policy",
-        "kvk": "NTN Certificate",
+        "kvk": "KVK Uittreksel",
         "bankpas": "Bank Card Copy",
         "vehicle_photos": "Vehicle Photos",
         "vehicle_photos_desc": "Please upload clear photos of your vehicle from the following angles.",
@@ -79,11 +79,13 @@
         "driver_timing": "Driver Timing",
         "timing_from": "From",
         "timing_to": "To",
-        "car_card": "Vehicle Registration Document"
+        "car_card": "Vehicle Registration Document",
+        "profile_photo": "Profile Photo (Optional)"
       },
       "shift_options": {
         "day": "Day Shift",
-        "night": "Night Shift"
+        "night": "Night Shift",
+        "both": "Day & Night"
       },
       "placeholders": {
         "country": "Select Operating Country",
@@ -102,7 +104,8 @@
         "timing_to": "End time",
         "address": "Enter Home Address"
       },
-      "button": "Apply to Join"
+      "button": "Apply to Join",
+      "button_submitting": "Submitting Application..."
     }
   },
   "corporate": {

@@ -1,3 +1,16 @@
+export const BELGIUM_CITIES = [
+  "Antwerp",
+  "Bruges",
+  "Brussels",
+  "Charleroi",
+  "Ghent",
+  "Leuven",
+  "Liège",
+  "Mechelen",
+  "Namur",
+  "Ostend",
+].sort();
+
 export const PAKISTAN_CITIES = [
   "Karachi",
   "Lahore",

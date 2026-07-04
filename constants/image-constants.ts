@@ -29,7 +29,9 @@ export const IMAGES = {
         ANTWERP: "/assets/images/home/cities/antwerp.png",
         BRUSSELS: "/assets/images/home/cities/brussels.png",
         GHENT: "/assets/images/home/cities/ghent.png",
-        LIEGE: "/assets/images/home/cities/liege.png",
+        BRUGES: "/assets/images/home/cities/bruges.png",
+        AMSTERDAM: "/assets/images/home/cities/amsterdam.png",
+        MAASTRICHT: "/assets/images/home/cities/maastricht.png",
     },
 
     PARTNERS: {
@@ -52,5 +54,81 @@ export const IMAGES = {
     CONTACT: {
         BANNER: "/assets/images/contact/banner.png",
         SERVICE_LOCATIONS: "/assets/images/contact/service-locations.png",
+    },
+
+    /** Service pages — public/assets/images/services/<service-slug>/ */
+    SERVICE_PAGES: {
+        AIRLINE_CREW_TRANSFERS: {
+            BANNER: "/assets/images/services/airline-crew-transfers/banner.png",
+            STORY: "/assets/images/services/airline-crew-transfers/story.png",
+        },
+        HOURLY_TRANSFERS: {
+            BANNER: "/assets/images/services/hourly-transfers/banner.png",
+            STORY: "/assets/images/services/hourly-transfers/story.png",
+        },
+        EVENT_TRANSFERS: {
+            BANNER: "/assets/images/services/event-transfers/banner.png",
+            STORY: "/assets/images/services/event-transfers/story.png",
+        },
+        CORPORATE_TRANSFERS: {
+            BANNER: "/assets/images/services/corporate-transfers/banner.png",
+            STORY: "/assets/images/services/corporate-transfers/story.png",
+        },
+        DIPLOMATIC_EMBASSY_TRANSFERS: {
+            BANNER: "/assets/images/services/diplomatic-embassy-transfers/banner.png",
+            STORY: "/assets/images/services/diplomatic-embassy-transfers/story.png",
+        },
+    },
+
+    /** Airport pages — public/assets/images/airports/ */
+    AIRPORT_PAGES: {
+        AIRPORT_TRANSFERS: {
+            BANNER: "/assets/images/airports/airport-transfers/banner.png",
+            JOURNEY: "/assets/images/airports/airport-transfers/journey.png",
+        },
+    },
+
+    /** City pages — public/assets/images/cities/<city-slug>/ */
+    CITY_PAGES: {
+        ANTWERP: {
+            BANNER: "/assets/images/cities/antwerp-city/banner.png",
+            STORY: "/assets/images/cities/antwerp-city/story.png",
+            CITYSCAPE: "/assets/images/cities/antwerp-city/cityscape.png",
+        },
+        BRUSSELS: {
+            BANNER: "/assets/images/cities/brussels-city/banner.png",
+            STORY: "/assets/images/cities/brussels-city/story.png",
+            CITYSCAPE: "/assets/images/cities/brussels-city/cityscape.png",
+        },
+        GHENT: {
+            BANNER: "/assets/images/cities/ghent-city/banner.png",
+            STORY: "/assets/images/cities/ghent-city/story.png",
+            CITYSCAPE: "/assets/images/cities/ghent-city/cityscape.png",
+        },
+        BRUGES: {
+            BANNER: "/assets/images/cities/bruges-city/banner.png",
+            STORY: "/assets/images/cities/bruges-city/story.png",
+            CITYSCAPE: "/assets/images/cities/bruges-city/cityscape.png",
+        },
+        AMSTERDAM: {
+            BANNER: "/assets/images/cities/amsterdam-city/banner.png",
+            STORY: "/assets/images/cities/amsterdam-city/story.png",
+            CITYSCAPE: "/assets/images/cities/amsterdam-city/cityscape.png",
+        },
+        PARIS: {
+            BANNER: "/assets/images/cities/paris-city/banner.png",
+            STORY: "/assets/images/cities/paris-city/story.png",
+            CITYSCAPE: "/assets/images/cities/paris-city/cityscape.png",
+        },
+        LUXEMBOURG: {
+            BANNER: "/assets/images/cities/luxembourg-city/banner.png",
+            STORY: "/assets/images/cities/luxembourg-city/story.png",
+            CITYSCAPE: "/assets/images/cities/luxembourg-city/cityscape.png",
+        },
+        BRUSSELS_TO_MAASTRICHT: {
+            BANNER: "/assets/images/cities/brussels-to-maastricht/banner.png",
+            STORY: "/assets/images/cities/brussels-to-maastricht/story.png",
+            CITYSCAPE: "/assets/images/cities/brussels-to-maastricht/cityscape.png",
+        },
     },
 } as const;

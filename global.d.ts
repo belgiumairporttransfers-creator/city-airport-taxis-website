@@ -11,6 +11,7 @@ import enFleets from './lang/en/fleets.json';
 import enHelp from './lang/en/help.json';
 import enServices from './lang/en/services.json';
 import enAirports from './lang/en/airports.json';
+import enCities from './lang/en/cities.json';
 import enBooking from './lang/en/booking.json';
 
 type Messages = {
@@ -27,6 +28,7 @@ type Messages = {
   help: typeof enHelp;
   services: typeof enServices;
   airports: typeof enAirports;
+  cities: typeof enCities;
   booking: typeof enBooking;
 };
 

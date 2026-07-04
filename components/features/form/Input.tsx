@@ -208,6 +208,7 @@ export const Input: React.FC<InputProps> = ({
                         excludeDate={excludeDate}
                         timezone={timezone}
                         label={typeof label === "string" ? label : undefined}
+                        required={required}
                         boxed={boxed}
                     />
                 );
@@ -222,6 +223,7 @@ export const Input: React.FC<InputProps> = ({
                         error={error}
                         timezone={timezone}
                         label={typeof label === "string" ? label : undefined}
+                        required={required}
                         boxed={boxed}
                     />
                 );
@@ -422,9 +424,11 @@ export const Input: React.FC<InputProps> = ({
                     <FormItem className={cn("flex flex-col", className)}>
                         {label &&
                             type !== "location" &&
+                            type !== "date" &&
+                            type !== "time" &&
                             !(
                                 boxed &&
-                                (type === "select" || type === "date" || type === "time" || type === "counter")
+                                (type === "select" || type === "counter")
                             ) && (
                             <FormLabel className={cn("text-sm font-medium text-gray-700", hasError ? "text-error" : undefined)}>
                                 {label}

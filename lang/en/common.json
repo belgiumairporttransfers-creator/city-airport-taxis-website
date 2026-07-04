@@ -8,12 +8,23 @@
     "contact": "Contact Us",
     "business": "Business",
     "services_list": {
-      "airport_transfer": "Airport Transfer",
-      "airline_crew": "Airline Crew",
-      "city_rides": "City Rides",
-      "hourly_ride": "Hourly Ride",
-      "cargo_crew": "Cargo Crew",
-      "private_jet": "Private Jet Transfer"
+      "airport_transfers": "Airport Transfers",
+      "hourly_transfers": "Hourly Transfers",
+      "corporate_transfers": "Corporate Transfers",
+      "event_transfers": "Event Transfers",
+      "airline_crew": "Airline Crew Transfers",
+      "diplomatic_embassy": "Diplomatic & Embassy Transfers"
+    },
+    "cities": "Top Cities",
+    "cities_list": {
+      "brussels": "Brussels Transfer",
+      "antwerp": "Antwerp Transfer",
+      "ghent": "Ghent Transfer",
+      "bruges": "Bruges Transfer",
+      "amsterdam": "Amsterdam Transfer",
+      "paris": "Paris Transfer",
+      "luxembourg": "Luxembourg Transfer",
+      "maastricht": "Brussels to Maastricht"
     },
     "business_list": {
       "solutions": "Business Solutions"
@@ -62,25 +73,20 @@
       "maastricht": "Brussels to Maastricht"
     },
     "services": {
-      "airport_transfer": "Airport Transfer",
+      "airport_transfers": "Airport Transfers",
       "hourly_transfers": "Hourly Transfers",
+      "corporate_transfers": "Corporate Transfers",
       "event_transfers": "Event Transfers",
-      "corporate_business": "Corporate Business",
-      "embassy_delegation": "Embassy Delegation"
+      "airline_crew": "Airline Crew Transfers",
+      "diplomatic_embassy": "Diplomatic & Embassy Transfers"
     }
   },
   "airports": {
-    "karachi_jinnah": "Karachi Jinnah International Airport",
-    "islamabad": "Islamabad International Airport",
-    "gwadar": "Gwadar International Airport",
-    "lahore": "Lahore Allama Iqbal Airport",
-    "skardu": "Skardu Airport",
-    "peshawar": "Peshawar Bacha Khan Airport",
-    "multan": "Multan International Airport",
-    "faisalabad": "Faisalabad International Airport",
-    "sialkot": "Sialkot International Airport",
-    "quetta": "Quetta International Airport",
-    "sukkur": "Sukkur Airport"
+    "brussels": "Brussels Zaventem Airport (BRU)",
+    "charleroi": "Charleroi Airport (CRL)",
+    "antwerp": "Antwerp Airport",
+    "liege": "Liège Airport",
+    "ostend": "Ostend-Bruges Airport"
   },
   "vehicle": {
     "bags": "Bags",

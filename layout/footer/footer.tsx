@@ -25,28 +25,29 @@ export default function Footer() {
   const quickLinks: FooterLinkItem[] = [
     { href: "/", label: t("footer.links.home") },
     { href: "/about", label: t("footer.links.about") },
-    { href: "/partner-with-us", label: t("footer.links.driver") },
+    { href: "/partner-with-us", label: t("footer.links.partner") },
     { href: "/contact-us", label: t("footer.links.contact") },
     { href: "/help-desk", label: t("footer.links.faqs") },
   ];
 
   const cityLinks: FooterLinkItem[] = [
-    { href: "/#book-ride-form", label: t("footer.cities.brussels") },
-    { href: "/#book-ride-form", label: t("footer.cities.antwerp") },
-    { href: "/#book-ride-form", label: t("footer.cities.ghent") },
-    { href: "/#book-ride-form", label: t("footer.cities.bruges") },
-    { href: "/#book-ride-form", label: t("footer.cities.amsterdam") },
-    { href: "/#book-ride-form", label: t("footer.cities.paris") },
-    { href: "/#book-ride-form", label: t("footer.cities.luxembourg") },
-    { href: "/#book-ride-form", label: t("footer.cities.maastricht") },
+    { href: "/brussels-city", label: t("footer.cities.brussels") },
+    { href: "/antwerp-city", label: t("footer.cities.antwerp") },
+    { href: "/ghent-city", label: t("footer.cities.ghent") },
+    { href: "/bruges-city", label: t("footer.cities.bruges") },
+    { href: "/amsterdam-city", label: t("footer.cities.amsterdam") },
+    { href: "/paris-city", label: t("footer.cities.paris") },
+    { href: "/luxembourg-city", label: t("footer.cities.luxembourg") },
+    { href: "/brussels-to-maastricht", label: t("footer.cities.maastricht") },
   ];
 
   const serviceLinks: FooterLinkItem[] = [
-    { href: "/airport-transfer", label: t("footer.services.airport_transfer") },
-    { href: "/city-ride", label: t("footer.services.hourly_transfers") },
-    { href: "/airline-crew-transportation", label: t("footer.services.event_transfers") },
-    { href: "/corporate-travel-solutions", label: t("footer.services.corporate_business") },
-    { href: "/corporate-travel-solutions", label: t("footer.services.embassy_delegation") },
+    { href: "/airport-transfers", label: t("footer.services.airport_transfers") },
+    { href: "/hourly-transfers", label: t("footer.services.hourly_transfers") },
+    { href: "/corporate-transfers", label: t("footer.services.corporate_transfers") },
+    { href: "/event-transfers", label: t("footer.services.event_transfers") },
+    { href: "/airline-crew-transfers", label: t("footer.services.airline_crew") },
+    { href: "/diplomatic-embassy-transfers", label: t("footer.services.diplomatic_embassy") },
   ];
 
   return (

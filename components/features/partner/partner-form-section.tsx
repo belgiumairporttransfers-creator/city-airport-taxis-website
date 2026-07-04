@@ -4,96 +4,128 @@ import { useForm, FormProvider } from "react-hook-form";
 import { Input } from "@/components/features/form/Input";
 import FileUpload from "@/components/features/form/file-upload";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, MoveRight } from "lucide-react";
+import { CheckCircle2, Loader2, MoveRight } from "lucide-react";
 import { useTranslations } from "next-intl";
-import CitySelectorModal from "./city-selector-modal";
+import { BELGIUM_CITIES } from "@/constants/cities";
+import {
+    DRIVER_DOCUMENT_FIELDS,
+    type DriverDocuments,
+    type DriverShiftType,
+    type SubmitDriverApplicationPayload,
+} from "@/lib/api/drivers";
+import { useSubmitDriverApplication } from "@/hooks/queries/use-driver";
 
-interface PartnerFormValues {
-    country: string;
-    city: string;
+type PartnerFormValues = {
+    operatingCountry: string;
+    operatingCity: string;
     firstName: string;
     lastName: string;
     email: string;
     phone: string;
-    address: string;
+    homeAddress: string;
     carType: string;
     carColor: string;
-    carYearModel: string;
     licensePlate: string;
-    experience: string;
-    shift: "day" | "night" | "";
-    driverTimingFrom: string;
-    driverTimingTo: string;
-    chauffeurPassFront: string;
-    chauffeurPassBack: string;
-    kiwaPermit: string;
-    insurancePolicy: string;
-    bankpas: string;
-    kvkExtract: string;
-    driverLicenseFront: string;
-    driverLicenseBack: string;
-    carFront: string;
-    carBack: string;
-    carLeft: string;
-    carRight: string;
-    carInside: string;
-    carPlate: string;
-    carCard: string;
-}
+    carYearModel: string;
+    yearsOfExperience: string;
+    shiftType: DriverShiftType | "";
+    availableFrom: string;
+    availableTo: string;
+    profilePhoto: string;
+} & DriverDocuments;
 
-const SHIFT_OPTIONS = [
-    { value: "day", labelKey: "partner.form.shift_options.day" as const },
-    { value: "night", labelKey: "partner.form.shift_options.night" as const },
+const SHIFT_OPTIONS: { value: DriverShiftType; labelKey: "partner.form.shift_options.day" | "partner.form.shift_options.night" | "partner.form.shift_options.both" }[] = [
+    { value: "day", labelKey: "partner.form.shift_options.day" },
+    { value: "night", labelKey: "partner.form.shift_options.night" },
+    { value: "both", labelKey: "partner.form.shift_options.both" },
 ];
+
+const EMPTY_DOCUMENTS = Object.fromEntries(
+    DRIVER_DOCUMENT_FIELDS.map((field) => [field, ""])
+) as DriverDocuments;
+
+function toSubmitPayload(data: PartnerFormValues): SubmitDriverApplicationPayload {
+    const documents = Object.fromEntries(
+        DRIVER_DOCUMENT_FIELDS.map((field) => [field, data[field]])
+    ) as DriverDocuments;
+
+    return {
+        operatingCountry: data.operatingCountry,
+        operatingCity: data.operatingCity,
+        firstName: data.firstName.trim(),
+        lastName: data.lastName.trim(),
+        email: data.email.trim(),
+        phone: data.phone.trim(),
+        homeAddress: data.homeAddress.trim(),
+        carType: data.carType.trim(),
+        carColor: data.carColor.trim(),
+        licensePlate: data.licensePlate.trim(),
+        carYearModel: data.carYearModel.trim(),
+        yearsOfExperience: Number(data.yearsOfExperience),
+        shiftType: data.shiftType as DriverShiftType,
+        availableFrom: data.availableFrom,
+        availableTo: data.availableTo,
+        ...(data.profilePhoto ? { profilePhoto: data.profilePhoto } : {}),
+        documents,
+    };
+}
 
 export default function PartnerFormSection() {
     const t = useTranslations("business");
+    const { mutate: submitApplication, isPending } = useSubmitDriverApplication();
 
     const methods = useForm<PartnerFormValues>({
         defaultValues: {
-            country: "",
-            city: "",
+            operatingCountry: "Belgium",
+            operatingCity: "",
             firstName: "",
             lastName: "",
             email: "",
             phone: "",
-            address: "",
+            homeAddress: "",
             carType: "",
             carColor: "",
             carYearModel: "",
             licensePlate: "",
-            experience: "",
-            shift: "",
-            driverTimingFrom: "",
-            driverTimingTo: "",
-            chauffeurPassFront: "",
-            chauffeurPassBack: "",
-            kiwaPermit: "",
-            insurancePolicy: "",
-            bankpas: "",
-            kvkExtract: "",
-            driverLicenseFront: "",
-            driverLicenseBack: "",
-            carFront: "",
-            carBack: "",
-            carLeft: "",
-            carRight: "",
-            carInside: "",
-            carPlate: "",
-            carCard: "",
+            yearsOfExperience: "",
+            shiftType: "",
+            availableFrom: "",
+            availableTo: "",
+            profilePhoto: "",
+            ...EMPTY_DOCUMENTS,
         },
     });
 
     const onSubmit = (data: PartnerFormValues) => {
-       console.log(data);
+        submitApplication(toSubmitPayload(data), {
+            onSuccess: () => {
+                methods.reset({
+                    operatingCountry: "Belgium",
+                    operatingCity: "",
+                    firstName: "",
+                    lastName: "",
+                    email: "",
+                    phone: "",
+                    homeAddress: "",
+                    carType: "",
+                    carColor: "",
+                    carYearModel: "",
+                    licensePlate: "",
+                    yearsOfExperience: "",
+                    shiftType: "",
+                    availableFrom: "",
+                    availableTo: "",
+                    profilePhoto: "",
+                    ...EMPTY_DOCUMENTS,
+                });
+            },
+        });
     };
 
     return (
         <section id="partner-form" className="py-12 lg:py-24 bg-white">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start">
-
-
                     <div className="lg:col-span-5 hidden lg:block sticky top-32 h-fit">
                         <div className="flex flex-col space-y-8">
                             <div className="mb-8">
@@ -102,7 +134,7 @@ export default function PartnerFormSection() {
                                 </span>
                                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
                                     {t.rich("partner.form.title", {
-                                        br: () => <br />
+                                        br: () => <br />,
                                     })}
                                 </h2>
                             </div>
@@ -116,16 +148,16 @@ export default function PartnerFormSection() {
                                 {[
                                     {
                                         title: t("partner.form.benefits.onboarding.title"),
-                                        desc: t("partner.form.benefits.onboarding.desc")
+                                        desc: t("partner.form.benefits.onboarding.desc"),
                                     },
                                     {
                                         title: t("partner.form.benefits.payments.title"),
-                                        desc: t("partner.form.benefits.payments.desc")
+                                        desc: t("partner.form.benefits.payments.desc"),
                                     },
                                     {
                                         title: t("partner.form.benefits.fleet.title"),
-                                        desc: t("partner.form.benefits.fleet.desc")
-                                    }
+                                        desc: t("partner.form.benefits.fleet.desc"),
+                                    },
                                 ].map((item, i) => (
                                     <div key={i} className="flex items-start gap-3 group cursor-pointer">
                                         <div className="flex-shrink-0 w-11 h-11 rounded-full bg-primary/5 flex items-center justify-center transition-colors group-hover:bg-primary/10">
@@ -148,24 +180,25 @@ export default function PartnerFormSection() {
                     <div className="lg:col-span-7 lg:p-10 lg:bg-gray-50 lg:border lg:border-border lg:rounded-2xl shadow-none">
                         <FormProvider {...methods}>
                             <form onSubmit={methods.handleSubmit(onSubmit)} className="space-y-6 lg:space-y-8">
-                                <CitySelectorModal onConfirm={(data) => {
-                                    methods.setValue("country", data.country);
-                                    methods.setValue("city", data.city);
-                                }} />
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <Input
-                                        name="country"
+                                        name="operatingCountry"
+                                        type="select"
                                         label={t("partner.form.labels.country")}
-                                        placeholder={t("partner.form.placeholders.country")}
+                                        selectPlaceholder={t("partner.form.placeholders.country")}
+                                        selectOptions={[{ label: "Belgium", value: "Belgium" }]}
                                         required
-                                        disabled
                                     />
                                     <Input
-                                        name="city"
+                                        name="operatingCity"
+                                        type="select"
                                         label={t("partner.form.labels.city")}
-                                        placeholder={t("partner.form.placeholders.city")}
+                                        selectPlaceholder={t("partner.form.placeholders.city")}
+                                        selectOptions={BELGIUM_CITIES.map((city) => ({
+                                            label: city,
+                                            value: city,
+                                        }))}
                                         required
-                                        disabled
                                     />
                                     <Input
                                         name="firstName"
@@ -193,7 +226,6 @@ export default function PartnerFormSection() {
                                         placeholder={t("partner.form.placeholders.phone")}
                                         required
                                     />
-
                                     <Input
                                         name="carType"
                                         label={t("partner.form.labels.cartype")}
@@ -213,9 +245,12 @@ export default function PartnerFormSection() {
                                         required
                                     />
                                     <Input
-                                        name="experience"
+                                        name="yearsOfExperience"
+                                        type="number"
                                         label={t("partner.form.labels.experience")}
                                         placeholder={t("partner.form.placeholders.experience")}
+                                        min={0}
+                                        max={80}
                                         required
                                     />
                                     <Input
@@ -225,7 +260,7 @@ export default function PartnerFormSection() {
                                         required
                                     />
                                     <Input
-                                        name="shift"
+                                        name="shiftType"
                                         type="select"
                                         label={t("partner.form.labels.shift")}
                                         selectPlaceholder={t("partner.form.placeholders.shift")}
@@ -242,14 +277,14 @@ export default function PartnerFormSection() {
                                         </p>
                                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                                             <Input
-                                                name="driverTimingFrom"
+                                                name="availableFrom"
                                                 type="time"
                                                 label={t("partner.form.labels.timing_from")}
                                                 placeholder={t("partner.form.placeholders.timing_from")}
                                                 required
                                             />
                                             <Input
-                                                name="driverTimingTo"
+                                                name="availableTo"
                                                 type="time"
                                                 label={t("partner.form.labels.timing_to")}
                                                 placeholder={t("partner.form.placeholders.timing_to")}
@@ -258,22 +293,32 @@ export default function PartnerFormSection() {
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="grid grid-cols-1 gap-4">
                                     <Input
-                                        name="address"
+                                        name="homeAddress"
                                         type="location"
                                         label={t("partner.form.labels.address")}
                                         placeholder={t("partner.form.placeholders.address")}
                                         required
                                     />
                                 </div>
+
                                 <div className="space-y-8">
                                     <div className="flex flex-col space-y-1">
-                                        <h3 className="text-xl font-bold text-gray-900 tracking-tight">{t("partner.form.labels.documents")}</h3>
-                                        <p className="text-sm text-gray-500">{t("partner.form.labels.documents_desc")}</p>
+                                        <h3 className="text-xl font-bold text-gray-900 tracking-tight">
+                                            {t("partner.form.labels.documents")}
+                                        </h3>
+                                        <p className="text-sm text-gray-500">
+                                            {t("partner.form.labels.documents_desc")}
+                                        </p>
                                     </div>
 
-                                    {/* ID Documents */}
+                                    <FileUpload
+                                        name="profilePhoto"
+                                        label={t("partner.form.labels.profile_photo")}
+                                    />
+
                                     <div className="space-y-4">
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                                             <FileUpload
@@ -293,6 +338,7 @@ export default function PartnerFormSection() {
                                             required
                                         />
                                     </div>
+
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                                         <FileUpload
                                             name="driverLicenseFront"
@@ -306,11 +352,14 @@ export default function PartnerFormSection() {
                                         />
                                     </div>
 
-                                    {/* Vehicle Photos */}
                                     <div className="space-y-4 pt-4">
                                         <div className="flex flex-col space-y-1">
-                                            <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest">{t("partner.form.labels.vehicle_photos")}</h4>
-                                            <p className="text-sm text-gray-500">{t("partner.form.labels.vehicle_photos_desc")}</p>
+                                            <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest">
+                                                {t("partner.form.labels.vehicle_photos")}
+                                            </h4>
+                                            <p className="text-sm text-gray-500">
+                                                {t("partner.form.labels.vehicle_photos_desc")}
+                                            </p>
                                         </div>
                                         <FileUpload
                                             name="carCard"
@@ -319,55 +368,56 @@ export default function PartnerFormSection() {
                                         />
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                                             <FileUpload
-                                                name="carFront"
+                                                name="carFrontView"
                                                 label={t("partner.form.labels.car_front")}
                                                 required
                                             />
                                             <FileUpload
-                                                name="carBack"
+                                                name="carBackView"
                                                 label={t("partner.form.labels.car_back")}
                                                 required
                                             />
                                             <FileUpload
-                                                name="carLeft"
+                                                name="carLeftView"
                                                 label={t("partner.form.labels.car_left")}
                                                 required
                                             />
                                             <FileUpload
-                                                name="carRight"
+                                                name="carRightView"
                                                 label={t("partner.form.labels.car_right")}
                                                 required
                                             />
                                             <FileUpload
-                                                name="carInside"
+                                                name="carInsideView"
                                                 label={t("partner.form.labels.car_inside")}
                                                 required
                                             />
                                             <FileUpload
-                                                name="carPlate"
+                                                name="licensePlateView"
                                                 label={t("partner.form.labels.car_plate")}
                                                 required
                                             />
                                         </div>
                                     </div>
 
-                                    {/* Business & Insurance */}
                                     <div className="space-y-4 pt-4">
-                                        <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest">{t("partner.form.labels.business_insurance")}</h4>
+                                        <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest">
+                                            {t("partner.form.labels.business_insurance")}
+                                        </h4>
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                                             <FileUpload
-                                                name="insurancePolicy"
+                                                name="taxiInsurancePolicy"
                                                 label={t("partner.form.labels.insurance")}
                                                 required
                                             />
                                             <FileUpload
-                                                name="kvkExtract"
+                                                name="kvkUittreksel"
                                                 label={t("partner.form.labels.kvk")}
                                                 required
                                             />
                                         </div>
                                         <FileUpload
-                                            name="bankpas"
+                                            name="bankCardCopy"
                                             label={t("partner.form.labels.bankpas")}
                                             required
                                         />
@@ -376,10 +426,20 @@ export default function PartnerFormSection() {
 
                                 <Button
                                     type="submit"
+                                    disabled={isPending}
                                     className="w-full h-14 bg-black text-white rounded-xl font-bold flex items-center justify-center gap-3 hover:bg-black/90 transition-all group disabled:opacity-70 disabled:cursor-not-allowed"
                                 >
-                                    <span>{t("partner.form.button")}</span>
-                                    <MoveRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
+                                    {isPending ? (
+                                        <>
+                                            <Loader2 className="w-5 h-5 animate-spin" />
+                                            <span>{t("partner.form.button_submitting")}</span>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <span>{t("partner.form.button")}</span>
+                                            <MoveRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
+                                        </>
+                                    )}
                                 </Button>
                             </form>
                         </FormProvider>

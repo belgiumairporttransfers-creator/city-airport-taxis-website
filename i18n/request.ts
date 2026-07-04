@@ -24,6 +24,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       faqs: (await import(`../lang/${locale}/faqs.json`)).default,
       services: (await import(`../lang/${locale}/services.json`)).default,
       airports: (await import(`../lang/${locale}/airports.json`)).default,
+      cities: (await import(`../lang/${locale}/cities.json`)).default,
       booking: (await import(`../lang/${locale}/booking.json`)).default,
       dashboard: (await import(`../lang/${locale}/dashboard.json`)).default,
     }

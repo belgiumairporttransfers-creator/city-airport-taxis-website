@@ -11,12 +11,14 @@ import { IMAGES } from "@/constants/image-constants";
 import CityCard, { type CityCardData } from "../cities/city-card";
 
 const MAJOR_CITIES = [
-    { key: "paris", image: IMAGES.CITIES.PARIS, href: "/#book-ride-form" },
-    { key: "luxembourg", image: IMAGES.CITIES.LUXEMBOURG, href: "/#book-ride-form" },
-    { key: "antwerp", image: IMAGES.CITIES.ANTWERP, href: "/#book-ride-form" },
-    { key: "brussels", image: IMAGES.CITIES.BRUSSELS, href: "/#book-ride-form" },
-    { key: "ghent", image: IMAGES.CITIES.GHENT, href: "/#book-ride-form" },
-    { key: "liege", image: IMAGES.CITIES.LIEGE, href: "/#book-ride-form" },
+    { key: "brussels", image: IMAGES.CITIES.BRUSSELS, href: "/brussels-city" },
+    { key: "antwerp", image: IMAGES.CITIES.ANTWERP, href: "/antwerp-city" },
+    { key: "ghent", image: IMAGES.CITIES.GHENT, href: "/ghent-city" },
+    { key: "bruges", image: IMAGES.CITIES.BRUGES, href: "/bruges-city" },
+    { key: "amsterdam", image: IMAGES.CITIES.AMSTERDAM, href: "/amsterdam-city" },
+    { key: "paris", image: IMAGES.CITIES.PARIS, href: "/paris-city" },
+    { key: "luxembourg", image: IMAGES.CITIES.LUXEMBOURG, href: "/luxembourg-city" },
+    { key: "maastricht", image: IMAGES.CITIES.MAASTRICHT, href: "/brussels-to-maastricht" },
 ] as const;
 
 export default function CitiesSection() {
@@ -86,8 +88,8 @@ export default function CitiesSection() {
                         }}
                         className="cities-swiper swiper-dark !-m-1 !p-1"
                     >
-                        {cities.map((city) => (
-                            <SwiperSlide key={city.name} className="!h-auto">
+                        {cities.map((city, index) => (
+                            <SwiperSlide key={MAJOR_CITIES[index].key} className="!h-auto">
                                 <CityCard city={city} />
                             </SwiperSlide>
                         ))}

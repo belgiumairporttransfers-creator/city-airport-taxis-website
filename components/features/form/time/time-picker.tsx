@@ -12,6 +12,7 @@ interface TimePickerProps {
   value?: string;
   onChange: (val: string) => void;
   label?: string;
+  required?: boolean;
   disabled?: boolean;
   placeholder?: string;
   error?: boolean;
@@ -24,6 +25,7 @@ export default function TimePicker({
   value,
   onChange,
   label,
+  required = false,
   disabled,
   placeholder = "Select time (24h)",
   error,
@@ -88,6 +90,7 @@ export default function TimePicker({
       {label && !boxed && (
         <label className="block text-sm mb-1.5 font-medium text-gray-700">
           {label}
+          {required && <span className="text-error ml-1">*</span>}
         </label>
       )}
 
@@ -108,6 +111,7 @@ export default function TimePicker({
           {label ? (
             <span className="mb-1.5 block text-left text-sm font-medium text-foreground">
               {label}
+              {required && <span className="text-error ml-1">*</span>}
             </span>
           ) : null}
           <div className="flex items-center gap-2.5">

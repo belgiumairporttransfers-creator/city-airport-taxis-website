@@ -61,7 +61,7 @@ export const HeaderDesktopNav = forwardRef<HTMLElement, HeaderDesktopNavProps>(
 
               {isOpen && (
                 <div
-                  className="absolute left-0 top-full w-64 pt-4 animate-in fade-in slide-in-from-top-2 duration-200 origin-top-left"
+                  className="absolute left-0 top-full w-72 pt-4 animate-in fade-in slide-in-from-top-2 duration-200 origin-top-left"
                   onMouseEnter={() => onDropdownOpen(link.title)}
                   onMouseLeave={onDropdownClose}
                 >

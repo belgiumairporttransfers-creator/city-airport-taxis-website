@@ -28,6 +28,7 @@ interface DatePickerProps {
   timezone?: string;
   disabled?: boolean;
   label?: string;
+  required?: boolean;
   error?: boolean;
   customTrigger?: (value: string) => React.ReactNode;
   boxed?: boolean;
@@ -42,6 +43,7 @@ export default function DatePicker({
   timezone = DEFAULT_TIMEZONE,
   disabled,
   label,
+  required = false,
   error,
   customTrigger,
   boxed = false,
@@ -126,6 +128,7 @@ export default function DatePicker({
       {label && !boxed && (
         <label className="block text-sm mb-1.5 font-medium text-gray-700">
           {label}
+          {required && <span className="text-error ml-1">*</span>}
         </label>
       )}
 
@@ -146,6 +149,7 @@ export default function DatePicker({
           {label ? (
             <span className="mb-1.5 block text-left text-sm font-medium text-foreground">
               {label}
+              {required && <span className="text-error ml-1">*</span>}
             </span>
           ) : null}
           <div className="flex items-center gap-2.5">
