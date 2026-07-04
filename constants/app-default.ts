@@ -7,13 +7,14 @@ export const COMPANY_NAME = "City Airport Taxis";
 export const COMPANY_DESCRIPTION =
   "Elite airport transfer service in Belgium. Available 24/7 for your convenience.";
 
-export const COMPANY_PHONE = "+32 2 615 23 00";
-export const COMPANY_PHONE_HREF = "tel:+3226152300";
+export const COMPANY_PHONE = "+32 2 520 75 26";
+export const COMPANY_PHONE_HREF = "tel:+3225207526";
 
 export const COMPANY_EMAIL = "info@cityairporttaxis.be";
 export const COMPANY_EMAIL_HREF = `mailto:${COMPANY_EMAIL}`;
 
-export const COMPANY_WHATSAPP = "3226152300";
+export const COMPANY_WHATSAPP = "32489498492";
+export const COMPANY_WHATSAPP_DISPLAY = "+32 489 49 84 92";
 export const COMPANY_WHATSAPP_HREF = `https://wa.me/${COMPANY_WHATSAPP}`;
 export const COMPANY_REGISTRATION = "0791634024";
 export const COMPANY_NTN = "BE 0791634024";

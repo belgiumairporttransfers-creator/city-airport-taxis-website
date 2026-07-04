@@ -8,6 +8,7 @@ import { Link } from "@/i18n/routing";
 import { Mail, Lock, ArrowRight, ArrowLeft } from "lucide-react";
 import { Logo } from "@/layout/header/logo";
 import { useTranslations } from "next-intl";
+import SupportContactLinks from "@/components/shared/support-contact-links";
 
 interface LoginFormValues {
     email: string;
@@ -108,6 +109,14 @@ const LoginForm = () => {
                                 {t("login.create_account")}
                             </Link>
                         </p>
+                    </div>
+
+                    <div className="mt-8 rounded-xl border border-gray-100 bg-gray-50 p-4 text-left">
+                        <p className="mb-2 text-sm font-semibold text-gray-900">{t("login.support_heading")}</p>
+                        <SupportContactLinks
+                            phoneLabel={t("login.phone_label")}
+                            whatsappLabel={t("login.whatsapp_label")}
+                        />
                     </div>
 
                     <div className="mt-8 text-center">
