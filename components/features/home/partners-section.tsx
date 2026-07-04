@@ -36,7 +36,7 @@ export default function PartnersSection() {
 
                         <div className="flex select-none overflow-hidden">
                             <motion.div
-                                className="flex items-center gap-12 pr-12 md:gap-20 md:pr-20"
+                                className="flex items-center gap-14 pr-14 md:gap-24 md:pr-24"
                                 animate={{ x: ["0%", "-33.33%"] }}
                                 transition={{
                                     ease: "linear",
@@ -47,14 +47,15 @@ export default function PartnersSection() {
                                 {duplicatedPartners.map((partner, index) => (
                                     <div
                                         key={`${partner.name}-${index}`}
-                                        className="flex min-w-[150px] items-center justify-center md:min-w-[220px]"
+                                        className="flex min-w-[180px] items-center justify-center sm:min-w-[200px] md:min-w-[260px] lg:min-w-[280px]"
                                     >
-                                        <div className="relative h-24 w-full md:h-32">
+                                        <div className="relative h-28 w-full sm:h-32 md:h-40 lg:h-44">
                                             <Image
                                                 src={partner.logo}
                                                 alt={partner.name}
                                                 fill
                                                 className="object-contain brightness-75 transition-all duration-300 hover:brightness-100"
+                                                sizes="(max-width: 768px) 180px, 280px"
                                             />
                                         </div>
                                     </div>

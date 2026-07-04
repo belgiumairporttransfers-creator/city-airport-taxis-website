@@ -19,7 +19,7 @@ export default function CorporateTransportationSection() {
     return (
         <section className="bg-white py-16 md:py-20">
             <div className="container mx-auto px-4">
-                <div className="relative min-h-[520px] overflow-hidden rounded-3xl md:min-h-[580px]">
+                <div className="relative overflow-hidden rounded-3xl">
                     <div className="absolute inset-0">
                         <Image
                             src={IMAGES.CORPORATE_TRANSPORTATION}
@@ -28,44 +28,41 @@ export default function CorporateTransportationSection() {
                             className="object-cover"
                             sizes="100vw"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/45 to-black/80" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/85" />
                     </div>
 
-                    <div className="relative px-5 pb-28 pt-12 text-center md:px-10 md:pb-32 md:pt-16 lg:px-14">
-                        <span className="mb-5 inline-block rounded-full bg-secondary px-4 py-1.5 text-xs font-bold text-primary">
-                            {t("badge")}
-                        </span>
-                        <h2 className="mx-auto max-w-3xl text-2xl font-bold leading-tight text-white md:text-4xl lg:text-[2.5rem]">
-                            {t("title")}
-                        </h2>
-                        <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-white/90 md:text-base">
-                            {t("description")}
-                        </p>
+                    <div className="relative flex flex-col gap-8 px-4 py-10 md:gap-10 md:px-10 md:py-14 lg:px-14">
+                        <div className="text-center">
+                            <span className="mb-5 inline-block rounded-full bg-secondary px-4 py-1.5 text-xs font-bold text-primary">
+                                {t("badge")}
+                            </span>
+                            <h2 className="mx-auto max-w-3xl text-2xl font-bold leading-tight text-white md:text-4xl lg:text-[2.5rem]">
+                                {t("title")}
+                            </h2>
+                            <p className="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-white/90 md:text-base">
+                                {t("description")}
+                            </p>
 
-                        <ul className="mx-auto mt-8 flex max-w-4xl flex-wrap justify-center gap-2.5 md:gap-3">
-                            {serviceTags.map((tag, index) => (
-                                <li key={index}>
-                                    <span className="inline-block rounded-full border border-white/25 bg-white/10 px-4 py-2 text-xs font-medium text-white backdrop-blur-sm md:text-sm">
-                                        {tag}
-                                    </span>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                            <ul className="mx-auto mt-6 flex max-w-4xl flex-wrap justify-center gap-2 md:mt-8 md:gap-3">
+                                {serviceTags.map((tag, index) => (
+                                    <li key={index}>
+                                        <span className="inline-block rounded-full border border-white/25 bg-white/10 px-3.5 py-2 text-xs font-medium text-white backdrop-blur-sm md:px-4 md:text-sm">
+                                            {tag}
+                                        </span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
 
-                    <div className="absolute bottom-0 left-0 right-0 px-4 pb-4 md:px-6 md:pb-6">
-                        <ul className="grid grid-cols-1 gap-4 rounded-2xl bg-black px-5 py-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6 lg:px-8 lg:py-6">
+                        <ul className="grid grid-cols-1 gap-3 rounded-2xl bg-black/95 px-4 py-4 sm:grid-cols-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-4 lg:gap-6 lg:px-8 lg:py-6">
                             {bottomFeatures.map((feature, index) => (
-                                <li
-                                    key={index}
-                                    className="flex items-center gap-2.5 text-left"
-                                >
+                                <li key={index} className="flex w-full items-start gap-3">
                                     <CheckCircle2
-                                        className="h-5 w-5 shrink-0 text-secondary"
+                                        className="mt-0.5 h-5 w-5 shrink-0 text-secondary"
                                         strokeWidth={1.75}
                                         aria-hidden
                                     />
-                                    <span className="text-xs font-medium leading-snug text-white md:text-sm">
+                                    <span className="text-sm font-medium leading-snug text-white">
                                         {feature}
                                     </span>
                                 </li>

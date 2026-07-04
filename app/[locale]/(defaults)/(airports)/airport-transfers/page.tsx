@@ -78,15 +78,17 @@ export default async function AirportTransfersPage() {
                     </>
                 }
                 description={t("airport_transfers.banner.description")}
-                button={{ text: t("airport_transfers.banner.book_ride"), href: "/" }}
-                secondaryButton={{
-                    text: t("airport_transfers.banner.view_fleets"),
-                    href: "/fleets",
-                }}
+                centerContent
+                stats={[
+                    { end: 3, suffix: "+", label: t("airport_transfers.stats.airports_covered") },
+                    { end: 15, suffix: "k+", label: t("airport_transfers.stats.annual_transfers") },
+                    { end: 99.9, suffix: "%", decimals: 1, label: t("airport_transfers.stats.on_time_rate") },
+                    { static: "24/7", label: t("airport_transfers.stats.support") },
+                ]}
             />
             <FeaturesGrid
                 variant="premium"
-                className="pt-20 pb-12 md:pb-16"
+                className="pt-42 pb-12 sm:pt-42 md:pt-52 md:pb-16"
                 title={t("airport_transfers.airport_hubs.title")}
                 description={t("airport_transfers.airport_hubs.description")}
                 items={airportHubs}

@@ -23,9 +23,9 @@ export default function Home() {
             <CorporateTransportationSection />
             <FleetSection />
             <DestinationsSection />
-            <CitiesSection />
+            {/* <CitiesSection /> */}
             <SafetyReliabilitySection />
-            <FaqSection />
+            {/* <FaqSection /> */}
             <HowItWorks />
             <BookAirportTransferSection />
             <PartnersSection />

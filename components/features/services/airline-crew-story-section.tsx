@@ -51,7 +51,7 @@ function StoryImageWithBadge({
                     src={image}
                     alt={imageAlt}
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                     sizes="(max-width: 1024px) 100vw, 28vw"
                 />
             </div>

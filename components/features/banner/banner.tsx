@@ -148,7 +148,7 @@ export default function Banner({
                                           "flex w-full flex-col gap-4 md:gap-6",
                                           hasStats
                                               ? centerContent
-                                                  ? "min-h-[340px] items-center justify-center text-center sm:min-h-[380px] md:min-h-[320px] md:gap-5 lg:gap-6"
+                                                  ? "min-h-[340px] items-center justify-center text-center sm:min-h-[380px] md:min-h-[620px] md:gap-5 lg:gap-6"
                                                   : "items-center text-center md:items-start md:text-left md:gap-5 lg:gap-6"
                                               : "items-center justify-center gap-6 md:items-start lg:gap-8",
                                       )

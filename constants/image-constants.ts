@@ -12,7 +12,7 @@ export const IMAGES = {
         HOURLY_TAXI: "/assets/images/home/services/hourly-taxi.png",
         EVENT_TRANSPORT: "/assets/images/home/services/event-transport.png",
         CORPORATE_TRANSFERS: "/assets/images/home/services/corporate-transfers.png",
-        EMBASSY_DELEGATION: "/assets/images/home/services/embassy-delegation.png",
+        EMBASSY_DELEGATION: "/assets/images/home/services/embassy-delegation-3.png",
     },
 
     DESTINATIONS: {
@@ -59,11 +59,11 @@ export const IMAGES = {
     /** Service pages — public/assets/images/services/<service-slug>/ */
     SERVICE_PAGES: {
         AIRLINE_CREW_TRANSFERS: {
-            BANNER: "/assets/images/services/airline-crew-transfers/banner.png",
+            BANNER: "/assets/images/services/airline-crew-transfers/banner-1.png",
             STORY: "/assets/images/services/airline-crew-transfers/story.png",
         },
         HOURLY_TRANSFERS: {
-            BANNER: "/assets/images/services/hourly-transfers/banner.png",
+            BANNER: "/assets/images/services/hourly-transfers/banner-4.png",
             STORY: "/assets/images/services/hourly-transfers/story.png",
         },
         EVENT_TRANSFERS: {
@@ -71,11 +71,11 @@ export const IMAGES = {
             STORY: "/assets/images/services/event-transfers/story.png",
         },
         CORPORATE_TRANSFERS: {
-            BANNER: "/assets/images/services/corporate-transfers/banner.png",
+            BANNER: "/assets/images/services/corporate-transfers/banner-1.png",
             STORY: "/assets/images/services/corporate-transfers/story.png",
         },
         DIPLOMATIC_EMBASSY_TRANSFERS: {
-            BANNER: "/assets/images/services/diplomatic-embassy-transfers/banner.png",
+            BANNER: "/assets/images/services/diplomatic-embassy-transfers/banner-1.png",
             STORY: "/assets/images/services/diplomatic-embassy-transfers/story.png",
         },
     },
@@ -106,7 +106,7 @@ export const IMAGES = {
             CITYSCAPE: "/assets/images/cities/ghent-city/cityscape.png",
         },
         BRUGES: {
-            BANNER: "/assets/images/cities/bruges-city/banner.png",
+            BANNER: "/assets/images/cities/bruges-city/banner-1.png",
             STORY: "/assets/images/cities/bruges-city/story.png",
             CITYSCAPE: "/assets/images/cities/bruges-city/cityscape.png",
         },

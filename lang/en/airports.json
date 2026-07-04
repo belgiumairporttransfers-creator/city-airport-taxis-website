@@ -5,10 +5,16 @@
       "top_text_suffix": "Zaventem & Belgium",
       "title_line1": "Start Your Journey in Comfort",
       "title_accent": "at Brussels Airport",
-      "description": "Our mission is to redefine professional chauffeur and airport transfer services through clarity, punctuality, and discretion. After a long flight, the last thing you need is to figure out crowded public transport, confusing routes, uncertain taxi fares, or overwhelming options from ticket machines and the STIB bus company. At Brussels Airport — also known as Zaventem Airport — City Airport Taxis is here to ensure your journey continues smoothly from the moment you land.",
+      "description": "Skip crowded public transport, confusing routes, and uncertain taxi fares. Our professional chauffeurs meet you at Brussels Zaventem (BRU), Charleroi (CRL), and airports across Belgium — with fixed pricing and a smooth ride from the moment you land.",
       "book_ride": "Get Instant Quote",
       "view_fleets": "View Our Fleet",
       "image_alt": "Professional chauffeur and premium vehicle for Brussels Airport Zaventem transfer service"
+    },
+    "stats": {
+      "airports_covered": "Belgium Airports",
+      "annual_transfers": "Airport Transfers",
+      "on_time_rate": "On-Time Rate",
+      "support": "24/7 Support"
     },
     "airport_hubs": {
       "title": "Our Key Airport Hubs",

@@ -208,6 +208,8 @@
     "headingHighlight": "Premium",
     "suffix": "Services in Belgium",
     "subtitle": "From airport transfers to corporate travel and embassy delegations — professional taxi services across Brussels and Belgium.",
+    "prev": "Previous services",
+    "next": "Next services",
     "read_more": "Read More",
     "cards": {
       "airport_transfers": {

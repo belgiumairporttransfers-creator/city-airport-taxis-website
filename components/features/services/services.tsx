@@ -4,19 +4,16 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { useTranslations } from "next-intl";
 import "swiper/css";
-import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { IMAGES } from "@/constants/image-constants";
 import ServiceCard, { type ServiceCardItem } from "./ServiceCard";
 
-const AUTOPLAY_DELAY = 3000;
-
 const HOME_SERVICES = [
-    { key: "airport_transfers", image: IMAGES.SERVICES.AIRPORT_TRANSFERS, path: "/airport-transfer" },
-    { key: "hourly_taxi", image: IMAGES.SERVICES.HOURLY_TAXI, path: "/city-ride" },
-    { key: "event_transport", image: IMAGES.SERVICES.EVENT_TRANSPORT, path: "/airline-crew-transportation" },
-    { key: "corporate_transfers", image: IMAGES.SERVICES.CORPORATE_TRANSFERS, path: "/corporate-travel-solutions" },
-    { key: "embassy_delegation", image: IMAGES.SERVICES.EMBASSY_DELEGATION, path: "/corporate-travel-solutions" },
+    { key: "airport_transfers", image: IMAGES.SERVICES.AIRPORT_TRANSFERS, path: "/airport-transfers" },
+    { key: "hourly_taxi", image: IMAGES.SERVICES.HOURLY_TAXI, path: "/hourly-transfers" },
+    { key: "event_transport", image: IMAGES.SERVICES.EVENT_TRANSPORT, path: "/event-transfers" },
+    { key: "corporate_transfers", image: IMAGES.SERVICES.CORPORATE_TRANSFERS, path: "/corporate-transfers" },
+    { key: "embassy_delegation", image: IMAGES.SERVICES.EMBASSY_DELEGATION, path: "/diplomatic-embassy-transfers" },
 ] as const;
 
 export default function Services() {
@@ -32,65 +29,46 @@ export default function Services() {
     }));
 
     return (
-        <section id="services" className="bg-white">
-            <div className="container mx-auto px-4 py-16 sm:px-6 sm:py-20 md:px-8 md:py-24">
-                <div className="mb-8 flex flex-col gap-4 sm:mb-10 md:mb-12 lg:mb-14 lg:flex-row lg:items-center lg:justify-between">
-                    <div className="text-center lg:text-left">
-                        <h2 className="mb-3 text-4xl font-bold text-black md:text-5xl">
+        <section id="services" className="bg-white py-14 md:py-20">
+            <div className="container mx-auto px-4">
+                <div className="overflow-hidden rounded-3xl bg-black px-4 py-10 md:px-8 md:py-14">
+                    <div className="mx-auto mb-8 max-w-3xl text-center md:mb-10">
+                        <h2 className="text-2xl font-bold leading-tight text-white md:text-4xl">
                             {t("heading")}{" "}
                             <span className="text-secondary">{t("headingHighlight")}</span>{" "}
                             {t("suffix")}
                         </h2>
-                        <p className="mx-auto max-w-4xl text-base text-gray-600 sm:text-lg lg:mx-0">
+                        <p className="mt-3 text-sm leading-relaxed text-gray-400 md:text-base">
                             {t("subtitle")}
                         </p>
                     </div>
-                </div>
 
-                <div className="hidden items-start gap-4 md:gap-6 lg:grid lg:grid-cols-12 lg:grid-rows-3">
-                    <div className="col-span-7 row-span-2 row-start-1">
-                        <ServiceCard service={services[0]} isLarge />
-                    </div>
-                    <div className="col-span-5 col-start-8 row-start-1">
-                        <ServiceCard service={services[1]} />
-                    </div>
-                    <div className="col-span-5 col-start-8 row-start-2">
-                        <ServiceCard service={services[2]} />
-                    </div>
-                    <div className="col-span-6 col-start-1 row-start-3">
-                        <ServiceCard service={services[3]} />
-                    </div>
-                    <div className="col-span-6 col-start-7 row-start-3">
-                        <ServiceCard service={services[4]} />
-                    </div>
-                </div>
-
-                <div className="relative lg:hidden">
                     <Swiper
                         modules={[Autoplay, Pagination]}
-                        spaceBetween={16}
-                        slidesPerView={1}
-                        loop
-                        autoplay={{
-                            delay: AUTOPLAY_DELAY,
-                            disableOnInteraction: false,
-                            pauseOnMouseEnter: true,
-                        }}
+                        spaceBetween={20}
+                        slidesPerView={1.1}
+                        loop={services.length > 1}
+                        autoplay={
+                            services.length > 1
+                                ? {
+                                      delay: 5000,
+                                      disableOnInteraction: false,
+                                      pauseOnMouseEnter: true,
+                                  }
+                                : false
+                        }
                         pagination={{
                             clickable: true,
                             dynamicBullets: true,
                         }}
-                        touchEventsTarget="container"
-                        allowTouchMove
                         breakpoints={{
-                            640: {
-                                slidesPerView: 2,
-                            },
+                            640: { slidesPerView: 2 },
+                            1024: { slidesPerView: 3 },
                         }}
-                        className="services-swiper !pb-12"
+                        className="services-swiper swiper-dark !-m-1 !p-1 !pb-10"
                     >
                         {services.map((service) => (
-                            <SwiperSlide key={service.id}>
+                            <SwiperSlide key={service.id} className="!h-auto">
                                 <ServiceCard service={service} />
                             </SwiperSlide>
                         ))}
