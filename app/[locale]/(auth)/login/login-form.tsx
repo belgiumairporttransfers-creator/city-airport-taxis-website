@@ -111,13 +111,13 @@ const LoginForm = () => {
                         </p>
                     </div>
 
-                    <div className="mt-8 rounded-xl border border-gray-100 bg-gray-50 p-4 text-left">
+                    {/* <div className="mt-8 rounded-xl border border-gray-100 bg-gray-50 p-4 text-left">
                         <p className="mb-2 text-sm font-semibold text-gray-900">{t("login.support_heading")}</p>
                         <SupportContactLinks
                             phoneLabel={t("login.phone_label")}
                             whatsappLabel={t("login.whatsapp_label")}
                         />
-                    </div>
+                    </div> */}
 
                     <div className="mt-8 text-center">
                         <Link
