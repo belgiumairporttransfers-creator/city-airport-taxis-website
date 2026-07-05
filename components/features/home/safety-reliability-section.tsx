@@ -2,19 +2,20 @@
 
 import Image from "next/image";
 import {
+    Building2,
     Car,
-    ClipboardCheck,
+    Landmark,
     MapPinned,
     MoveRight,
-    ShieldCheck,
-    Sparkles,
-    Wrench,
+    Navigation,
+    Plane,
+    Route,
 } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { IMAGES } from "@/constants/image-constants";
 import { useTranslations } from "next-intl";
 
-const FEATURE_ICONS = [ShieldCheck, Wrench, Sparkles, MapPinned, Car, ClipboardCheck] as const;
+const FEATURE_ICONS = [MapPinned, Route, Navigation, Plane, Landmark, MapPinned, Building2, Car] as const;
 
 export default function SafetyReliabilitySection() {
     const t = useTranslations("home.safety_reliability");

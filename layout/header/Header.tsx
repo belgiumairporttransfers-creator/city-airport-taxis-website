@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { usePathname } from "@/i18n/routing";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
@@ -9,10 +10,13 @@ import { HeaderMobileMenu } from "./header-mobile-menu";
 import { LanguageSelector } from "./language-selector";
 import { Logo } from "./logo";
 import { UserIcon } from "@/components/icons";
+import { cn } from "@/lib/utils";
 
 export default function Header() {
   const pathname = usePathname();
   const t = useTranslations("common");
+  const isHome = pathname === "/";
+  const [scrolled, setScrolled] = useState(false);
   const {
     mobileOpen,
     openDropdownId,
@@ -26,9 +30,27 @@ export default function Header() {
     desktopNavRef,
   } = useHeaderMenu(pathname);
 
+  useEffect(() => {
+    if (!isHome) {
+      setScrolled(false);
+      return;
+    }
+
+    const onScroll = () => setScrolled(window.scrollY > 24);
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [isHome]);
+
+  const isTransparent = isHome && !scrolled && !mobileOpen;
+
   return (
     <header
-      className="sticky top-0 z-[70] w-full bg-black shadow-md"
+      className={cn(
+        "sticky top-0 z-[70] w-full transition-colors duration-300",
+        isTransparent ? "bg-transparent shadow-none" : "bg-black shadow-md",
+      )}
       role="banner"
     >
       <div className="relative mx-auto container px-4">

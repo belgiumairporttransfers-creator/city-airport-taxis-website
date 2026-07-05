@@ -22,10 +22,10 @@ export default function Home() {
             <WhyChooseUs />
             <CorporateTransportationSection />
             <FleetSection />
-            <DestinationsSection />
-            {/* <CitiesSection /> */}
+            {/* <DestinationsSection /> */}
+            <CitiesSection />
             <SafetyReliabilitySection />
-            {/* <FaqSection /> */}
+            <FaqSection />
             <HowItWorks />
             <BookAirportTransferSection />
             <PartnersSection />

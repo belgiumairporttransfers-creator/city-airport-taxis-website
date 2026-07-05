@@ -179,14 +179,15 @@ function Step1() {
   if (!hasHydrated) return null
 
   return (
-    <div className="mx-auto flex w-full max-w-screen-sm flex-col">
-      <CategoryTabs activeTab={category} onTabChange={handleTabChange} />
+    <div className="mx-auto flex w-full max-w-screen-sm flex-col overflow-hidden rounded-md">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="relative z-10 mt-0 flex flex-col items-stretch gap-2 rounded-none bg-white md:rounded-b-md"
+          className="relative z-10 flex flex-col items-stretch gap-2 overflow-hidden rounded-md bg-white p-4 shadow-sm md:p-5"
         >
-          <div className="relative mb-2 flex-1 space-y-2 md:mb-0">
+          <CategoryTabs activeTab={category} onTabChange={handleTabChange} />
+
+          <div className="relative flex-1 space-y-2">
             <Input
               name="pickupAddress"
               type="location"
@@ -294,7 +295,7 @@ function Step1() {
 
           <Button
             type="submit"
-            className="bg-secondary py-6"
+            className="rounded-md bg-primary py-6"
             loading={
               isLoading ||
               calculateRoute.isPending

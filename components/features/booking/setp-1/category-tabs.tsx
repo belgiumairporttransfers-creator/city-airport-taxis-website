@@ -22,7 +22,7 @@ function CategoryTabs({ activeTab, onTabChange, disabled }: CategoryTabsProps) {
     ]
 
     return (
-        <div className={cn('mb-2 flex items-center gap-2', disabled && 'opacity-80')}>
+        <div className={cn('flex w-full items-center gap-2', disabled && 'opacity-80')}>
             {tabs.map((tab) => {
                 const isActive =
                     activeTab === tab.value ||
@@ -35,11 +35,11 @@ function CategoryTabs({ activeTab, onTabChange, disabled }: CategoryTabsProps) {
                         onClick={() => !disabled && onTabChange(tab.value)}
                         disabled={disabled && !isActive}
                         className={cn(
-                            'inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm transition-colors',
+                            'inline-flex flex-1 items-center justify-center gap-2 rounded-md px-5 py-2.5 text-sm transition-colors',
                             disabled ? 'cursor-not-allowed' : 'cursor-pointer',
                             isActive
                                 ? 'bg-primary font-bold text-white'
-                                : 'bg-primary/50 font-normal text-white hover:bg-primary/60'
+                                : 'bg-gray-200 font-normal text-gray-700 hover:bg-gray-300'
                         )}
                     >
                         {tab.icon}

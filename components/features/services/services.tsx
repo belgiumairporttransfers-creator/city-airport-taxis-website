@@ -9,11 +9,13 @@ import { IMAGES } from "@/constants/image-constants";
 import ServiceCard, { type ServiceCardItem } from "./ServiceCard";
 
 const HOME_SERVICES = [
-    { key: "airport_transfers", image: IMAGES.SERVICES.AIRPORT_TRANSFERS, path: "/airport-transfers" },
-    { key: "hourly_taxi", image: IMAGES.SERVICES.HOURLY_TAXI, path: "/hourly-transfers" },
-    { key: "event_transport", image: IMAGES.SERVICES.EVENT_TRANSPORT, path: "/event-transfers" },
-    { key: "corporate_transfers", image: IMAGES.SERVICES.CORPORATE_TRANSFERS, path: "/corporate-transfers" },
-    { key: "embassy_delegation", image: IMAGES.SERVICES.EMBASSY_DELEGATION, path: "/diplomatic-embassy-transfers" },
+    { key: "charleroi_airport", image: IMAGES.SERVICES.CHARLEROI_AIRPORT, path: "/" },
+    { key: "business_airport", image: IMAGES.SERVICES.BUSINESS_AIRPORT, path: "/" },
+    { key: "luxury_airport", image: IMAGES.SERVICES.LUXURY_AIRPORT, path: "/" },
+    { key: "group_airport", image: IMAGES.SERVICES.GROUP_AIRPORT, path: "/" },
+    { key: "long_distance_airport", image: IMAGES.SERVICES.LONG_DISTANCE_AIRPORT, path: "/" },
+    { key: "hotel_airport", image: IMAGES.SERVICES.HOTEL_AIRPORT, path: "/" },
+    { key: "private_chauffeur", image: IMAGES.SERVICES.PRIVATE_CHAUFFEUR, path: "/" },
 ] as const;
 
 export default function Services() {

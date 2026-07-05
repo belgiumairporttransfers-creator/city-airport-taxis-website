@@ -1,47 +1,57 @@
 {
   "hero": {
-    "badge": "Premium Service",
-    "title_line1": "Your Reliable Airport",
-    "title_line2": "Transfers Across <accent>Belgium</accent>",
-    "description": "Experience seamless travel between major airports and any Belgian city — including Brussels, Antwerp, Charleroi, and Liège. Our professional chauffeurs provide punctual, comfortable, and stress-free journeys from terminal to doorstep, with fixed pricing and no hidden fees. Whether you are traveling for business or leisure, enjoy 24/7 support, flight monitoring, and a premium fleet designed for every occasion.",
-    "stats": {
-      "corporate_partners": {
-        "value": "500+",
-        "label": "Corporate Partners"
-      },
-      "vip_transfers": {
-        "value": "15k+",
-        "label": "VIP Transfers"
-      },
-      "on_time_rate": {
-        "value": "99.9%",
-        "label": "On-Time Rate"
-      },
-      "support": {
-        "value": "24/7",
-        "label": "24/7 Support"
-      }
-    }
+    "title_line1": "Brussels",
+    "title_line2": "Airport <accent>Taxi</accent> Transfers",
+    "description": "Reliable airport taxi transfers to and from Brussels Airport with professional chauffeurs, flight monitoring, meet & greet service, and comfortable Mercedes vehicles available 24/7.",
+    "image_alt": "Brussels Airport taxi transfer with professional chauffeur and luxury vehicle"
   },
   "cities": {
-    "heading": "Pre-Book Your",
-    "headingHighlight": "Airport Transfer",
-    "suffix": "Across Major Cities",
-    "description": "Travel smoothly with premium transfers between Brussels Airport and major cities across Belgium and neighbouring regions — including Paris, Luxembourg, Antwerp, and beyond.",
-    "prev": "Previous cities",
-    "next": "Next cities",
+    "title": "Popular Brussels Airport Transfer Destinations",
+    "description": "We provide airport taxi transfers from Brussels Airport to:",
+    "prev": "Previous destinations",
+    "next": "Next destinations",
     "items": {
-      "brussels": {
-        "name": "Brussels"
+      "brussels_city_centre": {
+        "name": "Brussels City Centre"
       },
-      "antwerp": {
-        "name": "Antwerp"
+      "european_quarter": {
+        "name": "European Quarter"
+      },
+      "grand_place": {
+        "name": "Grand Place"
+      },
+      "avenue_louise": {
+        "name": "Avenue Louise"
+      },
+      "brussels_expo": {
+        "name": "Brussels Expo"
+      },
+      "atomium": {
+        "name": "Atomium"
+      },
+      "bruges": {
+        "name": "Bruges"
       },
       "ghent": {
         "name": "Ghent"
       },
-      "bruges": {
-        "name": "Bruges"
+      "antwerp": {
+        "name": "Antwerp"
+      },
+      "leuven": {
+        "name": "Leuven"
+      },
+      "waterloo": {
+        "name": "Waterloo"
+      },
+      "namur": {
+        "name": "Namur"
+      },
+      "liege": {
+        "name": "Liège"
+      },
+      "charleroi": {
+        "name": "Charleroi"
       },
       "amsterdam": {
         "name": "Amsterdam"
@@ -49,11 +59,8 @@
       "paris": {
         "name": "Paris"
       },
-      "luxembourg": {
-        "name": "Luxembourg"
-      },
-      "maastricht": {
-        "name": "Maastricht"
+      "luxembourg_city": {
+        "name": "Luxembourg City"
       }
     }
   },
@@ -121,87 +128,89 @@
   },
   "why_choose_us": {
     "badge": "Why Choose Us",
-    "title": "Why Choose Our Professional Taxi Service?",
-    "description": "We deliver luxury transportation across Belgium with experienced drivers, premium vehicles, and exceptional service—trusted by 5,000+ clients since 2013.",
-    "image_alt": "Professional taxi service with luxury vehicle and chauffeur in Belgium",
+    "title": "Why Choose Our Brussels Airport Taxi Transfer Service?",
+    "image_alt": "Professional Brussels Airport taxi transfer with luxury Mercedes vehicle and chauffeur",
+    "flight_monitoring": {
+      "title": "Flight Monitoring Included",
+      "description": "We track your flight in real-time and automatically adjust pickup times in case of delays or early arrivals."
+    },
     "meet_greet": {
       "title": "Meet & Greet Service",
-      "items": {
-        "0": "Personal greeting upon arrival",
-        "1": "Assistance with your luggage",
-        "2": "Smooth transition to your vehicle",
-        "3": "A worry-free arrival experience"
-      }
+      "description": "Your chauffeur will welcome you inside the arrivals hall with a personalized name sign and assist with your luggage."
     },
-    "airport_transport": {
-      "title": "Transparent Fixed Pricing",
-      "description": "Fixed pricing with no hidden fees or unexpected charges."
+    "fixed_rates": {
+      "title": "Fixed Rates",
+      "description": "No hidden charges, surge pricing, or unexpected fees. The price you book is the price you pay."
     },
-    "professional_drivers": {
-      "title": "Professional Drivers",
-      "description": "Experienced chauffeurs ensure safe, on-time arrivals on every journey."
+    "professional_chauffeurs": {
+      "title": "Professional Chauffeurs",
+      "description": "Our courteous and experienced drivers provide punctual, safe, and discreet transportation."
     },
-    "flight_tracking": {
-      "title": "Intelligent Flight Tracking",
-      "description": "We monitor flights and adjust pickup times automatically when needed."
+    "premium_mercedes_fleet": {
+      "title": "Premium Mercedes Fleet",
+      "description": "Travel in comfort with our selection of Mercedes E-Class, S-Class, V-Class, and premium minivans."
+    },
+    "available_24_7": {
+      "title": "Available 24/7",
+      "description": "We operate around the clock to accommodate all flight schedules and travel requirements."
     }
   },
   "safety_reliability": {
-    "badge": "Our Commitment",
-    "title": "Safety & Reliability Across Belgium",
-    "description": "Your safety and peace of mind come first on every airport transfer. We uphold strict standards across Belgium so each journey is secure, comfortable, and dependable—from Brussels to Charleroi, Antwerp, Liège, and beyond.",
+    "badge": "Long-Distance Routes",
+    "title": "Airport Taxi Transfers Across Belgium and Europe",
+    "description": "Beyond Brussels Airport transfers, we offer private long-distance transportation to destinations throughout Belgium and neighboring countries. Popular routes include:",
     "features": [
-      "Licensed and vetted chauffeurs",
-      "Regularly inspected vehicles",
-      "Clean and comfortable interiors",
-      "GPS-tracked trips across Belgium",
-      "Fully maintained premium fleet",
-      "Compliant with EU transport standards"
+      "Brussels Airport to Bruges",
+      "Brussels Airport to Ghent",
+      "Brussels Airport to Antwerp",
+      "Brussels Airport to Amsterdam",
+      "Brussels Airport to Paris",
+      "Brussels Airport to Luxembourg",
+      "Brussels Airport to Rotterdam",
+      "Brussels Airport to Cologne"
     ],
     "cta": {
-      "text": "Whether you are traveling alone, with family, or on business across Belgium, you can book with complete confidence.",
+      "text": "All journeys are operated with professional chauffeurs and premium vehicles for maximum comfort.",
       "button": "Book Now"
     },
-    "image_alt": "Professional chauffeur providing a safe airport transfer in Belgium"
+    "image_alt": "Long-distance airport taxi transfer across Belgium and Europe"
   },
   "book_airport_transfer": {
-    "title": "Book Your Airport Transfer Today",
-    "subtitle": "Travel smarter across Belgium with professional chauffeurs and fixed pricing.",
+    "title": "Book Your Brussels Airport Taxi Transfer Today",
+    "subtitle": "Reliable Brussels Airport taxi transfers with a trusted local chauffeur service.",
     "features": [
-      "24/7 Availability",
       "Professional Chauffeurs",
-      "Premium Fleet",
+      "Fixed Prices",
       "Flight Monitoring",
-      "Fixed Pricing",
-      "Belgium-Wide Coverage"
+      "Meet & Greet",
+      "Premium Mercedes Vehicles",
+      "Available 24/7"
     ],
     "button": "Book Now",
     "hero": {
-      "badge": "Reliable Services",
-      "title": "Belgium's Most Reliable Airport Transfer Service",
-      "description": "Whether you're landing at <brussels>Brussels</brussels>, <charleroi>Charleroi</charleroi>, <antwerp>Antwerp</antwerp>, or <liege>Liège</liege>, we deliver a premium travel experience with professional chauffeurs, luxury vehicles, and fixed transparent pricing—for a safe, comfortable, and stress-free journey every time.",
-      "image_alt": "Premium airport transfer fleet at a Belgian airport terminal"
+      "badge": "Brussels Airport",
+      "title": "Your Trusted Local Chauffeur Service",
+      "description": "Experience reliable, professional, and comfortable Brussels Airport taxi transfers with a trusted local chauffeur service. Whether you need an airport pickup, hotel transfer, business transportation, or a long-distance journey, we are committed to delivering exceptional service from start to finish.",
+      "image_alt": "Brussels Airport taxi transfer with professional chauffeur and premium Mercedes vehicle"
     }
   },
   "corporate_transportation": {
-    "badge": "How It Works",
-    "title": "Book Your Belgium Airport Transfer in Minutes",
-    "description": "Booking your airport transfer across Belgium is simple and only takes a few minutes. Start by entering your pickup and drop-off locations. Next, choose the vehicle that best suits your travel needs. Finally, confirm your booking, complete the reservation, and receive instant confirmation for your journey.",
+    "badge": "For Every Traveler",
+    "title": "Airport Transfers for Every Traveler",
+    "description": "Whether you are traveling for business, with family, or as part of a group, our professional airport taxi service is tailored to your needs.",
     "service_tags": [
-      "Enter Pickup & Drop-off",
-      "Choose Your Vehicle",
-      "Confirm Your Booking",
-      "Instant Confirmation",
-      "Fixed Transparent Pricing",
-      "Transfers Across Belgium"
+      "Business Travelers",
+      "Families",
+      "VIP & Luxury Travelers",
+      "Groups & Delegations"
     ],
     "bottom_features": [
-      "Quick online booking in minutes",
-      "Pickup and drop-off anywhere in Belgium",
-      "Vehicle options for every travel need",
-      "Instant confirmation for your journey"
+      "Arrive on time for meetings, conferences, exhibitions, and corporate events with our executive airport transfer service.",
+      "Spacious vehicles and child seats available upon request for a comfortable family journey.",
+      "Experience premium chauffeur-driven transportation with luxury Mercedes vehicles and personalized service.",
+      "Mercedes V-Class and premium vans provide comfortable transportation for groups, families, and business delegations."
     ],
-    "image_alt": "Professional airport transfer booking for travel across Belgium"
+    "image_alt": "Airport transfer service for business travelers, families, VIP guests, and groups"
   },
   "servicesSection": {
     "heading": "Explore Our",
@@ -212,30 +221,40 @@
     "next": "Next services",
     "read_more": "Read More",
     "cards": {
-      "airport_transfers": {
-        "category": "AIRPORT TRANSFERS",
-        "title": "Our Airport Transfers & Taxi Service in Brussels",
-        "description": "Reliable door-to-door airport transfers with meet & greet, flight tracking, and fixed pricing across Belgian airports."
+      "charleroi_airport": {
+        "category": "CHARLEROI AIRPORT",
+        "title": "Charleroi Airport Taxi Transfers",
+        "description": "Enjoy reliable airport taxi transfers to and from Brussels South Charleroi Airport, with fixed rates, flight tracking, and punctual door-to-door service."
       },
-      "hourly_taxi": {
-        "category": "HOURLY TAXI SERVICE",
-        "title": "Flexible Hourly Taxi Service in Brussels",
-        "description": "Book a private taxi by the hour for business meetings, city tours, or multi-stop journeys with a dedicated driver."
+      "business_airport": {
+        "category": "BUSINESS TRANSFERS",
+        "title": "Business Airport Taxi Transfers",
+        "description": "Professional airport taxi transfers for corporate travelers, executives, meetings, conferences, and business events throughout Belgium."
       },
-      "event_transport": {
-        "category": "EVENT TRANSPORT SERVICES",
-        "title": "Event Logistics & Group Transport in Brussels",
-        "description": "Coordinated group transport for conferences, weddings, and corporate events with premium vehicles and punctual service."
+      "luxury_airport": {
+        "category": "LUXURY TRANSFERS",
+        "title": "Luxury Airport Taxi Transfers",
+        "description": "Travel in style with our luxury airport taxi transfers featuring premium Mercedes vehicles, exceptional comfort, and first-class chauffeur service."
       },
-      "corporate_transfers": {
-        "category": "CORPORATE BUSINESS TRANSFERS",
-        "title": "Premium Corporate Business Transfers from Brussels Airport",
-        "description": "Executive airport transfers and business travel solutions with account management, invoicing, and priority support."
+      "group_airport": {
+        "category": "GROUP TRANSFERS",
+        "title": "Group Airport Taxi Transfers",
+        "description": "Spacious airport taxi transfers for families, groups, and business delegations with Mercedes V-Class and premium minivan vehicles."
       },
-      "embassy_delegation": {
-        "category": "EMBASSY DELEGATION SERVICE",
-        "title": "Professional Delegation & Embassy Transport Services in Brussels",
-        "description": "Discreet, secure transport for diplomatic delegations, official visits, and VIP guests across Brussels and Belgium."
+      "long_distance_airport": {
+        "category": "LONG-DISTANCE TRANSFERS",
+        "title": "Long-Distance Airport Taxi Transfers",
+        "description": "Private airport taxi transfers between Brussels Airport and destinations across Belgium, France, the Netherlands, Luxembourg, and Germany."
+      },
+      "hotel_airport": {
+        "category": "HOTEL TRANSFERS",
+        "title": "Hotel Airport Taxi Transfers",
+        "description": "Comfortable airport taxi transfers between airports, hotels, residences, and business locations with reliable door-to-door service."
+      },
+      "private_chauffeur": {
+        "category": "PRIVATE CHAUFFEUR SERVICE",
+        "title": "Private Chauffeur & Airport Taxi Service",
+        "description": "A dedicated chauffeur service combined with premium airport taxi transfers, offering flexibility, comfort, and personalized transportation throughout Belgium."
       }
     }
   },

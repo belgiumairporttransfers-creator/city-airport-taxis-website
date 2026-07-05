@@ -1,11 +1,11 @@
 "use client";
 
 import Image from "next/image";
-import { CheckCircle2 } from "lucide-react";
+import { Check } from "lucide-react";
 import { IMAGES } from "@/constants/image-constants";
 import { useTranslations } from "next-intl";
 
-const SERVICE_TAG_COUNT = 6;
+const SERVICE_TAG_COUNT = 4;
 const BOTTOM_FEATURE_COUNT = 4;
 
 export default function CorporateTransportationSection() {
@@ -54,14 +54,16 @@ export default function CorporateTransportationSection() {
                             </ul>
                         </div>
 
-                        <ul className="grid grid-cols-1 gap-3 rounded-2xl bg-black/95 px-4 py-4 sm:grid-cols-2 sm:gap-4 sm:px-6 sm:py-5 lg:grid-cols-4 lg:gap-6 lg:px-8 lg:py-6">
+                        <ul className="grid grid-cols-1 gap-4 rounded-2xl bg-black px-4 py-4 sm:grid-cols-2 sm:gap-5 sm:px-6 sm:py-5 lg:grid-cols-4 lg:gap-6 lg:px-8 lg:py-6">
                             {bottomFeatures.map((feature, index) => (
                                 <li key={index} className="flex w-full items-start gap-3">
-                                    <CheckCircle2
-                                        className="mt-0.5 h-5 w-5 shrink-0 text-secondary"
-                                        strokeWidth={1.75}
-                                        aria-hidden
-                                    />
+                                    <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-secondary">
+                                        <Check
+                                            className="h-3 w-3 text-primary"
+                                            strokeWidth={3}
+                                            aria-hidden
+                                        />
+                                    </span>
                                     <span className="text-sm font-medium leading-snug text-white">
                                         {feature}
                                     </span>
