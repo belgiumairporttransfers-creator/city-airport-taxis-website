@@ -179,11 +179,11 @@ function Step1() {
   if (!hasHydrated) return null
 
   return (
-    <div className="mx-auto flex w-full max-w-screen-sm flex-col overflow-hidden rounded-md">
+    <div className="flex w-full flex-col md:mx-auto md:max-w-screen-sm md:rounded-md">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="relative z-10 flex flex-col items-stretch gap-2 overflow-hidden rounded-md bg-white p-4 shadow-sm md:p-5"
+          className="relative z-10 flex flex-col items-stretch gap-2 rounded-none bg-white p-4 shadow-sm md:rounded-md md:p-5"
         >
           <CategoryTabs activeTab={category} onTabChange={handleTabChange} />
 

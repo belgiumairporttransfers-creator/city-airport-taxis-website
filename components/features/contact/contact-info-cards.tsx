@@ -8,10 +8,9 @@ import {
     COMPANY_EMAIL,
     COMPANY_EMAIL_HREF,
     COMPANY_OPERATING_HOURS,
+    COMPANY_PHONE,
 } from "@/constants/app-default";
 import { useTranslations } from "next-intl";
-
-const PHONE_DISPLAY = "+92 3266579810";
 
 export default function ContactInfoCards() {
     const t = useTranslations("contact");
@@ -21,7 +20,7 @@ export default function ContactInfoCards() {
             icon: Phone,
             title: t("cards.phone.title"),
             description: t("cards.phone.description"),
-            value: PHONE_DISPLAY,
+            value: COMPANY_PHONE,
             href: COMPANY_PHONE_HREF,
         },
         {

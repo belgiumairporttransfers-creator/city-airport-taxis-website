@@ -9,6 +9,7 @@ export const API_ROUTES = {
     AUTH_LOGOUT_ALL: `/auth/logout-all`,
     PUBLIC_SETTINGS: `/settings/public`,
     NEWSLETTER_SUBSCRIBE: `/newsletter`,
+    CONTACT: `/contact`,
     QUOTE: `/vehicle-pricing/quote`,
     VEHICLE_CATEGORIES: `/vehicle-categories`,
     DRIVERS_APPLY: `/drivers/apply`,

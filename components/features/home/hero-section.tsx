@@ -7,7 +7,7 @@ export default async function HeroSection() {
     const t = await getTranslations("home.hero");
 
     return (
-        <section className="relative w-full -mt-16 overflow-hidden md:-mt-20">
+        <section className="relative w-full -mt-16 md:-mt-20">
             <div className="absolute inset-0">
                 <Image
                     src={IMAGES.HOME_BANNER}
@@ -20,10 +20,10 @@ export default async function HeroSection() {
                 <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-black/35" />
             </div>
 
-            <div className="relative z-10 container mx-auto w-full px-4 pt-24 pb-10 md:pt-32 lg:pt-40 xl:pt-44 lg:pb-12">
-                <div className="grid w-full grid-cols-1  lg:grid-cols-[1fr_minmax(5rem,7.5rem)_minmax(0,480px)] lg:items-center">
+            <div className="relative z-10 container mx-auto w-full px-0 pb-0 pt-24 md:px-4 md:pb-10 md:pt-32 lg:pt-40 xl:pt-44 lg:pb-12">
+                <div className="grid w-full grid-cols-1 lg:grid-cols-[1fr_minmax(5rem,7.5rem)_minmax(0,480px)] lg:items-center">
                     {/* Left: Hero content */}
-                    <div className="flex flex-col items-center text-center md:items-start md:text-left lg:col-start-1">
+                    <div className="mb-8 flex flex-col items-center px-4 text-center md:mb-0 md:items-start md:px-0 md:text-left lg:col-start-1">
                         <h1 className="text-5xl font-bold leading-tight tracking-tight text-white sm:text-6xl md:text-left lg:text-[64px] xl:text-[72px]">
                             <span className="block">{t("title_line1")}</span>
                             <span className="block">
@@ -43,7 +43,7 @@ export default async function HeroSection() {
                     {/* Right: Form */}
                     <div
                         id="book-ride-form"
-                        className="w-full max-w-[480px] scroll-mt-24 lg:col-start-3 lg:justify-self-end"
+                        className="w-full scroll-mt-24 md:max-w-[480px] lg:col-start-3 lg:justify-self-end"
                     >
                         <Step1 />
                     </div>

@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, MoveRight, Loader2 } from "lucide-react";
 import toast from "react-hot-toast";
 import { useTranslations } from "next-intl";
+import { useSubmitContact } from "@/hooks/queries/use-contact";
 
 interface ContactFormValues {
     firstName: string;
@@ -19,6 +20,7 @@ interface ContactFormValues {
 
 export default function ContactFormSection() {
     const t = useTranslations("contact");
+    const { mutate: submitContact, isPending } = useSubmitContact();
     
     const methods = useForm<ContactFormValues>({
         defaultValues: {
@@ -32,9 +34,25 @@ export default function ContactFormSection() {
     });
 
     const onSubmit = (data: ContactFormValues) => {
-        console.log(data);
-        toast.success(t("form.success"));
-        methods.reset();
+        submitContact(
+            {
+                firstName: data.firstName.trim(),
+                lastName: data.lastName.trim(),
+                email: data.email.trim(),
+                phone: data.phone.trim(),
+                subject: data.subject.trim(),
+                message: data.message.trim(),
+            },
+            {
+                onSuccess: () => {
+                    toast.success(t("form.success"));
+                    methods.reset();
+                },
+                onError: (error: { message?: string }) => {
+                    toast.error(error?.message || t("form.error"));
+                },
+            }
+        );
     };
 
     return (
@@ -137,10 +155,20 @@ export default function ContactFormSection() {
 
                                 <Button
                                     type="submit"
+                                    disabled={isPending}
                                     className="w-full h-14 bg-black text-white rounded-xl font-bold flex items-center justify-center gap-3 hover:bg-black/90 transition-all group disabled:opacity-70 disabled:cursor-not-allowed"
                                 >
-                                    <span>{t("form.button")}</span>
-                                    <MoveRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
+                                    {isPending ? (
+                                        <>
+                                            <Loader2 className="w-5 h-5 animate-spin" />
+                                            <span>{t("form.sending")}</span>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <span>{t("form.button")}</span>
+                                            <MoveRight className="w-5 h-5 transition-transform group-hover:translate-x-2" />
+                                        </>
+                                    )}
                                 </Button>
                             </form>
                         </FormProvider>

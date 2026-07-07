@@ -5,7 +5,7 @@ export const IMAGES = {
     CORPORATE_TRANSPORTATION: "/assets/images/home/corporate-transportation.png",
     SAFETY_RELIABILITY: "/assets/images/home/safety-reliability.png",
     BOOK_AIRPORT_TRANSFER: "/assets/images/home/book-airport-transfer.png",
-    PAYMENT_METHODS: "/assets/images/home/payment-methods.png",
+    PAYMENT_METHODS: "/assets/images/home/payment-methods/payment-methods.png",
     CTA_BANNER: "/assets/images/home/cta-banner.png",
 
     SERVICES: {

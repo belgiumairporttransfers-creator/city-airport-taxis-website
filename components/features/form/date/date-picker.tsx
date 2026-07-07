@@ -189,7 +189,7 @@ export default function DatePicker({
             className="fixed inset-0 bg-black/20 backdrop-blur-[2px] z-40 transition-opacity"
             onClick={() => setOpen(false)}
           />
-          <div className="fixed sm:absolute z-50 bottom-0 inset-x-0 sm:inset-auto sm:bottom-full sm:mb-2 w-full sm:w-[340px] bg-white rounded-t-2xl sm:rounded-xl shadow-2xl border border-border overflow-hidden sm:left-0 animate-in fade-in slide-in-from-bottom-4 duration-200">
+          <div className="fixed sm:absolute z-50 bottom-0 inset-x-0 sm:inset-auto sm:top-full sm:mt-2 w-full sm:w-[340px] bg-white rounded-t-2xl sm:rounded-xl shadow-2xl border border-border overflow-hidden sm:left-0 animate-in fade-in slide-in-from-bottom-4 duration-200">
             <div className='p-5'>
               <div className="flex justify-between items-center mb-5">
                 <button

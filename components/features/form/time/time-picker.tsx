@@ -149,7 +149,7 @@ export default function TimePicker({
             className="fixed inset-0 bg-black/20 backdrop-blur-[2px] z-40 transition-opacity"
             onClick={() => setOpen(false)}
           />
-          <div className="fixed sm:absolute z-50 bottom-0 inset-x-0 sm:inset-auto sm:bottom-full sm:mb-2 w-full sm:w-64 bg-white rounded-t-xl sm:rounded-md border border-border shadow-2xl overflow-hidden sm:left-1/2 sm:-translate-x-1/2 animate-in fade-in slide-in-from-bottom-4 duration-200">
+          <div className="fixed sm:absolute z-50 bottom-0 inset-x-0 sm:inset-auto sm:top-full sm:mt-2 w-full sm:w-64 bg-white rounded-t-xl sm:rounded-md border border-border shadow-2xl overflow-hidden sm:left-1/2 sm:-translate-x-1/2 animate-in fade-in slide-in-from-bottom-4 duration-200">
             <div className='p-4'>
               <div className="grid grid-cols-2 gap-4">
                 <TimeColumn
