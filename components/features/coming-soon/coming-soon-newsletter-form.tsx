@@ -20,7 +20,7 @@ export default function ComingSoonNewsletterForm() {
 
   const onSubmit = (data: NewsletterFormValues) => {
     mutate(
-      { email: data.email },
+      { email: data.email, source: "coming-soon" },
       {
         onSuccess: () => {
           methods.reset();

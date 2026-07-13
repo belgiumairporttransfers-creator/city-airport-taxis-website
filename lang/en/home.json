@@ -344,5 +344,28 @@
       "countries": "Major Airports",
       "avg_rating": "Average Rating"
     }
+  },
+  "newsletter": {
+    "explore": {
+      "title": "Explore new destinations with comfort",
+      "description": "Discover hidden gems and scenic routes with our premium fleet.",
+      "button": "Start Exploring"
+    },
+    "featured": {
+      "badge": "Featured Experience",
+      "live_status": "Live Status",
+      "vehicles_label": "Vehicles Available",
+      "vehicles_count": "50+",
+      "image_alt": "Featured Experience"
+    },
+    "form": {
+      "badge": "Subscribe",
+      "title": "Subscribe to our newsletter for the latest travel updates and exclusive offers!",
+      "description": "Get the latest updates and offers directly in your inbox.",
+      "email_placeholder": "Enter your email address here...",
+      "button": "Subscribe",
+      "button_loading": "Subscribing...",
+      "image_alt": "Subscribe to newsletter"
+    }
   }
 }

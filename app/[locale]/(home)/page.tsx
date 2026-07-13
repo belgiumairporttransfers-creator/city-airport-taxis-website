@@ -11,6 +11,7 @@ import FaqSection from "@/components/shared/faqs/faq-section";
 import HowItWorks from "@/components/features/home/how-it-works";
 import PartnersSection from "@/components/features/home/partners-section";
 import Testimonials from "@/components/features/home/testimonial-section";
+import CtaNewsletter from "@/components/features/cta/cta-newsletter";
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
             <HowItWorks />
             <BookAirportTransferSection />
             <PartnersSection />
+            <CtaNewsletter />
         </>
     );
 }

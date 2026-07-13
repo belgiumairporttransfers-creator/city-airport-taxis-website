@@ -6,7 +6,8 @@ export const IMAGES = {
     SAFETY_RELIABILITY: "/assets/images/home/safety-reliability.png",
     BOOK_AIRPORT_TRANSFER: "/assets/images/home/book-airport-transfer.png",
     PAYMENT_METHODS: "/assets/images/home/payment-methods/payment-methods.png",
-    CTA_BANNER: "/assets/images/home/cta-banner.png",
+    CTA_BANNER: "/assets/images/cta/cta-banner.png",
+    CTA_BANNER_2: "/assets/images/cta/cta-banner-2.png",
 
     SERVICES: {
         CHARLEROI_AIRPORT: "/assets/images/home/services/charleroi-airport-taxi-transfers.png",
