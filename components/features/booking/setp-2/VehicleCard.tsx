@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { CURRENCY_CODE } from "@/constants/app-default";
 import { useTranslations } from "next-intl";
+import { useRouter } from "@/i18n/routing";
 
 interface VehicleCardProps {
   quote: PublicQuote;
@@ -22,8 +23,19 @@ export default function VehicleCard({
   onContinue,
 }: VehicleCardProps) {
   const t = useTranslations("booking.select_vehicle.vehicle_card");
+  const router = useRouter();
+  const requestForQuote = quote.category.requestForQuote;
   const totalPrice = quote.priceBreakdown.totalPrice;
   const vehicleSubtitle = quote.category.vehicles.join(", ");
+
+  const handleClick = () => {
+    if (requestForQuote) {
+      router.push("/contact-us");
+      return;
+    }
+
+    onContinue(quote);
+  };
 
   return (
     <div
@@ -70,15 +82,30 @@ export default function VehicleCard({
             </div>
 
             <div className="flex flex-col items-end justify-end flex-shrink-0 text-right">
-              <span className="inline-flex items-baseline gap-1 leading-none text-foreground">
-                <span className="text-xs md:text-base font-medium text-gray-700">
-                  {CURRENCY_CODE}
-                </span>
-                <span className="text-base md:text-2xl font-bold">
-                  {Number(totalPrice ?? 0).toFixed(2)}
-                </span>
-              </span>
-              <span className="text-[10px] md:text-xs text-gray-500 mt-0.5 md:mt-1">{t("total_price")}</span>
+              {requestForQuote ? (
+                <>
+                  <span className="text-sm md:text-lg font-bold text-foreground leading-none">
+                    {t("request_quote")}
+                  </span>
+                  <span className="text-[10px] md:text-xs text-gray-500 mt-0.5 md:mt-1">
+                    {t("on_request")}
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span className="inline-flex items-baseline gap-1 leading-none text-foreground">
+                    <span className="text-xs md:text-base font-medium text-gray-700">
+                      {CURRENCY_CODE}
+                    </span>
+                    <span className="text-base md:text-2xl font-bold">
+                      {Number(totalPrice ?? 0).toFixed(2)}
+                    </span>
+                  </span>
+                  <span className="text-[10px] md:text-xs text-gray-500 mt-0.5 md:mt-1">
+                    {t("total_price")}
+                  </span>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -89,9 +116,9 @@ export default function VehicleCard({
         <Button
           loading={isLoading}
           className="rounded-sm w-full h-8.5 text-xs sm:text-sm"
-          onClick={() => onContinue(quote)}
+          onClick={handleClick}
         >
-          {t("continue")}
+          {requestForQuote ? t("request_quote") : t("continue")}
           <ChevronRight
             size={14}
             strokeWidth={4}

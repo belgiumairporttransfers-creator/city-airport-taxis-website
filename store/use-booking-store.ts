@@ -39,6 +39,7 @@ export interface BookingStep2Data {
         name: string;
         image?: string;
         vehicles: string[];
+        requestForQuote: boolean;
     };
     priceBreakdown: {
         totalPrice: number;

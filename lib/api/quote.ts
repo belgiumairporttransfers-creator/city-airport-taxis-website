@@ -16,6 +16,7 @@ export type PublicQuoteCategory = {
   name: string;
   image?: string;
   vehicles: string[];
+  requestForQuote: boolean;
 };
 
 export type PublicQuote = {
