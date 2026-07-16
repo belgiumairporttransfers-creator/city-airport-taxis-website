@@ -14,7 +14,8 @@
       "total_price": "Total price",
       "request_quote": "Request a Quote",
       "on_request": "On request",
-      "extra_km_info": "+{price} / extra km"
+      "included_distance": "Incl. {distance}",
+      "extra_distance_price": "+{price} / extra km"
     }
   },
   "passenger_details": {

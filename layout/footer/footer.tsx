@@ -139,11 +139,6 @@ export default function Footer() {
                   href: COMPANY_PHONE_HREF,
                 },
                 {
-                  icon: FileText,
-                  text: `${t("footer.enterprise_label")} ${COMPANY_REGISTRATION}`,
-                  href: "#",
-                },
-                {
                   icon: Mail,
                   text: COMPANY_EMAIL,
                   href: COMPANY_EMAIL_HREF,

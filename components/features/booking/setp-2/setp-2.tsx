@@ -9,15 +9,40 @@ import { useHasHydrated } from "@/hooks/use-has-hydrated";
 import { useQuote } from "@/hooks/queries/use-quote";
 import type { PublicQuote } from "@/lib/api/quote";
 
+const resolveSelectedDuration = (duration: unknown): number | null => {
+    if (!duration || typeof duration !== "object") return null;
+    const value = Number((duration as { duration?: unknown }).duration);
+    return Number.isFinite(value) && value > 0 ? value : null;
+};
+
 function Step2() {
     const hasHydrated = useHasHydrated();
     const router = useRouter();
     const { step1, routeData, step2, setStep2Data, category } = useBookingStore();
     const distance = routeData?.distance ?? 0;
     const passengers = step1?.passengers ?? 1;
+    const duration = resolveSelectedDuration(routeData?.duration);
+    const isHourly = category === "hourly";
     const [loadingCategoryId, setLoadingCategoryId] = React.useState<string | null>(null);
 
-    const { data: quotes, isLoading } = useQuote({ distance, passengers, category });
+    const quoteParams = React.useMemo(
+        () =>
+            isHourly
+                ? {
+                      passengers,
+                      category,
+                      duration: duration ?? undefined,
+                  }
+                : {
+                      distance,
+                      passengers,
+                      category,
+                  },
+        [isHourly, distance, passengers, category, duration]
+    );
+
+    const canFetchQuotes = !isHourly || duration !== null;
+    const { data: quotes, isLoading } = useQuote(quoteParams, canFetchQuotes);
 
     const handleContinue = (quote: PublicQuote) => {
         if (loadingCategoryId) return;
@@ -40,6 +65,7 @@ function Step2() {
                     <VehicleCard
                         key={quote.categoryId}
                         quote={quote}
+                        isHourly={isHourly}
                         isSelected={step2?.categoryId === quote.categoryId}
                         isLoading={loadingCategoryId === quote.categoryId}
                         onContinue={handleContinue}

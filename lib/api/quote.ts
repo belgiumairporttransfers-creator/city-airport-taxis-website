@@ -3,13 +3,16 @@ import { api } from "./client";
 import type { BookingCategory } from "@/store/use-booking-store";
 
 export type GetQuoteParams = {
-  distance: number;
+  distance?: number;
   passengers: number;
   category: BookingCategory;
+  duration?: number;
 };
 
 export type PublicQuotePriceBreakdown = {
   totalPrice: number;
+  includedDistance?: number;
+  extraDistancePrice?: number;
 };
 
 export type PublicQuoteCategory = {

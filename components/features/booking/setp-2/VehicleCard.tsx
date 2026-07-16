@@ -9,8 +9,12 @@ import { CURRENCY_CODE } from "@/constants/app-default";
 import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/routing";
 
+const formatIncludedDistance = (value: number) =>
+  `${Number.isInteger(value) ? value : value.toFixed(1)} km`;
+
 interface VehicleCardProps {
   quote: PublicQuote;
+  isHourly?: boolean;
   isSelected?: boolean;
   isLoading: boolean;
   onContinue: (quote: PublicQuote) => void;
@@ -18,6 +22,7 @@ interface VehicleCardProps {
 
 export default function VehicleCard({
   quote,
+  isHourly = false,
   isSelected = false,
   isLoading,
   onContinue,
@@ -26,6 +31,11 @@ export default function VehicleCard({
   const router = useRouter();
   const requestForQuote = quote.category.requestForQuote;
   const totalPrice = quote.priceBreakdown.totalPrice;
+  const includedDistance = quote.priceBreakdown.includedDistance;
+  const extraDistancePrice = quote.priceBreakdown.extraDistancePrice;
+  const showHourlyDetails =
+    isHourly &&
+    (typeof includedDistance === "number" || typeof extraDistancePrice === "number");
   const vehicleSubtitle = quote.category.vehicles.join(", ");
 
   const handleClick = () => {
@@ -90,6 +100,33 @@ export default function VehicleCard({
                   <span className="text-[10px] md:text-xs text-gray-500 mt-0.5 md:mt-1">
                     {t("on_request")}
                   </span>
+                </>
+              ) : showHourlyDetails ? (
+                <>
+                  <span className="inline-flex items-baseline gap-1 leading-none text-foreground">
+                    <span className="text-xs md:text-base font-medium text-gray-700">
+                      {CURRENCY_CODE}
+                    </span>
+                    <span className="text-base md:text-2xl font-bold">
+                      {Number(totalPrice ?? 0).toFixed(2)}
+                    </span>
+                  </span>
+                  <div className="mt-0.5 md:mt-1 flex flex-col items-end gap-0.5 text-[10px] md:text-xs text-gray-500">
+                    {typeof includedDistance === "number" ? (
+                      <span>
+                        {t("included_distance", {
+                          distance: formatIncludedDistance(includedDistance),
+                        })}
+                      </span>
+                    ) : null}
+                    {typeof extraDistancePrice === "number" ? (
+                      <span>
+                        {t("extra_distance_price", {
+                          price: `${CURRENCY_CODE} ${Number(extraDistancePrice).toFixed(2)}`,
+                        })}
+                      </span>
+                    ) : null}
+                  </div>
                 </>
               ) : (
                 <>

@@ -7,6 +7,7 @@ import { Loader2, LocateFixed, MapPinIcon, Clock, X } from 'lucide-react'
 import { useBookingStore } from '@/store/use-booking-store'
 import {
   getCurrentLocationErrorMessage,
+  getHourlyDurationSelectOptions,
   isAirportAddress,
   isGeolocationError,
   resolvePickupAddressFromCurrentLocation,
@@ -27,6 +28,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog"
 import { usePublicSettings } from '@/hooks/queries/use-settings'
+import { useHourlyDurations } from '@/hooks/queries/use-hourly-durations'
 
 interface HeroFormValues {
   pickupAddress: string
@@ -60,6 +62,12 @@ export function EditBookingModal({ isOpen, onClose }: EditBookingModalProps) {
   const { data: settings } = usePublicSettings()
   const isOneWay = category === 'one-way' || category === 'return-trip'
   const isHourly = category === 'hourly'
+
+  const { data: hourlyDurations } = useHourlyDurations(isOpen && isHourly)
+  const durationOptions = React.useMemo(
+    () => getHourlyDurationSelectOptions(hourlyDurations?.items),
+    [hourlyDurations?.items]
+  )
 
   const form = useForm<HeroFormValues>({
     defaultValues: {
@@ -261,7 +269,7 @@ export function EditBookingModal({ isOpen, onClose }: EditBookingModalProps) {
                       type='select'
                       placeholder={t('placeholders.duration')}
                       className='flex-1'
-                      selectOptions={[]}
+                      selectOptions={durationOptions}
                       required
                     />
                   </div>

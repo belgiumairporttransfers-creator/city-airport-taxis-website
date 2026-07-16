@@ -11,6 +11,7 @@ export const API_ROUTES = {
     NEWSLETTER_SUBSCRIBE: `/newsletter`,
     CONTACT: `/contact`,
     QUOTE: `/vehicle-pricing/quote`,
+    HOURLY_DURATIONS: `/hourly-pricing/durations`,
     VEHICLE_CATEGORIES: `/vehicle-categories`,
     DRIVERS_APPLY: `/drivers/apply`,
     BOOKINGS: `/bookings`,

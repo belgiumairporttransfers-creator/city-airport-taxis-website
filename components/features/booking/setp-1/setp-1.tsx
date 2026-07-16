@@ -9,9 +9,10 @@ import { useBookingStore, BookingCategory } from '@/store/use-booking-store'
 import CategoryTabs from './category-tabs'
 import { AddReturnButton } from './AddReturnButton'
 import {
+  calculateArrivalTime,
+  getHourlyDurationSelectOptions,
   isAirportAddress,
   validateBookingTime,
-  calculateArrivalTime,
 } from '@/lib/utils'
 import { useHasHydrated } from '@/hooks/use-has-hydrated'
 import { useCalculateRouteDistance } from '@/hooks/queries/use-calculate-distance'
@@ -20,7 +21,7 @@ import { Input } from '@/components/features/form/Input'
 import toast from 'react-hot-toast'
 import { useTranslations } from 'next-intl'
 import { usePublicSettings } from '@/hooks/queries/use-settings'
-import { Trustpilot } from '@/components/trustpilot'
+import { useHourlyDurations } from '@/hooks/queries/use-hourly-durations'
 
 interface HeroFormValues {
   pickupAddress: string
@@ -52,6 +53,11 @@ function Step1() {
   const isReturnTrip = category === 'return-trip'
   const isHourly = category === 'hourly'
 
+  const { data: hourlyDurations } = useHourlyDurations(isHourly)
+  const durationOptions = React.useMemo(
+    () => getHourlyDurationSelectOptions(hourlyDurations?.items),
+    [hourlyDurations?.items]
+  )
 
   const form = useForm<HeroFormValues>({
     defaultValues: {
@@ -212,6 +218,7 @@ function Step1() {
                 type="select"
                 label={t('labels.duration')}
                 placeholder={t('placeholders.duration')}
+                selectOptions={durationOptions}
                 boxed
                 required
               />

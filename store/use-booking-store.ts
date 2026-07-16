@@ -43,6 +43,8 @@ export interface BookingStep2Data {
     };
     priceBreakdown: {
         totalPrice: number;
+        includedDistance?: number;
+        extraDistancePrice?: number;
     };
     passengers: number;
     luggage: number;

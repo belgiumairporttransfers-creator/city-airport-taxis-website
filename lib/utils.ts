@@ -240,60 +240,34 @@ export function calculateArrivalTime(time: string | undefined, durationMinutes: 
 
 
 
-interface HourlyPackageOption {
+interface HourlyDurationSelectOption {
     label: string;
     value: string;
 }
 
-interface HourlyPackageLike {
-    packageType?: string;
-    duration?: number;
-    price?: number;
-    isActive?: boolean;
-    includedMiles?: number;
-}
+/** Build unique duration select options from active hourly pricing durations. */
+export const getHourlyDurationSelectOptions = (
+    items: Array<{ duration: number }> | null | undefined
+): HourlyDurationSelectOption[] => {
+    if (!items?.length) return [];
 
-interface HourlyPackagesPayload {
-    data?: HourlyPackageLike[];
-    options?: HourlyPackageOption[];
-}
+    const seen = new Set<number>();
+    const options: HourlyDurationSelectOption[] = [];
 
-export const getPackageSelectOptions = (
-    hourlyData: HourlyPackageLike[] | HourlyPackagesPayload | null | undefined
-): HourlyPackageOption[] => {
-    const rawData = Array.isArray(hourlyData) ? hourlyData : hourlyData?.data;
-    const preDefinedOptions = hourlyData && !Array.isArray(hourlyData) ? hourlyData.options : undefined;
-    if (!rawData) return [];
-    if (preDefinedOptions && preDefinedOptions.length > 0) {
-        return preDefinedOptions.map((o) => ({ label: o.label, value: o.value }));
-    }
-
-    const optionsMap = new Map<string, HourlyPackageOption>();
-
-    [...rawData]
-        .filter((pkg) => pkg?.isActive && pkg?.packageType === "hourly")
-        .sort((a, b) => {
-            const durationA = Number(a.duration || 0);
-            const durationB = Number(b.duration || 0);
-            if (durationA !== durationB) return durationA - durationB;
-            return Number(a.price || 0) - Number(b.price || 0);
-        })
-        .forEach((pkg) => {
-            const duration = Number(pkg.duration || 0);
-            if (!duration) return;
-
-            const miles = typeof pkg.includedMiles === "number" ? ` (Incl. ${pkg.includedMiles} km)` : "";
-            const label = `${duration} Hour${duration > 1 ? "s" : ""}${miles}`;
-
-            if (!optionsMap.has(label)) {
-                optionsMap.set(label, {
-                    label,
-                    value: JSON.stringify(pkg),
-                });
-            }
+    [...items]
+        .map((item) => Number(item.duration))
+        .filter((duration) => Number.isFinite(duration) && duration > 0)
+        .sort((a, b) => a - b)
+        .forEach((duration) => {
+            if (seen.has(duration)) return;
+            seen.add(duration);
+            options.push({
+                label: `${duration} Hour${duration > 1 ? "s" : ""}`,
+                value: JSON.stringify({ duration }),
+            });
         });
 
-    return Array.from(optionsMap.values());
+    return options;
 };
 
 export const validateBookingTime = (
