@@ -1,0 +1,194 @@
+{
+  "banner": {
+    "top_text_primary": "À propos de nous",
+    "top_text_suffix": "Transferts Aéroport Belgique",
+    "title_line1": "À propos de",
+    "title_accent": "Notre Service de Taxi Professionnel",
+    "description": "Votre partenaire de confiance pour les transferts aéroport et les services de chauffeur en Belgique. Nous croyons que chaque voyage doit commencer et se terminer dans le confort, la fiabilité et la tranquillité d'esprit — en offrant des expériences de voyage premium aux particuliers, familles, touristes, dirigeants d'entreprise et clients corporatifs.",
+    "image_alt": "Flotte de chauffeurs professionnels assurant des transferts aéroport de luxe en Belgique"
+  },
+  "stats": {
+    "corporate_partners": "Partenaires corporatifs",
+    "vip_transfers": "Transferts VIP",
+    "on_time_rate": "Taux de ponctualité",
+    "concierge_support": "Assistance 24h/24"
+  },
+  "story": {
+    "top_text": "NOTRE HISTOIRE",
+    "title": "Construit autour des besoins des voyageurs modernes",
+    "image_alt": "Chauffeur professionnel ouvrant la portière d'un véhicule de luxe pour un passager dans un aéroport belge",
+    "badge": {
+      "value": "10+",
+      "label": "Années d'excellence"
+    },
+    "paragraphs": [
+      "Le voyage a évolué, tout comme les attentes des voyageurs. Les passagers d'aujourd'hui exigent plus que simplement se déplacer d'un endroit à un autre — ils attendent fiabilité, commodité, sécurité, professionnalisme et une expérience de transport fluide. Nous avons été créés pour répondre à ces attentes en combinant technologie moderne, chauffeurs professionnels, véhicules premium et standards de service centrés sur le client.",
+      "Nous avons identifié un besoin croissant de transport aéroport fiable en Belgique — un service en lequel les voyageurs pouvaient avoir confiance, qu'ils arrivent de l'étranger, voyagent pour affaires, participent à un événement ou explorent les villes belges. Depuis 2013, nous restons engagés à fournir des solutions de transport qui éliminent le stress du voyage et permettent à nos clients de se concentrer sur l'essentiel."
+    ],
+    "stats": [
+      { "value": "5k+", "label": "Clients satisfaits" },
+      { "value": "5+", "label": "Grands aéroports" }
+    ]
+  },
+  "mission_vision": {
+    "items": [
+      {
+        "icon": "Rocket",
+        "title": "Notre mission",
+        "subtitle": "Offrir un transport fiable en Belgique",
+        "description": "Notre mission est de fournir les services de transfert aéroport et de chauffeur les plus fiables, professionnels et centrés sur le client en Belgique.",
+        "list_title": "Nous nous efforçons de :",
+        "points": [
+          "Rendre les voyages aéroport sans stress",
+          "Garantir que chaque passager voyage en toute sécurité",
+          "Offrir une excellence de service constante",
+          "Proposer des options de transport premium confortables",
+          "Accompagner les voyageurs d'affaires et de loisirs",
+          "Maintenir les plus hauts standards de professionnalisme",
+          "Construire des relations durables avec nos clients"
+        ]
+      },
+      {
+        "icon": "Eye",
+        "title": "Notre vision",
+        "subtitle": "Le principal fournisseur de transferts aéroport en Belgique",
+        "description": "Notre vision est de devenir le prestataire de transferts aéroport et de services de chauffeur le plus fiable et reconnu en Belgique.",
+        "list_title": "Nous visons à établir de nouvelles normes d'excellence en transport en nous concentrant sur :",
+        "points": [
+          "La qualité de service",
+          "La satisfaction client",
+          "L'efficacité opérationnelle",
+          "L'innovation",
+          "La sécurité",
+          "L'accessibilité à l'échelle de la Belgique"
+        ]
+      }
+    ]
+  },
+  "drivers_safety": {
+    "drivers": {
+      "title": "Des chauffeurs professionnels en qui vous pouvez avoir confiance",
+      "description": "C'est pourquoi nous sélectionnons et formons soigneusement nos chauffeurs pour qu'ils respectent nos standards élevés de professionnalisme et de service client en Belgique.",
+      "list_title": "Nos chauffeurs sont reconnus pour :",
+      "points": [
+        "Une apparence professionnelle",
+        "Des pratiques de conduite sûres",
+        "Une connaissance approfondie des itinéraires",
+        "La ponctualité",
+        "La courtoisie et le respect",
+        "Une expertise locale à travers la Belgique"
+      ],
+      "image_alt": "Chauffeurs professionnels debout à côté de véhicules de luxe dans un aéroport belge"
+    },
+    "safety": {
+      "title": "La sécurité est notre priorité absolue",
+      "features": [
+        {
+          "icon": "MapPin",
+          "title": "Surveillance GPS 24h/24",
+          "description": "Suivi en temps réel pour chaque trajet actif en Belgique."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Inspections des véhicules",
+          "description": "Contrôles de sécurité réguliers et audits mécaniques sur l'ensemble de notre flotte."
+        },
+        {
+          "icon": "ShieldPlus",
+          "title": "Assurance complète",
+          "description": "Couverture complète pour les passagers et les bagages à chaque trajet."
+        }
+      ]
+    }
+  },
+  "future": {
+    "title": "Regarder vers l'avenir",
+    "description": "Nous nous engageons à devenir le partenaire de transport privilégié des voyageurs en Belgique et au-delà.",
+    "items": [
+      {
+        "title": "Élargir la couverture de service",
+        "description": "Atteindre plus de villes, aéroports et destinations en Belgique."
+      },
+      {
+        "title": "Améliorer la technologie",
+        "description": "Perfectionner les systèmes de réservation, le suivi des vols et la communication client."
+      },
+      {
+        "title": "Développer notre flotte",
+        "description": "Ajouter de nouvelles catégories de véhicules et options de transport premium."
+      },
+      {
+        "title": "Renforcer les partenariats corporatifs",
+        "description": "Accompagner davantage d'entreprises, d'hôtels et d'organisations en Belgique."
+      },
+      {
+        "title": "Élever les standards de l'industrie",
+        "description": "Établir de nouvelles références en matière de qualité, fiabilité et professionnalisme."
+      }
+    ]
+  },
+  "why_choose": {
+    "sidebar": {
+      "title": "Voyagez en toute confiance",
+      "subtitle": "Nous ne fournissons pas simplement du transport — nous offrons des expériences de voyage fiables conçues autour de votre confort, sécurité et commodité en Belgique.",
+      "features": [
+        "Disponibilité 24h/24",
+        "Chauffeurs professionnels",
+        "Flotte premium",
+        "Suivi des vols",
+        "Tarifs fixes",
+        "Couverture nationale en Belgique"
+      ],
+      "button": "Réserver maintenant"
+    },
+    "title": "Pourquoi choisir notre service de taxi professionnel ?",
+    "description": "Des milliers de voyageurs en Belgique nous choisissent parce que nous offrons constamment :",
+    "reasons": [
+      "Chauffeurs professionnels",
+      "Disponibilité 24h/24",
+      "Couverture nationale en Belgique",
+      "Options de flotte premium",
+      "Service Meet & Greet",
+      "Suivi des vols",
+      "Tarifs fixes",
+      "Transport sûr et fiable",
+      "Solutions de voyage d'affaires",
+      "Service client exceptionnel"
+    ],
+    "highlight": {
+      "title": "La sécurité avant tout à chaque voyage",
+      "description": "Votre sécurité reste notre priorité absolue. Nous suivons des standards opérationnels stricts pour garantir que chaque trajet en Belgique est sûr et fiable.",
+      "list_title": "Nos standards de sécurité comprennent :",
+      "list_items": [
+        "Chauffeurs formés professionnellement",
+        "Chauffeurs licenciés",
+        "Entretien régulier des véhicules",
+        "Trajets surveillés par GPS",
+        "Intérieurs propres et confortables",
+        "Expertise en voyages longue distance"
+      ]
+    }
+  },
+  "corporate_travel": {
+    "title": "Solutions de voyage d'affaires et corporatif",
+    "paragraphs": [
+      "Nous servons fièrement les clients corporatifs, hôtels, agences de voyage, organisateurs d'événements et multinationales en Belgique.",
+      "Si vous recherchez un partenaire de transport à long terme, notre équipe corporative peut fournir des solutions personnalisées adaptées à vos exigences opérationnelles."
+    ],
+    "benefits_title": "Avantages corporatifs :",
+    "benefits": [
+      "Chauffeurs professionnels",
+      "Véhicules exécutifs de luxe",
+      "Planification flexible",
+      "Transport confidentiel",
+      "Standards de service fiables",
+      "Options de compte corporatif"
+    ],
+    "account_card": {
+      "title": "Comptes corporatifs",
+      "description": "Que vous assistiez à des réunions, conférences, visites de sites ou rendez-vous clients en Belgique, nos solutions de transport aident à maximiser la productivité et l'efficacité.",
+      "cta_text": "Postuler maintenant",
+      "cta_href": "/corporate-travel-solutions/register"
+    }
+  }
+}

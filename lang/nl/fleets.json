@@ -1,0 +1,36 @@
+{
+  "banner": {
+    "top_text": "De collectie",
+    "title": "Ervaar de kunst van automotive excellentie",
+    "description": "Ontdek een zorgvuldig geselecteerde selectie van 's werelds meest prestigieuze voertuigen. Ontworpen voor wie prestaties, luxe en de reis zelf waardeert."
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "Premium modellen",
+      "description": "Geselecteerd uit top luxemerken zoals Mercedes S-Klasse, BMW 7, Audi A8 & Mercedes-Benz V-Klasse"
+    },
+    {
+      "value": "24/7",
+      "label": "Conciërgeservice",
+      "description": "Toegewijd supportteam, altijd en overal voor u beschikbaar"
+    },
+    {
+      "value": "15",
+      "label": "Wereldwijde locaties",
+      "description": "Naadloos ophalen en afzetten op grote luchthavens en in steden"
+    },
+    {
+      "value": "100%",
+      "label": "Onderhoudsscore",
+      "description": "Strenge inspectie van 150 punten vóór elke rit"
+    }
+  ],
+  "list": {
+    "no_vehicles": "Geen voertuigen gevonden",
+    "no_vehicles_desc": "We konden geen voertuigen vinden die aan uw criteria voldoen. Probeer een andere categorie.",
+    "reset_filters": "Filters resetten",
+    "load_more": "MEER VOERTUIGEN LADEN",
+    "loading": "Laden..."
+  }
+}

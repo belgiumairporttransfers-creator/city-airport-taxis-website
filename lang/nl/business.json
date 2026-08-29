@@ -1,0 +1,322 @@
+{
+  "partner": {
+    "banner": {
+      "top_text": "Partner worden",
+      "title": "Word lid van ons elite team",
+      "description": "Word onderdeel van het meest professionele taxinetwerk in Pakistan. We bieden flexibele roosters, concurrerende inkomsten en een constante stroom premium boekingen."
+    },
+    "cards": {
+      "earnings": {
+        "title": "Gemaximaliseerde inkomsten",
+        "description": "Profiteer van onze concurrerende commissiestructuren en routes met hoge vraag.",
+        "value": "Top tier tarieven",
+        "cta": "Verhoog uw inkomen"
+      },
+      "flexibility": {
+        "title": "Ultieme flexibiliteit",
+        "description": "Kies uw eigen uren en beheer uw rooster via onze intuïtieve chauffeursapp.",
+        "value": "Werk wanneer u wilt",
+        "cta": "Stel uw rooster in"
+      },
+      "support": {
+        "title": "24/7 Chauffeursondersteuning",
+        "description": "Ons toegewijd operationsteam is rond de klok beschikbaar om u te helpen.",
+        "value": "Altijd aan uw zijde",
+        "cta": "Aan de slag"
+      }
+    },
+    "form": {
+      "top_text": "Word lid van het netwerk",
+      "title": "Klaar om te rijden met Airport Transfer?",
+      "description": "Vul het formulier in om uw interesse te registreren. Ons wervingsteam beoordeelt uw aanvraag en begeleidt u door de volgende stappen.",
+      "benefits": {
+        "onboarding": {
+          "title": "Snelle onboarding",
+          "desc": "Word geverifieerd en klaar om te rijden in slechts 48 uur."
+        },
+        "payments": {
+          "title": "Wekelijkse betalingen",
+          "desc": "Ontvang uw inkomsten elke week rechtstreeks op uw account."
+        },
+        "fleet": {
+          "title": "Premium vloot",
+          "desc": "Toegang tot hoogwaardige klanten die top-tier vervoer zoeken."
+        }
+      },
+      "labels": {
+        "country": "Land van operatie",
+        "city": "Stad van operatie",
+        "firstname": "Voornaam",
+        "lastname": "Achternaam",
+        "email": "E-mailadres",
+        "phone": "Telefoonnummer",
+        "cartype": "Autotype",
+        "carcolor": "Autokleur",
+        "license_plate": "Kentekenplaat",
+        "experience": "Jaren ervaring",
+        "address": "Thuisadres",
+        "documents": "Vereiste documenten",
+        "documents_desc": "Upload duidelijke kopieën (PNG, JPG of PDF) van de volgende documenten.",
+        "pass_front": "Professioneel rijbewijs (Voorkant)",
+        "pass_back": "Professioneel rijbewijs (Achterkant)",
+        "kiwa": "Airport Transfer-vergunning",
+        "license_front": "Rijbewijs (Voorkant)",
+        "license_back": "Rijbewijs (Achterkant)",
+        "business_insurance": "Bedrijf en verzekering",
+        "insurance": "Commercieel voertuigverzekeringspolis",
+        "kvk": "KVK Uittreksel",
+        "bankpas": "Kopie bankpas",
+        "vehicle_photos": "Voertuigfoto's",
+        "vehicle_photos_desc": "Upload duidelijke foto's van uw voertuig vanuit de volgende hoeken.",
+        "car_front": "Auto voorkant",
+        "car_back": "Auto achterkant",
+        "car_left": "Auto linkerkant",
+        "car_right": "Auto rechterkant",
+        "car_inside": "Auto interieur",
+        "car_plate": "Kentekenplaat",
+        "car_year_model": "Auto jaar / model",
+        "shift": "Dienst (Dag / Nacht)",
+        "driver_timing": "Chauffeurstijden",
+        "timing_from": "Van",
+        "timing_to": "Tot",
+        "car_card": "Voertuigregistratiedocument",
+        "profile_photo": "Profielfoto (Optioneel)"
+      },
+      "shift_options": {
+        "day": "Dagdienst",
+        "night": "Nachtdienst",
+        "both": "Dag en nacht"
+      },
+      "placeholders": {
+        "country": "Selecteer land van operatie",
+        "city": "Selecteer stad van operatie",
+        "firstname": "Voer voornaam in",
+        "lastname": "Voer achternaam in",
+        "email": "Voer e-mailadres in",
+        "phone": "Voer telefoonnummer in",
+        "cartype": "Voer autotype in",
+        "carcolor": "Voer autokleur in",
+        "license_plate": "Voer kentekenplaat in",
+        "experience": "Voer ervaring in",
+        "car_year_model": "bijv. 2022 Toyota Corolla",
+        "shift": "Selecteer dienst",
+        "timing_from": "Starttijd",
+        "timing_to": "Eindtijd",
+        "address": "Voer thuisadres in"
+      },
+      "button": "Aanmelden om lid te worden",
+      "button_submitting": "Aanvraag verzenden..."
+    }
+  },
+  "corporate": {
+    "banner": {
+      "top_text": "Zakelijke reisoplossingen",
+      "title": "Professionele reisoplossingen voor uw bedrijf",
+      "description": "Vereenvoudig het grondvervoer van uw bedrijf met een betrouwbaar executive reisplatform gebouwd voor bedrijven in Pakistan.",
+      "button": "Word lid van ons netwerk"
+    },
+    "stats": [
+      { "title": "Uitmuntendheid", "description": "In elk detail" },
+      { "title": "Betrouwbaarheid", "description": "Altijd op tijd" },
+      { "title": "Comfort", "description": "First class ervaring" },
+      { "title": "Privacy", "description": "Discretie gegarandeerd" }
+    ],
+    "story": {
+      "top_text": "belangrijkste zakelijke functies",
+      "title": "Vertrouwd zakelijk vervoer voor bedrijven in Pakistan",
+      "description": "Centraliseer uw zakelijke reisoperaties met een gestroomlijnd boekings- en beheerplatform. Plan ritten, monitor uitgaven en beheer werknemersvervoer met gemak",
+      "badge": "Gericht op uitmuntendheid",
+      "features": {
+        "ride_mgmt": {
+          "title": "Flexibel ritbeheer",
+          "description": "Boek, wijzig en monitor ritten voor executives en werknemers in real-time."
+        },
+        "expense_ctrl": {
+          "title": "Uitgaven- en betalingscontrole",
+          "description": "Vereenvoudig facturering, goedkeuringen en boekhouding met gecentraliseerd financieel beheer."
+        },
+        "coverage": {
+          "title": "Landelijke dekking",
+          "description": "Professionele transfer- en chauffeursdienst in heel Pakistan."
+        },
+        "api": {
+          "title": "Business API en integraties",
+          "description": "Verbind ons transportplatform met uw interne systemen via beveiligde API."
+        }
+      }
+    },
+    "process": {
+      "top_text": "PROCES",
+      "title": "Zakelijk corporate in 3 eenvoudige stappen",
+      "description": "Hier zijn de gestroomlijnde reisoplossingen voor uw zakelijke behoeften",
+      "button": "Begin met boeken",
+      "steps": [
+        {
+          "id": "Stap 01",
+          "title": "Registreer uw account",
+          "description": "Maak uw zakelijke account in enkele minuten aan. Voeg teamleden en factuurvoorkeuren toe vanuit één beveiligd dashboard."
+        },
+        {
+          "id": "Stap 02",
+          "title": "Plan zakelijke ritten",
+          "description": "Boek, wijzig en monitor ritten voor executives, werknemers en gasten in real-time in Pakistan."
+        },
+        {
+          "id": "Stap 03",
+          "title": "Volg en beheer",
+          "description": "Monitor alle boekingen en uitgaven vanuit één dashboard. Uw transportteam staat klaar en op tijd."
+        }
+      ]
+    },
+    "parallax": {
+      "top_text": "vertrouwd landelijk",
+      "title": "Beheer uw bedrijfstransport met vertrouwen",
+      "description": "Een platform gebouwd voor betrouwbaarheid, controle en premium service — vertrouwd door bedrijven in Pakistan.",
+      "cards": [
+        {
+          "title": "Gecentraliseerde facturering",
+          "description": "Volledig rapportagedashboard voor alle zakelijke ritten en uitgaven."
+        },
+        {
+          "title": "Gastritboeking",
+          "description": "Beheer reizigersaccounts en boek ritten namens gasten."
+        },
+        {
+          "title": "Volledig ritoverzicht",
+          "description": "Volledige zichtbaarheid voor interne reiscoördinatoren."
+        }
+      ]
+    },
+    "register": {
+      "title": "Registreren voor zakelijke reisoplossingen",
+      "description": "Vereenvoudig uw bedrijfstransport met ons professionele executive reisplatform. Partner met Airport Transfer voor betrouwbaar, naadloos grondvervoer."
+    },
+    "cards": {
+      "executive": {
+        "title": "Executive service",
+        "description": "Premium voertuigen en hoogopgeleide chauffeurs voor uw team en gasten.",
+        "value": "Top tier kwaliteit",
+        "cta": "Nu registreren"
+      },
+      "invoicing": {
+        "title": "Maandelijkse facturering",
+        "description": "Vereenvoudigde facturering met geconsolideerde maandelijkse facturen en uitgavenregistratie.",
+        "value": "Eenvoudige boekhouding",
+        "cta": "Uitgaven vereenvoudigen"
+      },
+      "support": {
+        "title": "Prioriteitsondersteuning",
+        "description": "Toegewijde accountmanager en prioritaire 24/7 klantenservice.",
+        "value": "Altijd beschikbaar",
+        "cta": "Ondersteuning krijgen"
+      }
+    },
+    "form": {
+      "top_text": "Partner worden",
+      "title": "Registreer uw bedrijfsaccount",
+      "description": "Vul het formulier in om uw bedrijf te registreren. Ons zakelijke onboardingteam beoordeelt uw aanvraag en stelt uw bedrijfsdashboard in.",
+      "labels": {
+        "agency_name": "Bedrijfs- / agentuurnaam",
+        "firstname": "Voornaam",
+        "lastname": "Achternaam",
+        "email": "Zakelijke e-mail",
+        "phone": "Telefoonnummer"
+      },
+      "placeholders": {
+        "agency_name": "bijv. Acme Pakistan Pvt Ltd",
+        "firstname": "Voer voornaam in",
+        "lastname": "Voer achternaam in",
+        "email": "Voer zakelijke e-mail in",
+        "phone": "Voer telefoonnummer in"
+      },
+      "button": "Account registreren"
+    }
+  },
+  "partner_page": {
+    "banner": {
+      "top_text": "PARTNER WORDEN",
+      "title": "Word professionele<br/>chauffeurpartner",
+      "description": "Groei uw bedrijf met consistente ritverzoeken in grote Pakistaanse steden.",
+      "button_text": "Nu aanmelden"
+    },
+    "demand": {
+      "title": "Ontgrendel stabiele vraag in Pakistan",
+      "description": "Verbind met klanten die reizen binnen steden zoals Karachi, Lahore, Islamabad en Faisalabad. Accepteer alleen ritten die in uw rooster passen."
+    },
+    "features": {
+      "earnings": {
+        "title": "Verhoog uw inkomsten",
+        "description": "Ontvang hoogwaardige ritverzoeken van zakelijke en particuliere klanten."
+      },
+      "payments": {
+        "title": "Eenvoudige betalingen",
+        "description": "Word betrouwbaar betaald met transparante prijzen en geen verborgen kosten."
+      },
+      "schedule": {
+        "title": "Bepaal uw rooster",
+        "description": "Werk wanneer u wilt. Accepteer of weiger ritten op basis van uw beschikbaarheid."
+      },
+      "trust": {
+        "title": "Vertrouw uw operaties",
+        "description": "Toegewijde ondersteuning en een gestructureerd platform om uw ritten efficiënt te beheren."
+      }
+    },
+    "parallax": {
+      "title": "Gebouwd voor moderne mobiliteit in Pakistan",
+      "subtitle": "BELEEF EEN NAADLOZE ERVARING",
+      "description": "We ondersteunen professionele chauffeurs met efficiënte ritdistributie, geoptimaliseerde routes en een groeiende vraag naar premium transportdiensten in Pakistaanse steden.",
+      "button_text": "Meer informatie"
+    },
+    "faq": {
+      "top_text": "VEELGESTELDE VRAGEN",
+      "title": "Alles wat u moet weten over partner worden",
+      "description": "Vind antwoorden op de meest gestelde vragen over chauffeurpartner worden bij Airport Transfer. Van vereisten en betalingen tot operaties en ondersteuning — wij hebben u gedekt.",
+      "items": {
+        "q1": {
+          "question": "Wie kan partner worden?",
+          "answer": "Elke gelicentieerde chauffeur of transportbedrijf dat opereert in Pakistan met geldige NTN-registratie."
+        },
+        "q2": {
+          "question": "Wat zijn de vereisten?",
+          "answer": "Geldig rijbewijs, geregistreerd commercieel voertuig, Airport Transfer-vergunning, en professionele uitstraling en servicekwaliteit."
+        },
+        "q3": {
+          "question": "Hoe word ik betaald?",
+          "answer": "Betalingen worden veilig verwerkt en rechtstreeks overgemaakt naar uw Pakistaanse bankrekening."
+        },
+        "q4": {
+          "question": "Kan ik mijn ritten kiezen?",
+          "answer": "Ja, u heeft volledige controle om verzoeken te accepteren of te weigeren."
+        },
+        "q5": {
+          "question": "In welke steden opereren jullie?",
+          "answer": "We opereren momenteel in grote steden in Pakistan, waaronder Karachi, Lahore, Islamabad, Faisalabad, Multan en Peshawar."
+        }
+      }
+    },
+    "cta": {
+      "title": "Nog vragen?",
+      "description": "Ons team staat klaar om u te helpen met eventuele vragen.",
+      "button_text": "Contact opnemen"
+    }
+  },
+  "partner_register": {
+    "banner": {
+      "top_text": "AANMELDEN OM TE RIJDEN",
+      "title": "Aanmelden om te rijden met Airport Transfer",
+      "description": "Word lid van ons netwerk van professionele chauffeurs en krijg toegang tot een constante stroom ritverzoeken in Pakistan. Verdien meer met flexibel werk en betrouwbare uitbetalingen."
+    },
+    "modal": {
+      "title": "Waar bevindt u zich?",
+      "description": "Selecteer uw locatie van operatie om door te gaan.",
+      "country_label": "Land van operatie",
+      "country_placeholder": "Selecteer uw land",
+      "city_label": "Stad van operatie",
+      "city_placeholder": "Selecteer uw stad",
+      "button_loading": "{city} betreden...",
+      "button_ready": "Registratie starten",
+      "button_disabled": "Selecteer stad om door te gaan",
+      "no_city_found": "Geen stad gevonden."
+    }
+  }
+}

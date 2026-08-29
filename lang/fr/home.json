@@ -1,0 +1,329 @@
+{
+  "hero": {
+    "title_line1": "Bruxelles",
+    "title_line2": "Transferts <accent>Taxi</accent> Aéroport",
+    "description": "Transferts taxi aéroport fiables vers et depuis Brussels Airport avec chauffeurs professionnels, suivi des vols, service meet & greet et véhicules Mercedes confortables disponibles 24h/24.",
+    "image_alt": "Transfert taxi Brussels Airport avec chauffeur professionnel et véhicule de luxe"
+  },
+  "cities": {
+    "title": "Destinations populaires de transfert Brussels Airport",
+    "description": "Nous assurons des transferts taxi aéroport depuis Brussels Airport vers :",
+    "prev": "Destinations précédentes",
+    "next": "Destinations suivantes",
+    "items": {
+      "brussels_city_centre": { "name": "Centre-ville de Bruxelles" },
+      "european_quarter": { "name": "Quartier européen" },
+      "grand_place": { "name": "Grand-Place" },
+      "avenue_louise": { "name": "Avenue Louise" },
+      "brussels_expo": { "name": "Brussels Expo" },
+      "atomium": { "name": "Atomium" },
+      "bruges": { "name": "Bruges" },
+      "ghent": { "name": "Gand" },
+      "antwerp": { "name": "Anvers" },
+      "leuven": { "name": "Louvain" },
+      "waterloo": { "name": "Waterloo" },
+      "namur": { "name": "Namur" },
+      "liege": { "name": "Liège" },
+      "charleroi": { "name": "Charleroi" },
+      "amsterdam": { "name": "Amsterdam" },
+      "paris": { "name": "Paris" },
+      "luxembourg_city": { "name": "Luxembourg-Ville" }
+    }
+  },
+  "destinations": {
+    "badge": "Aéroports couverts",
+    "title": "Principaux aéroports belges desservis",
+    "description": "Nous assurons des transferts aéroport fiables vers et depuis tous les grands aéroports belges, vous connectant aux villes du pays avec chauffeurs professionnels et tarifs fixes.",
+    "items": {
+      "brussels": {
+        "name": "Brussels Airport (Zaventem)",
+        "subtitle": "Itinéraires populaires :",
+        "tags": {
+          "0": "Centre-ville de Bruxelles",
+          "1": "Quartier UE et bureaux",
+          "2": "Hôtels et pôles d'affaires",
+          "3": "Accueil aux arrivées"
+        }
+      },
+      "charleroi": {
+        "name": "Brussels South Charleroi",
+        "subtitle": "Itinéraires populaires :",
+        "tags": {
+          "0": "Transferts vers Bruxelles",
+          "1": "Charleroi et Wallonie",
+          "2": "Arrivées vols low-cost",
+          "3": "Service porte-à-porte"
+        }
+      },
+      "antwerp": {
+        "name": "Antwerp International Airport",
+        "subtitle": "Itinéraires populaires :",
+        "tags": {
+          "0": "Centre-ville d'Anvers",
+          "1": "Port et quartiers d'affaires",
+          "2": "Prises en charge aéroport",
+          "3": "Déposes aéroport"
+        }
+      },
+      "liege": {
+        "name": "Liège Airport",
+        "subtitle": "Itinéraires populaires :",
+        "tags": {
+          "0": "Centre-ville de Liège",
+          "1": "Connexions Wallonie",
+          "2": "Voyage d'affaires",
+          "3": "Transferts régionaux"
+        }
+      },
+      "ostend": {
+        "name": "Ostend-Bruges Airport",
+        "subtitle": "Itinéraires populaires :",
+        "tags": {
+          "0": "Ostende et villes côtières",
+          "1": "Transferts Bruges",
+          "2": "Voyage vacances",
+          "3": "Service chauffeur privé"
+        }
+      }
+    }
+  },
+  "fleet": {
+    "title": "Notre flotte premium en Belgique",
+    "description": "Voyagez confortablement avec nos véhicules soigneusement entretenus, des berlines exécutives aux SUV spacieux — parfaits pour les transferts aéroport, voyages d'affaires et groupes en Belgique.",
+    "view_details": "Voir les détails"
+  },
+  "why_choose_us": {
+    "badge": "Pourquoi nous choisir",
+    "title": "Pourquoi choisir notre service de transfert taxi Brussels Airport ?",
+    "image_alt": "Transfert taxi Brussels Airport professionnel avec véhicule Mercedes de luxe et chauffeur",
+    "flight_monitoring": {
+      "title": "Suivi des vols inclus",
+      "description": "Nous suivons votre vol en temps réel et ajustons automatiquement les heures de prise en charge en cas de retards ou d'arrivées anticipées."
+    },
+    "meet_greet": {
+      "title": "Service Meet & Greet",
+      "description": "Votre chauffeur vous accueillera dans le hall des arrivées avec une pancarte personnalisée et vous aidera avec vos bagages."
+    },
+    "fixed_rates": {
+      "title": "Tarifs fixes",
+      "description": "Pas de frais cachés, de tarification dynamique ou de coûts imprévus. Le prix réservé est le prix payé."
+    },
+    "professional_chauffeurs": {
+      "title": "Chauffeurs professionnels",
+      "description": "Nos chauffeurs courtois et expérimentés assurent un transport ponctuel, sûr et discret."
+    },
+    "premium_mercedes_fleet": {
+      "title": "Flotte Mercedes premium",
+      "description": "Voyagez confortablement avec notre sélection de Mercedes E-Class, S-Class, V-Class et minivans premium."
+    },
+    "available_24_7": {
+      "title": "Disponible 24h/24",
+      "description": "Nous opérons en permanence pour répondre à tous les horaires de vol et besoins de voyage."
+    }
+  },
+  "safety_reliability": {
+    "badge": "Itinéraires longue distance",
+    "title": "Transferts taxi aéroport en Belgique et en Europe",
+    "description": "Au-delà des transferts Brussels Airport, nous proposons un transport privé longue distance vers des destinations en Belgique et dans les pays voisins. Itinéraires populaires :",
+    "features": [
+      "Brussels Airport vers Bruges",
+      "Brussels Airport vers Gand",
+      "Brussels Airport vers Anvers",
+      "Brussels Airport vers Amsterdam",
+      "Brussels Airport vers Paris",
+      "Brussels Airport vers Luxembourg",
+      "Brussels Airport vers Rotterdam",
+      "Brussels Airport vers Cologne"
+    ],
+    "cta": {
+      "text": "Tous les trajets sont assurés par des chauffeurs professionnels et des véhicules premium pour un confort maximal.",
+      "button": "Réserver maintenant"
+    },
+    "image_alt": "Transfert taxi aéroport longue distance en Belgique et en Europe"
+  },
+  "book_airport_transfer": {
+    "title": "Réservez votre transfert taxi Brussels Airport aujourd'hui",
+    "subtitle": "Transferts taxi Brussels Airport fiables avec un service de chauffeur local de confiance.",
+    "features": [
+      "Chauffeurs professionnels",
+      "Prix fixes",
+      "Suivi des vols",
+      "Meet & Greet",
+      "Véhicules Mercedes premium",
+      "Disponible 24h/24"
+    ],
+    "button": "Réserver maintenant",
+    "hero": {
+      "badge": "Brussels Airport",
+      "title": "Votre service de chauffeur local de confiance",
+      "description": "Profitez de transferts taxi Brussels Airport fiables, professionnels et confortables avec un service de chauffeur local de confiance. Que vous ayez besoin d'une prise en charge aéroport, d'un transfert hôtel, d'un transport d'affaires ou d'un voyage longue distance, nous nous engageons à offrir un service exceptionnel du début à la fin.",
+      "image_alt": "Transfert taxi Brussels Airport avec chauffeur professionnel et véhicule Mercedes premium"
+    }
+  },
+  "corporate_transportation": {
+    "badge": "Pour chaque voyageur",
+    "title": "Transferts aéroport pour chaque voyageur",
+    "description": "Que vous voyagiez pour affaires, en famille ou en groupe, notre service de taxi aéroport professionnel s'adapte à vos besoins.",
+    "service_tags": [
+      "Voyageurs d'affaires",
+      "Familles",
+      "Voyageurs VIP et luxe",
+      "Groupes et délégations"
+    ],
+    "bottom_features": [
+      "Arrivez à l'heure pour réunions, conférences, expositions et événements corporatifs avec notre service de transfert aéroport exécutif.",
+      "Véhicules spacieux et sièges enfants disponibles sur demande pour un voyage familial confortable.",
+      "Profitez d'un transport premium avec chauffeur et véhicules Mercedes de luxe avec un service personnalisé.",
+      "Mercedes V-Class et vans premium offrent un transport confortable pour groupes, familles et délégations d'affaires."
+    ],
+    "image_alt": "Service de transfert aéroport pour voyageurs d'affaires, familles, invités VIP et groupes"
+  },
+  "servicesSection": {
+    "heading": "Découvrez nos",
+    "headingHighlight": "Services",
+    "suffix": "Premium en Belgique",
+    "subtitle": "Des transferts aéroport au voyage d'affaires et aux délégations d'ambassades — services de taxi professionnels à Bruxelles et en Belgique.",
+    "prev": "Services précédents",
+    "next": "Services suivants",
+    "read_more": "En savoir plus",
+    "cards": {
+      "charleroi_airport": {
+        "category": "AÉROPORT CHARLEROI",
+        "title": "Transferts taxi Charleroi Airport",
+        "description": "Profitez de transferts taxi aéroport fiables vers et depuis Brussels South Charleroi Airport, avec tarifs fixes, suivi des vols et service porte-à-porte ponctuel."
+      },
+      "business_airport": {
+        "category": "TRANSFERTS AFFAIRES",
+        "title": "Transferts taxi aéroport affaires",
+        "description": "Transferts taxi aéroport professionnels pour voyageurs corporatifs, dirigeants, réunions, conférences et événements d'affaires en Belgique."
+      },
+      "luxury_airport": {
+        "category": "TRANSFERTS LUXE",
+        "title": "Transferts taxi aéroport luxe",
+        "description": "Voyagez avec style grâce à nos transferts taxi aéroport de luxe avec véhicules Mercedes premium, confort exceptionnel et service de chauffeur first class."
+      },
+      "group_airport": {
+        "category": "TRANSFERTS GROUPE",
+        "title": "Transferts taxi aéroport groupe",
+        "description": "Transferts taxi aéroport spacieux pour familles, groupes et délégations d'affaires avec Mercedes V-Class et minivans premium."
+      },
+      "long_distance_airport": {
+        "category": "TRANSFERTS LONGUE DISTANCE",
+        "title": "Transferts taxi aéroport longue distance",
+        "description": "Transferts taxi aéroport privés entre Brussels Airport et des destinations en Belgique, France, Pays-Bas, Luxembourg et Allemagne."
+      },
+      "hotel_airport": {
+        "category": "TRANSFERTS HÔTEL",
+        "title": "Transferts taxi aéroport hôtel",
+        "description": "Transferts taxi aéroport confortables entre aéroports, hôtels, résidences et lieux d'affaires avec un service porte-à-porte fiable."
+      },
+      "private_chauffeur": {
+        "category": "SERVICE CHAUFFEUR PRIVÉ",
+        "title": "Chauffeur privé et service taxi aéroport",
+        "description": "Un service de chauffeur dédié combiné à des transferts taxi aéroport premium, offrant flexibilité, confort et transport personnalisé en Belgique."
+      }
+    }
+  },
+  "services": {
+    "badge": "Nos services",
+    "title": "Services de transfert aéroport en Belgique",
+    "description": "Nous offrons un transport aéroport fiable en Belgique pour particuliers, familles, voyageurs d'affaires et groupes — avec chauffeurs professionnels, véhicules premium et tarifs fixes.",
+    "perfect_for": "Parfait pour :",
+    "items": {
+      "airport_pickups": {
+        "title": "Prises en charge aéroport",
+        "audiences": [
+          "Arrivées à Bruxelles, Anvers et Charleroi",
+          "Voyageurs d'affaires",
+          "Touristes et vacanciers",
+          "Familles et arrivées de groupes",
+          "Meet & greet au terminal"
+        ]
+      },
+      "airport_drop_off": {
+        "title": "Services de dépose aéroport",
+        "audiences": [
+          "Transferts porte-à-aéroport",
+          "Prises en charge hôtel programmées",
+          "Départs tôt le matin",
+          "Planification de voyage fiable"
+        ]
+      },
+      "executive_transportation": {
+        "title": "Transport exécutif",
+        "audiences": [
+          "Dirigeants d'entreprise",
+          "Réunions d'affaires à Bruxelles",
+          "Voyage conférences et événements",
+          "Institutions et bureaux de l'UE",
+          "Délégations internationales"
+        ]
+      },
+      "luxury_chauffeur": {
+        "title": "Service de chauffeur de luxe",
+        "audiences": [
+          "Voyage d'affaires premium",
+          "Transferts aéroport VIP",
+          "Trajets interurbains",
+          "Événements et occasions spéciales",
+          "Voyage privé axé sur le confort"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "heading": "Comment ça",
+    "headingHighlight": "Fonctionne",
+    "subtitle": "Réservez votre transfert aéroport en 3 étapes simples",
+    "steps": {
+      "enterLocation": {
+        "title": "Entrez le lieu",
+        "description": "Entrez vos lieux de prise en charge et de dépose pour obtenir un tarif instantané"
+      },
+      "chooseVehicle": {
+        "title": "Choisissez le véhicule",
+        "description": "Sélectionnez dans notre flotte premium le véhicule le plus adapté à vos besoins"
+      },
+      "confirmBook": {
+        "title": "Confirmez et réservez",
+        "description": "Finalisez votre réservation et recevez une confirmation instantanée"
+      }
+    }
+  },
+  "partnersSection": {
+    "title": "Partenaires et accréditations",
+    "description": "Nous sommes fiers d'être membres des principaux réseaux de transport mondiaux, garantissant les plus hauts standards de sécurité, d'éthique et d'excellence professionnelle pour chaque voyage."
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "description": "Approuvé par les voyageurs en Belgique pour des transferts aéroport fiables. Lisez les avis de clients ayant réservé des transferts vers et depuis Bruxelles, Anvers, Charleroi et au-delà.",
+    "stats": {
+      "happy_customers": "Clients satisfaits",
+      "countries": "Grands aéroports",
+      "avg_rating": "Note moyenne"
+    }
+  },
+  "newsletter": {
+    "explore": {
+      "title": "Explorez de nouvelles destinations confortablement",
+      "description": "Découvrez des joyaux cachés et des routes pittoresques avec notre flotte premium.",
+      "button": "Commencer l'exploration"
+    },
+    "featured": {
+      "badge": "Expérience vedette",
+      "live_status": "Statut en direct",
+      "vehicles_label": "Véhicules disponibles",
+      "vehicles_count": "50+",
+      "image_alt": "Expérience vedette"
+    },
+    "form": {
+      "badge": "S'abonner",
+      "title": "Abonnez-vous à notre newsletter pour les dernières actualités voyage et offres exclusives !",
+      "description": "Recevez les dernières mises à jour et offres directement dans votre boîte mail.",
+      "email_placeholder": "Entrez votre adresse e-mail ici...",
+      "button": "S'abonner",
+      "button_loading": "Abonnement en cours...",
+      "image_alt": "S'abonner à la newsletter"
+    }
+  }
+}

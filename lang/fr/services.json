@@ -1,0 +1,978 @@
+{
+  "airline_crew": {
+    "banner": {
+      "top_text_primary": "Transferts pour équipages aériens",
+      "top_text_suffix": "Brussels Airport",
+      "title_line1": "Logistique au sol fiable pour équipages de cockpit et de cabine",
+      "title_accent": "à Zaventem",
+      "description": "Dans l'industrie aérienne où chaque minute compte, le transport au sol des équipages constitue un maillon essentiel de la chaîne opérationnelle. City Airport Taxis est spécialisé dans les services de navette haute précision pour équipages aériens à Bruxelles, garantissant une transition fluide des équipes de cockpit et de cabine depuis Brussels Airport (BRU) vers leurs installations de repos.",
+      "book_ride": "Demander un devis pour transport d'équipage",
+      "view_fleets": "Découvrir notre flotte",
+      "image_alt": "Chauffeur professionnel et van Mercedes-Benz pour le transport d'équipages aériens à Brussels Airport Zaventem"
+    },
+    "stats": {
+      "corporate_partners": "Partenaires entreprises",
+      "vip_transfers": "Transferts VIP",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "story": {
+      "image_alt": "Van Mercedes-Benz pour le transport d'équipages aériens à Brussels Airport",
+      "badge": {
+        "value": "50",
+        "label": "Véhicules Mercedes-Benz premium"
+      },
+      "title_line1": "Pourquoi choisir notre",
+      "title_accent": "transport d'équipage à Brussels Airport ?",
+      "paragraphs": [
+        "Nous savons que la ponctualité est non négociable pour les professionnels de l'aviation."
+      ],
+      "account": {
+        "title": "Ponctualité 24h/24 et suivi des vols",
+        "description": "Notre centre de répartition fonctionne 24h/24 pour s'adapter à la nature dynamique des horaires de vol.",
+        "points": [
+          "Suivi en temps réel : nous surveillons les arrivées à Brussels Airport (Zaventem) et Abelag (aviation générale). Si votre vol est en avance ou retardé, nos chauffeurs professionnels s'adaptent en temps réel.",
+          "Prises en charge sans délai : nous utilisons des points de rendez-vous dédiés aux équipages et des sorties de terminal optimisées pour minimiser les temps d'attente au bord de la route, afin que les équipages maximisent leurs périodes de repos."
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Flotte spécialisée et logistique",
+      "title": "Conçu pour les opérations d'équipages aériens",
+      "items": [
+        {
+          "title": "Flotte spécialisée pour équipes aériennes",
+          "description": "Nous mettons à disposition une flotte polyvalente pouvant compter jusqu'à 50 véhicules Mercedes-Benz premium pour toute taille d'équipage.",
+          "points": [
+            "Mercedes V-Class (Extra-Long) : le van d'équipage de référence pour les transferts à Bruxelles, capable de transporter une équipe de vol complète ainsi que les bagages de vol lourds et valises.",
+            "Berlines exécutives (E-Class et S-Class) : idéales pour les transferts de capitaines ou les équipages de jets privés arrivant aux terminaux Abelag ou Jetfly.",
+            "Navettes pour grands groupes : capacité à mobiliser plusieurs véhicules simultanément pour les rotations d'équipage à grande échelle lors des vagues matinales et vespérales."
+          ]
+        },
+        {
+          "title": "Logistique au sol aérienne sur mesure",
+          "description": "Nos services de transport aérien en Belgique sont conçus pour répondre aux exigences spécifiques des opérations de vol internationales.",
+          "points": [
+            "Support conformité EASA : nous offrons un environnement calme et climatisé, permettant aux pilotes et agents de cabine d'entamer leur décompression dès leur départ de Zaventem Airport.",
+            "Spécialistes Abelag et aviation privée : prise en charge experte des prises en charge côté piste et transferts discrets pour équipages de jets privés et services de vol d'entreprise.",
+            "Repositionnement inter-aéroports : transferts rapides et fiables entre Brussels Airport (BRU) et Brussels-South Charleroi (CRL) pour les échanges d'équipage."
+          ]
+        },
+        {
+          "title": "Opérations du centre de répartition 24h/24",
+          "description": "Coordination permanente pour les départs matinaux, arrivées nocturnes et changements de planning de dernière minute.",
+          "points": [
+            "Suivi des vols en direct à BRU et Abelag",
+            "Réponse immédiate aux changements de rotation d'équipage",
+            "Coordination logistique aérienne dédiée",
+            "Standard de confidentialité Silent Service pour tous les transferts d'équipage"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Couverture stratégique",
+      "title": "De Zaventem au centre-ville de Bruxelles",
+      "description": "Nous maintenons une présence stratégique dans les corridors aéronautiques les plus vitaux à travers la Belgique.",
+      "items": [
+        {
+          "title": "Périmètre de Brussels Airport",
+          "description": "Transit rapide vers les hôtels aéroportuaires et installations de repos des équipages.",
+          "points": [
+            "Brussels Airport — Sheraton Hotel",
+            "Brussels Airport — Novotel Airport",
+            "Brussels Airport — Crowne Plaza",
+            "Brussels Airport — Holiday Inn"
+          ]
+        },
+        {
+          "title": "Quartier diplomatique et européen de Bruxelles",
+          "description": "Transport professionnel vers les hubs d'équipage en centre-ville.",
+          "points": [
+            "Brussels Airport — Hôtels du quartier européen",
+            "Brussels Airport — Hébergements en centre-ville",
+            "Brussels Airport — Quartier diplomatique",
+            "Brussels Airport — Centre-ville de Bruxelles"
+          ]
+        },
+        {
+          "title": "OTAN et Eurocontrol",
+          "description": "Connaissance approfondie des protocoles de sécurité pour le personnel technique aéronautique visitant les sièges internationaux.",
+          "points": [
+            "Brussels Airport — Siège de l'OTAN",
+            "Brussels Airport — Siège d'Eurocontrol",
+            "Brussels Airport — Sites d'aviation militaire",
+            "Brussels Airport — Installations techniques"
+          ]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Partenaire logistique équipage",
+        "title": "Sécurisez votre partenaire logistique équipage à Bruxelles",
+        "subtitle": "Lorsque la sécurité des vols et la ponctualité des créneaux dépendent de la précision au sol, faites confiance à City Airport Taxis. Nous sommes bien plus qu'un service de navette ; nous sommes votre partenaire logistique aéronautique au cœur de l'Europe.",
+        "features": [
+          "Suivi des vols en temps réel 24h/24",
+          "Flotte Mercedes V-Class Extra-Long",
+          "Accès aviation privée côté piste",
+          "Chauffeurs multilingues formés au protocole",
+          "Système de prise en charge équipage sans délai",
+          "Support conformité repos EASA",
+          "Transferts inter-aéroports BRU ⇌ CRL",
+          "Standard de confidentialité Silent Service"
+        ],
+        "button": "Ouvrir un compte entreprise"
+      },
+      "title": "Transport au sol de précision pour professionnels de l'aviation",
+      "description": "Nos chauffeurs professionnels sont <highlight>multilingues, formés au protocole et engagés envers le standard Silent Service</highlight>, garantissant la confidentialité et le confort de votre équipage en permanence.",
+      "reasons": [
+        "Suivi des vols en temps réel à BRU et Abelag",
+        "Points de rendez-vous dédiés aux équipages à Zaventem",
+        "Vans d'équipage Mercedes V-Class Extra-Long",
+        "Berlines exécutives pour transferts de capitaines",
+        "Accès aviation privée côté piste",
+        "Spécialistes des terminaux Abelag et Jetfly",
+        "Chauffeurs multilingues formés au protocole",
+        "Système de prise en charge équipage sans délai",
+        "Mobilisation de navettes pour grandes rotations d'équipage",
+        "Repositionnement inter-aéroports BRU ⇌ CRL",
+        "Coordination répartition équipage 24h/24",
+        "Environnement repos EASA climatisé",
+        "Support conformité repos EASA",
+        "Standard de confidentialité Silent Service"
+      ],
+      "highlight": {
+        "title": "Demander un devis pour transport d'équipage",
+        "description": "\"Nos chauffeurs professionnels sont multilingues, formés au protocole et engagés envers le standard Silent Service, garantissant la confidentialité et le confort de votre équipage en permanence.\"",
+        "list_title": "Disponible 24h/24 :",
+        "list_items": [
+          "Répartition équipage 24h/24",
+          "Répartition par e-mail",
+          "Ouverture de compte entreprise",
+          "Support rotation d'équipage de dernière minute",
+          "Suivi des horaires de vol en temps réel",
+          "Prises en charge Abelag et aviation privée",
+          "Réservations Mercedes V-Class Extra-Long",
+          "Mobilisation multi-véhicules pour rotations d'équipage"
+        ],
+        "ctaText": "Demander un devis pour transport d'équipage",
+        "ctaHref": "/contact-us"
+      }
+    },
+    "support": {
+      "top_text": "Couverture de l'industrie aéronautique",
+      "title": "Au service des compagnies aériennes commerciales, du fret aérien et des services de vol privés",
+      "description": "Logistique sans stress, 24h/24, pour l'ensemble de l'industrie aéronautique à Brussels Airport.",
+      "items": [
+        {
+          "title": "Brussels Airport Zaventem",
+          "description": "Transferts d'équipage complets pour les compagnies aériennes commerciales aux terminaux BRU.",
+          "points": ["BRU", "Équipage de compagnies aériennes commerciales", "Rotations planifiées et ponctuelles"]
+        },
+        {
+          "title": "Terminal aviation générale",
+          "description": "Prises en charge discrètes côté piste pour les opérations d'aviation privée.",
+          "points": ["Abelag", "Équipages de jets privés", "Services de vol d'entreprise"]
+        },
+        {
+          "title": "Charleroi Airport",
+          "description": "Repositionnement inter-aéroports d'équipage et transferts au terminal CRL.",
+          "points": ["CRL", "Échanges d'équipage", "Transferts BRU ⇌ CRL"]
+        },
+        {
+          "title": "Terminal jet privé",
+          "description": "Transport au sol exécutif pour Jetfly et clients d'aviation privée.",
+          "points": ["Jetfly", "Aviation VIP", "Chauffeurs formés au protocole"]
+        }
+      ]
+    }
+  },
+  "corporate_transfers": {
+    "banner": {
+      "top_text_primary": "Transferts entreprise",
+      "top_text_suffix": "Belgique",
+      "title_line1": "Voyage d'affaires sans effort",
+      "title_accent": "Conçu pour dirigeants et équipes professionnelles",
+      "description": "Chez City Airport Taxis, nous rendons les voyages d'affaires efficaces, fluides et sans stress. Que vous réserviez pour des dirigeants, des délégations professionnelles ou l'équipe de votre entreprise, nos services sont adaptés aux besoins des voyageurs professionnels à Bruxelles, en Belgique et au-delà.",
+      "image_alt": "Chauffeur professionnel et berline exécutive Mercedes-Benz pour le transport d'entreprise à Bruxelles"
+    },
+    "stats": {
+      "corporate_partners": "Partenaires entreprises",
+      "vip_transfers": "Transferts exécutifs",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "story": {
+      "image_alt": "Berline exécutive Mercedes-Benz pour service de chauffeur d'entreprise à Bruxelles",
+      "badge": {
+        "value": "500+",
+        "label": "Partenaires entreprises"
+      },
+      "title_line1": "Confort exécutif et",
+      "title_accent": "service de chauffeur professionnel",
+      "paragraphs": [
+        "Voyagez dans des véhicules modernes et premium conçus pour le confort, la discrétion et la productivité. En route vers des réunions, conférences ou transferts aéroport, notre flotte permet aux dirigeants de travailler, se détendre ou préparer leur journée pendant que nous gérons le trajet.",
+        "Nos chauffeurs expérimentés anglophones offrent un service ponctuel, professionnel et fiable à chaque fois. Grâce à leur connaissance locale et leur expertise des routes belges et européennes, votre équipe bénéficie garantie d'une expérience de voyage fluide et efficace.",
+        "Les voyages d'affaires sont imprévisibles. Avec City Airport Taxis, les changements de dernière minute ne posent jamais de problème. Vous pouvez facilement modifier, annuler ou prolonger vos réservations pour s'adapter à votre planning évolutif."
+      ],
+      "account": {
+        "title": "Facturation simplifiée et gestion entreprise",
+        "description": "Fini la chasse aux factures. Nos comptes entreprise permettent une réservation centralisée, une facturation automatisée et une consolidation des factures pour simplifier la gestion des déplacements de votre entreprise. Des gestionnaires de compte dédiés sont toujours disponibles pour vous accompagner.",
+        "points": [
+          "Plateforme tout-en-un : réservations entreprise faciles depuis un tableau de bord unique",
+          "Facturation automatisée : gestion des dépenses sans effort avec facturation consolidée",
+          "Support entreprise dédié : gestion de compte et assistance quand vous en avez besoin"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Solutions de voyage d'affaires",
+      "title": "Conçu pour dirigeants et équipes professionnelles",
+      "items": [
+        {
+          "title": "Confort exécutif",
+          "description": "Voyagez dans des véhicules modernes et premium conçus pour le confort, la discrétion et la productivité.",
+          "points": [
+            "Berlines exécutives Mercedes E-Class et S-Class",
+            "Mercedes V-Class pour voyages d'équipe et de délégation",
+            "Habitacles climatisés pour réunions en déplacement",
+            "Service discret et professionnel pour chaque trajet"
+          ]
+        },
+        {
+          "title": "Des chauffeurs de confiance",
+          "description": "Nos chauffeurs expérimentés anglophones offrent un service ponctuel, professionnel et fiable à chaque fois.",
+          "points": [
+            "Connaissance locale des routes belges et européennes",
+            "Prises en charge ponctuelles pour réunions, conférences et aéroports",
+            "Présentation professionnelle et sens du protocole",
+            "Chauffeurs agréés, assurés et vérifiés"
+          ]
+        },
+        {
+          "title": "Flexibilité totale",
+          "description": "Les voyages d'affaires sont imprévisibles — les changements de dernière minute ne posent jamais de problème avec City Airport Taxis.",
+          "points": [
+            "Modification des réservations avec préavis minimal",
+            "Annulation ou prolongation des trajets selon votre planning",
+            "Itinéraires multi-escales pour journées professionnelles",
+            "Répartition 24h/24 pour demandes de voyage urgentes"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Avantages du compte entreprise",
+      "title": "Facturation simplifiée et gestion entreprise",
+      "description": "Réservation centralisée, facturation automatisée et support de compte dédié pour simplifier la gestion des déplacements de votre entreprise.",
+      "items": [
+        {
+          "title": "Plateforme tout-en-un",
+          "description": "Réservations entreprise faciles depuis un tableau de bord unique.",
+          "points": [
+            "Réservation centralisée pour toute votre équipe",
+            "Accès basé sur les rôles pour les coordinateurs de voyage",
+            "Statut et historique des trajets en temps réel",
+            "Couverture multi-sites à travers la Belgique"
+          ]
+        },
+        {
+          "title": "Facturation automatisée",
+          "description": "Gestion des dépenses sans effort avec facturation consolidée.",
+          "points": [
+            "Factures mensuelles consolidées",
+            "Étiquetage par centre de coûts et projet",
+            "Documentation conforme TVA",
+            "Rapports prêts à l'export pour les équipes financières"
+          ]
+        },
+        {
+          "title": "Support entreprise dédié",
+          "description": "Gestion de compte et assistance quand vous en avez besoin.",
+          "points": [
+            "Gestionnaires de compte dédiés",
+            "Réservation prioritaire et escalade",
+            "Politiques de voyage personnalisées et flux d'approbation",
+            "Ligne de répartition entreprise 24h/24"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Réseau de chauffeurs fiable",
+      "title": "Service professionnel à travers la Belgique",
+      "description": "Notre réseau de chauffeurs agréés et assurés garantit un service professionnel constant pour les voyages d'affaires à travers la Belgique.",
+      "items": [
+        {
+          "title": "Disponibilité 24h/24",
+          "description": "Service de chauffeur entreprise permanent dans toutes les grandes villes et aéroports belges.",
+          "points": ["Brussels Airport (BRU)", "Charleroi Airport (CRL)", "Anvers, Gand et Liège", "Transferts tôt le matin et tard le soir"]
+        },
+        {
+          "title": "Chauffeurs anglophones",
+          "description": "Chauffeurs qualifiés anglophones pour une communication fluide avec les équipes internationales.",
+          "points": ["Options chauffeurs multilingues", "Service respectueux du protocole", "Expérience délégations internationales", "Communication claire et professionnelle"]
+        },
+        {
+          "title": "Suivi en temps réel",
+          "description": "Suivi et notifications en temps réel pour chaque trajet.",
+          "points": ["Suivi GPS en direct", "Notifications d'arrivée", "Suivi des vols pour transferts aéroport", "Liens de trajet partageables pour coordinateurs"]
+        },
+        {
+          "title": "Réseau agréé et assuré",
+          "description": "Chauffeurs entièrement agréés et assurés pour des standards de voyage d'affaires constants.",
+          "points": ["Chauffeurs professionnels agréés", "Couverture d'assurance complète", "Inspections régulières des véhicules", "Conformité entreprise assurée"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Partenaire voyage d'affaires",
+        "title": "Simplifiez la gestion des déplacements de votre entreprise",
+        "subtitle": "Des transferts aéroport exécutifs aux délégations multi-villes, City Airport Taxis offre un service de chauffeur entreprise fiable à travers la Belgique avec facturation simplifiée et support de compte dédié.",
+        "features": [
+          "Tableau de bord de réservation entreprise centralisé",
+          "Facturation consolidée automatisée",
+          "Gestionnaires de compte dédiés",
+          "Flotte exécutive Mercedes",
+          "Chauffeurs professionnels anglophones",
+          "Disponibilité 24h/24 à travers la Belgique",
+          "Suivi et notifications en temps réel",
+          "Changements de planning flexibles de dernière minute"
+        ],
+        "button": "Ouvrir un compte entreprise"
+      },
+      "title": "Service de chauffeur entreprise de confiance en Belgique",
+      "description": "Nos chauffeurs professionnels sont <highlight>anglophones, ponctuels et expérimentés sur les routes belges et européennes</highlight>, garantissant que vos dirigeants et équipes voyagent efficacement et confortablement à chaque fois.",
+      "reasons": [
+        "Berlines exécutives Mercedes E-Class et S-Class",
+        "Mercedes V-Class pour voyages d'équipe et de délégation",
+        "Chauffeurs professionnels anglophones",
+        "Disponibilité 24h/24 dans les grandes villes belges",
+        "Transferts Brussels Airport et Charleroi",
+        "Suivi et notifications de trajet en temps réel",
+        "Plateforme de réservation entreprise centralisée",
+        "Facturation consolidée automatisée",
+        "Gestionnaires de compte dédiés",
+        "Modifications de réservation flexibles de dernière minute",
+        "Itinéraires multi-escales pour journées professionnelles",
+        "Réseau de chauffeurs agréés et assurés",
+        "Suivi des vols pour transferts aéroport",
+        "Service discret et respectueux du protocole"
+      ],
+      "highlight": {
+        "title": "Prêt à simplifier vos voyages d'affaires ?",
+        "description": "\"Fini la chasse aux factures. Nos comptes entreprise permettent une réservation centralisée, une facturation automatisée et une consolidation des factures — avec des gestionnaires de compte dédiés disponibles quand vous avez besoin d'assistance.\"",
+        "list_title": "Disponible 24h/24 :",
+        "list_items": [
+          "Ouverture de compte entreprise",
+          "Transferts aéroport exécutifs",
+          "Transport de délégations multi-villes",
+          "Changements de planning de dernière minute",
+          "Facturation mensuelle consolidée",
+          "Support gestionnaire de compte dédié",
+          "Suivi de trajet en temps réel",
+          "Couverture Bruxelles, Anvers et nationale"
+        ],
+        "ctaText": "Ouvrir un compte entreprise",
+        "ctaHref": "/corporate-travel-solutions/register"
+      }
+    }
+  },
+  "event_transfers": {
+    "banner": {
+      "top_text_primary": "Transferts événementiels",
+      "top_text_suffix": "Bruxelles et Belgique",
+      "title_line1": "Solutions de flotte haute capacité",
+      "title_accent": "pour congrès, sommets et événements à grande échelle",
+      "description": "Dans la capitale européenne de la prise de décision, la précision logistique est la norme. City Airport Taxis fournit la base opérationnelle pour les déplacements de groupes à grande échelle à travers la Belgique. En tant que société de logistique événementielle de premier plan, nous gérons l'ensemble de l'infrastructure de mobilité pour les conférences internationales, MICE (Meetings, Incentives, Conferences, Exhibitions) et événements d'entreprise.",
+      "image_alt": "Flotte premium d'autocars et minibus pour le transport événementiel à grande échelle à Bruxelles"
+    },
+    "stats": {
+      "premium_vehicles": "Véhicules premium",
+      "f1_years": "Années logistique F1",
+      "on_time_rate": "Taux de ponctualité",
+      "dispatch": "Répartition 24h/24"
+    },
+    "story": {
+      "image_alt": "Flotte d'autocars exécutifs et minibus pour le transport de groupes événementiels à Bruxelles",
+      "badge": {
+        "value": "50+",
+        "label": "Véhicules premium"
+      },
+      "title_line1": "Flotte intégrée d'autocars, bus et",
+      "title_accent": "minibus",
+      "paragraphs": [
+        "Nous sommes l'un des rares partenaires basés à Bruxelles capables de mobiliser jusqu'à 50 véhicules premium simultanément, offrant une stratégie de transport multi-niveaux fluide pour vos besoins de planification événementielle.",
+        "Des autocars exécutifs aux minibus de luxe et berlines, notre flotte couvre chaque niveau de mobilité événementielle — des conférenciers VIP clés aux centaines de délégués de conférence."
+      ],
+      "account": {
+        "title": "Le standard SPA-Francorchamps : 3 ans de logistique F1",
+        "description": "Notre modèle de gestion logistique est testé sous pression au plus haut niveau. Depuis 3 années consécutives, nous gérons l'infrastructure de transport au sol pour le Grand Prix de Formule 1 de SPA-Francorchamps.",
+        "points": [
+          "Précision Grand Prix : navigation dans les accès haute sécurité et trafic complexe — une expertise qui se transpose directement à la Bulle Schuman et aux zones événementielles les plus exigeantes de Bruxelles",
+          "Capacité éprouvée : si nous pouvons gérer la logistique intense d'un week-end de Formule 1, nous pouvons gérer tout congrès international ou sommet d'entreprise en toute confiance",
+          "3 années consécutives : la gestion de l'infrastructure de transport au sol pour le Grand Prix de Formule 1 de SPA-Francorchamps démontre notre fiabilité et notre expertise"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Mobilité de groupe et transport événementiel",
+      "title": "Conçu pour les opérations événementielles à grande échelle",
+      "items": [
+        {
+          "title": "Autocars exécutifs et minibus",
+          "description": "Solutions bus haute capacité pour transferts massifs entre Brussels Airport (Zaventem), hôtels hôtes et grandes salles comme Brussels Expo.",
+          "points": [
+            "Confort premium pour voyages longue distance",
+            "Chauffeurs professionnels avec expertise des itinéraires",
+            "Équipements à bord et climatisation",
+            "Configurations de sièges flexibles"
+          ]
+        },
+        {
+          "title": "Navettes de groupe unifiées",
+          "description": "Rotations professionnelles pour des centaines d'invités, garantissant un timing constant et un embarquement efficace pour les plannings événementiels serrés.",
+          "points": [
+            "Horaires de départ synchronisés",
+            "Multiples points de prise en charge et dépose",
+            "Suivi et mises à jour en temps réel",
+            "Coordination fluide pour grands groupes"
+          ]
+        },
+        {
+          "title": "Coordination sur site",
+          "description": "Nous déployons des coordinateurs dédiés pour suivre les vols en temps réel et gérer les flux au sol, en tant que point de contact unique pour toute la logistique et les opérations de transport de votre événement.",
+          "points": [
+            "Coordinateur événementiel dédié sur site",
+            "Suivi des vols en direct et ajustements",
+            "Communication instantanée avec les chauffeurs",
+            "Supervision opérationnelle complète"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Expertise spécialisée",
+      "title": "Pour organisateurs et coordinateurs d'événements",
+      "description": "Nos solutions de logistique événementielle répondent aux besoins uniques des coordinateurs et organisateurs d'événements à travers la Belgique.",
+      "items": [
+        {
+          "title": "Planification tactique des itinéraires",
+          "description": "Connaissance approfondie des périmètres de sécurité de Bruxelles pour contourner congestion et fermetures de routes, garantissant une exécution événementielle fluide.",
+          "points": [
+            "Navigation des périmètres de sécurité",
+            "Stratégies de contournement des fermetures de routes",
+            "Expertise Bulle Schuman",
+            "Itinéraires optimisés salle-aéroport"
+          ]
+        },
+        {
+          "title": "Prise en charge VIP et conférenciers",
+          "description": "Service Mercedes S-Class spécialisé pour conférenciers vedettes et dirigeants, complétant notre logistique bus à grande échelle.",
+          "points": [
+            "Mercedes S-Class pour conférenciers VIP",
+            "Transferts exécutifs discrets",
+            "Chauffeurs respectueux du protocole",
+            "Intégration fluide avec navettes de groupe"
+          ]
+        },
+        {
+          "title": "Budgétisation consolidée",
+          "description": "Facturation détaillée pour l'ensemble de votre événement, garantissant une supervision financière claire sans coûts cachés.",
+          "points": [
+            "Facturation événementielle détaillée",
+            "Répartition transparente des coûts",
+            "Aucun frais ou supplément caché",
+            "Support planification événementielle économique"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Mobilité de groupe évolutive",
+      "title": "Logistique bus pour événements à grande échelle",
+      "description": "Nous sommes l'un des rares partenaires basés à Bruxelles capables de mobiliser jusqu'à 50 véhicules premium simultanément pour votre événement.",
+      "items": [
+        {
+          "title": "50+ véhicules premium",
+          "description": "Mobilisez l'ensemble de notre flotte simultanément pour des événements à grande échelle.",
+          "points": ["Autocars exécutifs", "Minibus de luxe", "Berlines premium", "Déploiement multi-véhicules simultané"]
+        },
+        {
+          "title": "Stratégie multi-niveaux",
+          "description": "Des autocars exécutifs aux minibus de luxe et berlines — une solution de mobilité complète pour chaque niveau d'invité.",
+          "points": ["Transferts berline VIP", "Navettes de groupe en minibus", "Autocars exécutifs grand format", "Coordination de flotte mixte"]
+        },
+        {
+          "title": "Emplacements stratégiques",
+          "description": "Couverture de tous les corridors événementiels clés à Bruxelles et en Belgique.",
+          "points": ["Brussels Airport (BRU)", "Hôtels hôtes et centres de conférence", "Brussels Expo", "Toutes les grandes salles événementielles"]
+        },
+        {
+          "title": "Coordination en temps réel",
+          "description": "Coordinateurs dédiés suivant les vols et gérant les flux au sol tout au long de votre événement.",
+          "points": ["Suivi des vols en direct", "Coordination de répartition sur site", "Communication instantanée avec chauffeurs", "Gestion des flux au sol"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Partenaire logistique événementiel",
+        "title": "Associez-vous à la première société de logistique événementielle de Bruxelles",
+        "subtitle": "En choisissant City Airport Taxis pour votre logistique événementielle, vous vous associez à une entreprise qui comprend les moindres détails de la coordination et planification événementielle. Nos solutions sont conçues pour faire de votre événement une réussite sans faille.",
+        "features": [
+          "Gestion complète de l'infrastructure de mobilité",
+          "Expertise éprouvée en logistique Grand Prix de Formule 1",
+          "Flotte de 50+ véhicules premium disponibles simultanément",
+          "Coordinateurs et coordinateurs dédiés sur site",
+          "Planification tactique des itinéraires et autorisations de sécurité",
+          "Budgétisation transparente et détaillée sans coûts cachés",
+          "Expérience MICE et congrès internationaux",
+          "Connaissance spécialisée Brussels Expo et salles"
+        ],
+        "button": "Demander un devis transport événementiel"
+      },
+      "title": "Logistique événementielle complète au-delà du transport",
+      "description": "En tant que prestataire logistique événementiel complet, nous offrons <highlight>un accompagnement complet au-delà du transport</highlight> — de la coordination des salles à la planification de contingence et la gestion des participants.",
+      "reasons": [
+        "50+ véhicules premium mobilisés simultanément",
+        "3 ans de logistique F1 SPA-Francorchamps",
+        "Autocars exécutifs et minibus de luxe",
+        "Rotations de navettes de groupe unifiées",
+        "Coordinateurs événementiels dédiés sur site",
+        "Suivi des vols et répartition en direct",
+        "Planification tactique des itinéraires à Bruxelles",
+        "Transferts conférenciers VIP Mercedes S-Class",
+        "Facturation événementielle transparente et détaillée",
+        "Support montage et production événementielle",
+        "Assistance sélection et gestion de salles",
+        "Planification de contingence robuste",
+        "Coordination des déplacements des participants",
+        "Mesures de sécurité événementielle"
+      ],
+      "highlight": {
+        "title": "Planifiez votre prochain événement en toute confiance",
+        "description": "\"Nos solutions logistiques sont conçues pour faire de votre événement une réussite sans faille — de la planification initiale à l'exécution finale, nous gérons chaque détail de votre calendrier événementiel.\"",
+        "list_title": "Services logistiques événementiels supplémentaires :",
+        "list_items": [
+          "Support montage et production événementielle",
+          "Sélection et gestion de salles",
+          "Planification de contingence et secours",
+          "Coordination des déplacements des participants",
+          "Mesures de sécurité événementielle",
+          "Création complète du calendrier événementiel",
+          "Transferts massifs Brussels Airport",
+          "Logistique Brussels Expo et salles"
+        ],
+        "ctaText": "Demander un devis transport événementiel",
+        "ctaHref": "/contact-us"
+      }
+    }
+  },
+  "diplomatic_embassy_transfers": {
+    "banner": {
+      "top_text_primary": "Transferts diplomatiques et ambassades",
+      "top_text_suffix": "Bruxelles",
+      "title_line1": "Associez-vous aux",
+      "title_accent": "experts en délégations de Bruxelles",
+      "description": "Lorsque le succès d'une mission dépend de la précision de votre transport, faites confiance à l'équipe spécialisée en protocole et logistique sécurisée. Avec notre flotte de 50 véhicules et des années d'expérience dans la gestion de visites officielles, nous déplaçons votre délégation avec la dignité et l'efficacité qu'elle mérite.",
+      "image_alt": "Chauffeur professionnel et berline de luxe pour transferts diplomatiques et ambassades à Bruxelles"
+    },
+    "stats": {
+      "premium_vehicles": "Véhicules premium",
+      "years_experience": "Années d'expérience",
+      "on_time_rate": "Taux de ponctualité",
+      "availability": "Disponibilité 24h/24"
+    },
+    "story": {
+      "image_alt": "Berline Mercedes-Benz de luxe pour transport diplomatique et ambassades à Bruxelles",
+      "badge": {
+        "value": "50",
+        "label": "Flotte de véhicules"
+      },
+      "title_line1": "Transport de précision pour",
+      "title_accent": "missions diplomatiques",
+      "paragraphs": [
+        "Nous comprenons les subtilités du paysage des transports à Bruxelles, des lignes STIB aux itinéraires les plus efficaces entre Brussels Airport et le centre-ville. Nos chauffeurs professionnels maîtrisent les protocoles des ambassades et s'adaptent aux plannings dynamiques et changeants de la vie diplomatique.",
+        "Que vous ayez besoin d'un transfert aéroport fluide depuis Zaventem ou d'un transport vers des réunions cruciales près de Place Luxemburg, notre équipe est équipée pour répondre à tous vos besoins avec le plus grand professionnalisme et discrétion."
+      ],
+      "account": {
+        "title": "Votre partenaire de transport diplomatique de confiance",
+        "description": "Des dirigeants individuels aux délégations diplomatiques complètes, nous assurons un transport sécurisé et discret soutenu par une flotte premium moderne et des chauffeurs vérifiés avec expérience diplomatique.",
+        "points": [
+          "Flotte de 50 véhicules : véhicules premium modernes entretenus aux plus hauts standards",
+          "Capacité délégation : des dirigeants individuels aux délégations diplomatiques complètes",
+          "Sécurité et discrétion : chauffeurs vérifiés avec expérience diplomatique",
+          "Disponibilité 24h/24 : service permanent pour missions sensibles au timing"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Services diplomatiques complets",
+      "title": "Transport sur mesure pour ambassades et délégations",
+      "items": [
+        {
+          "title": "Transferts VIP Brussels Airport",
+          "description": "Transferts aéroport fluides depuis Zaventem avec services d'accueil, traitement prioritaire et itinéraires directs vers votre destination.",
+          "points": [
+            "Accueil à Brussels Airport (BRU)",
+            "Traitement prioritaire et arrivées discrètes",
+            "Itinéraires directs vers ambassades et lieux institutionnels",
+            "Suivi des vols et ajustements de planning"
+          ]
+        },
+        {
+          "title": "Réunions institutionnelles",
+          "description": "Transport dédié vers l'OTAN, la Commission européenne, le Conseil européen et autres institutions clés de Bruxelles.",
+          "points": [
+            "Expertise accès Siège de l'OTAN",
+            "Navigation Berlaymont Commission européenne",
+            "Protocole Justus Lipsius Conseil européen",
+            "Logistique réunions Place Luxemburg"
+          ]
+        },
+        {
+          "title": "Coordination de visites officielles",
+          "description": "Support logistique complet pour visites d'État, tournées de délégation et plannings diplomatiques multi-jours.",
+          "points": [
+            "Gestion d'itinéraires de délégation multi-jours",
+            "Coordination visites d'État et tournées officielles",
+            "Coordination avec équipes de sécurité des ambassades",
+            "Planification flexible pour agendas dynamiques"
+          ]
+        },
+        {
+          "title": "Transferts transfrontaliers",
+          "description": "Transport professionnel vers pays voisins et capitales européennes pour affaires officielles.",
+          "points": [
+            "Transferts diplomatiques vers pays voisins",
+            "Voyages officiels vers capitales européennes",
+            "Connaissance du protocole transfrontalier",
+            "Confort exécutif longue distance"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Protocole et logistique sécurisée",
+      "title": "Une expertise sur laquelle vous pouvez compter",
+      "description": "Nos chauffeurs sont formés aux protocoles des ambassades et à la logistique sécurisée pour délégations officielles à Bruxelles et au-delà.",
+      "items": [
+        {
+          "title": "Protocole et procédures des ambassades",
+          "description": "Chauffeurs professionnels maîtrisant les protocoles des ambassades et procédures diplomatiques.",
+          "points": [
+            "Protocole des ambassades et procédures diplomatiques",
+            "Service discret et respectueux du protocole",
+            "Coordination avec équipes de sécurité des ambassades",
+            "Planification flexible pour agendas changeants"
+          ]
+        },
+        {
+          "title": "Logistique sécurisée pour délégations",
+          "description": "Logistique sécurisée pour délégations officielles de toute taille, des dirigeants individuels aux délégations diplomatiques complètes.",
+          "points": [
+            "Logistique sécurisée pour délégations officielles",
+            "Chauffeurs vérifiés avec habilitation de sécurité",
+            "Présentation professionnelle en permanence",
+            "Capacité délégation de 1 personne à délégation complète"
+          ]
+        },
+        {
+          "title": "Expertise navigation Bruxelles",
+          "description": "Connaissance approfondie des itinéraires bruxellois, corridors STIB et chemins les plus rapides entre aéroport et centre-ville.",
+          "points": [
+            "Connaissance des lignes STIB et accès centre-ville",
+            "Expertise Brussels Airport vers centre-ville",
+            "Navigation Place Luxemburg et quartier européen",
+            "Chemins efficaces entre institutions clés"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Expertise des trois sièges",
+      "title": "Accès institutionnel et maîtrise du protocole",
+      "description": "Connaissance experte des points d'accès et protocoles de sécurité pour les lieux institutionnels les plus importants de Bruxelles.",
+      "items": [
+        {
+          "title": "Siège de l'OTAN",
+          "description": "Connaissance experte des points d'accès et protocoles de sécurité pour opérations OTAN.",
+          "points": ["Points d'accès Siège OTAN", "Conformité protocole de sécurité", "Déposes délégations officielles", "Procédures d'arrivée coordonnées"]
+        },
+        {
+          "title": "Commission européenne",
+          "description": "Expertise accès et navigation bâtiment Berlaymont pour réunions officielles.",
+          "points": ["Accès bâtiment Berlaymont", "Navigation quartier européen", "Logistique réunions officielles", "Expertise district Schuman"]
+        },
+        {
+          "title": "Conseil européen",
+          "description": "Maîtrise du protocole et logistique Justus Lipsius et Place Luxemburg.",
+          "points": ["Accès Justus Lipsius", "Réunions Place Luxemburg", "Logistique sessions du Conseil", "Arrivées conformes au protocole"]
+        },
+        {
+          "title": "Quartier ambassades et diplomatique",
+          "description": "Transport discret à travers le quartier des ambassades et résidences diplomatiques de Bruxelles.",
+          "points": ["Itinéraires quartier des ambassades", "Transferts résidences diplomatiques", "Arrivées VIP discrètes", "Support itinéraires multi-ambassades"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Partenaire transport diplomatique",
+        "title": "Sécurisez le transport de votre délégation à Bruxelles",
+        "subtitle": "Lorsque le succès de la mission dépend de la précision du transport, faites confiance à des spécialistes du protocole et de la logistique sécurisée. Notre flotte de 50 véhicules et nos années d'expérience en visites officielles déplacent votre délégation avec dignité et efficacité.",
+        "features": [
+          "Flotte diplomatique premium de 50 véhicules",
+          "Expertise OTAN, Commission et Conseil européens",
+          "Chauffeurs formés au protocole des ambassades",
+          "Accueil VIP Brussels Airport",
+          "Coordination visites officielles et tournées d'État",
+          "Transferts transfrontaliers vers capitales européennes",
+          "Disponibilité 24h/24 pour missions sensibles au timing",
+          "Chauffeurs discrets avec habilitation de sécurité"
+        ],
+        "button": "Demander un devis transport diplomatique"
+      },
+      "title": "Transport axé protocole pour missions internationales",
+      "description": "Nos chauffeurs professionnels sont <highlight>experts en protocoles des ambassades, exigences d'habilitation de sécurité et accès institutionnels à Bruxelles</highlight>, garantissant que chaque trajet diplomatique est géré avec précision et discrétion.",
+      "reasons": [
+        "Flotte premium moderne de 50 véhicules",
+        "Expertise accès Siège de l'OTAN",
+        "Navigation Berlaymont Commission européenne",
+        "Protocole Justus Lipsius Conseil européen",
+        "Logistique réunions Place Luxemburg",
+        "Protocole et procédures des ambassades",
+        "Logistique sécurisée pour délégations officielles",
+        "Chauffeurs vérifiés avec habilitation de sécurité",
+        "Transferts VIP Brussels Airport depuis Zaventem",
+        "Accueil et traitement prioritaire",
+        "Coordination visites officielles et tournées d'État",
+        "Transferts transfrontaliers vers capitales européennes",
+        "Navigation lignes STIB et centre-ville",
+        "Disponibilité 24h/24 pour missions sensibles au timing"
+      ],
+      "highlight": {
+        "title": "Prêt à déplacer votre délégation ?",
+        "description": "\"Que vous ayez besoin d'un transfert aéroport fluide depuis Zaventem ou d'un transport vers des réunions cruciales près de Place Luxemburg, notre équipe répond à chaque besoin avec le plus grand professionnalisme et discrétion.\"",
+        "list_title": "Disponible 24h/24 :",
+        "list_items": [
+          "Transferts VIP Brussels Airport",
+          "Transport Siège de l'OTAN",
+          "Réunions Commission européenne",
+          "Sessions Conseil européen",
+          "Coordination visites officielles",
+          "Voyage diplomatique transfrontalier",
+          "Coordination sécurité ambassades",
+          "Plannings délégation multi-jours"
+        ],
+        "ctaText": "Demander un devis transport diplomatique",
+        "ctaHref": "/contact-us"
+      }
+    }
+  },
+  "hourly_transfers": {
+    "banner": {
+      "top_text_primary": "Transferts à l'heure",
+      "top_text_suffix": "Bruxelles et Belgique",
+      "title_line1": "Location flexible « à la demande »",
+      "title_accent": "à l'heure à Bruxelles",
+      "description": "Déplacez-vous à Bruxelles selon votre planning avec notre service de chauffeur à l'heure. Idéal pour réunions d'affaires, visites de la ville, trajets multi-escales ou courses personnelles. Votre chauffeur dédié est à votre disposition, pour un trajet fluide, ponctuel et sans stress.",
+      "image_alt": "Chauffeur professionnel et véhicule premium pour service de location à l'heure à Bruxelles"
+    },
+    "stats": {
+      "availability": "Disponibilité 24h/24",
+      "hourly_bookings": "Réservations à l'heure",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Chauffeurs dédiés"
+    },
+    "story": {
+      "image_alt": "Chauffeur professionnel et véhicule confortable pour service à l'heure à Bruxelles",
+      "badge": {
+        "value": "24/7",
+        "label": "Disponibilité chauffeur"
+      },
+      "title_line1": "Chauffeurs professionnels et",
+      "title_accent": "véhicules confortables",
+      "paragraphs": [
+        "Nos chauffeurs sont expérimentés, professionnels et familiers de Bruxelles et des environs. Ils offrent un service discret porte-à-porte dans des véhicules modernes et bien entretenus, garantissant un trajet sûr et confortable à chaque fois.",
+        "Que vous ayez besoin d'un trajet depuis Brussels Airport (Zaventem) ou souhaitiez explorer la ville, notre service de chauffeur à l'heure assure une expérience fluide — des courts trajets vers Place Luxemburg aux réunions d'entreprise d'une journée complète."
+      ],
+      "account": {
+        "title": "Tarification transparente et service fiable",
+        "description": "Avec des tarifs horaires fixes et sans frais cachés, notre service est simple, clair et pratique. City Airport Taxis est votre partenaire de confiance pour un transport flexible, professionnel et sans stress.",
+        "points": [
+          "Tarifs horaires fixes sans frais cachés",
+          "Tarification transparente de confiance",
+          "Disponible 24h/24 à Bruxelles et villes voisines",
+          "Réservation flexible pour toute durée — tranquillité d'esprit totale à chaque trajet"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Services sur mesure",
+      "title": "Pour chaque besoin à Bruxelles",
+      "items": [
+        {
+          "title": "tournées financières et médias",
+          "description": "Support transport spécialisé pour clients entreprise, gestion de plannings complexes et arrivées ponctuelles pour réunions, présentations et apparitions médias.",
+          "points": [
+            "Gestion de plannings multi-réunions complexes",
+            "Arrivées ponctuelles pour présentations et médias",
+            "Transport entreprise fiable depuis Zaventem Airport",
+            "Service de chauffeur professionnel et discret"
+          ]
+        },
+        {
+          "title": "Sorties shopping de luxe",
+          "description": "Sorties shopping de luxe sans tracas à Bruxelles avec chauffeur personnel, couvrant boutiques de créateurs et magasins haut de gamme.",
+          "points": [
+            "Boutiques de créateurs et magasins haut de gamme",
+            "Prises en charge et déposes ponctuelles",
+            "Plus de souci de stationnement ou navigation",
+            "Assistance bagages pour transferts aéroport"
+          ]
+        },
+        {
+          "title": "Visites touristiques à Bruxelles et au-delà",
+          "description": "Explorez Bruxelles et régions environnantes avec des itinéraires touristiques personnalisés pour Grand Place, Atomium, Quartier européen, Place Luxemburg, Gand, Bruges ou les Ardennes.",
+          "points": [
+            "Grand Place, Atomium et Quartier européen",
+            "Visites Place Luxemburg et quartier européen",
+            "Excursions d'une journée Gand, Bruges et Ardennes",
+            "Déposes VIP, attente et guidance locale"
+          ]
+        },
+        {
+          "title": "Service chauffeur 24 heures",
+          "description": "Disponibilité 24h/24 pour événements nocturnes, dîners de gala ou vols matinaux depuis Brussels Airport (Zaventem).",
+          "points": [
+            "Événements nocturnes et dîners de gala",
+            "Transferts matinaux Zaventem Airport",
+            "Chauffeurs professionnels, fiables et flexibles",
+            "Assistance navigation aéroport et gares"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Ce qui est inclus",
+      "title": "Simple, clair et pratique",
+      "description": "Tout ce dont vous avez besoin pour une location de chauffeur à l'heure flexible à Bruxelles et en Belgique — sans surprises.",
+      "items": [
+        {
+          "title": "Tarifs horaires fixes",
+          "description": "Tarification transparente sans frais cachés — sachez exactement ce que vous paierez avant de réserver.",
+          "points": [
+            "Tarifs horaires fixes sans frais cachés",
+            "Tarification transparente de confiance",
+            "Pas de tarification dynamique ni surprises au compteur",
+            "Devis simples et clairs en ligne"
+          ]
+        },
+        {
+          "title": "Couverture Bruxelles 24h/24",
+          "description": "Disponible en permanence à Bruxelles, villes voisines et trajets réguliers vers Zaventem Airport.",
+          "points": [
+            "Disponible 24h/24 à Bruxelles",
+            "Trajets réguliers vers Zaventem Airport inclus",
+            "Villes voisines et couverture régionale",
+            "Disponibilité tôt le matin et tard le soir"
+          ]
+        },
+        {
+          "title": "Flexibilité totale",
+          "description": "Votre chauffeur dédié s'adapte à votre planning — trajets multi-escales, détours et changements de dernière minute bienvenus.",
+          "points": [
+            "Réservation flexible pour toute durée",
+            "Réunions et courses multi-escales",
+            "Ajustements d'itinéraire de dernière minute",
+            "Transport professionnel sans stress"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Pourquoi choisir le service chauffeur à l'heure ?",
+      "title": "Votre planning, votre chauffeur",
+      "description": "Que vous ayez besoin d'un trajet depuis Brussels Airport (Zaventem) ou souhaitiez explorer la ville, notre service de chauffeur à l'heure assure une expérience fluide.",
+      "items": [
+        {
+          "title": "Flexibilité totale",
+          "description": "Plus de souci de trafic, stationnement ou réservations multiples — votre chauffeur s'adapte à votre planning.",
+          "points": ["Adaptation à votre itinéraire", "Plus de tracas de stationnement", "Une réservation, arrêts illimités", "Voyage entreprise, VIP ou personnel"]
+        },
+        {
+          "title": "Commodité multi-escales",
+          "description": "Idéal pour réunions d'affaires, visites de la ville, shopping ou courses personnelles.",
+          "points": ["Rotations réunions d'affaires", "Visites et tourisme en ville", "Shopping et courses personnelles", "Service porte-à-porte"]
+        },
+        {
+          "title": "Changements de dernière minute",
+          "description": "Accommodement des ajustements d'itinéraire, détours et arrêts spontanés sans tracas.",
+          "points": ["Ajouts d'arrêts spontanés", "Service favorable aux détours", "Ajustements de planning en cours de route", "Pas de nouvelle réservation requise"]
+        },
+        {
+          "title": "Service dédié",
+          "description": "Un chauffeur professionnel à votre disposition pour toute la durée de votre réservation.",
+          "points": ["Même chauffeur du début à la fin", "Service discret et professionnel", "Véhicules modernes et bien entretenus", "Connaissance de Bruxelles et Zaventem"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Partenaire chauffeur à l'heure",
+        "title": "Réservez une location à l'heure flexible à Bruxelles",
+        "subtitle": "Des tournéess d'entreprise au shopping de luxe et visites touristiques — votre chauffeur dédié est à votre disposition pour des déplacements fluides, ponctuels et sans stress à Bruxelles et au-delà.",
+        "features": [
+          "Location à l'heure flexible « à la demande »",
+          "Tarifs fixes sans frais cachés",
+          "Trajets multi-escales affaires et loisirs",
+          "Prises en charge Brussels Airport (Zaventem)",
+          "Disponibilité 24h/24 à Bruxelles",
+          "Shopping de luxe et visites touristiques",
+          "Coordination tournées entreprise",
+          "Changements d'itinéraire de dernière minute bienvenus"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Service de chauffeur à l'heure professionnel à Bruxelles",
+      "description": "Nos chauffeurs sont <highlight>expérimentés, professionnels et familiers de Bruxelles, Zaventem Airport et environs</highlight>, offrant un service discret porte-à-porte dans des véhicules modernes et bien entretenus.",
+      "reasons": [
+        "Location à l'heure flexible « à la demande »",
+        "Flexibilité totale de planning",
+        "Réunions d'affaires multi-escales",
+        "Chauffeurs pour sorties shopping de luxe",
+        "Visites touristiques personnalisées à Bruxelles",
+        "Support tournéess financiers et médias",
+        "Disponibilité chauffeur 24 heures",
+        "Tarifs horaires fixes, sans frais cachés",
+        "Transferts Brussels Airport (Zaventem)",
+        "Itinéraires Place Luxemburg et quartier européen",
+        "Excursions d'une journée Gand, Bruges et Ardennes",
+        "Ajustements d'itinéraire de dernière minute",
+        "Chauffeur dédié pour toute la réservation",
+        "Voyage entreprise, VIP et personnel"
+      ],
+      "highlight": {
+        "title": "Prêt à réserver votre chauffeur à l'heure ?",
+        "description": "\"Avec des tarifs horaires fixes et sans frais cachés, City Airport Taxis est votre partenaire de confiance pour un transport flexible, professionnel et sans stress — des courts trajets vers Place Luxemburg aux réunions d'une journée complète.\"",
+        "list_title": "Disponible 24h/24 :",
+        "list_items": [
+          "Location à l'heure depuis Brussels Airport",
+          "Itinéraires journée professionnelle multi-escales",
+          "Shopping de luxe à Bruxelles",
+          "Visites touristiques et excursions en ville",
+          "Transport tournées entreprise",
+          "Chauffeurs pour événements nocturnes",
+          "Transferts matinaux Zaventem",
+          "Réservations durée flexible"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    }
+  }
+}

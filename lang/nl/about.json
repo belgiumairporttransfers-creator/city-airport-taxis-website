@@ -1,0 +1,194 @@
+{
+  "banner": {
+    "top_text_primary": "Over ons",
+    "top_text_suffix": "Luchthaventransfers België",
+    "title_line1": "Over",
+    "title_accent": "Onze Professionele Taxiservice",
+    "description": "Uw betrouwbare partner voor luchthaventransfers en chauffeursdiensten in België. Wij geloven dat elke reis moet beginnen en eindigen met comfort, betrouwbaarheid en gemoedsrust — met premium reiservaringen voor particulieren, gezinnen, toeristen, zakelijke leidinggevenden en zakelijke klanten.",
+    "image_alt": "Professionele chauffeursvloot die luxe luchthaventransfers in België verzorgt"
+  },
+  "stats": {
+    "corporate_partners": "Zakelijke partners",
+    "vip_transfers": "VIP-transfers",
+    "on_time_rate": "Stiptheidspercentage",
+    "concierge_support": "24/7 Ondersteuning"
+  },
+  "story": {
+    "top_text": "ONS VERHAAL",
+    "title": "Gebouwd rond de behoeften van moderne reizigers",
+    "image_alt": "Professionele chauffeur opent autodeur van luxevoertuig voor passagier op Belgische luchthaven",
+    "badge": {
+      "value": "10+",
+      "label": "Jaar uitmuntendheid"
+    },
+    "paragraphs": [
+      "Reizen is geëvolueerd, en zo ook de verwachtingen van reizigers. Passagiers van vandaag eisen meer dan alleen van de ene naar de andere locatie te gaan — ze verwachten betrouwbaarheid, gemak, veiligheid, professionaliteit en een naadloze transportervaring. Wij zijn opgericht om aan deze verwachtingen te voldoen door moderne technologie, professionele chauffeurs, premium voertuigen en klantgerichte servicestandaarden te combineren.",
+      "We zagen een groeiende behoefte aan betrouwbaar luchthaventransport in België — een service waar reizigers op konden vertrouwen, of ze nu uit het buitenland aankomen, zakelijk reizen, een evenement bijwonen of Belgische steden verkennen. Sinds 2013 blijven we toegewijd aan transportoplossingen die reisstress elimineren en onze klanten laten focussen op wat het belangrijkst is."
+    ],
+    "stats": [
+      { "value": "5k+", "label": "Tevreden klanten" },
+      { "value": "5+", "label": "Belangrijke luchthavens" }
+    ]
+  },
+  "mission_vision": {
+    "items": [
+      {
+        "icon": "Rocket",
+        "title": "Onze missie",
+        "subtitle": "Betrouwbaar transport leveren in België",
+        "description": "Onze missie is om de meest betrouwbare, professionele en klantgerichte luchthaventransfer- en chauffeursdiensten in België te bieden.",
+        "list_title": "We streven ernaar om:",
+        "points": [
+          "Luchthavenreizen stressvrij te maken",
+          "Ervoor te zorgen dat elke passagier veilig reist",
+          "Consistente service-excellentie te leveren",
+          "Comfortabele premium transportopties te bieden",
+          "Zakelijke en recreatieve reizigers te ondersteunen",
+          "De hoogste professionaliteitsnormen te handhaven",
+          "Langetermijnrelaties met onze klanten op te bouwen"
+        ]
+      },
+      {
+        "icon": "Eye",
+        "title": "Onze visie",
+        "subtitle": "België's toonaangevende luchthaventransferaanbieder",
+        "description": "Onze visie is om de meest vertrouwde en erkende aanbieder van luchthaventransfers en chauffeursdiensten in België te worden.",
+        "list_title": "We streven ernaar nieuwe normen voor transportexcellentie te stellen door te focussen op:",
+        "points": [
+          "Servicekwaliteit",
+          "Klanttevredenheid",
+          "Operationele efficiëntie",
+          "Innovatie",
+          "Veiligheid",
+          "Toegankelijkheid in heel België"
+        ]
+      }
+    ]
+  },
+  "drivers_safety": {
+    "drivers": {
+      "title": "Professionele chauffeurs waar u op kunt vertrouwen",
+      "description": "Daarom selecteren en trainen we onze chauffeurs zorgvuldig om ervoor te zorgen dat ze voldoen aan onze hoge normen voor professionaliteit en klantenservice in België.",
+      "list_title": "Onze chauffeurs staan bekend om:",
+      "points": [
+        "Professionele uitstraling",
+        "Veilig rijgedrag",
+        "Uitgebreide routekennis",
+        "Stiptheid",
+        "Hoffelijkheid en respect",
+        "Lokale expertise in heel België"
+      ],
+      "image_alt": "Professionele chauffeurs naast luxevoertuigen op Belgische luchthaven"
+    },
+    "safety": {
+      "title": "Veiligheid is onze hoogste prioriteit",
+      "features": [
+        {
+          "icon": "MapPin",
+          "title": "24/7 GPS-monitoring",
+          "description": "Real-time tracking voor elke actieve rit in België."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Voertuiginspecties",
+          "description": "Regelmatige veiligheidscontroles en mechanische audits op onze gehele vloot."
+        },
+        {
+          "icon": "ShieldPlus",
+          "title": "Uitgebreide verzekering",
+          "description": "Volledige dekking voor passagiers en bagage op elke rit."
+        }
+      ]
+    }
+  },
+  "future": {
+    "title": "Vooruitkijken naar de toekomst",
+    "description": "We zijn toegewijd om de voorkeurspartner voor transport te worden voor reizigers in België en daarbuiten.",
+    "items": [
+      {
+        "title": "Servicedekking uitbreiden",
+        "description": "Meer steden, luchthavens en bestemmingen in België bereiken."
+      },
+      {
+        "title": "Technologie verbeteren",
+        "description": "Boekingssystemen, vluchttracking en klantcommunicatie verbeteren."
+      },
+      {
+        "title": "Onze vloot uitbreiden",
+        "description": "Nieuwe voertuigcategorieën en premium transportopties toevoegen."
+      },
+      {
+        "title": "Zakelijke partnerschappen versterken",
+        "description": "Meer bedrijven, hotels en organisaties in België ondersteunen."
+      },
+      {
+        "title": "Industrienormen verhogen",
+        "description": "Nieuwe benchmarks stellen voor kwaliteit, betrouwbaarheid en professionaliteit."
+      }
+    ]
+  },
+  "why_choose": {
+    "sidebar": {
+      "title": "Reis met vertrouwen",
+      "subtitle": "We bieden niet alleen transport — we leveren betrouwbare reiservaringen ontworpen rond uw comfort, veiligheid en gemak in België.",
+      "features": [
+        "24/7 Beschikbaarheid",
+        "Professionele chauffeurs",
+        "Premium vloot",
+        "Vluchtmonitoring",
+        "Vaste prijzen",
+        "Heel België gedekt"
+      ],
+      "button": "Nu boeken"
+    },
+    "title": "Waarom kiezen voor onze professionele taxiservice?",
+    "description": "Duizenden reizigers in België kiezen voor ons omdat we consequent leveren:",
+    "reasons": [
+      "Professionele chauffeurs",
+      "24/7 Beschikbaarheid",
+      "Heel België gedekt",
+      "Premium vlootopties",
+      "Meet & Greet-service",
+      "Vluchtmonitoring",
+      "Vaste prijzen",
+      "Veilig en betrouwbaar vervoer",
+      "Zakelijke reisoplossingen",
+      "Uitzonderlijke klantenservice"
+    ],
+    "highlight": {
+      "title": "Veiligheid eerst op elke reis",
+      "description": "Uw veiligheid blijft onze hoogste prioriteit. We volgen strikte operationele normen om ervoor te zorgen dat elke rit in België veilig en betrouwbaar is.",
+      "list_title": "Onze veiligheidsnormen omvatten:",
+      "list_items": [
+        "Professioneel getrainde chauffeurs",
+        "Gelicentieerde chauffeurs",
+        "Regelmatig voertuigonderhoud",
+        "GPS-bewaakte ritten",
+        "Schone en comfortabele interieurs",
+        "Expertise in langeafstandstransport"
+      ]
+    }
+  },
+  "corporate_travel": {
+    "title": "Zakelijke en corporatieve reisoplossingen",
+    "paragraphs": [
+      "We bedienen met trots zakelijke klanten, hotels, reisbureaus, evenementenorganisatoren en multinationale bedrijven in België.",
+      "Als u op zoek bent naar een langetermijn transportpartner, kan ons zakelijke team op maat gemaakte oplossingen bieden die zijn afgestemd op uw operationele vereisten."
+    ],
+    "benefits_title": "Zakelijke voordelen:",
+    "benefits": [
+      "Professionele chauffeurs",
+      "Luxe executive voertuigen",
+      "Flexibele planning",
+      "Vertrouwelijk transport",
+      "Betrouwbare servicenormen",
+      "Zakelijke accountopties"
+    ],
+    "account_card": {
+      "title": "Zakelijke accounts",
+      "description": "Of u nu vergaderingen, conferenties, locatiebezoeken of klantafspraken in België bijwoont, onze transportoplossingen helpen productiviteit en efficiëntie te maximaliseren.",
+      "cta_text": "Nu aanmelden",
+      "cta_href": "/corporate-travel-solutions/register"
+    }
+  }
+}

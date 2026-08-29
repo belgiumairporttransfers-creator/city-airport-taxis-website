@@ -338,12 +338,16 @@ function PaymentSuccessDetails({
               <div
                 className={cn(
                   "text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full border",
-                  booking.paymentStatus === "paid"
-                    ? "bg-emerald-50 text-emerald-600 border-emerald-200"
-                    : "bg-amber-50 text-amber-600 border-amber-200"
+                  booking.paymentMethod === "pay_onboard"
+                    ? "bg-sky-50 text-sky-700 border-sky-200"
+                    : booking.paymentStatus === "paid"
+                      ? "bg-emerald-50 text-emerald-600 border-emerald-200"
+                      : "bg-amber-50 text-amber-600 border-amber-200"
                 )}
               >
-                {booking.paymentStatus || "pending"}
+                {booking.paymentMethod === "pay_onboard"
+                  ? t("pay_onboard_badge")
+                  : booking.paymentStatus || "pending"}
               </div>
             </div>
 
@@ -360,7 +364,11 @@ function PaymentSuccessDetails({
               <div className="pt-6 border-t border-dashed border-border-200">
                 <div className="flex items-end justify-between">
                   <div>
-                    <p className="text-base font-bold text-muted uppercase tracking-widest mb-1">{t("total_paid")}</p>
+                    <p className="text-base font-bold text-muted uppercase tracking-widest mb-1">
+                      {booking.paymentMethod === "pay_onboard"
+                        ? t("total_due")
+                        : t("total_paid")}
+                    </p>
                   </div>
                   <div className="text-right">
                     <p className="text-3xl font-black text-secondary leading-none">

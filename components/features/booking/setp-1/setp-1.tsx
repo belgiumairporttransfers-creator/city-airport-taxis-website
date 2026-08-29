@@ -159,7 +159,6 @@ function Step1() {
         return
       }
       setBookingSettings({
-        stopFee: settings.stopFee,
         airportPickup: settings.airportPickup,
       })
       router.replace('/book-ride/select-vehicle')

@@ -1,0 +1,221 @@
+{
+  "airport_transfers": {
+    "banner": {
+      "top_text_primary": "Brussels Airport Transfers",
+      "top_text_suffix": "Zaventem & België",
+      "title_line1": "Begin uw reis in comfort",
+      "title_accent": "op Brussels Airport",
+      "description": "Vermijd druk openbaar vervoer, verwarrende routes en onzekere taxitarieven. Onze professionele chauffeurs ontmoeten u op Brussels Zaventem (BRU), Charleroi (CRL) en luchthavens in heel België — met vaste prijzen en een soepele rit vanaf het moment dat u landt.",
+      "book_ride": "Directe offerte ontvangen",
+      "view_fleets": "Bekijk onze vloot",
+      "image_alt": "Professionele chauffeur en premium voertuig voor Brussels Airport Zaventem transferservice"
+    },
+    "stats": {
+      "airports_covered": "Luchthavens in België",
+      "annual_transfers": "Luchthaventransfers",
+      "on_time_rate": "Stiptheidspercentage",
+      "support": "24/7 Ondersteuning"
+    },
+    "airport_hubs": {
+      "title": "Onze belangrijkste luchthavenhubs",
+      "description": "Professionele luchthaventransferdiensten bij België's belangrijkste internationale toegangspoorten.",
+      "items": [
+        {
+          "title": "Brussels Zaventem Airport (BRU)",
+          "description": "België's grootste internationale luchthaven en Europese hub. We bieden volledige Meet and Greet-service bij aankomst. Of u nu een transfer naar het stadscentrum, Place Luxemburg of langeafstandsroutes door België nodig heeft, onze Brussels Airport chauffeursdienst is de betrouwbare keuze.",
+          "points": [
+            "Meet and Greet bij aankomst",
+            "Stadscentrum en Place Luxemburg transfers",
+            "Langeafstandsroutes door België",
+            "Bekijk Brussels Zaventem Airport Service"
+          ]
+        },
+        {
+          "title": "Charleroi Airport (CRL)",
+          "description": "Brussels South Charleroi Airport is een belangrijke hub voor budgetmaatschappijen in België. Onze professionele transferservice verbindt u met Brussel stadscentrum, Antwerpen, Gent en verder met comfort en betrouwbaarheid.",
+          "points": [
+            "Verbindingen naar Brussel stadscentrum",
+            "Antwerpen, Gent en landelijke transfers",
+            "Specialist budgetmaatschappij passagiers",
+            "Bekijk Charleroi Airport Service"
+          ]
+        },
+        {
+          "title": "Antwerp Airport (ANR)",
+          "description": "Antwerp International Airport bedient België's diamantstad en belangrijke havenstad. Onze chauffeursdienst biedt betrouwbare transfers van en naar het stadscentrum, havengebied en zakelijke centra in de Antwerpse regio.",
+          "points": [
+            "Antwerpen stadscentrum en havengebied",
+            "Zakelijke en recreatieve reizen",
+            "Brussels Airport en Charleroi verbindingen",
+            "Bekijk Antwerp Airport Service"
+          ]
+        }
+      ]
+    },
+    "journey": {
+      "image_alt": "Brussels Airport transfer met professionele chauffeur en premium voertuig in Zaventem",
+      "title": "Begin uw reis in comfort",
+      "description": "Na een lange vlucht vermijdt u druk openbaar vervoer, verwarrende routes en onzekere taxitarieven. Onze Brussels Airport chauffeursdienst haalt u op bij aankomst en brengt u rechtstreeks naar uw hotel, vergadering of bestemming in België.",
+      "ideal_for": {
+        "title": "Naadloze luchthavenaankomsten",
+        "items": [
+          "Meet and Greet op Brussels Airport (BRU)",
+          "Directe transfers vanaf Charleroi Airport (CRL)",
+          "Vluchttracking zonder extra vertragingskosten",
+          "Vaste prijzen zonder verborgen kosten"
+        ]
+      },
+      "highlights": [
+        "Professionele chauffeurs, onberispelijke voertuigen",
+        "24/7 beschikbaarheid in heel België",
+        "Discreet, stipt en betrouwbaar"
+      ]
+    },
+    "why_choose": {
+      "title": "Waarom kiezen voor onze service?",
+      "description": "Professionele luchthaventransfers gebouwd op duidelijkheid, stiptheid en discretie.",
+      "items": [
+        {
+          "title": "Vluchttracking",
+          "description": "Real-time vluchtmonitoring zorgt ervoor dat uw chauffeur er is wanneer u arriveert, zonder extra wachttijdkosten bij vluchtvertraging."
+        },
+        {
+          "title": "Vaste prijzen",
+          "description": "Transparante, vaste prijzen zonder verborgen kosten. Weet precies wat u betaalt voordat u boekt."
+        },
+        {
+          "title": "Supreme kwaliteit",
+          "description": "Professionele chauffeurs, onberispelijke voertuigen en uitzonderlijke service op elke reis."
+        },
+        {
+          "title": "Meet & Greet-service",
+          "description": "Uw chauffeur ontmoet u bij aankomst met een naambord, helpt met bagage en begeleidt u naar uw voertuig voor een naadloze start."
+        }
+      ]
+    },
+    "areas_served": {
+      "top_text": "Gebieden die we bedienen",
+      "title": "Het Noorden, Westen en verder",
+      "description": "Uitgebreide luchthaventransferdekking in België's belangrijkste steden en regio's.",
+      "items": [
+        {
+          "title": "Brussel",
+          "description": "Uitgebreide dekking in Brussel en omliggende gemeenten. Van de Europese wijk tot het historische Grote Markt, we kennen elke route.",
+          "points": [
+            "Europese wijk en EU-instellingen",
+            "Grote Markt en stadscentrum",
+            "Brussels Airport (BRU) transfers",
+            "Place Luxemburg en Schumanwijk"
+          ]
+        },
+        {
+          "title": "Antwerpen",
+          "description": "Professionele transfers van en naar Antwerpen, België's diamantstad en belangrijke havenstad. Betrouwbare service voor zakelijke en recreatieve reizigers.",
+          "points": [
+            "Antwerpen stadscentrum en havengebied",
+            "Zakelijke en recreatieve reizen",
+            "Charleroi en Brussels Airport verbindingen",
+            "Diamantwijk transfers"
+          ]
+        },
+        {
+          "title": "Gent",
+          "description": "Naadloze verbindingen naar Gent, Brugge en schilderachtige Vlaamse steden. Comfort op elke reis door België.",
+          "points": [
+            "Historisch stadscentrum Gent",
+            "Brugge en Vlaamse steden",
+            "Schilderachtige regionale routes",
+            "Luchthavenverbindingen vanaf BRU en CRL"
+          ]
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Hoe boek ik een Brussels Airport (Zaventem) transfer?",
+          "answer": "Voer uw ophaal- of afzetlocatie, reisdatum en vluchtgegevens in ons boekingsformulier in om een directe vaste offerte te ontvangen. Bevestig online in enkele minuten — onze chauffeur ontmoet u bij aankomst met een naambord voor Meet and Greet-service."
+        },
+        {
+          "question": "Volgt u mijn vlucht bij vertraging?",
+          "answer": "Ja. We monitoren uw vlucht in real-time en passen ophaaltijden automatisch aan. Er zijn geen extra wachttijdkosten wanneer uw vlucht vertraagd is — uw chauffeur is klaar wanneer u landt."
+        },
+        {
+          "question": "Kunt u me transferen van Charleroi Airport (CRL) naar Brussel?",
+          "answer": "Absoluut. We bieden professionele transfers van Brussels South Charleroi Airport naar Brussel stadscentrum, Antwerpen, Gent en bestemmingen in heel België met vaste transparante prijzen."
+        },
+        {
+          "question": "Zijn uw luchthaventransferprijzen vast?",
+          "answer": "Ja. Alle offertes zijn vast zonder verborgen kosten. De prijs die u bij boeking ziet, is de prijs die u betaalt — geen dynamische prijzen, geen meterverrassingen en geen extra kosten voor standaard bagage."
+        },
+        {
+          "question": "Bieden jullie Meet and Greet bij Brussels Airport aankomst?",
+          "answer": "Ja. Onze chauffeur ontmoet u in de aankomsthal met een naambord, helpt met bagage en begeleidt u naar uw voertuig voor een naadloze start van uw reis."
+        },
+        {
+          "question": "Welke voertuigopties zijn beschikbaar voor luchthaventransfers?",
+          "answer": "We bieden Economy en Confort sedans, Standard en Premium Mercedes vans, First Class executive sedans en Mercedes Sprinter minicoaches — geschikt voor solo reizigers, gezinnen en groepen tot 16 passagiers."
+        },
+        {
+          "question": "Opereren jullie 24/7 voor vroege ochtend- en late nachtvluchten?",
+          "answer": "Ja. Onze Brussels en Charleroi luchthaventransferservice opereert 24 uur per dag, 7 dagen per week — inclusief vroege ochtendvertrekken en late nachtaankomsten."
+        },
+        {
+          "question": "Welke gebieden bedienen jullie buiten Brussel?",
+          "answer": "We dekken Antwerpen, Gent, Brugge, Luik en steden in België en naburige regio's. Boek intercitytransfers van Brussels Airport of Charleroi naar elke bestemming in ons dekkingsgebied."
+        }
+      ]
+    },
+    "why_choose_safety": {
+      "why_choose": {
+        "title": "Waarom boeken bij City Airport Taxis?",
+        "subtitle": "Professionele Brussels Airport transfers met meet and greet, real-time vluchttracking en vaste prijzen in België — duidelijkheid, stiptheid en discretie op elke reis.",
+        "features": [
+          "Real-time vluchttracking inbegrepen",
+          "Vaste prijzen zonder verborgen kosten",
+          "Meet and Greet bij BRU en CRL",
+          "24/7 beschikbaarheid voor alle vluchten",
+          "Professionele Engelssprekende chauffeurs",
+          "Brussel, Antwerpen en landelijke dekking"
+        ]
+      },
+      "safety": {
+        "title": "Veiligheid en betrouwbaarheid waar u op kunt vertrouwen",
+        "subtitle": "Elke luchthaventransfer wordt geleverd met gescreende chauffeurs, zorgvuldig onderhouden voertuigen en 24/7 ondersteuning.",
+        "features": [
+          {
+            "icon": "UserCheck",
+            "title": "Gescreende professionele chauffeurs",
+            "description": "Gelicentieerde, gescreende chauffeurs met lokale kennis van Brussels Airport, Charleroi en routes in België."
+          },
+          {
+            "icon": "Wrench",
+            "title": "Zorgvuldig onderhouden vloot",
+            "description": "Premium voertuigen geïnspecteerd en onderhouden volgens de hoogste normen voor comfort en betrouwbaarheid op elke reis."
+          },
+          {
+            "icon": "Car",
+            "title": "Volledig verzekerde voertuigen",
+            "description": "Uitgebreide verzekeringsdekking op alle voertuigen voor volledige gemoedsrust tijdens uw luchthaventransfer."
+          },
+          {
+            "icon": "ShieldPlus",
+            "title": "Veilige boeking en betalingen",
+            "description": "Veilige online boeking met transparante prijzen en beveiligde betalingsverwerking — geen verborgen kosten bij ophalen."
+          },
+          {
+            "icon": "Headset",
+            "title": "24/7 klantenservice",
+            "description": "Ons dispatchteam is rond de klok beschikbaar om te helpen met boekingen, vluchtwijzigingen en reisvragen."
+          }
+        ]
+      }
+    },
+    "booking_cta": {
+      "title": "Boek uw transfer",
+      "description": "Snelle en eenvoudige boeking voor betrouwbare luchthaventransfers. Ontvang uw directe offerte en bevestig uw reservering in enkele minuten.",
+      "book_online": "Directe offerte ontvangen",
+      "call_support": "Bel 24/7 support"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "banner": {
+    "top_text": "Documentatie",
+    "title": "Helpdesk & FAQ",
+    "description": "Uitgebreide gids en veelgestelde vragen om u te helpen bij het beheren van uw boekingen en reizen."
+  },
+  "sections": {
+    "general": {
+      "category": "Algemeen",
+      "title": "Veelgestelde vragen",
+      "description": "Algemene informatie over onze diensten, het boekingsproces en het bedrijfsbeleid."
+    },
+    "complications": {
+      "category": "Boekingsproblemen",
+      "title": "Boekingscomplicaties afhandelen",
+      "description": "Oplossingen en begeleiding voor veelvoorkomende problemen tijdens of na het boekingsproces."
+    },
+    "management": {
+      "category": "Beheer",
+      "title": "Per boeking",
+      "description": "Hoe u uw bestaande boekingen kunt beheren, bekijken of annuleren via ons platform."
+    },
+    "travel": {
+      "category": "Reizen",
+      "title": "Reis- en aankomstproblemen",
+      "description": "Informatie over vluchtvertragingen, verloren voorwerpen en aankomstprocedures."
+    }
+  },
+  "faqs": {
+    "booking_advance": {
+      "question": "Hoe ver van tevoren kan ik online boeken?",
+      "answer": "We accepteren online boekingen die <strong_p>minstens 4 uur van tevoren</strong_p> worden gemaakt. (van maandag tot zondag). Heeft u binnen 3 uur een taxi of chauffeursdienst nodig? Bel <strong_s>+92 21 111 247 247</strong_s> om de beschikbaarheid te controleren."
+    },
+    "airport_meeting": {
+      "question": "Waar kan ik mijn chauffeur ontmoeten?",
+      "answer": "U kunt uw chauffeur ontmoeten bij het aangewezen ophaalpunt buiten de aankomsthal van Jinnah International Airport.\n\nNa het passeren van immigratie en het ophalen van uw bagage, verlaat u de aankomsthal en gaat u naar het ontmoetingspunt dat in uw bevestigingsmail staat. Uw chauffeur toont uw naam of een bedrijfsbord. Als u uw chauffeur niet kunt vinden, bel dan onmiddellijk het nummer in uw boekingsbevestiging."
+    },
+    "cancellation": {
+      "question": "Wat is uw annuleringsbeleid?",
+      "answer": "Annuleringen die meer dan 24 uur voor de geplande ophaaltijd worden gedaan, zijn doorgaans kosteloos. Raadpleeg onze volledige algemene voorwaarden voor specifieke details."
+    },
+    "payment": {
+      "question": "Welke betaalmethoden accepteert u?",
+      "answer": "We accepteren alle belangrijke creditcards, PayPal en JazzCash. U kunt veilig online betalen op het moment van boeking via onze beveiligde betaalgateway."
+    },
+    "wait_time": {
+      "question": "Hoe lang wacht de chauffeur op ons op de luchthaven?",
+      "answer": "Voor luchthavenophaalservices is 60 minuten gratis wachttijd inbegrepen vanaf de werkelijke aankomsttijd van de vlucht, zodat u tijd heeft om bagage op te halen en douane te passeren."
+    },
+    "vip_pickup": {
+      "question": "VIP-ophaalservice?",
+      "answer": "Onze VIP-ophaalservice omvat een premium voertuig, meet-and-greet in de aankomsthal en toegewijde bagagehulp voor een naadloze ervaring."
+    },
+    "luggage": {
+      "question": "Reisinformatie / Bagage",
+      "answer": "Zorg ervoor dat u het juiste aantal passagiers en bagagestukken opgeeft tijdens het boeken. Dit helpt ons het meest geschikte voertuig voor uw comfort toe te wijzen."
+    },
+    "no_journey": {
+      "question": "De rit heeft niet plaatsgevonden",
+      "answer": "Als u de chauffeur niet kon vinden en de rit niet heeft plaatsgevonden, dien dan een <a>terugbetalingsverzoek hier</a> in."
+    },
+    "no_phone": {
+      "question": "De chauffeur of transferbedrijf neemt de telefoon niet op",
+      "answer": "Als u de chauffeur niet kunt bereiken, neem dan onmiddellijk contact op met onze 24/7-supportlijn. We helpen u coördineren met de chauffeur of een alternatief regelen."
+    },
+    "no_meeting_point": {
+      "question": "Ik kan mijn chauffeur of ontmoetingspunt niet vinden",
+      "answer": "Controleer uw bevestigingsmail nogmaals voor exacte instructies. Als u de chauffeur nog steeds niet kunt vinden, bel hem dan rechtstreeks via het opgegeven nummer."
+    },
+    "cancel_booking": {
+      "question": "Mijn boeking annuleren",
+      "answer": "Log in met uw <strong>klant-ID en wachtwoord</strong> die al naar uw e-mail zijn gestuurd. Als u vragen heeft, neem dan direct contact met ons op onder vermelding van uw boekings-ID en we helpen u graag verder."
+    },
+    "change_booking": {
+      "question": "Mijn boeking wijzigen",
+      "answer": "U kunt uw boekingsgegevens wijzigen door in te loggen op uw account of contact op te nemen met ons klantenserviceteam."
+    },
+    "view_booking": {
+      "question": "Mijn boeking bekijken",
+      "answer": "Bekijk al uw boekingsgegevens, inclusief chauffeurinformatie en status, door in te loggen op uw klantenportaal."
+    },
+    "flight_delayed": {
+      "question": "Mijn vlucht heeft vertraging",
+      "answer": "Wanneer uw vlucht vertraagd of geannuleerd is, bel dan rechtstreeks de chauffeur of het transferbedrijf. Als u ervoor kiest de aanbieder niet te bellen, kan hij het ophaalpunt verlaten en loopt u het risico uw transfer te missen."
+    },
+    "left_item": {
+      "question": "Ik heb een voorwerp in de auto achtergelaten",
+      "answer": "Neem onmiddellijk contact met ons op met uw boekings-ID. We coördineren met de chauffeur om u te helpen uw verloren voorwerpen zo snel mogelijk terug te krijgen."
+    },
+    "late_transfer": {
+      "question": "Ik kom te laat voor mijn transfer",
+      "answer": "Als u verwacht te laat te komen, informeer dan onmiddellijk uw chauffeur of ons supportteam. Houd er rekening mee dat wachtkosten kunnen gelden na de gratis wachtperiode."
+    },
+    "local_taxis_connected": {
+      "question": "Zijn lokale luchthaventaxi's verbonden met Airport Transfer?",
+      "answer": "Nee. Lokale taxi's op Karachi Airport zijn onafhankelijke diensten en zijn niet verbonden met Airport Transfer, tenzij de rit rechtstreeks via onze website is geboekt."
+    },
+    "responsible_all_taxis": {
+      "question": "Is Airport Transfer verantwoordelijk voor alle taxi's op Karachi Airport?",
+      "answer": "Nee. Airport Transfer is alleen verantwoordelijk voor ritten die officieel via onze website zijn geboekt en bevestigd. We zijn niet verantwoordelijk voor lokale luchthaventaxi's of ritten die op de luchthaven zijn geboekt."
+    }
+  },
+  "cta": {
+    "title": "Kunt u niet vinden wat u zoekt?",
+    "description": "Als u geen antwoord op uw vraag kunt vinden in onze Helpdesk, helpt ons supportteam u graag met uw boeking.",
+    "button": "Contact opnemen met support"
+  }
+}

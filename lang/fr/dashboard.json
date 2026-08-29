@@ -1,0 +1,190 @@
+{
+  "welcome_back": "Bon retour",
+  "loading": "Chargement...",
+  "overview_subtitle": "Voici l'aperçu de votre tableau de bord pour aujourd'hui.",
+  "ride_discounts": {
+    "title": "Vos remises sur les trajets",
+    "subtitle": "Les remises sont appliquées automatiquement lors de la réservation.",
+    "one_way": "Aller simple : {discount} %",
+    "return": "Retour : {discount} %"
+  },
+  "spending_bookings": {
+    "title": "Dépenses et réservations",
+    "months": "{value}M"
+  },
+  "stats": {
+    "total_rides": {
+      "label": "Total des trajets",
+      "trend": "Depuis toujours"
+    },
+    "completed_rides": {
+      "label": "Trajets terminés",
+      "trend": "Terminés avec succès"
+    },
+    "upcoming_rides": {
+      "label": "Trajets à venir",
+      "trend": "Prochain : {date}"
+    },
+    "empty_date": "---"
+  },
+  "quick_actions": {
+    "book_transfer": {
+      "title": "Réserver un transfert",
+      "subtitle": "Rechercher et réserver un nouveau trajet"
+    },
+    "statements": {
+      "title": "Relevés",
+      "subtitle": "Consulter les rapports mensuels"
+    },
+    "passengers": {
+      "title": "Passagers",
+      "subtitle": "Gérer vos voyageurs"
+    },
+    "settings": {
+      "title": "Paramètres",
+      "subtitle": "Compte et préférences"
+    }
+  },
+  "next_rides": {
+    "title": "Vos prochains trajets",
+    "view_all": "Tout voir",
+    "no_rides": "Aucun trajet à venir trouvé.",
+    "order": "Commande n°{number}"
+  },
+  "activity_overview": {
+    "title": "Aperçu de l'activité",
+    "upcoming": "Trajets à venir",
+    "completed": "Trajets terminés",
+    "cancelled": "Trajets annulés",
+    "revenue": {
+      "label": "Revenu total",
+      "subtitle": "Dépenses cumulées"
+    },
+    "average_value": "Valeur moyenne par trajet",
+    "top_destinations": {
+      "title": "Destinations principales",
+      "no_data": "Aucune donnée de destination disponible pour le moment."
+    },
+    "security": {
+      "title": "Sécurité et compte",
+      "last_session": {
+        "label": "Dernière session",
+        "empty": "---"
+      },
+      "status": {
+        "label": "Statut de sécurité",
+        "strong": "Fort",
+        "review": "À vérifier",
+        "sessions_count": "{count} session(s) active(s)",
+        "no_sessions": "Aucune session active"
+      },
+      "device": {
+        "label": "Appareil",
+        "empty": "---",
+        "member_since": "Membre depuis {date}"
+      }
+    },
+    "help": {
+      "title": "Besoin d'aide ?",
+      "subtitle": "Notre équipe d'assistance est disponible 24h/24 pour vous aider en cas de problème.",
+      "button": "Contacter l'assistance"
+    }
+  },
+  "chart": {
+    "spending": "Dépenses",
+    "bookings": "Réservations",
+    "months": {
+      "jan": "Janvier",
+      "feb": "Février",
+      "mar": "Mars",
+      "apr": "Avril",
+      "may": "Mai",
+      "jun": "Juin",
+      "jul": "Juillet",
+      "aug": "Août",
+      "sep": "Septembre",
+      "oct": "Octobre",
+      "nov": "Novembre",
+      "dec": "Décembre"
+    }
+  },
+  "bookings_page": {
+    "title": "Mes réservations",
+    "search_placeholder": "Numéro de réservation",
+    "bulk_delete": {
+      "title": "Confirmer la suppression groupée",
+      "description": "Êtes-vous sûr de vouloir supprimer {count} réservations sélectionnées ? Cette action est irréversible.",
+      "success": "{count} réservations supprimées avec succès"
+    }
+  },
+  "payments_page": {
+    "title": "Mes paiements",
+    "search_placeholder": "ID de paiement",
+    "bulk_delete": {
+      "title": "Confirmer la suppression groupée",
+      "description": "Êtes-vous sûr de vouloir supprimer {count} paiements sélectionnés ? Cette action est irréversible.",
+      "success": "{count} paiements supprimés avec succès"
+    }
+  },
+  "profile_page": {
+    "title": "Mon profil",
+    "loading": "Chargement...",
+    "email_loading": "...",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "email": "E-mail",
+    "security": {
+      "title": "Sécurité",
+      "subtitle": "Déconnectez ce compte de tous les appareils et sessions actifs.",
+      "logout_all_button": "Se déconnecter de tous les appareils",
+      "dialog_title": "Se déconnecter de tous les appareils ?",
+      "dialog_description": "Cela vous déconnectera de toutes les sessions actives sur tous les appareils. Vous devrez vous reconnecter.",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "logging_out": "Déconnexion..."
+    }
+  },
+  "statements_page": {
+    "title": "Relevés",
+    "subtitle": "Téléchargez les relevés mensuels depuis la date d'inscription de votre compte.",
+    "joined": "Inscrit le : {date}",
+    "loading": "Chargement des relevés...",
+    "failed": "Échec du chargement des relevés.",
+    "no_data": "Aucun relevé mensuel disponible pour le moment.",
+    "refreshing": "Actualisation des relevés...",
+    "table": {
+      "month": "Mois",
+      "bookings": "Réservations",
+      "completed": "Terminées",
+      "spent": "Dépensé",
+      "action": "Action",
+      "download_pdf": "Télécharger le PDF"
+    }
+  },
+  "table_columns": {
+    "booking_id": "ID de réservation",
+    "passenger": "Passager",
+    "pickup": "Prise en charge",
+    "dropoff": "Dépose",
+    "amount": "Montant",
+    "payment": "Paiement",
+    "status": "Statut",
+    "booked_on": "Réservé le",
+    "actions": "Actions",
+    "transaction": "Transaction",
+    "booking": "Réservation",
+    "method": "Méthode",
+    "card": "Carte",
+    "payment_status": "Statut du paiement",
+    "paid_on": "Payé le",
+    "na": "N/D",
+    "cash": "Espèces",
+    "online": "Carte",
+    "cancel_ride": "Annuler le trajet",
+    "delete": "Supprimer",
+    "cancel_confirm_title": "Annuler ce trajet ?",
+    "cancel_confirm_desc": "Vous ne pouvez annuler que jusqu'à 4 heures avant l'heure de prise en charge. Cette action marquera la réservation comme annulée.",
+    "cancel_success": "Trajet annulé avec succès.",
+    "delete_success": "Réservation supprimée avec succès."
+  }
+}

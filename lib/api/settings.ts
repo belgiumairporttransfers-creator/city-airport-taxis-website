@@ -5,12 +5,7 @@ export type PublicSettings = {
   maintenanceMode: boolean;
   comingSoonMode: boolean;
   minBookingMinutes?: number;
-  stopFee?: number;
-  cardProcessingFee?: number;
   airportPickup?: number;
-  trainPickup?: number;
-  meetAndGreet?: number;
-  returnMeetAndGreet?: number;
   waitingTimePricePerMinute?: number;
   waitingTimePricePerHour?: number;
 };

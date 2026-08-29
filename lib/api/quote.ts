@@ -7,6 +7,8 @@ export type GetQuoteParams = {
   passengers: number;
   category: BookingCategory;
   duration?: number;
+  pickupDate: string;
+  pickupTime: string;
 };
 
 export type PublicQuotePriceBreakdown = {

@@ -1,15 +1,25 @@
 import { createCheckoutSession } from "@/lib/api/checkout";
 import { useMutation } from "@tanstack/react-query";
 import toast from "react-hot-toast";
+import { useRouter } from "@/i18n/routing";
 
 type ApiError = { message?: string };
 
 export const useCreateCheckoutSession = () => {
+    const router = useRouter();
+
     return useMutation({
         mutationFn: createCheckoutSession,
         onSuccess: (data) => {
             if (data?.checkoutUrl) {
                 window.location.href = data.checkoutUrl;
+                return;
+            }
+
+            if (data?.bookingId) {
+                router.push(
+                    `/book-ride/payment-success?bookingId=${encodeURIComponent(data.bookingId)}`
+                );
                 return;
             }
 

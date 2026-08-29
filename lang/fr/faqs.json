@@ -1,0 +1,32 @@
+{
+  "badge": "FAQ",
+  "title": "Questions fréquemment posées",
+  "description": "Tout ce que vous devez savoir pour réserver votre transfert taxi vers l'aéroport de Bruxelles.",
+  "description_secondary": "Vous ne trouvez pas la réponse ? Contactez notre équipe d'assistance — nous sommes là pour vous aider.",
+  "items": [
+    {
+      "question": "Comment trouver mon chauffeur à l'aéroport de Bruxelles ?",
+      "answer": "Votre chauffeur vous accueillera dans le hall des arrivées avec une pancarte indiquant votre nom."
+    },
+    {
+      "question": "Que se passe-t-il si mon vol est retardé ?",
+      "answer": "Nous surveillons tous les vols à l'arrivée et adaptons l'heure de prise en charge sans frais supplémentaires."
+    },
+    {
+      "question": "Vos tarifs sont-ils fixes ?",
+      "answer": "Oui. Tous les tarifs de transfert aéroport sont fixes et confirmés avant votre trajet."
+    },
+    {
+      "question": "Puis-je réserver un transfert pour un groupe ?",
+      "answer": "Absolument. Nous proposons des Mercedes Classe V et des minivans premium pour les groupes plus importants."
+    },
+    {
+      "question": "Fournissez-vous des sièges enfant ?",
+      "answer": "Oui, des sièges enfant et rehausseurs sont disponibles sur demande."
+    },
+    {
+      "question": "Puis-je réserver un transfert aller-retour ?",
+      "answer": "Oui, des transferts aéroport aller simple et aller-retour peuvent être organisés."
+    }
+  ]
+}

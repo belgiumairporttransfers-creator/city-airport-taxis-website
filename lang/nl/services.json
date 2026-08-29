@@ -1,0 +1,978 @@
+{
+  "airline_crew": {
+    "banner": {
+      "top_text_primary": "Transfers voor luchtvaartbemanning",
+      "top_text_suffix": "Brussels Airport",
+      "title_line1": "Betrouwbare grondlogistiek voor cockpit- en cabinebemanning",
+      "title_accent": "in Zaventem",
+      "description": "In de veeleisende luchtvaartsector is grondvervoer voor vliegtuigbemanningen een cruciale schakel in de operationele keten. City Airport Taxis is gespecialiseerd in uiterst precieze shuttlediensten voor luchtvaartbemanning in Brussel, zodat cockpit- en cabineteams naadloos overgaan van Brussels Airport (BRU) naar hun rustfaciliteiten.",
+      "book_ride": "Offerte aanvragen voor bemanningstransport",
+      "view_fleets": "Bekijk onze vloot",
+      "image_alt": "Professionele chauffeur en Mercedes-Benz busje voor luchtvaartbemanningstransport op Brussels Airport Zaventem"
+    },
+    "stats": {
+      "corporate_partners": "Zakelijke partners",
+      "vip_transfers": "VIP-transfers",
+      "on_time_rate": "Stiptheidspercentage",
+      "support": "24/7 ondersteuning"
+    },
+    "story": {
+      "image_alt": "Mercedes-Benz busje voor luchtvaartbemanningstransport op Brussels Airport",
+      "badge": {
+        "value": "50",
+        "label": "Premium Mercedes-Benz voertuigen"
+      },
+      "title_line1": "Waarom kiezen voor ons",
+      "title_accent": "bemanningstransport op Brussels Airport?",
+      "paragraphs": [
+        "Wij begrijpen dat stiptheid niet onderhandelbaar is voor luchtvaartprofessionals."
+      ],
+      "account": {
+        "title": "24/7 stiptheid en vluchtmonitoring",
+        "description": "Ons dispatchcentrum werkt 24/7 om mee te bewegen met de dynamische aard van vluchtschema's.",
+        "points": [
+          "Realtime volging: wij volgen aankomsten op Brussels Airport (Zaventem) en Abelag (algemene luchtvaart). Als uw vlucht vroeg of vertraagd is, passen onze professionele chauffeurs zich in realtime aan.",
+          "Ophalingen zonder vertraging: wij gebruiken toegewijde ontmoetingspunten voor bemanning en geoptimaliseerde terminaluitgangen om wachttijden aan de straat te minimaliseren, zodat bemanningen hun rustperiodes maximaal benutten."
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Gespecialiseerde vloot en logistiek",
+      "title": "Gebouwd voor luchtvaartbemanningoperaties",
+      "items": [
+        {
+          "title": "Gespecialiseerde vloot voor luchtvaartteams",
+          "description": "Wij bieden een veelzijdige vloot van tot 50 premium Mercedes-Benz voertuigen voor elke bemanningsgrootte.",
+          "points": [
+            "Mercedes V-Class (Extra-Long): de toonaangevende bemanningsbus voor Brusselse transfers, geschikt voor een volledig vliegteam plus zware vluchttassen en koffers.",
+            "Directie sedans (E-Class en S-Class): ideaal voor kapiteinstransfers of privéjetbemanningen die arriveren op de Abelag- of Jetfly-terminals.",
+            "Grote groepsshuttles: capaciteit om meerdere voertuigen tegelijk in te zetten voor grootschalige bemanningsrotaties tijdens ochtend- en avondpieken."
+          ]
+        },
+        {
+          "title": "Logistiek op maat voor luchtvaartgrondvervoer",
+          "description": "Onze luchtvaartvervoersdiensten in België zijn ontworpen om te voldoen aan de specifieke eisen van internationale vluchtoperaties.",
+          "points": [
+            "EASA-naleving-ondersteuning: wij bieden een rustige, geklimatiseerde omgeving, zodat piloten en cabinepersoneel direct na vertrek van Zaventem Airport kunnen ontspannen.",
+            "Abelag- en privéluchtvaartspecialisten: vakkundige afhandeling van ophaals aan de baan en discrete transfers voor privéjetbemanningen en bedrijfsvluchtafdelingen.",
+            "Herpositionering tussen luchthavens: snelle en betrouwbare transfers tussen Brussels Airport (BRU) en Brussels-South Charleroi (CRL) voor bemanningswissels."
+          ]
+        },
+        {
+          "title": "24/7 dispatchcentrumoperaties",
+          "description": "Rond-de-klok coördinatie voor vroege vertrekken, nachtelijke aankomsten en last-minute schemawijzigingen.",
+          "points": [
+            "Live vluchtmonitoring op BRU en Abelag",
+            "Onmiddellijke reactie op wijzigingen in bemanningsrotaties",
+            "Toegewijde luchtvaartlogistieke coördinatie",
+            "Silent Service privacy-standaard voor alle bemanningstransfers"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Strategische dekking",
+      "title": "Van Zaventem naar het centrum van Brussel",
+      "description": "Wij handhaven een strategische aanwezigheid in de belangrijkste luchtvaartcorridors in heel België.",
+      "items": [
+        {
+          "title": "Brussels Airport-perimeter",
+          "description": "Snel vervoer naar luchthavenhotels en rustfaciliteiten voor bemanning.",
+          "points": [
+            "Brussels Airport — Sheraton Hotel",
+            "Brussels Airport — Novotel Airport",
+            "Brussels Airport — Crowne Plaza",
+            "Brussels Airport — Holiday Inn"
+          ]
+        },
+        {
+          "title": "Diplomatiek en EU-kwartier Brussel",
+          "description": "Professioneel vervoer naar bemanningshubs in het stadscentrum.",
+          "points": [
+            "Brussels Airport — Hotels in het EU-kwartier",
+            "Brussels Airport — Accommodaties in het centrum",
+            "Brussels Airport — Diplomatiek district",
+            "Brussels Airport — Centrum Brussel"
+          ]
+        },
+        {
+          "title": "NAVO en Eurocontrol",
+          "description": "Vakkundige kennis van beveiligingsprotocollen voor technisch luchtvaartpersoneel dat internationale hoofdkantoren bezoekt.",
+          "points": [
+            "Brussels Airport — NAVO-hoofdkwartier",
+            "Brussels Airport — Eurocontrol HQ",
+            "Brussels Airport — Militaire luchtvaartsites",
+            "Brussels Airport — Technische faciliteiten"
+          ]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Bemanningslogistiek partner",
+        "title": "Verzeker uw bemanningslogistiek partner in Brussel",
+        "subtitle": "Wanneer vluchtveiligheid en slotstiptheid afhangen van grondprecisie, vertrouwt u op City Airport Taxis. Wij zijn meer dan een pendeldienst; wij zijn uw luchtvaartlogistiek partner in het hart van Europa.",
+        "features": [
+          "24/7 real-time vluchtmonitoring",
+          "Mercedes V-Class Extra-Long vloot",
+          "Baanzijde toegang privéluchtvaart",
+          "Meertalige protocolgetrainde chauffeurs",
+          "Ophaalsysteem zonder vertraging voor bemanning",
+          "EASA-rustnaleving-ondersteuning",
+          "Inter-luchthaven transfers BRU ⇌ CRL",
+          "Silent Service privacy-standaard"
+        ],
+        "button": "Zakelijk account openen"
+      },
+      "title": "Precisie grondvervoer voor luchtvaartprofessionals",
+      "description": "Onze professionele chauffeurs zijn <highlight>meertalig, protocolgetraind en toegewijd aan de Silent Service-standaard</highlight>, zodat de privacy en het comfort van uw bemanning te allen tijde gewaarborgd zijn.",
+      "reasons": [
+        "Realtime vluchtmonitoring op BRU en Abelag",
+        "Toegewijde ontmoetingspunten voor bemanning in Zaventem",
+        "Mercedes V-Class Extra-Long bemanningsbussen",
+        "Directie sedans voor kapiteinstransfers",
+        "Baanzijde toegang privéluchtvaart",
+        "Abelag- en Jetfly-terminalspecialisten",
+        "Meertalige protocolgetrainde chauffeurs",
+        "Ophaalsysteem zonder vertraging voor bemanning",
+        "Mobilisatie groepsshuttles voor bemanningspieken",
+        "Inter-luchthaven herpositionering BRU ⇌ CRL",
+        "24/7 bemanningscoördinatie",
+        "Geklimatiseerde EASA-rustomgeving",
+        "EASA-rustnaleving-ondersteuning",
+        "Silent Service privacy-standaard"
+      ],
+      "highlight": {
+        "title": "Offerte aanvragen voor bemanningstransport",
+        "description": "\"Onze professionele chauffeurs zijn meertalig, protocolgetraind en toegewijd aan de Silent Service-standaard, zodat de privacy en het comfort van uw bemanning te allen tijde gewaarborgd zijn.\"",
+        "list_title": "24/7 beschikbaar:",
+        "list_items": [
+          "24/7 bemanningscentralist",
+          "E-mailcoördinatie",
+          "Inrichting zakelijk account",
+          "Last-minute ondersteuning bemanningsrotatie",
+          "Realtime monitoring vluchtschema",
+          "Abelag- en privéluchtvaart ophaals",
+          "Mercedes V-Class Extra-Long boekingen",
+          "Multi-voertuig mobilisatie bemanningsrotatie"
+        ],
+        "ctaText": "Offerte aanvragen voor bemanningstransport",
+        "ctaHref": "/contact-us"
+      }
+    },
+    "support": {
+      "top_text": "Dekking luchtvaartindustrie",
+      "title": "Ondersteuning voor commerciële luchtvaartmaatschappijen, vrachtvervoerders en privé flight departments",
+      "description": "Stressvrije 24/7 logistiek voor de gehele luchtvaartindustrie op Brussels Airport.",
+      "items": [
+        {
+          "title": "Brussels Airport Zaventem",
+          "description": "Volledige bemanningstransfers voor commerciële luchtvaartmaatschappijen op BRU-terminals.",
+          "points": ["BRU", "Commerciële luchtvaartbemanning", "Geplande en ad-hoc rotaties"]
+        },
+        {
+          "title": "Terminal algemene luchtvaart",
+          "description": "Discrete baanzijde ophaals voor privéluchtvaartoperaties.",
+          "points": ["Abelag", "Privéjetbemanningen", "Bedrijfsvluchtafdelingen"]
+        },
+        {
+          "title": "Charleroi Airport",
+          "description": "Inter-luchthaven herpositionering van bemanning en CRL-terminaltransfers.",
+          "points": ["CRL", "Bemanningswissels", "BRU ⇌ CRL transfers"]
+        },
+        {
+          "title": "Private Jet Terminal",
+          "description": "Directie grondvervoer voor Jetfly en privéluchtvaartklanten.",
+          "points": ["Jetfly", "VIP-luchtvaart", "Protocolgetrainde chauffeurs"]
+        }
+      ]
+    }
+  },
+  "corporate_transfers": {
+    "banner": {
+      "top_text_primary": "Zakelijke transfers",
+      "top_text_suffix": "België",
+      "title_line1": "Moeiteloos zakelijk reizen",
+      "title_accent": "Ontworpen voor directies en zakelijke teams",
+      "description": "Bij City Airport Taxis maken wij zakelijk reizen efficiënt, naadloos en stressvrij. Of u nu boekt voor directies, zakelijke delegaties of uw bedrijfsteam, onze diensten zijn afgestemd op de behoeften van professionele reizigers in Brussel, in heel België en daarbuiten.",
+      "image_alt": "Professionele chauffeur en directie Mercedes-Benz sedan voor zakelijk vervoer in Brussel"
+    },
+    "stats": {
+      "corporate_partners": "Zakelijke partners",
+      "vip_transfers": "Directietransfers",
+      "on_time_rate": "Stiptheidspercentage",
+      "support": "24/7 ondersteuning"
+    },
+    "story": {
+      "image_alt": "Directie Mercedes-Benz sedan voor zakelijke chauffeursdienst in Brussel",
+      "badge": {
+        "value": "500+",
+        "label": "Zakelijke partners"
+      },
+      "title_line1": "Directiecomfort en",
+      "title_accent": "professionele chauffeursdienst",
+      "paragraphs": [
+        "Reis in moderne, premium voertuigen ontworpen voor comfort, discretie en productiviteit. Onderweg naar vergaderingen, conferenties of luchthaventransfers kunnen directies werken, ontspannen of hun dag voorbereiden terwijl wij de rit verzorgen.",
+        "Onze ervaren, Engelssprekende chauffeurs bieden elke keer stipte, professionele en betrouwbare service. Met lokale kennis en expertise in Belgische en Europese routes is uw team verzekerd van een soepele en efficiënte reiservaring.",
+        "Zakelijk reizen is onvoorspelbaar. Met City Airport Taxis zijn last-minute wijzigingen nooit een probleem. U kunt boekingen eenvoudig aanpassen, annuleren of verlengen om aan uw veranderende schema te voldoen."
+      ],
+      "account": {
+        "title": "Vereenvoudigde facturering en zakelijk beheer",
+        "description": "Geen achterstallige facturen meer. Onze zakelijke accounts bieden gecentraliseerde boeking, geautomatiseerde facturering en geconsolideerde facturering om reisbeheer voor uw bedrijf te vereenvoudigen. Toegewijde accountmanagers staan altijd klaar wanneer u ondersteuning nodig heeft.",
+        "points": [
+          "Alles-in-één platform: eenvoudige zakelijke boekingen vanuit één dashboard",
+          "Geautomatiseerde facturering: moeiteloos onkostenbeheer met geconsolideerde facturering",
+          "Toegewijde zakelijke ondersteuning: accountbeheer en ondersteuning wanneer u het nodig heeft"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Zakelijke reisoplossingen",
+      "title": "Gebouwd voor business directies en teams",
+      "items": [
+        {
+          "title": "Directiecomfort",
+          "description": "Reis in moderne, premium voertuigen ontworpen voor comfort, discretie en productiviteit.",
+          "points": [
+            "Mercedes E-Class en S-Class directie sedans",
+            "Mercedes V-Class voor team- en delegatiereizen",
+            "Geklimatiseerde cabines voor vergaderingen onderweg",
+            "Discrete, professionele service voor elke rit"
+          ]
+        },
+        {
+          "title": "Chauffeurs waar u op kunt vertrouwen",
+          "description": "Onze ervaren, Engelssprekende chauffeurs bieden elke keer stipte, professionele en betrouwbare service.",
+          "points": [
+            "Lokale kennis van Belgische en Europese routes",
+            "Stipte ophaals voor vergaderingen, conferenties en luchthavens",
+            "Professionele presentatie en protocolbewustzijn",
+            "Gelicentieerde, verzekerde en gescreende chauffeurs"
+          ]
+        },
+        {
+          "title": "Volledige flexibiliteit",
+          "description": "Zakelijk reizen is onvoorspelbaar — last-minute wijzigingen zijn nooit een probleem met City Airport Taxis.",
+          "points": [
+            "Boekingen aanpassen met minimale kennisgeving",
+            "Ritten annuleren of verlengen volgens uw schema",
+            "Multi-stop routes voor zakelijke dagen",
+            "24/7 dispatchcentrum voor urgente reisaanvragen"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Voordelen zakelijk account",
+      "title": "Vereenvoudigde facturering en zakelijk beheer",
+      "description": "Gecentraliseerde boeking, geautomatiseerde facturering en toegewijde accountondersteuning om reisbeheer voor uw bedrijf te vereenvoudigen.",
+      "items": [
+        {
+          "title": "Alles-in-één platform",
+          "description": "Eenvoudige zakelijke boekingen beheerd vanuit één dashboard.",
+          "points": [
+            "Gecentraliseerde boeking voor uw hele team",
+            "Rolgebaseerde toegang voor reiscoördinatoren",
+            "Realtime ritstatus en historie",
+            "Multi-locatie dekking in heel België"
+          ]
+        },
+        {
+          "title": "Geautomatiseerde facturering",
+          "description": "Moeiteloos onkostenbeheer met geconsolideerde facturering.",
+          "points": [
+            "Maandelijkse geconsolideerde facturen",
+            "Kostenplaats- en projecttagging",
+            "BTW-conforme documentatie",
+            "Exportklare rapporten voor financiële teams"
+          ]
+        },
+        {
+          "title": "Toegewijde zakelijke ondersteuning",
+          "description": "Accountbeheer en ondersteuning wanneer u het nodig heeft.",
+          "points": [
+            "Toegewijde accountmanagers",
+            "Prioriteitsboeking en escalatie",
+            "Aangepaste reisbeleid en goedkeuringsflows",
+            "24/7 zakelijke dispatchlijn"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Betrouwbaar chauffeursnetwerk",
+      "title": "Professionele service in heel België",
+      "description": "Ons netwerk van gelicentieerde en verzekerde chauffeurs garandeert consistente, professionele service voor zakelijk reizen in heel België.",
+      "items": [
+        {
+          "title": "24/7 beschikbaarheid",
+          "description": "Rond-de-klok zakelijke chauffeursdienst in alle grote Belgische steden en luchthavens.",
+          "points": ["Brussels Airport (BRU)", "Charleroi Airport (CRL)", "Antwerpen, Gent en Luik", "Vroege ochtend- en late avondtransfers"]
+        },
+        {
+          "title": "Engelssprekende chauffeurs",
+          "description": "Bekwame, Engelssprekende chauffeurs voor soepele communicatie met internationale teams.",
+          "points": ["Meertalige chauffeuropties", "Protocolbewuste service", "Ervaring met internationale delegaties", "Duidelijke, professionele communicatie"]
+        },
+        {
+          "title": "Realtime volging",
+          "description": "Realtime volging en meldingen voor elke rit.",
+          "points": ["Live GPS-volging", "Aankomstmeldingen", "Vluchtmonitoring voor luchthavenritten", "Deelbare ritlinks voor coördinatoren"]
+        },
+        {
+          "title": "Gelicentieerd en verzekerd netwerk",
+          "description": "Volledig gelicentieerde en verzekerde chauffeurs voor consistente zakelijke reisstandaarden.",
+          "points": ["Gelicentieerde professionele chauffeurs", "Uitgebreide verzekeringsdekking", "Regelmatige voertuiginspecties", "Klaar voor zakelijke naleving"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Zakelijke reispartner",
+        "title": "Stroomlijn het reisbeheer van uw bedrijf",
+        "subtitle": "Van directie luchthaventransfers tot multi-steden delegaties levert City Airport Taxis betrouwbare zakelijke chauffeursdienst in heel België met vereenvoudigde facturering en toegewijde accountondersteuning.",
+        "features": [
+          "Gecentraliseerd zakelijk boekingsdashboard",
+          "Geautomatiseerde geconsolideerde facturering",
+          "Toegewijde accountmanagers",
+          "Mercedes directie vloot",
+          "Engelssprekende professionele chauffeurs",
+          "24/7 beschikbaarheid in heel België",
+          "Realtime volging en meldingen",
+          "Flexibele last-minute schemawijzigingen"
+        ],
+        "button": "Zakelijk account openen"
+      },
+      "title": "Betrouwbare zakelijke chauffeursdienst in België",
+      "description": "Onze professionele chauffeurs zijn <highlight>Engelssprekend, stipt en ervaren op Belgische en Europese routes</highlight>, zodat uw directies en teams elke keer efficiënt en comfortabel reizen.",
+      "reasons": [
+        "Directie Mercedes E-Class en S-Class sedans",
+        "Mercedes V-Class voor team- en delegatiereizen",
+        "Engelssprekende professionele chauffeurs",
+        "24/7 beschikbaarheid in grote Belgische steden",
+        "Brussels Airport- en Charleroi-transfers",
+        "Realtime volging en ritmeldingen",
+        "Gecentraliseerd zakelijk boekingsplatform",
+        "Geautomatiseerde geconsolideerde facturering",
+        "Toegewijde accountmanagers",
+        "Flexibele last-minute boekingswijzigingen",
+        "Multi-stop routes voor zakelijke dagen",
+        "Gelicentieerd en verzekerd chauffeursnetwerk",
+        "Vluchtmonitoring voor luchthaventransfers",
+        "Discrete, protocolbewuste service"
+      ],
+      "highlight": {
+        "title": "Klaar om zakelijk reizen te vereenvoudigen?",
+        "description": "\"Geen achterstallige facturen meer. Onze zakelijke accounts bieden gecentraliseerde boeking, geautomatiseerde facturering en geconsolideerde facturering — met toegewijde accountmanagers wanneer u ondersteuning nodig heeft.\"",
+        "list_title": "24/7 beschikbaar:",
+        "list_items": [
+          "Inrichting zakelijk account",
+          "Directie luchthaventransfers",
+          "Multi-city delegatievervoer",
+          "Last-minute schemawijzigingen",
+          "Geconsolideerde maandelijkse facturering",
+          "Ondersteuning toegewijde accountmanager",
+          "Realtime ritvolging",
+          "Brussel, Antwerpen en landelijke dekking"
+        ],
+        "ctaText": "Zakelijk account openen",
+        "ctaHref": "/corporate-travel-solutions/register"
+      }
+    }
+  },
+  "event_transfers": {
+    "banner": {
+      "top_text_primary": "Eventtransfers",
+      "top_text_suffix": "Brussel en België",
+      "title_line1": "Hoogcapaciteits vlootoplossingen",
+      "title_accent": "voor congressen, topconferenties en grootschalige evenementen",
+      "description": "In de hoofdstad van Europees besluitvorming is logistieke precisie de norm. City Airport Taxis levert de operationele basis voor grootschalige groepsverplaatsingen in heel België. Als toonaangevend eventlogistiekbedrijf beheren wij de volledige mobiliteitsinfrastructuur voor internationale conferenties, MICE (Meetings, Incentives, Conferences, Exhibitions) en zakelijke evenementen.",
+      "image_alt": "Premium touringcar- en minibusvloot voor grootschalig eventvervoer in Brussel"
+    },
+    "stats": {
+      "premium_vehicles": "Premium voertuigen",
+      "f1_years": "Jaar F1-logistiek",
+      "on_time_rate": "Stiptheidspercentage",
+      "dispatch": "24/7 dispatchcentrum"
+    },
+    "story": {
+      "image_alt": "Directie touringcar- en minibusvloot voor groepsvervoer bij evenementen in Brussel",
+      "badge": {
+        "value": "50+",
+        "label": "Premium voertuigen"
+      },
+      "title_line1": "Geïntegreerde touringcar-, bus- en",
+      "title_accent": "minibusvloot",
+      "paragraphs": [
+        "Wij zijn een van de weinige in Brussel gevestigde partners die tot 50 premium voertuigen tegelijk kunnen mobiliseren, met een naadloze gelaagde transportstrategie voor uw eventplanning.",
+        "Van directie touringcars tot luxe minibussen en sedans — onze vloot dekt elke laag van eventmobiliteit, van VIP-hoofdsprekers tot honderden conferentiedelegaten."
+      ],
+      "account": {
+        "title": "De SPA-Francorchamps-standaard: 3 jaar F1-logistiek",
+        "description": "Ons logistiek beheermodel is getest onder de hoogste druk. Al 3 opeenvolgende jaren beheren wij de grondvervoersinfrastructuur voor de Formule 1 Grand Prix van SPA-Francorchamps.",
+        "points": [
+          "Grand Prix-precisie: navigeren door hoogbeveiligde toegangen en complex verkeer — expertise die direct vertaalt naar de Schuman Bubble en de meest veeleisende eventzones van Brussel",
+          "Bewezen capaciteit: als wij de intense logistiek van een Formule 1-weekend aankunnen, kunnen wij elk internationaal congres of zakelijk topoverleg met volledig vertrouwen aan",
+          "3 opeenvolgende jaren: het beheren van grondvervoersinfrastructuur voor de Formule 1 Grand Prix van SPA-Francorchamps toont onze betrouwbaarheid en expertise"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Groepsmobiliteit en eventvervoer",
+      "title": "Gebouwd voor grootschalige eventoperaties",
+      "items": [
+        {
+          "title": "Directie touringcars en minibussen",
+          "description": "Hoogcapaciteits busoplossingen voor massatransfers tussen Brussels Airport (Zaventem), gasthotels en grote locaties zoals Brussels Expo.",
+          "points": [
+            "Premium comfort voor langeafstandsreizen",
+            "Professionele chauffeurs met route-expertise",
+            "Voorzieningen aan boord en klimaatbeheersing",
+            "Flexibele zitconfiguraties"
+          ]
+        },
+        {
+          "title": "Geïntegreerde groepsshuttles",
+          "description": "Professionele rotaties voor honderden gasten, met consistente timing en efficiënt instappen voor strakke eventschema's.",
+          "points": [
+            "Gesynchroniseerde vertrekschema's",
+            "Meerdere ophaal- en afzetpunten",
+            "Realtime volging en updates",
+            "Naadloze coördinatie voor grote groepen"
+          ]
+        },
+        {
+          "title": "Coördinatie ter plaatse",
+          "description": "Wij zetten toegewijde centralisten in om vluchten in realtime te volgen en grondstromen te beheren, als uw enige aanspreekpunt voor alle eventlogistiek en transportoperaties.",
+          "points": [
+            "Toegewijde eventcoördinator ter plaatse",
+            "Live vluchtmonitoring en aanpassingen",
+            "Directe communicatie met chauffeurs",
+            "Volledig operationeel toezicht"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Gespecialiseerde expertise",
+      "title": "Voor eventplanners en coördinatoren",
+      "description": "Onze eventlogistiekoplossingen zijn afgestemd op de unieke behoeften van eventcoördinatoren en planners in heel België.",
+      "items": [
+        {
+          "title": "Tactische routeplanning",
+          "description": "Diepgaande kennis van Brusselse beveiligingsperimeters om congestie en wegafsluitingen te omzeilen, voor een soepele eventuitvoering.",
+          "points": [
+            "Navigatie beveiligingsperimeters",
+            "Strategieën voor omleiding bij wegafsluitingen",
+            "Schuman Bubble-expertise",
+            "Geoptimaliseerde routes locatie-luchthaven"
+          ]
+        },
+        {
+          "title": "VIP- en hoofdsprekerzorg",
+          "description": "Gespecialiseerde Mercedes S-Class service voor hoofdsprekers en directies, als aanvulling op onze grootschalige buslogistiek.",
+          "points": [
+            "Mercedes S-Class voor VIP-sprekers",
+            "Discrete directietransfers",
+            "Protocolbewuste chauffeurs",
+            "Naadloze integratie met groepsshuttles"
+          ]
+        },
+        {
+          "title": "Geconsolideerde budgettering",
+          "description": "Gespecificeerde facturering voor uw hele evenement, met duidelijk financieel overzicht zonder verborgen kosten.",
+          "points": [
+            "Gespecificeerde eventfacturering",
+            "Transparante kostenopsplitsing",
+            "Geen verborgen kosten of toeslagen",
+            "Budgetvriendelijke eventplanningondersteuning"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Schaalbare groepsmobiliteit",
+      "title": "Buslogistiek voor grootschalige evenementen",
+      "description": "Wij zijn een van de weinige in Brussel gevestigde partners die tot 50 premium voertuigen tegelijk kunnen mobiliseren voor uw evenement.",
+      "items": [
+        {
+          "title": "50+ premium voertuigen",
+          "description": "Mobiliseer onze volledige vloot tegelijk voor grootschalige evenementen.",
+          "points": ["Directie touringcars", "Luxe minibussen", "Premium sedans", "Gelijktijdige multi-voertuig inzet"]
+        },
+        {
+          "title": "Meerlagige strategie",
+          "description": "Van directie touringcars tot luxe minibussen en sedans — een complete mobiliteitsoplossing voor elke gastlaag.",
+          "points": ["VIP-sedantransfers", "Minibus groepsshuttles", "Grote directie touringcars", "Coördinatie gemengde vloot"]
+        },
+        {
+          "title": "Strategische locaties",
+          "description": "Dekking in alle belangrijke eventcorridors in Brussel en België.",
+          "points": ["Brussels Airport (BRU)", "Gasthotels en conferentiecentra", "Brussels Expo", "Alle grote eventlocaties"]
+        },
+        {
+          "title": "Realtime coördinatie",
+          "description": "Toegewijde centralisten die vluchten volgen en grondstromen beheren gedurende uw evenement.",
+          "points": ["Live vluchtmonitoring", "Dispatchcoördinatie ter plaatse", "Directe chauffeurscommunicatie", "Beheer grondstromen"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Eventlogistiek partner",
+        "title": "Partner met Brussels toonaangevende eventlogistiekbedrijf",
+        "subtitle": "Door City Airport Taxis te kiezen voor uw eventlogistiek, werkt u samen met een bedrijf dat de fijne details van eventcoördinatie en logistieke planning begrijpt. Onze oplossingen zijn ontworpen om van uw evenement een naadloos succes te maken.",
+        "features": [
+          "Volledig beheer mobiliteitsinfrastructuur",
+          "Bewezen expertise uit Formule 1 Grand Prix-logistiek",
+          "Vloot van 50+ premium voertuigen tegelijk beschikbaar",
+          "Toegewijde coördinatoren en centralisten ter plaatse",
+          "Tactische routeplanning en beveiligingsclearance",
+          "Transparante, gespecificeerde budgettering zonder verborgen kosten",
+          "MICE- en internationaal congreservaring",
+          "Specialistische kennis Brussels Expo en locaties"
+        ],
+        "button": "Offerte aanvragen eventvervoer"
+      },
+      "title": "Complete eventlogistiek, meer dan alleen transport",
+      "description": "Als uitgebreide eventlogistiekaanbieder bieden wij <highlight>volledige ondersteuning die verder gaat dan transport</highlight> — van locatiecoördinatie tot contingencyplanning en deelnemersbeheer.",
+      "reasons": [
+        "50+ premium voertuigen tegelijk gemobiliseerd",
+        "3 jaar SPA-Francorchamps F1-logistiek",
+        "Directie touringcars en luxe minibussen",
+        "Geïntegreerde groepsshuttlerotaties",
+        "Toegewijde eventcoördinatoren ter plaatse",
+        "Live vluchtmonitoring en dispatchcentrum",
+        "Tactische routeplanning Brussel",
+        "VIP Mercedes S-Class hoofdsprekertransfers",
+        "Transparante gespecificeerde eventfacturering",
+        "Ondersteuning eventopbouw en productie",
+        "Assistentie locatiekeuze en -beheer",
+        "Robuuste contingencyplanning",
+        "Coördinatie deelnemersverplaatsingen",
+        "Eventveiligheid en beveiligingsmaatregelen"
+      ],
+      "highlight": {
+        "title": "Plan uw volgende evenement met vertrouwen",
+        "description": "\"Onze logistiekoplossingen zijn ontworpen om van uw evenement een naadloos succes te maken — van de initiële planningsfase tot de finale uitvoering beheren wij elk detail van uw eventschema.\"",
+        "list_title": "Aanvullende eventlogistiek diensten:",
+        "list_items": [
+          "Ondersteuning eventopbouw en productie",
+          "Locatiekeuze en -beheer",
+          "Nood- en back-upplanning",
+          "Coördinatie deelnemersverplaatsingen",
+          "Eventveiligheid en beveiligingsmaatregelen",
+          "Volledige eventtijdlijn creatie",
+          "Massatransfers Brussels Airport",
+          "Brussels Expo- en locatielogistiek"
+        ],
+        "ctaText": "Offerte aanvragen eventvervoer",
+        "ctaHref": "/contact-us"
+      }
+    }
+  },
+  "diplomatic_embassy_transfers": {
+    "banner": {
+      "top_text_primary": "Diplomatieke en ambassadetransfers",
+      "top_text_suffix": "Brussel",
+      "title_line1": "Partner met Brussels",
+      "title_accent": "delegatie-experts",
+      "description": "Wanneer het succes van een missie afhangt van de precisie van uw vervoer, vertrouwt u op het team dat gespecialiseerd is in protocol en beveiligde logistiek. Met onze vloot van 50 voertuigen en jarenlange ervaring met officiële bezoeken verplaatsen wij uw delegatie met het waardigheid en de efficiëntie die zij verdient.",
+      "image_alt": "Professionele chauffeur en luxe sedan voor diplomatieke ambassadetransfers in Brussel"
+    },
+    "stats": {
+      "premium_vehicles": "Premium voertuigen",
+      "years_experience": "Jaar ervaring",
+      "on_time_rate": "Stiptheidspercentage",
+      "availability": "24/7 beschikbaarheid"
+    },
+    "story": {
+      "image_alt": "Luxe Mercedes-Benz sedan voor diplomatiek en ambassadevervoer in Brussel",
+      "badge": {
+        "value": "50",
+        "label": "Voertuigvloot"
+      },
+      "title_line1": "Precisievervoer voor",
+      "title_accent": "diplomatieke missies",
+      "paragraphs": [
+        "Wij begrijpen de complexiteit van het Brusselse vervoerslandschap, van STIB-lijnen tot de meest efficiënte routes tussen Brussels Airport en het stadscentrum. Onze professionele chauffeurs zijn goed thuis in ambassadeprotocollen en blijven flexibel bij de dynamische, wisselende schema's van het diplomatieke leven.",
+        "Of u nu een naadloze luchthaventransfer nodig heeft vanuit Zaventem of vervoer naar cruciale vergaderingen nabij Place Luxemburg, ons team is uitgerust om al uw behoeften met uiterste professionaliteit en discretie te vervullen."
+      ],
+      "account": {
+        "title": "Uw betrouwbare partner voor diplomatiek vervoer",
+        "description": "Van individuele directies tot volledige diplomatieke delegaties leveren wij veilig, discreet vervoer ondersteund door een moderne premium vloot en gescreende chauffeurs met diplomatieke ervaring.",
+        "points": [
+          "Vloot van 50 voertuigen: moderne premium voertuigen onderhouden volgens de hoogste normen",
+          "Delegatiecapaciteit: van individuele directies tot volledige diplomatieke delegaties",
+          "Veiligheid en discretie: gescreende chauffeurs met diplomatieke ervaring",
+          "24/7 beschikbaarheid: rond-de-klok service voor tijdkritische missies"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Uitgebreide diplomatieke diensten",
+      "title": "Vervoer op maat voor ambassades en delegaties",
+      "items": [
+        {
+          "title": "Brussels Airport VIP-transfers",
+          "description": "Naadloze luchthaventransfers vanuit Zaventem met persoonlijke ontvangst, prioritaire afhandeling en directe routes naar uw bestemming.",
+          "points": [
+            "Meet-and-greet op Brussels Airport (BRU)",
+            "Prioritaire afhandeling en discrete aankomsten",
+            "Directe routes naar ambassades en institutionele locaties",
+            "Vluchtmonitoring en schemawijzigingen"
+          ]
+        },
+        {
+          "title": "Institutionele vergaderingen",
+          "description": "Toegewijd vervoer naar NAVO, Europese Commissie, Europese Raad en andere belangrijke Brusselse instellingen.",
+          "points": [
+            "Expertise toegang NAVO-hoofdkwartier",
+            "Navigatie Berlaymont Europese Commissie",
+            "Protocol Justus Lipsius Europese Raad",
+            "Logistiek vergaderingen Place Luxemburg"
+          ]
+        },
+        {
+          "title": "Coördinatie officiële bezoeken",
+          "description": "Volledige logistieke ondersteuning voor staatsbezoeken, delegatietours en meerdaagse diplomatieke schema's.",
+          "points": [
+            "Beheer meerdaagse delegatieroutes",
+            "Coördinatie staatsbezoeken en officiële tours",
+            "Coördinatie met ambassadebeveiligingsteams",
+            "Flexibele planning voor dynamische agenda's"
+          ]
+        },
+        {
+          "title": "Grensoverschrijdende transfers",
+          "description": "Professioneel vervoer naar buurlanden en Europese hoofdsteden voor officieel zakendoen.",
+          "points": [
+            "Diplomatieke transfers naar buurlanden",
+            "Officieel reizen naar Europese hoofdsteden",
+            "Grensoverschrijdend protocolbewustzijn",
+            "Directiecomfort op lange afstand"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Protocol en beveiligde logistiek",
+      "title": "Expertise waar u op kunt vertrouwen",
+      "description": "Onze chauffeurs zijn getraind in ambassadeprotocollen en beveiligde logistiek voor officiële delegaties in Brussel en daarbuiten.",
+      "items": [
+        {
+          "title": "Ambassadeprotocol en -procedures",
+          "description": "Professionele chauffeurs die goed thuis zijn in ambassadeprotocollen en diplomatieke procedures.",
+          "points": [
+            "Ambassadeprotocol en diplomatieke procedures",
+            "Discrete, protocolbewuste service",
+            "Coördinatie met ambassadebeveiligingsteams",
+            "Flexibele planning voor wisselende agenda's"
+          ]
+        },
+        {
+          "title": "Beveiligde delegatielogistiek",
+          "description": "Beveiligde logistiek voor officiële delegaties van elke omvang, van individuele directies tot volledige diplomatieke groepen.",
+          "points": [
+            "Beveiligde logistiek voor officiële delegaties",
+            "Gescreende chauffeurs met veiligheidsmachtiging",
+            "Professionele presentatie te allen tijde",
+            "Delegatiecapaciteit van 1 tot volledige groepen"
+          ]
+        },
+        {
+          "title": "Brusselse navigatie-expertise",
+          "description": "Diepgaande kennis van Brusselse routes, STIB-corridors en de snelste paden tussen luchthaven en stadscentrum.",
+          "points": [
+            "STIB-kennis en toegang stadscentrum",
+            "Expertise Brussels Airport naar stadscentrum",
+            "Navigatie Place Luxemburg en EU-kwartier",
+            "Efficiënte routes tussen sleutelinstellingen"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Expertise drie hoofdkantoren",
+      "title": "Institutionele toegang en protocolmeesterschap",
+      "description": "Vakkundige kennis van toegangspunten en beveiligingsprotocollen voor de belangrijkste institutionele locaties in Brussel.",
+      "items": [
+        {
+          "title": "NAVO-hoofdkwartier",
+          "description": "Vakkundige kennis van toegangspunten en beveiligingsprotocollen voor NAVO-operaties.",
+          "points": ["NAVO HQ toegangspunten", "Naleving beveiligingsprotocol", "Officiële delegatie afzets", "Gecoördineerde aankomstprocedures"]
+        },
+        {
+          "title": "Europese Commissie",
+          "description": "Expertise toegang en navigatie Berlaymont-gebouw voor officiële vergaderingen.",
+          "points": ["Toegang Berlaymont-gebouw", "Navigatie EU-kwartier", "Logistiek officiële vergaderingen", "Schuman district-expertise"]
+        },
+        {
+          "title": "Europese Raad",
+          "description": "Protocol- en logistiekmeesterschap Justus Lipsius en Place Luxemburg.",
+          "points": ["Toegang Justus Lipsius", "Vergaderingen Place Luxemburg", "Logistiek raadszittingen", "Protocolconforme aankomsten"]
+        },
+        {
+          "title": "Ambassade- en diplomatiek kwartier",
+          "description": "Discreet vervoer door Brussels ambassadedistrict en diplomatieke residenties.",
+          "points": ["Routes ambassadedistrict", "Transfers diplomatieke residenties", "Discrete VIP-aankomsten", "Ondersteuning multi-ambassade routes"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Diplomatiek vervoer partner",
+        "title": "Verzeker het vervoer van uw delegatie in Brussel",
+        "subtitle": "Wanneer missiesucces afhangt van transportprecisie, vertrouwt u op specialisten in protocol en beveiligde logistiek. Onze vloot van 50 voertuigen en jarenlange ervaring met officiële bezoeken verplaatsen uw delegatie met waardigheid en efficiëntie.",
+        "features": [
+          "Premium diplomatieke vloot van 50 voertuigen",
+          "NAVO-, EU-Commissie- en Raad-expertise",
+          "Ambassadeprotocolgetrainde chauffeurs",
+          "Brussels Airport VIP persoonlijke ontvangst",
+          "Coördinatie officiële bezoeken en staatstours",
+          "Grensoverschrijdende transfers Europese hoofdsteden",
+          "24/7 beschikbaarheid voor tijdkritische missies",
+          "Discrete chauffeurs met veiligheidsmachtiging"
+        ],
+        "button": "Offerte aanvragen diplomatiek vervoer"
+      },
+      "title": "Protocol-first vervoer voor internationale missies",
+      "description": "Onze professionele chauffeurs zijn <highlight>goed thuis in ambassadeprotocollen, veiligheidsmachtiging-eisen en institutionele toegang in Brussel</highlight>, zodat elke diplomatieke reis met precisie en discretie wordt afgehandeld.",
+      "reasons": [
+        "Moderne premium vloot van 50 voertuigen",
+        "Expertise toegang NAVO-hoofdkwartier",
+        "Navigatie Berlaymont Europese Commissie",
+        "Protocol Justus Lipsius Europese Raad",
+        "Logistiek vergaderingen Place Luxemburg",
+        "Ambassadeprotocol en diplomatieke procedures",
+        "Beveiligde logistiek voor officiële delegaties",
+        "Gescreende chauffeurs met veiligheidsmachtiging",
+        "Brussels Airport VIP-transfers vanuit Zaventem",
+        "Meet-and-greet en prioritaire afhandeling",
+        "Coördinatie officiële bezoeken en staatstours",
+        "Grensoverschrijdende transfers Europese hoofdsteden",
+        "STIB-routes en navigatie stadscentrum",
+        "24/7 beschikbaarheid voor tijdkritische missies"
+      ],
+      "highlight": {
+        "title": "Klaar om uw delegatie te verplaatsen?",
+        "description": "\"Of u nu een naadloze luchthaventransfer nodig heeft vanuit Zaventem of vervoer naar cruciale vergaderingen nabij Place Luxemburg, ons team vervult elke behoefte met uiterste professionaliteit en discretie.\"",
+        "list_title": "24/7 beschikbaar:",
+        "list_items": [
+          "Brussels Airport VIP-transfers",
+          "Vervoer NAVO-hoofdkwartier",
+          "Vergaderingen Europese Commissie",
+          "Zittingen Europese Raad",
+          "Coördinatie officiële bezoeken",
+          "Grensoverschrijdend diplomatiek reizen",
+          "Coördinatie ambassadebeveiliging",
+          "Meerdaagse delegatieschema's"
+        ],
+        "ctaText": "Offerte aanvragen diplomatiek vervoer",
+        "ctaHref": "/contact-us"
+      }
+    }
+  },
+  "hourly_transfers": {
+    "banner": {
+      "top_text_primary": "Uurtarieven transfers",
+      "top_text_suffix": "Brussel en België",
+      "title_line1": "Flexibele 'op aanwijzing' huur",
+      "title_accent": "per uur in Brussel",
+      "description": "Reis door Brussel volgens uw schema met onze chauffeursdienst per uur. Perfect voor zakelijke vergaderingen, stadsrondleidingen, multi-stop ritten of persoonlijke boodschappen. Uw toegewijde chauffeur staat tot uw beschikking, voor elke rit soepel, stipt en stressvrij.",
+      "image_alt": "Professionele chauffeur en premium voertuig voor uurhuurservice in Brussel"
+    },
+    "stats": {
+      "availability": "24/7 beschikbaarheid",
+      "hourly_bookings": "Uurboekingen",
+      "on_time_rate": "Stiptheidspercentage",
+      "support": "Toegewijde chauffeurs"
+    },
+    "story": {
+      "image_alt": "Professionele chauffeur en comfortabel voertuig voor uurservice in Brussel",
+      "badge": {
+        "value": "24/7",
+        "label": "Chauffeurbeschikbaarheid"
+      },
+      "title_line1": "Professionele chauffeurs en",
+      "title_accent": "comfortabele voertuigen",
+      "paragraphs": [
+        "Onze chauffeurs zijn ervaren, professioneel en bekend met Brussel en omgeving. Zij bieden discrete deur-tot-deur service in moderne, goed onderhouden voertuigen, voor elke keer een veilige en comfortabele rit.",
+        "Of u een rit nodig heeft van Brussels Airport (Zaventem) of de stad wilt verkennen, onze chauffeursdienst per uur garandeert een naadloze ervaring — van korte ritten naar Place Luxemburg tot zakelijke vergaderingen van een volledige dag."
+      ],
+      "account": {
+        "title": "Transparante prijzen en betrouwbare service",
+        "description": "Met vaste uurtarieven en zonder verborgen kosten is onze service eenvoudig, duidelijk en handig. City Airport Taxis is uw betrouwbare partner voor flexibel, professioneel en stressvrij vervoer.",
+        "points": [
+          "Vaste uurtarieven zonder verborgen kosten",
+          "Transparante prijzen waar u op kunt vertrouwen",
+          "24/7 beschikbaar in Brussel en nabijgelegen steden",
+          "Flexibele boeking voor elke duur — volledige gemoedsrust bij elke rit"
+        ]
+      }
+    },
+    "premium_services": {
+      "top_text": "Diensten op maat",
+      "title": "Voor elke behoefte in Brussel",
+      "items": [
+        {
+          "title": "Financiële en media promotietours",
+          "description": "Gespecialiseerde transportondersteuning voor zakelijke klanten, met beheer van complexe schema's en stipte aankomsten voor vergaderingen, presentaties en media-optredens.",
+          "points": [
+            "Beheer complexe multi-vergaderingsschema's",
+            "Stipte aankomsten voor presentaties en media",
+            "Betrouwbaar zakelijk vervoer vanuit Zaventem Airport",
+            "Professionele, discrete chauffeursdienst"
+          ]
+        },
+        {
+          "title": "Luxe shoppingtrips",
+          "description": "Zorgeloze luxe shoppingtrips in Brussel met persoonlijke chauffeur, inclusief designerboetieks en luxe winkels.",
+          "points": [
+            "Designerboetieks en luxe winkels",
+            "Stipte ophaals en afzets",
+            "Geen parkeer- of navigatiezorgen",
+            "Bagage-assistentie voor luchthaventransfers"
+          ]
+        },
+        {
+          "title": "Sightseeing in Brussel en daarbuiten",
+          "description": "Verken Brussel en omliggende regio's met aangepaste bezienswaardighedenroutes voor Grand Place, Atomium, European Quarter, Place Luxemburg, Gent, Brugge of de Ardennen.",
+          "points": [
+            "Grand Place, Atomium en European Quarter",
+            "Tours Place Luxemburg en EU-district",
+            "Dagtrips Gent, Brugge en Ardennen",
+            "VIP afzets, wachten en lokale begeleiding"
+          ]
+        },
+        {
+          "title": "24-uurs chauffeursdienst",
+          "description": "24/7 beschikbaar voor late-evenementen, galadiners of vroege ochtendvluchten van Brussels Airport (Zaventem).",
+          "points": [
+            "Late-evenementen en galadiners",
+            "Vroege ochtend Zaventem Airport-transfers",
+            "Professionele, betrouwbare en flexibele chauffeurs",
+            "Assistentie navigatie luchthaven en stations"
+          ]
+        }
+      ]
+    },
+    "coverage": {
+      "top_text": "Wat is inbegrepen",
+      "title": "Eenvoudig, duidelijk en handig",
+      "description": "Alles wat u nodig heeft voor flexibele chauffeurhuur per uur in Brussel en België — zonder verrassingen.",
+      "items": [
+        {
+          "title": "Vaste uurtarieven",
+          "description": "Transparante prijzen zonder verborgen kosten — weet precies wat u betaalt voordat u boekt.",
+          "points": [
+            "Vaste uurtarieven zonder verborgen kosten",
+            "Transparante prijzen waar u op kunt vertrouwen",
+            "Geen piekprijzen of taxametersverrassingen",
+            "Eenvoudige, duidelijke online offertes"
+          ]
+        },
+        {
+          "title": "24/7 Brusselse dekking",
+          "description": "Rond de klok beschikbaar in Brussel, nabijgelegen steden en regelmatige ritten naar Zaventem Airport.",
+          "points": [
+            "24/7 beschikbaar in Brussel",
+            "Regelmatige ritten naar Zaventem Airport inbegrepen",
+            "Nabijgelegen steden en regionale dekking",
+            "Vroege ochtend- en late avondbeschikbaarheid"
+          ]
+        },
+        {
+          "title": "Volledige flexibiliteit",
+          "description": "Uw toegewijde chauffeur past zich aan uw schema aan — multi-stop ritten, omwegen en last-minute wijzigingen welkom.",
+          "points": [
+            "Flexibele boeking voor elke duur",
+            "Multi-stop vergaderingen en boodschappen",
+            "Last-minute routewijzigingen",
+            "Professioneel, stressvrij vervoer"
+          ]
+        }
+      ]
+    },
+    "support": {
+      "top_text": "Waarom kiezen voor chauffeursdienst per uur?",
+      "title": "Uw schema, uw chauffeur",
+      "description": "Of u een rit nodig heeft van Brussels Airport (Zaventem) of de stad wilt verkennen, onze chauffeursdienst per uur garandeert een naadloze ervaring.",
+      "items": [
+        {
+          "title": "Volledige flexibiliteit",
+          "description": "Geen zorgen meer over verkeer, parkeren of meerdere boekingen — uw chauffeur past zich aan uw schema aan.",
+          "points": ["Aanpassen aan uw route", "Geen parkeergedoe", "Eén boeking, onbeperkte stops", "Zakelijk, VIP of persoonlijk reizen"]
+        },
+        {
+          "title": "Multi-stop gemak",
+          "description": "Perfect voor zakelijke vergaderingen, stadsrondleidingen, shoppingtrips of persoonlijke boodschappen.",
+          "points": ["Zakelijke vergaderingsrotaties", "Stadsrondleidingen en bezienswaardigheden", "Shopping en persoonlijke boodschappen", "Deur-tot-deur service"]
+        },
+        {
+          "title": "Last-minute wijzigingen",
+          "description": "Accommodeer routewijzigingen, omwegen en spontane stops zonder gedoe.",
+          "points": ["Spontane stoptoevoegingen", "Omwegvriendelijke service", "Schemawijzigingen onderweg", "Geen herboeking vereist"]
+        },
+        {
+          "title": "Toegewijde service",
+          "description": "Eén professionele chauffeur tot uw beschikking voor de volledige duur van uw boeking.",
+          "points": ["Dezelfde chauffeur gedurende de hele rit", "Discrete, professionele service", "Moderne, goed onderhouden voertuigen", "Bekend met Brussel en Zaventem"]
+        }
+      ]
+    },
+    "why_choose": {
+      "sidebar": {
+        "badge": "Chauffeur per uur partner",
+        "title": "Boek flexibele uurhuur in Brussel",
+        "subtitle": "Van zakelijke promotietours tot luxe shopping en bezienswaardigheden — uw toegewijde chauffeur staat tot uw beschikking voor soepele, stipte en stressvrije ritten in Brussel en daarbuiten.",
+        "features": [
+          "Flexibele 'op aanwijzing' uurhuur",
+          "Vaste tarieven zonder verborgen kosten",
+          "Multi-stop zakelijke en vrijetijdsritten",
+          "Pick-ups Brussels Airport (Zaventem)",
+          "24/7 beschikbaarheid in Brussel",
+          "Luxe shopping en bezienswaardigheden tours",
+          "Coördinatie zakelijke promotietours",
+          "Last-minute routewijzigingen welkom"
+        ],
+        "button": "Direct offerte ontvangen"
+      },
+      "title": "Professionele chauffeursdienst per uur in Brussel",
+      "description": "Onze chauffeurs zijn <highlight>ervaren, professioneel en bekend met Brussel, Zaventem Airport en omgeving</highlight>, en bieden discrete deur-tot-deur service in moderne, goed onderhouden voertuigen.",
+      "reasons": [
+        "Flexibele 'op aanwijzing' uurhuur",
+        "Volledige schemaflexibiliteit",
+        "Multi-stop zakelijke vergaderingen",
+        "Chauffeurs voor luxe shoppingtrips",
+        "Aangepaste Brusselse bezienswaardigheden tours",
+        "Ondersteuning financiële en media promotietours",
+        "24-uurs chauffeurbeschikbaarheid",
+        "Vaste uurtarieven, geen verborgen kosten",
+        "Brussels Airport (Zaventem) transfers",
+        "Routes Place Luxemburg en EU-district",
+        "Dagtrips Gent, Brugge en Ardennen",
+        "Last-minute routewijzigingen",
+        "Toegewijde chauffeur voor hele boeking",
+        "Zakelijk, VIP en persoonlijk reizen"
+      ],
+      "highlight": {
+        "title": "Klaar om uw chauffeur per uur te boeken?",
+        "description": "\"Met vaste uurtarieven en zonder verborgen kosten is City Airport Taxis uw betrouwbare partner voor flexibel, professioneel en stressvrij vervoer — van korte ritten naar Place Luxemburg tot vergaderingen van een volledige dag.\"",
+        "list_title": "24/7 beschikbaar:",
+        "list_items": [
+          "Uurhuur vanaf Brussels Airport",
+          "Multi-stop zakelijke dagroutes",
+          "Luxe shopping in Brussel",
+          "Sightseeing tours en stadsritten",
+          "Vervoer zakelijke promotietours",
+          "Chauffeurs voor late-evenementen",
+          "Vroege ochtend Zaventem-transfers",
+          "Flexibele duur boekingen"
+        ],
+        "ctaText": "Direct offerte ontvangen",
+        "ctaHref": "/"
+      }
+    }
+  }
+}

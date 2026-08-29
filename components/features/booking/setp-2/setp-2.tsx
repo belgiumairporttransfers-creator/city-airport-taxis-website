@@ -25,6 +25,9 @@ function Step2() {
     const isHourly = category === "hourly";
     const [loadingCategoryId, setLoadingCategoryId] = React.useState<string | null>(null);
 
+    const pickupDate = step1?.pickupDate ?? "";
+    const pickupTime = step1?.pickupTime ?? "";
+
     const quoteParams = React.useMemo(
         () =>
             isHourly
@@ -32,16 +35,21 @@ function Step2() {
                       passengers,
                       category,
                       duration: duration ?? undefined,
+                      pickupDate,
+                      pickupTime,
                   }
                 : {
                       distance,
                       passengers,
                       category,
+                      pickupDate,
+                      pickupTime,
                   },
-        [isHourly, distance, passengers, category, duration]
+        [isHourly, distance, passengers, category, duration, pickupDate, pickupTime]
     );
 
-    const canFetchQuotes = !isHourly || duration !== null;
+    const canFetchQuotes =
+        Boolean(pickupDate && pickupTime) && (!isHourly || duration !== null);
     const { data: quotes, isLoading } = useQuote(quoteParams, canFetchQuotes);
 
     const handleContinue = (quote: PublicQuote) => {

@@ -1,0 +1,1647 @@
+{
+  "antwerp_city": {
+    "banner": {
+      "top_text_primary": "Service de taxi à Anvers",
+      "top_text_suffix": "Capitale du diamant",
+      "title_line1": "Services de taxi privés",
+      "title_accent": "dans la Capitale du diamant",
+      "description": "Vous planifiez un voyage dans la Capitale du diamant ? Nous proposons des services de taxi premium à Anvers pour les voyageurs arrivant à Antwerp International Airport (ANR), ainsi que pour ceux en transfert depuis Brussels Zaventem ou Deurne. Notre service est conçu pour les dirigeants portuaires, les négociants en diamants et les visiteurs de loisirs qui exigent confort et ponctualité absolue.",
+      "image_alt": "Service de taxi premium à Anvers avec chauffeur professionnel et véhicule de luxe"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "antwerp_transfers": "Transferts à Anvers",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Nos services premium",
+      "description": "Que vous vous rendiez à une réunion d'affaires au Port of Antwerp ou à un hôtel boutique dans le centre historique, nos chauffeurs dédiés garantissent une arrivée raffinée et sans stress.",
+      "items": [
+        {
+          "title": "Transferts exécutifs Port of Antwerp",
+          "description": "Transport spécialisé pour les professionnels maritimes et les délégations corporate vers le quartier portuaire.",
+          "points": [
+            "Quartier portuaire et accès au port",
+            "Transferts pour professionnels maritimes",
+            "Transport de délégations corporate",
+            "Service discret et ponctuel"
+          ]
+        },
+        {
+          "title": "Service de taxi à l'heure",
+          "description": "Location voiture avec chauffeur flexible pour des rendez-vous dans le quartier diamantaire ou du shopping haut de gamme sur The Meir.",
+          "points": [
+            "Rendez-vous dans le quartier diamantaire",
+            "Sorties shopping sur The Meir",
+            "Location horaire flexible",
+            "Itinéraires multi-escales"
+          ]
+        },
+        {
+          "title": "Prise en charge Antwerp Airport (ANR)",
+          "description": "Service meet-and-greet fluide pour les vols régionaux arrivant à Deurne.",
+          "points": [
+            "Meet-and-greet aux arrivées ANR",
+            "Spécialiste des vols régionaux",
+            "Transferts directs vers le centre-ville",
+            "Contact chauffeur par SMS avant l'arrivée"
+          ]
+        },
+        {
+          "title": "Liaisons taxi interurbaines",
+          "description": "Connexions privées directes d'Anvers vers Bruxelles, Gand, Eindhoven et Rotterdam.",
+          "points": [
+            "Anvers vers Bruxelles et Gand",
+            "Liaisons Eindhoven et Rotterdam",
+            "Service privé porte-à-porte",
+            "Tarifs interurbains fixes"
+          ]
+        },
+        {
+          "title": "Meet and Greet en gare",
+          "description": "Prise en charge personnelle à Antwerp-Central pour les passagers Eurostar et Thalys en provenance de Paris ou Amsterdam.",
+          "points": [
+            "Prise en charge gare Antwerp-Central",
+            "Passagers Eurostar et Thalys",
+            "Suivi des retards de train",
+            "Arrivées depuis Paris et Amsterdam"
+          ]
+        },
+        {
+          "title": "Brussels Zaventem (BRU) vers Anvers",
+          "description": "Transferts taxi privés directs de Brussels Airport vers le centre-ville d'Anvers, le port ou le quartier diamantaire en 45 minutes à 1 h 15.",
+          "points": [
+            "Meet-and-greet à Brussels Airport",
+            "Port of Antwerp et centre-ville",
+            "Escales quartier diamantaire disponibles",
+            "Suivi des vols en temps réel inclus"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Paysage urbain d'Anvers avec bâtiments historiques et service de taxi premium",
+      "badge": {
+        "value": "ANR",
+        "label": "Couverture aéroport et ville"
+      },
+      "title_line1": "Service de taxi premium",
+      "title_accent": "à Anvers",
+      "paragraphs": [
+        "Découvrez la Capitale du diamant dans le confort et l'élégance. Évitez les contraintes des transports publics et profitez d'un service de taxi porte-à-porte depuis les aéroports, gares ou hôtels directement vers votre destination à Anvers.",
+        "De Brussels Airport (BRU) au Port of Antwerp en 45 minutes à 1 h 15 — nos chauffeurs experts connaissent chaque itinéraire à travers le centre historique d'Anvers, le quartier diamantaire et la zone portuaire."
+      ],
+      "account": {
+        "title": "Itinéraires populaires et escales",
+        "description": "Connexions taxi privées directes à travers Anvers et les principaux hubs de transport belges.",
+        "points": [
+          "Brussels Airport (BRU) → Port of Antwerp · 45 min – 1 h 15",
+          "Antwerp Airport (ANR) → Quartier diamantaire · 20 min – 35 min",
+          "Gare Antwerp-Central → Centre historique · 10 min – 20 min",
+          "Escale optionnelle dans le quartier diamantaire sur demande"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Pourquoi choisir notre service de taxi à Anvers ?",
+      "description": "Expertise locale, tarifs transparents et chauffeurs professionnels pour chaque trajet à Anvers.",
+      "items": [
+        {
+          "title": "Expertise locale à Anvers",
+          "description": "Nos chauffeurs connaissent chaque itinéraire à travers le centre historique d'Anvers, le quartier diamantaire et la zone portuaire, garantissant une navigation efficace."
+        },
+        {
+          "title": "Suivi des vols en temps réel",
+          "description": "Nous surveillons les vols arrivant à Antwerp Airport (ANR) et Brussels Zaventem, ajustant automatiquement les heures de prise en charge en cas de retard — 60 premières minutes gratuites."
+        },
+        {
+          "title": "Spécialistes port et quartier diamantaire",
+          "description": "Expérimentés dans le service aux dirigeants portuaires et négociants en diamants avec discrétion, ponctualité et service professionnel."
+        },
+        {
+          "title": "Tarifs fixes transparents",
+          "description": "Aucun frais surprise pour l'accès au port, les zones du centre-ville ou les heures de pointe. Le tarif indiqué est le prix final."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Où retrouver mon chauffeur à Antwerp Airport (ANR) ?",
+          "answer": "Votre chauffeur vous attendra dans le hall des arrivées avec une pancarte personnalisée à votre nom. Nous vous enverrons les instructions de rendez-vous détaillées et le numéro direct de votre chauffeur par SMS avant votre arrivée."
+        },
+        {
+          "question": "Combien de temps faut-il pour rejoindre Anvers depuis Brussels Airport ?",
+          "answer": "Le trajet de Brussels Airport (Zaventem) à Anvers dure généralement 45 minutes à 1 h 15 selon le trafic. Les transferts vers le Port of Antwerp ou le centre-ville empruntent des itinéraires optimisés pour une arrivée rapide."
+        },
+        {
+          "question": "Proposez-vous un service vers le Port of Antwerp ?",
+          "answer": "Oui. Nous sommes spécialisés dans les transferts exécutifs vers le Port of Antwerp pour les professionnels maritimes et les délégations corporate. Nos chauffeurs connaissent l'accès au quartier portuaire et les itinéraires de la zone portuaire."
+        },
+        {
+          "question": "Pouvez-vous organiser des rendez-vous dans le quartier diamantaire ?",
+          "answer": "Absolument. Notre service de taxi à l'heure est idéal pour les rendez-vous dans le quartier diamantaire, avec des itinéraires multi-escales flexibles et des escales optionnelles dans le quartier diamantaire lors des transferts aéroport ou interurbains."
+        },
+        {
+          "question": "Que se passe-t-il si mon train Eurostar ou Thalys est retardé ?",
+          "answer": "Nous surveillons les arrivées de train à Antwerp-Central et ajustons automatiquement les heures de prise en charge. Les 60 premières minutes d'attente sont incluses sans frais supplémentaires — votre chauffeur sera prêt à votre arrivée."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire taxi Anvers",
+        "title": "Prêt à réserver votre service de taxi à Anvers ?",
+        "subtitle": "Découvrez la Capitale du diamant dans le confort et l'élégance. Évitez les contraintes des transports publics et profitez d'un service porte-à-porte depuis les aéroports, gares ou hôtels directement vers votre destination à Anvers.",
+        "features": [
+          "Prise en charge directe depuis Antwerp Airport (ANR) ou Brussels Zaventem",
+          "Chauffeurs experts des itinéraires portuaires et du quartier diamantaire",
+          "Tarifs fixes sans suppléments cachés",
+          "Escale optionnelle dans le quartier diamantaire disponible",
+          "45 min – 1 h 15 depuis Brussels Airport",
+          "Suivi des vols et trains en temps réel",
+          "60 minutes d'attente gratuites en cas de retard",
+          "Flotte premium des berlines aux vans exécutifs"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Plus pratique que les transports publics",
+      "description": "Pour les voyageurs d'affaires, dirigeants portuaires et négociants en diamants, notre service de taxi à Anvers offre un <highlight>transport ponctuel, discret et à tarif fixe</highlight> dans toute la ville et au-delà.",
+      "reasons": [
+        "Service de taxi privé dans la Capitale du diamant",
+        "Meet-and-greet Antwerp Airport (ANR)",
+        "Transferts Brussels Zaventem vers Anvers",
+        "Transferts exécutifs Port of Antwerp",
+        "Taxis pour rendez-vous quartier diamantaire",
+        "Taxi à l'heure sur The Meir",
+        "Prise en charge gare Antwerp-Central",
+        "Suivi des retards Eurostar et Thalys",
+        "Liaisons interurbaines vers Bruxelles, Gand, Rotterdam",
+        "Expertise des itinéraires du centre historique",
+        "Tarifs fixes sans frais cachés",
+        "Suivi des vols en temps réel à ANR et BRU",
+        "60 minutes d'attente gratuites en cas de retard",
+        "Berlines premium et vans exécutifs"
+      ],
+      "highlight": {
+        "title": "Réservez votre transfert à Anvers",
+        "description": "\"Plus pratique que les transports publics pour les voyageurs d'affaires — service de taxi porte-à-porte avec des chauffeurs experts qui connaissent parfaitement le port, le quartier diamantaire et le centre historique d'Anvers.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Prise en charge directe ANR et Brussels Zaventem",
+          "Transferts exécutifs Port of Antwerp",
+          "Escales quartier diamantaire",
+          "Meet-and-greet en gare à Antwerp-Central",
+          "Tarifs fixes, sans suppléments cachés",
+          "Suivi des retards de vols et trains",
+          "Options de flotte premium",
+          "Réservation disponible 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert à Anvers",
+      "description": "Réservation rapide et simple pour un service de taxi fiable à Anvers. Obtenez votre devis instantané et confirmez votre réservation en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "brussels_city": {
+    "banner": {
+      "top_text_primary": "Service de taxi à Bruxelles",
+      "top_text_suffix": "Zaventem et ville",
+      "title_line1": "Transferts porte-à-porte",
+      "title_accent": "à travers Bruxelles",
+      "description": "Réservez un transfert direct porte-à-porte depuis toutes les grandes zones de Bruxelles vers l'aéroport, ou profitez d'une prise en charge fluide à l'arrivée. Chauffeurs professionnels, tarifs fixes et disponibilité 24h/24 pour Brussels Airport (Zaventem) et les connexions dans toute la ville.",
+      "image_alt": "Service de transfert aéroport professionnel à Bruxelles avec chauffeur et véhicule premium"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "brussels_transfers": "Transferts Bruxelles",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Transferts porte-à-porte",
+      "description": "Connexions taxi privées directes entre Brussels Airport et chaque grand quartier — centre-ville, quartier européen, OTAN, Avenue Louise et Brussels Midi.",
+      "items": [
+        {
+          "title": "De Bruxelles ville vers l'aéroport",
+          "description": "Transferts directs depuis le centre-ville de Bruxelles, le quartier européen, l'Avenue Louise, la zone OTAN et la gare Brussels Midi.",
+          "points": [
+            "Centre-ville et Grand-Place",
+            "Quartier européen et district Schuman",
+            "Avenue Louise et Sablon",
+            "Zone OTAN et Brussels Midi"
+          ]
+        },
+        {
+          "title": "De l'aéroport vers Bruxelles ville",
+          "description": "Accueil personnel dans les arrivées, aide aux bagages et transfert direct vers votre hôtel, bureau ou domicile.",
+          "points": [
+            "Meet-and-greet dans le hall des arrivées",
+            "Aide aux bagages incluse",
+            "Direct vers hôtel, bureau ou domicile",
+            "45 minutes d'attente offertes"
+          ]
+        },
+        {
+          "title": "Disponibilité 24h/24",
+          "description": "Nos chauffeurs professionnels sont disponibles à toute heure pour vos vols tôt le matin ou tard le soir.",
+          "points": [
+            "Départs tôt le matin",
+            "Arrivées tard le soir",
+            "Dispatch 24h/24",
+            "Aucun supplément pour les heures creuses"
+          ]
+        },
+        {
+          "title": "Transferts quartier UE et OTAN",
+          "description": "Service spécialisé pour les diplomates et professionnels travaillant dans les quartiers internationaux de Bruxelles.",
+          "points": [
+            "Transferts quartier européen",
+            "Accès au siège de l'OTAN",
+            "Réunions Place Luxemburg",
+            "Chauffeurs sensibles au protocole"
+          ]
+        },
+        {
+          "title": "Avenue Louise et centre-ville",
+          "description": "Transferts premium porte-à-porte vers les boutiques de l'Avenue Louise, les hôtels du centre-ville et les adresses professionnelles du centre de Bruxelles.",
+          "points": [
+            "Hôtels et bureaux Avenue Louise",
+            "Connexions centre-ville de Bruxelles",
+            "Trajet aéroport de 25 à 35 minutes",
+            "Tarifs fixes et transparents"
+          ]
+        },
+        {
+          "title": "Transferts gare Brussels Midi",
+          "description": "Connexions taxi fluides entre Brussels Airport et Brussels Midi pour les passagers Eurostar, Thalys et TGV.",
+          "points": [
+            "Prise en charge gare Brussels Midi",
+            "Connexions Eurostar et Thalys",
+            "Aéroport vers Midi en 25–35 minutes",
+            "Suivi des retards de train disponible"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Monuments de Bruxelles et service de transfert aéroport premium",
+      "badge": {
+        "value": "BRU",
+        "label": "Transferts aéroport"
+      },
+      "title_line1": "Transfert aéroport professionnel",
+      "title_accent": "Service à Bruxelles",
+      "paragraphs": [
+        "Voyagez vers Brussels Airport en toute confiance. Choisissez un transfert Brussels Airport professionnel et confortable conçu autour de la fiabilité et de la simplicité — avec un tarif tout compris couvrant les frais aéroport, le parking, les péages et le service meet-and-greet.",
+        "Sans stress. Sans frais cachés. Sans surprises de dernière minute. Un service de transfert aéroport professionnel conçu pour la ponctualité et la tranquillité d'esprit dans toute la capitale."
+      ],
+      "account": {
+        "title": "Itinéraires de transfert Brussels Airport populaires",
+        "description": "Transferts privés directs entre Brussels Airport (Zaventem) et les principaux quartiers de la ville.",
+        "points": [
+          "Brussels Airport (BRU) → Centre-ville de Bruxelles · 25–35 minutes",
+          "Brussels Airport (BRU) → Quartier européen · 20–30 minutes",
+          "Brussels Airport (BRU) → Avenue Louise · 25 à 35 minutes",
+          "Brussels Airport (BRU) → Siège OTAN · 15–25 minutes",
+          "Brussels Airport (BRU) → Gare Brussels Midi · 25–35 minutes"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Pourquoi réserver votre transfert Brussels Airport avec nous ?",
+      "description": "Sans stress. Sans frais cachés. Sans surprises de dernière minute. Un service de transfert aéroport professionnel conçu autour de la fiabilité et de la simplicité.",
+      "items": [
+        {
+          "title": "Toujours à l'heure",
+          "description": "Nous planifions soigneusement chaque transfert Brussels Airport et surveillons le trafic en temps réel pour garantir votre arrivée sans stress."
+        },
+        {
+          "title": "Tarif fixe – sans frais cachés",
+          "description": "Le prix affiché est le prix final. Pas de tarification dynamique ni de suppléments inattendus."
+        },
+        {
+          "title": "Meet and Greet à Brussels Airport",
+          "description": "Votre chauffeur vous attend dans le hall des arrivées avec une pancarte personnalisée à votre nom. Les 45 premières minutes d'attente sont offertes."
+        },
+        {
+          "title": "Suivi des vols en temps réel",
+          "description": "Si votre vol est retardé, votre heure de prise en charge est automatiquement ajustée. Le temps d'attente commence après l'atterrissage."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Où mon chauffeur me retrouvera-t-il à Brussels Airport ?",
+          "answer": "Votre chauffeur vous retrouvera dans le hall des arrivées avec une pancarte personnalisée à votre nom. Votre transfert inclut 45 minutes d'attente offertes après l'atterrissage de votre vol."
+        },
+        {
+          "question": "Que se passe-t-il si mon vol est retardé ?",
+          "answer": "Nous surveillons votre vol en temps réel et ajustons automatiquement votre heure de prise en charge. Le temps d'attente commence après l'atterrissage, et les 45 premières minutes sont incluses sans frais supplémentaires."
+        },
+        {
+          "question": "Combien de temps dure le transfert ?",
+          "answer": "Les transferts vers le centre-ville de Bruxelles et l'Avenue Louise durent généralement 25 à 35 minutes. Le quartier européen est à 20–30 minutes, le siège OTAN à 15–25 minutes, et la gare Brussels Midi à 25–35 minutes selon le trafic."
+        },
+        {
+          "question": "Puis-je réserver un transfert retour ?",
+          "answer": "Oui. Vous pouvez réserver un trajet retour de Brussels Airport vers votre hôtel ou adresse, ou de votre emplacement vers l'aéroport, avec des tarifs fixes pour les deux trajets au moment de la réservation."
+        },
+        {
+          "question": "Des sièges enfant sont-ils disponibles ?",
+          "answer": "Oui. Des sièges bébé et enfant sont disponibles sur demande sans frais supplémentaires. Veuillez préciser l'âge et le nombre d'enfants lors de la réservation afin que nous préparions les sièges appropriés."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire transfert Bruxelles",
+        "title": "Voyagez vers Brussels Airport en toute confiance",
+        "subtitle": "Choisissez un transfert Brussels Airport professionnel et confortable conçu autour de la fiabilité et de la simplicité. Obtenez votre tarif tout compris couvrant les frais aéroport, le parking, les péages et le service meet-and-greet.",
+        "features": [
+          "Tarifs fixes et transparents",
+          "Chauffeurs professionnels",
+          "Meet and Greet inclus",
+          "45 minutes d'attente",
+          "Suivi des vols en temps réel",
+          "Sièges bébé et enfant sur demande",
+          "Disponibilité 24h/24",
+          "Aucun frais caché ni surprise"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Transferts Brussels Airport fiables",
+      "description": "Notre service de taxi à Bruxelles offre des <highlight>transferts aéroport porte-à-porte à tarif fixe</highlight> avec des chauffeurs professionnels qui connaissent chaque itinéraire de Zaventem au quartier européen, à l'OTAN et au centre-ville.",
+      "reasons": [
+        "Transferts Brussels Airport porte-à-porte",
+        "Connexions centre-ville de Bruxelles",
+        "Quartier européen et district Schuman",
+        "Avenue Louise et quartier Sablon",
+        "Transferts siège OTAN",
+        "Liaisons gare Brussels Midi",
+        "Meet-and-greet dans le hall des arrivées",
+        "45 minutes d'attente offertes",
+        "Suivi des vols en temps réel",
+        "Tarif fixe sans frais cachés",
+        "Service 24h/24 tôt le matin et tard le soir",
+        "Sièges bébé et enfant sur demande",
+        "Tarifs tout compris incluant les frais aéroport",
+        "Chauffeurs professionnels et ponctuels"
+      ],
+      "highlight": {
+        "title": "Réservez votre transfert Bruxelles",
+        "description": "\"Sans stress. Sans frais cachés. Sans surprises de dernière minute — un service de transfert aéroport professionnel conçu autour de la fiabilité et de la simplicité.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Tarifs fixes et transparents",
+          "Meet and Greet à Brussels Airport",
+          "45 minutes d'attente après l'atterrissage",
+          "Suivi des retards de vol en temps réel",
+          "Frais aéroport, parking et péages inclus",
+          "Sièges bébé et enfant sur demande",
+          "Transferts quartier européen et OTAN",
+          "Réservation et dispatch 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert Bruxelles",
+      "description": "Réservation rapide et simple pour des transferts Brussels Airport fiables. Obtenez votre devis instantané et confirmez votre réservation en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "ghent_city": {
+    "banner": {
+      "top_text_primary": "Service de taxi à Gand",
+      "top_text_suffix": "Flandre historique",
+      "title_line1": "Services de taxi privés",
+      "title_accent": "à Gand",
+      "description": "Vous planifiez une visite dans le cœur historique de la Flandre ? Nous proposons des services de taxi premium à Gand pour les voyageurs arrivant à Brussels Zaventem (BRU) ou Charleroi (CRL), ainsi que pour ceux ayant besoin de transport local en ville. Notre service est conçu pour les chercheurs internationaux, entrepreneurs tech et amateurs de culture qui privilégient l'efficacité et une expérience de voyage haut de gamme.",
+      "image_alt": "Service de taxi premium à Gand avec chauffeur professionnel et berline de luxe"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "ghent_transfers": "Transferts Gand",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Nos services premium",
+      "description": "Que vous vous rendiez au Tech Lane Ghent Science Park ou à la pittoresque Graslei, nos chauffeurs professionnels garantissent un trajet fluide.",
+      "items": [
+        {
+          "title": "Transferts tech et innovation",
+          "description": "Transport exécutif spécialisé pour les professionnels visitant l'University of Ghent et les pôles biotech locaux.",
+          "points": [
+            "Tech Lane Ghent Science Park",
+            "Campus University of Ghent",
+            "Pôles biotech et recherche",
+            "Transport corporate exécutif"
+          ]
+        },
+        {
+          "title": "Service de taxi à l'heure",
+          "description": "Location voiture avec chauffeur flexible pour admirer l'Agneau mystique à la cathédrale St. Bavo's ou explorer le quartier culinaire Patershol.",
+          "points": [
+            "Visites cathédrale St. Bavo's",
+            "Quartier culinaire Patershol",
+            "Graslei et vieille ville historique",
+            "Itinéraires multi-escales flexibles"
+          ]
+        },
+        {
+          "title": "Brussels Airport (BRU) vers Gand",
+          "description": "Notre liaison premium à tarif fixe pour les arrivées internationales souhaitant un itinéraire direct vers la Flandre orientale.",
+          "points": [
+            "Itinéraire direct BRU vers Gand",
+            "Durée du trajet : 50–65 minutes",
+            "Meet-and-greet aux arrivées",
+            "Tarifs fixes tout compris"
+          ]
+        },
+        {
+          "title": "Liaisons taxi transfrontalières",
+          "description": "Connexions privées climatisées de Gand vers Lille, Paris, Anvers et Eindhoven.",
+          "points": [
+            "Gand vers Lille et Paris",
+            "Liaisons Anvers et Eindhoven",
+            "Véhicules climatisés",
+            "Tarifs transfrontaliers fixes"
+          ]
+        },
+        {
+          "title": "Navettes événements et congrès",
+          "description": "Transport coordonné avec expertise pour les délégations assistant aux foires commerciales au Flanders Expo.",
+          "points": [
+            "Navettes congrès Flanders Expo",
+            "Délégations foires commerciales",
+            "Coordination multi-véhicules",
+            "Transport groupes et VIP"
+          ]
+        },
+        {
+          "title": "Excursions d'une journée Gand vers Bruges",
+          "description": "Service de taxi privé en excursion d'une journée de Gand à Bruges et retour — parfait pour les amateurs de culture explorant la Flandre.",
+          "points": [
+            "Gand vers Bruges en 30–40 minutes",
+            "Location journée aller-retour disponible",
+            "Visites touristiques ville historique",
+            "Planification retour flexible"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Paysage urbain historique de Gand avec quai Graslei et service de taxi premium",
+      "badge": {
+        "value": "BRU",
+        "label": "Connexions aéroport"
+      },
+      "title_line1": "Service de taxi premium",
+      "title_accent": "À travers la Flandre historique",
+      "paragraphs": [
+        "Que vous arriviez à Brussels Airport, visitiez le Tech Lane Ghent Science Park ou exploriez le quai Graslei, notre service de taxi premium garantit un trajet confortable et efficace au cœur de la Flandre.",
+        "Découvrez Gand avec un transport professionnel — transferts directs depuis Brussels Airport, liaisons transfrontalières vers Lille et Paris, et expertise locale des zones piétonnes de Gand et du corridor E40."
+      ],
+      "account": {
+        "title": "Combinaisons de transfert Gand populaires",
+        "description": "Connexions taxi privées directes entre Gand et les principaux aéroports, villes et destinations transfrontalières de Belgique.",
+        "points": [
+          "Brussels Airport (BRU) → Centre-ville et hôtels Gand · 50–65 minutes",
+          "Brussels-South Charleroi (CRL) → Flanders Expo Gand · 1 h 15 – 1 h 30",
+          "Gare Ghent-Sint-Pieters → Vieille ville historique (Graslei/Korenmarkt) · 10–15 minutes",
+          "Gand → Bruges · 30–40 minutes",
+          "Gand → Anvers · 55–70 minutes",
+          "Gand → Lille · 1 h 15 – 1 h 30",
+          "Gand → Bruxelles ville · 50–65 minutes"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Ce que comprend votre service de taxi à Gand",
+      "description": "Expertise flamande professionnelle, excellence à l'arrivée et tarifs fixes garantis pour chaque trajet à Gand.",
+      "items": [
+        {
+          "title": "Experts flamands professionnels",
+          "description": "Chauffeurs multilingues connaissant les meilleurs itinéraires à travers les zones piétonnes de Gand et le corridor E40 — avec autorisations zones piétonnes et expertise locale."
+        },
+        {
+          "title": "Excellence à l'arrivée",
+          "description": "Meet-and-greet personnel à l'aéroport, gestion des bagages et 60 minutes d'attente offertes pour tous les vols avec suivi en temps réel."
+        },
+        {
+          "title": "Tarifs fixes garantis",
+          "description": "Tarifs transparents couvrant tous les péages belges et frais d'accès ville — aucun coût caché, même aux heures de pointe."
+        },
+        {
+          "title": "Accès zones piétonnes",
+          "description": "Nos véhicules disposent d'autorisations pour les zones piétonnes restreintes de Gand, garantissant des déposes directes aux hôtels, restaurants et sites historiques de la vieille ville."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Où mon chauffeur me retrouvera-t-il pour une prise en charge à Gand ?",
+          "answer": "Pour les départs en ville, votre chauffeur vous retrouvera dans le hall de l'hôtel ou à l'entrée du bureau. Pour les arrivées aéroport, nous vous accueillons dans le hall des arrivées désigné avec une pancarte professionnelle."
+        },
+        {
+          "question": "Vos véhicules ont-ils accès à la zone piétonne restreinte de Gand ?",
+          "answer": "Oui. Nos véhicules possèdent les autorisations nécessaires pour les zones piétonnes de Gand, permettant des déposes directes aux hôtels, restaurants et adresses de la vieille ville historique, y compris Graslei et Korenmarkt."
+        },
+        {
+          "question": "Combien de temps dure le transfert de Brussels Airport à Gand ?",
+          "answer": "Le trajet de Brussels Airport (Zaventem) au centre-ville de Gand dure généralement 50 à 65 minutes selon le trafic. Les transferts vers Flanders Expo ou Charleroi Airport prennent 1 h 15 à 1 h 30."
+        },
+        {
+          "question": "Puis-je réserver une excursion privée d'une journée de Gand à Bruges ?",
+          "answer": "Absolument. Nous proposons un service de taxi privé en excursion d'une journée de Gand à Bruges en 30 à 40 minutes, avec location horaire flexible ou réservations aller-retour pour visites touristiques et culturelles."
+        },
+        {
+          "question": "Des sièges enfant sont-ils disponibles pour un voyage en famille à Gand ?",
+          "answer": "Oui. Des sièges bébé et enfant sont disponibles sur demande sans frais supplémentaires. Veuillez préciser l'âge et le nombre d'enfants lors de la réservation afin que nous préparions les sièges appropriés pour votre voyage en famille."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire taxi Gand",
+        "title": "Découvrez Gand avec un transport professionnel",
+        "subtitle": "Que vous arriviez à Brussels Airport, visitiez le Tech Lane Ghent Science Park ou exploriez le quai Graslei, notre service de taxi premium garantit un trajet confortable et efficace au cœur de la Flandre.",
+        "features": [
+          "Transferts directs depuis Brussels Airport (BRU)",
+          "Spécialistes pôles tech et innovation",
+          "Liaisons transfrontalières vers Lille et Paris",
+          "Tarifs fixes tout compris",
+          "Autorisations d'accès aux zones piétonnes",
+          "Taxi à l'heure pour visites ville",
+          "Navettes événements Flanders Expo",
+          "Experts flamands professionnels"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Transport premium à travers la Flandre historique",
+      "description": "Notre service de taxi à Gand offre un <highlight>transport porte-à-porte à tarif fixe</highlight> avec des chauffeurs multilingues qui connaissent chaque itinéraire de Brussels Airport au Tech Lane, Graslei et au-delà.",
+      "reasons": [
+        "Service de taxi privé à Gand",
+        "Transferts Brussels Airport (BRU) vers Gand",
+        "Connexions Charleroi (CRL) vers Gand",
+        "Tech Lane Ghent Science Park",
+        "Transferts campus University of Ghent",
+        "Graslei et vieille ville historique",
+        "Quartier culinaire Patershol",
+        "Navettes congrès Flanders Expo",
+        "Excursions d'une journée Gand vers Bruges",
+        "Liaisons transfrontalières vers Lille et Paris",
+        "Autorisations d'accès aux zones piétonnes",
+        "60 minutes d'attente gratuites à l'aéroport",
+        "Tarifs fixes tout compris",
+        "Experts flamands multilingues"
+      ],
+      "highlight": {
+        "title": "Vérifier la disponibilité et les tarifs",
+        "description": "\"Découvrez Gand avec un transport professionnel — transferts aéroport directs, spécialistes pôles tech et connexions transfrontalières avec tarifs fixes tout compris et sans frais cachés.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Transferts directs Brussels Airport (BRU)",
+          "Liaisons Charleroi (CRL) vers Gand",
+          "Transport pôles tech et innovation",
+          "Taxi à l'heure pour visites touristiques",
+          "Navettes événements Flanders Expo",
+          "Excursions d'une journée Gand vers Bruges",
+          "Déposes zones piétonnes",
+          "60 minutes d'attente offertes"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert Gand",
+      "description": "Réservation rapide et simple pour un service de taxi fiable à Gand. Obtenez votre devis instantané et confirmez votre réservation en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "bruges_city": {
+    "banner": {
+      "top_text_primary": "Service de taxi à Bruges",
+      "top_text_suffix": "Venise du Nord",
+      "title_line1": "Services de taxi privés :",
+      "title_accent": "Bruxelles ⇄ Bruges",
+      "description": "Découvrez la « Venise du Nord » sans le stress logistique des transports publics. Nous proposons des services de taxi premium Bruxelles vers Bruges (et inversement), une alternative luxueuse porte-à-porte aux trains régionaux et navettes bondées. Basés à Bruxelles, nous sommes les spécialistes de référence de cet itinéraire, au service des week-ends romantiques, organisateurs d'événements corporate et passagers de croisière.",
+      "image_alt": "Service de taxi premium entre Bruxelles et Bruges avec chauffeur professionnel et berline de luxe"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "bruges_transfers": "Transferts Bruges",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Nos services régionaux premium",
+      "description": "Que vous vous rendiez à un hôtel boutique dans la vieille ville historique ou à une conférence au BMCC (Bruges Meeting & Convention Centre), nos chauffeurs professionnels garantissent une arrivée fluide.",
+      "items": [
+        {
+          "title": "Brussels Airport vers Bruges",
+          "description": "Transition confortable et directe des arrivées Zaventem vers votre destination à Bruges sans correspondances train ni manipulation de bagages.",
+          "points": [
+            "Itinéraire direct BRU vers Bruges",
+            "Trajet de 1 h 15 – 1 h 45",
+            "Meet-and-greet aux arrivées",
+            "Aucune correspondance train requise"
+          ]
+        },
+        {
+          "title": "Bruges vers centre-ville Bruxelles",
+          "description": "Transport fiable à tarif fixe de Bruges vers la capitale ou le quartier européen, parfait pour voyageurs d'affaires et excursionnistes.",
+          "points": [
+            "Bruges vers centre-ville Bruxelles",
+            "Connexions quartier européen",
+            "Excursions à tarif fixe",
+            "Spécialiste voyageurs d'affaires"
+          ]
+        },
+        {
+          "title": "Transfert port de croisière Zeebrugge",
+          "description": "Service meet-and-greet pour passagers de croisière ayant besoin d'une liaison rapide et privée vers Bruxelles ou Bruges après débarquement.",
+          "points": [
+            "Meet-and-greet port Zeebrugge",
+            "Liaison rapide vers Bruges ou Bruxelles",
+            "Spécialiste passagers croisière",
+            "20–30 min vers centre-ville Bruges"
+          ]
+        },
+        {
+          "title": "Visites journée complète avec attente et retour",
+          "description": "Gardez votre chauffeur pour explorer les monuments de Bruges comme le Beffroi, le Lac d'Amour et les brasseries locales à votre rythme.",
+          "points": [
+            "Beffroi et Grand-Place",
+            "Lac d'Amour (Minnewater)",
+            "Visites brasseries locales",
+            "Location horaire flexible"
+          ]
+        },
+        {
+          "title": "Excursions de groupe",
+          "description": "Transport professionnel pour familles et groupes touristiques en minivans spacieux (12 pax) ou autocars de luxe (50 pax).",
+          "points": [
+            "Minivans jusqu'à 12 passagers",
+            "Autocars de luxe jusqu'à 50 passagers",
+            "Familles et groupes touristiques",
+            "Délégations conférences BMCC"
+          ]
+        },
+        {
+          "title": "Liaisons Charleroi et Brussels Midi",
+          "description": "Connexions taxi directes de Charleroi Airport (CRL) et gare Brussels-Midi Eurostar vers hôtels Bruges et BMCC.",
+          "points": [
+            "Charleroi (CRL) vers Bruges",
+            "Prise en charge Brussels-Midi Eurostar",
+            "Transferts conférences BMCC",
+            "Déposes vieille ville historique"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Paysage urbain historique de Bruges, canaux et service de taxi premium",
+      "badge": {
+        "value": "BRU",
+        "label": "Bruxelles ⇄ Bruges"
+      },
+      "title_line1": "Service de taxi premium",
+      "title_accent": "vers la Venise du Nord",
+      "paragraphs": [
+        "Que vous voyagiez en ville ou vers des destinations proches, notre service de taxi premium garantit un trajet confortable, ponctuel et professionnel à travers l'une des plus belles villes historiques de Belgique.",
+        "Évitez les trains régionaux et navettes bondées — profitez d'un transport de luxe porte-à-porte depuis Brussels Airport, Charleroi, Brussels-Midi ou le port de croisière Zeebrugge directement vers votre hôtel ou lieu de conférence à Bruges."
+      ],
+      "account": {
+        "title": "Combinaisons de transfert populaires",
+        "description": "Connexions taxi privées directes entre Bruges et les principaux aéroports, gares et ports de Belgique.",
+        "points": [
+          "Brussels Airport (BRU) → Hôtels centre-ville Bruges · 1 h 15 – 1 h 45",
+          "Brussels-South Charleroi (CRL) → Vieille ville historique Bruges · 1 h 30 – 2 h",
+          "Gare Brussels-Midi (Eurostar) → BMCC Bruges · 1 h – 1 h 30",
+          "Port croisière Zeebrugge → Bruges · 20–30 min / Bruxelles · 1 h 15 – 1 h 45",
+          "Bruxelles → Bruges / Gand / Anvers · 1 h – 1 h 30"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Ce que comprend votre taxi Bruxelles–Bruges",
+      "description": "Professionnalisme, accueil à l'arrivée et tarifs intelligents pour chaque trajet Bruxelles ⇄ Bruges.",
+      "items": [
+        {
+          "title": "Professionnalisme",
+          "description": "Chauffeurs vérifiés et multilingues en véhicules business class — entièrement licenciés et assurés, avec présentation professionnelle à chaque trajet."
+        },
+        {
+          "title": "Accueil à l'arrivée",
+          "description": "Meet-and-greet avec pancarte nominative, aide aux bagages et 60 minutes d'attente gratuites pour les vols avec suivi en temps réel."
+        },
+        {
+          "title": "Tarifs intelligents",
+          "description": "Tarifs transparents et fixes sans frais cachés et assistance client en direct 24h/24 — options de paiement en ligne sécurisées disponibles."
+        },
+        {
+          "title": "Accès vieille ville historique",
+          "description": "Déposes directes aux hôtels boutique, BMCC et adresses de la vieille ville historique de Bruges — pas de marche depuis les gares avec bagages lourds."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Comment trouver mon chauffeur à Brussels Airport (BRU) ?",
+          "answer": "Votre chauffeur vous attendra dans le hall des arrivées après la récupération des bagages, avec une pancarte personnalisée. Vous recevrez également un SMS avec ses coordonnées avant l'atterrissage."
+        },
+        {
+          "question": "Que se passe-t-il si mon vol est retardé ?",
+          "answer": "Nous surveillons votre vol en temps réel et ajustons automatiquement votre heure de prise en charge. Les 60 premières minutes d'attente après l'atterrissage sont incluses sans frais supplémentaires — votre chauffeur sera prêt à votre arrivée."
+        },
+        {
+          "question": "Les tarifs sont-ils fixes ?",
+          "answer": "Oui. Tous les devis sont des tarifs fixes tout compris sans frais cachés. Le prix affiché lors de la réservation est le prix final — couvrant péages, parking et service meet-and-greet sans tarification dynamique."
+        },
+        {
+          "question": "Proposez-vous des sièges enfant ?",
+          "answer": "Oui. Des sièges bébé et enfant sont disponibles sur demande sans frais supplémentaires. Veuillez préciser l'âge et le nombre d'enfants lors de la réservation afin que nous préparions les sièges appropriés pour votre voyage en famille à Bruges."
+        },
+        {
+          "question": "Combien de temps dure le transfert de Brussels Airport à Bruges ?",
+          "answer": "Le trajet de Brussels Airport (Zaventem) au centre-ville de Bruges dure généralement 1 h 15 à 1 h 45 selon le trafic. Les transferts depuis Charleroi Airport prennent 1 h 30 à 2 h."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire taxi Bruges",
+        "title": "Réservez votre taxi Bruges aujourd'hui",
+        "subtitle": "Que vous voyagiez en ville ou vers des destinations proches, notre service de taxi premium garantit un trajet confortable, ponctuel et professionnel.",
+        "features": [
+          "Meet-and-greet à Zaventem (BRU) et Charleroi (CRL)",
+          "Chauffeurs multilingues professionnels",
+          "Véhicules business class de luxe",
+          "60 minutes d'attente gratuites",
+          "Suivi des vols en temps réel",
+          "Tarifs fixes tout compris",
+          "Service vers Bruges et environs",
+          "Disponible 24h/24 avec assistance en direct"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Les spécialistes de référence de l'itinéraire Bruxelles ⇄ Bruges",
+      "description": "Notre service de taxi à Bruges offre un <highlight>transport porte-à-porte à tarif fixe</highlight> pour week-ends romantiques, organisateurs corporate et passagers de croisière — sans le stress des trains ou navettes.",
+      "reasons": [
+        "Transferts Brussels Airport vers Bruges",
+        "Bruges vers centre-ville Bruxelles",
+        "Liaisons Charleroi (CRL) vers Bruges",
+        "Prise en charge Brussels-Midi Eurostar",
+        "Transferts port de croisière Zeebrugge",
+        "Transport conférences BMCC",
+        "Déposes hôtels vieille ville historique",
+        "Visites journée complète attente et retour",
+        "Visites Beffroi et Lac d'Amour",
+        "Minivans de groupe et autocars de luxe",
+        "Liaisons Bruges vers Gand et Anvers",
+        "60 minutes d'attente gratuites à l'aéroport",
+        "Tarifs fixes tout compris",
+        "Chauffeurs professionnels multilingues"
+      ],
+      "highlight": {
+        "title": "Réservez votre transfert Bruges",
+        "description": "\"Découvrez la Venise du Nord sans le stress logistique des transports publics — service de taxi premium porte-à-porte depuis Bruxelles, les aéroports et le port de croisière Zeebrugge.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Meet-and-greet à BRU et CRL",
+          "Prise en charge port croisière Zeebrugge",
+          "Connexions Brussels-Midi Eurostar",
+          "Transferts BMCC et vieille ville",
+          "Visites ville attente et retour",
+          "Options minivan et autocar pour groupes",
+          "Suivi des vols en temps réel",
+          "Assistance client en direct 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert Bruges",
+      "description": "Réservation rapide et simple pour un service de taxi fiable Bruxelles ⇄ Bruges. Obtenez votre devis instantané et confirmez votre réservation en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "amsterdam_city": {
+    "banner": {
+      "top_text_primary": "Bruxelles vers Amsterdam",
+      "top_text_suffix": "Transfert interurbain premium",
+      "title_line1": "Transfert privé :",
+      "title_accent": "Brussels Airport (BRU) vers Amsterdam",
+      "description": "Vous arrivez à Zaventem (BRU) mais vous vous rendez aux Pays-Bas ? Nous sommes spécialisés dans les transferts premium Brussels Airport vers Amsterdam, une alternative de luxe aux trains régionaux et vols de correspondance court-courrier. Basés à Bruxelles, notre service de taxi est le moyen le plus fiable pour les voyageurs internationaux, dirigeants corporate et familles de combler les 210 km entre la principale porte d'entrée belge et la capitale néerlandaise.",
+      "image_alt": "Transfert premium Brussels Airport vers Amsterdam avec chauffeur professionnel et berline de luxe"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "amsterdam_transfers": "Transferts Amsterdam",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Nos services Brussels Airport vers Amsterdam",
+      "description": "Les chauffeurs professionnels vous accueillent directement dans le hall des arrivées de Brussels Airport et vous emmènent directement à votre destination à Amsterdam dans un confort et une intimité totaux.",
+      "items": [
+        {
+          "title": "Transferts hôtel directs",
+          "description": "Service porte-à-porte de BRU Airport vers tout hôtel, Airbnb ou résidence du centre-ville d'Amsterdam.",
+          "points": [
+            "BRU vers centre-ville Amsterdam",
+            "Hôtels, Airbnb et résidences",
+            "Service privé porte-à-porte",
+            "Trajet de 2 h 15 – 2 h 45"
+          ]
+        },
+        {
+          "title": "Connexion corporate Zuidas",
+          "description": "Transport accéléré pour professionnels se rendant de Brussels Airport au quartier financier d'Amsterdam.",
+          "points": [
+            "Quartier financier Amsterdam Zuidas",
+            "Voyage d'affaires et exécutif",
+            "Prise en charge directe aéroport BRU",
+            "Arrivées corporate ponctuelles"
+          ]
+        },
+        {
+          "title": "Liaison Amsterdam Schiphol (AMS)",
+          "description": "Transferts privés aéroport-à-aéroport pour correspondances ou rendez-vous collègues à Schiphol.",
+          "points": [
+            "BRU vers Schiphol (AMS) direct",
+            "Transferts vols de correspondance",
+            "Spécialiste aéroport-à-aéroport",
+            "Coordination horaires de vol"
+          ]
+        },
+        {
+          "title": "Tournées exécutives",
+          "description": "Service voiture journée complète depuis Brussels Airport avec escales à Anvers, Rotterdam et Amsterdam.",
+          "points": [
+            "Itinéraires tournées multi-villes",
+            "Escales Anvers et Rotterdam",
+            "Chauffeur à disposition toute la journée",
+            "Horaires corporate flexibles"
+          ]
+        },
+        {
+          "title": "Déménagement grands groupes",
+          "description": "Minivans spacieux et autocars pour familles ou équipes corporate se déplaçant entre les deux villes avec bagages importants.",
+          "points": [
+            "Minivans jusqu'à 12 passagers",
+            "Autocars jusqu'à 50 passagers",
+            "Capacité bagages supplémentaire",
+            "Plus économique que le train pour 3+"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Canaux d'Amsterdam et transfert taxi premium Brussels Airport vers Amsterdam",
+      "badge": {
+        "value": "210km",
+        "label": "BRU → Amsterdam"
+      },
+      "title_line1": "Transfert interurbain premium",
+      "title_accent": "vers la capitale néerlandaise",
+      "paragraphs": [
+        "Évitez les contraintes des trains, manipulation de bagages et transferts de gare. Notre transfert privé premium vous emmène de Brussels Airport directement à votre destination à Amsterdam dans un confort total.",
+        "Basés à Bruxelles, nous sommes spécialistes du corridor BRU vers Amsterdam — au service des voyageurs internationaux, dirigeants corporate et familles recherchant une alternative fiable à tarif fixe au rail régional."
+      ],
+      "account": {
+        "title": "Itinéraires populaires et escales",
+        "description": "Connexions taxi privées directes de Brussels Airport vers Amsterdam et principales destinations néerlandaises.",
+        "points": [
+          "Brussels Airport (BRU) → Dam Square Amsterdam · 2 h 15 – 2 h 45",
+          "Brussels Airport (BRU) → Amsterdam North (NDSM) · 2 h 20 – 2 h 50",
+          "Brussels Airport (BRU) → Utrecht / La Haye · 2 h – 2 h 30",
+          "Escale optionnelle Anvers en route · ajouter 30–45 min"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Pourquoi choisir notre transfert BRU vers Amsterdam ?",
+      "description": "Fiabilité basée à Bruxelles, passage frontière fluide et tarifs interurbains fixes pour chaque trajet.",
+      "items": [
+        {
+          "title": "Fiabilité basée à Bruxelles",
+          "description": "En tant qu'opérateur local, nous garantissons que votre chauffeur est sur place à Zaventem bien avant l'atterrissage — sans retards de dispatch tiers."
+        },
+        {
+          "title": "Suivi des vols en temps réel",
+          "description": "Nous suivons votre arrivée à Brussels Airport et ajustons automatiquement l'heure de prise en charge — les 60 premières minutes d'attente sont gratuites."
+        },
+        {
+          "title": "Passage frontière fluide",
+          "description": "Profitez d'un trajet fluide sur l'autoroute E19/A1 avec des chauffeurs experts des rings d'Anvers et Rotterdam."
+        },
+        {
+          "title": "Tarifs interurbains fixes",
+          "description": "Aucun supplément caché pour passages frontière, péages ou week-end. Le prix affiché est le prix final."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Où rencontrer mon chauffeur à Brussels Airport ?",
+          "answer": "Votre chauffeur vous attendra au point de rendez-vous officiel du hall des arrivées (près du JAVA Coffee bar) avec une pancarte à votre nom. Nous envoyons également le numéro direct de votre chauffeur par SMS avant l'atterrissage."
+        },
+        {
+          "question": "Combien de temps dure le trajet de Brussels Airport à Amsterdam ?",
+          "answer": "Le trajet dure généralement 2 h 15 à 2 h 45 selon le trafic, surtout autour des rings d'Anvers et Rotterdam. Les transferts vers Amsterdam North (NDSM) peuvent prendre un peu plus longtemps : 2 h 20 à 2 h 50."
+        },
+        {
+          "question": "Est-ce moins cher pour un groupe que le train ?",
+          "answer": "Oui — pour les groupes de trois ou plus, une minivan ou berline privée est souvent plus économique que les billets de train individuels, surtout en tenant compte des bagages, transferts de gare et commodité porte-à-porte. Contactez-nous pour un devis groupe."
+        },
+        {
+          "question": "Pouvez-vous gérer beaucoup de bagages ?",
+          "answer": "Absolument. Nos berlines accueillent les bagages standard pour jusqu'à 3 passagers, tandis que nos minivans et autocars gèrent les grands groupes avec beaucoup de bagages. Veuillez préciser vos besoins en bagages lors de la réservation afin que nous puissions assigner le véhicule adapté."
+        },
+        {
+          "question": "Que se passe-t-il en cas d'embouteillage à Anvers ?",
+          "answer": "Nos chauffeurs surveillent le trafic en direct et empruntent des itinéraires alternatifs via E19/A1 en cas de congestion sur le ring d'Anvers. Nous intégrons une marge dans chaque réservation et vous informons des retards significatifs par SMS."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire transfert Amsterdam",
+        "title": "Prêt à réserver votre transfert Bruxelles vers Amsterdam ?",
+        "subtitle": "Évitez les contraintes des trains, bagages et transferts de gare. Réservez votre transfert privé premium et voyagez confortablement de Brussels Airport directement à Amsterdam.",
+        "features": [
+          "Prise en charge directe hall des arrivées Brussels Airport",
+          "Chauffeurs professionnels experts passage frontière",
+          "Tarifs fixes sans suppléments cachés",
+          "Escale optionnelle Anvers disponible",
+          "Durée trajet vers Amsterdam : 2 h 15 – 2 h 45",
+          "Suivi vols temps réel avec 60 min d'attente gratuite",
+          "Flotte premium des berlines aux autocars 50 passagers",
+          "Plus économique que le train pour groupes de 3+"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Les spécialistes de référence de l'itinéraire BRU vers Amsterdam",
+      "description": "Notre service de transfert Amsterdam offre un <highlight>transport porte-à-porte à tarif fixe</highlight> de Brussels Airport vers hôtels Amsterdam, Schiphol, Zuidas et au-delà — sans le stress des trains ou vols de correspondance.",
+      "reasons": [
+        "Brussels Airport vers centre-ville Amsterdam",
+        "BRU vers quartier financier Amsterdam Zuidas",
+        "Brussels Airport vers Schiphol (AMS)",
+        "Tournées exécutives multi-villes",
+        "Minivans et autocars grands groupes",
+        "Escale optionnelle Anvers en route",
+        "Connexions Utrecht et La Haye",
+        "Transferts Amsterdam North (NDSM)",
+        "Suivi vols temps réel à BRU",
+        "60 minutes d'attente gratuites à l'aéroport",
+        "Passage frontière Belgique–Pays-Bas fluide",
+        "Tarifs interurbains tout compris fixes",
+        "Chauffeurs professionnels multilingues",
+        "Plus économique que le train pour groupes"
+      ],
+      "highlight": {
+        "title": "Réservez votre transfert Bruxelles vers Amsterdam",
+        "description": "\"Comblez les 210 km entre la principale porte d'entrée belge et la capitale néerlandaise — transfert premium porte-à-porte depuis Brussels Airport avec tarifs fixes et expertise transfrontalière.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Meet-and-greet à Brussels Airport (BRU)",
+          "Déposes directes hôtels et Airbnb",
+          "Liaisons aéroport-à-aéroport Schiphol (AMS)",
+          "Transferts quartier corporate Zuidas",
+          "Escale optionnelle Anvers",
+          "Options minivan et autocar pour groupes",
+          "Suivi des vols en temps réel",
+          "Assistance client en direct 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert Bruxelles vers Amsterdam",
+      "description": "Réservation rapide et simple pour des transferts fiables Brussels Airport vers Amsterdam. Obtenez votre devis instantané et confirmez en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "paris_city": {
+    "banner": {
+      "top_text_primary": "Bruxelles ⇌ Paris",
+      "top_text_suffix": "Transfert transfrontalier",
+      "title_line1": "Services de taxi privés :",
+      "title_accent": "Bruxelles ⇌ Paris",
+      "description": "Voyagez entre les deux capitales les plus emblématiques d'Europe occidentale avec le confort et le prestige que vous méritez. Nous proposons des services de taxi premium Bruxelles vers Paris (et inversement), une alternative fluide porte-à-porte à l'Eurostar ou aux vols court-courrier. Basés à Bruxelles, nous sommes les spécialistes régionaux de ce corridor de 300 km, au service des dirigeants corporate, délégations mode et voyageurs de luxe.",
+      "image_alt": "Transfert taxi premium Bruxelles vers Paris avec chauffeur professionnel et véhicule de luxe"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "paris_transfers": "Transferts Paris",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Nos services transfrontaliers premium",
+      "description": "Que vous vous rendiez à un sommet à La Défense ou à un hôtel de luxe près des Champs-Élysées, nos chauffeurs professionnels garantissent un trajet sans stress.",
+      "items": [
+        {
+          "title": "Brussels Airport (BRU) vers Paris",
+          "description": "Le moyen le plus efficace de passer de votre vol international à Bruxelles directement à votre destination parisienne.",
+          "points": [
+            "Itinéraire direct BRU vers Paris",
+            "3 h 30 – 4 h vers CDG",
+            "Meet-and-greet à Zaventem",
+            "Aucun transfert train ou gare"
+          ]
+        },
+        {
+          "title": "Paris vers centre-ville Bruxelles",
+          "description": "Transport fiable à tarif fixe pour ceux revenant au cœur de la Belgique depuis la capitale française.",
+          "points": [
+            "Paris vers centre-ville Bruxelles",
+            "Déposes quartier européen",
+            "Trajets retour à tarif fixe",
+            "Voyage d'affaires et loisirs"
+          ]
+        },
+        {
+          "title": "Alternative Eurostar",
+          "description": "Évitez transferts de gare et restrictions bagages avec un véhicule privé qui vous prend à votre porte et vous dépose à destination exacte.",
+          "points": [
+            "Porte-à-porte vs Eurostar",
+            "Aucune restriction bagages",
+            "Horaires de départ flexibles",
+            "Alternative Brussels-Midi"
+          ]
+        },
+        {
+          "title": "Tournées horaires",
+          "description": "Gardez votre chauffeur pour la journée entre réunions d'affaires à Bruxelles et Paris.",
+          "points": [
+            "Itinéraires affaires multi-villes",
+            "Réunions La Défense et Bruxelles",
+            "Chauffeur à disposition toute la journée",
+            "Horaires corporate flexibles"
+          ]
+        },
+        {
+          "title": "Transferts grands groupes",
+          "description": "Transport professionnel pour équipes ou familles en minivans spacieux (12 pax) ou autocars grand format (50 pax).",
+          "points": [
+            "Minivans jusqu'à 12 passagers",
+            "Autocars jusqu'à 50 passagers",
+            "Délégations mode et corporate",
+            "Compétitif pour groupes de 3+"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Paysage parisien et service de transfert taxi premium Bruxelles vers Paris",
+      "badge": {
+        "value": "300km",
+        "label": "Bruxelles ⇌ Paris"
+      },
+      "title_line1": "Transfert transfrontalier fluide",
+      "title_accent": "Entre deux capitales",
+      "paragraphs": [
+        "Que vous voyagiez pour affaires ou loisirs entre les capitales, notre service de taxi premium offre une alternative sans stress aux trains et vols. Profitez d'un service porte-à-porte dans un environnement calme et climatisé adapté à votre emploi du temps.",
+        "Basés à Bruxelles, nous sommes spécialistes régionaux du corridor Bruxelles–Paris de 300 km — naviguant l'autoroute A1/E19 et le Périphérique parisien avec des chauffeurs experts connaissant chaque boulevard d'accès."
+      ],
+      "account": {
+        "title": "Combinaisons Bruxelles–Paris populaires",
+        "description": "Connexions taxi privées directes entre hubs d'affaires, aéroports et quartiers de luxe de Bruxelles et Paris.",
+        "points": [
+          "Quartier européen Bruxelles → Paris La Défense (Hub affaires) · 3 h 15 – 3 h 45",
+          "Brussels Airport (BRU) → Paris Charles de Gaulle (CDG) · 3 h 30 – 4 h",
+          "Uccle / Ixelles → Paris 8e arrondissement (Triangle d'Or) · 3 h 15 – 3 h 45",
+          "Brussels-Midi → Aéroport Paris Orly (ORY) · 3 h 30 – 4 h"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Ce que comprend votre taxi Bruxelles–Paris",
+      "description": "Chauffeurs longue distance experts, confort exécutif et tarifs interurbains transparents pour chaque trajet transfrontalier.",
+      "items": [
+        {
+          "title": "Chauffeurs longue distance experts",
+          "description": "Chauffeurs basés à Bruxelles très expérimentés sur l'autoroute A1/E19 et le complexe Périphérique parisien — avec connaissance approfondie des accès centre-ville."
+        },
+        {
+          "title": "Productivité en route",
+          "description": "Nos véhicules exécutifs offrent un espace calme pour travailler, appeler ou se reposer pendant le trajet de 3 h 30 — avec Wi-Fi optionnel et sièges inclinables confortables."
+        },
+        {
+          "title": "Tarifs interurbains transparents",
+          "description": "Tarifs fixes tout compris couvrant tous les péages autoroutiers français et belges — aucun frais caché, quelles que soient les conditions de trafic."
+        },
+        {
+          "title": "Commodité alternative Eurostar",
+          "description": "Évitez les transferts gare Brussels-Midi et Paris Gare du Nord — profitez d'un vrai service porte-à-porte sans restrictions bagages ni horaires de train fixes."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Combien de temps dure le trajet entre Bruxelles et Paris ?",
+          "answer": "Le trajet dure généralement entre 3 heures 15 minutes et 3 heures 45 minutes, selon votre point de dépose à Paris et le trafic actuel sur les boulevards d'accès. Les transferts vers les aéroports CDG ou Orly peuvent prendre de 3 heures 30 minutes à 4 heures."
+        },
+        {
+          "question": "Pouvez-vous me prendre à Paris CDG et m'emmener à Bruxelles ?",
+          "answer": "Oui. Nous assurons des transferts complets Paris vers Bruxelles depuis Charles de Gaulle (CDG), Orly (ORY) et toute adresse parisienne directement vers le centre-ville de Bruxelles, le quartier européen ou Brussels Airport. Votre chauffeur vous retrouvera au point de prise en charge convenu avec une pancarte."
+        },
+        {
+          "question": "Est-il possible de faire une escale à Lille ou en Champagne ?",
+          "answer": "Absolument. Des escales optionnelles à Lille, Reims ou dans la région Champagne peuvent être organisées lors de la réservation. Veuillez mentionner votre escale préférée lors de la demande de devis afin que nous puissions ajuster l'itinéraire et les horaires en conséquence."
+        },
+        {
+          "question": "Comment le prix se compare-t-il à l'Eurostar/Thalys ?",
+          "answer": "Pour les voyageurs seuls, l'Eurostar peut être compétitif, mais pour les groupes de trois ou plus une minivan privée est souvent plus économique — surtout en tenant compte de la commodité porte-à-porte, capacité bagages et absence de transferts gare à Brussels-Midi ou Paris Gare du Nord."
+        },
+        {
+          "question": "Que se passe-t-il en cas de trafic dense à Paris ?",
+          "answer": "Nos chauffeurs surveillent le trafic en direct et utilisent leur expertise du Périphérique pour contourner la congestion via des accès alternatifs. Nous intégrons une marge dans chaque réservation et vous informons des retards significatifs par SMS."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire transfert Paris",
+        "title": "Transferts Bruxelles–Paris fluides",
+        "subtitle": "Que vous voyagiez pour affaires ou loisirs entre les capitales, notre service de taxi premium offre une alternative sans stress aux trains et vols. Profitez d'un service porte-à-porte dans un environnement calme et climatisé adapté à votre emploi du temps.",
+        "features": [
+          "Itinéraire direct autoroute A1/E19",
+          "Alternative Eurostar sans contraintes gare",
+          "Accès La Défense et Champs-Élysées",
+          "Tarifs transfrontaliers tout compris",
+          "Trajet porte-à-porte de 3 h 30",
+          "Experts navigation Périphérique parisien",
+          "Escales optionnelles Lille ou Champagne",
+          "Compétitif pour groupes de 3+"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Les spécialistes de référence de l'itinéraire Bruxelles ⇌ Paris",
+      "description": "Notre service de taxi Paris offre un <highlight>transport porte-à-porte à tarif fixe</highlight> pour dirigeants corporate, délégations mode et voyageurs de luxe — sans le stress des horaires Eurostar ou vols court-courrier.",
+      "reasons": [
+        "Transferts Brussels Airport vers Paris",
+        "Paris CDG et Orly vers Bruxelles",
+        "Paris vers centre-ville Bruxelles",
+        "Alternative Eurostar porte-à-porte",
+        "Connexions hub affaires La Défense",
+        "Champs-Élysées et Triangle d'Or",
+        "Quartier européen Bruxelles vers Paris",
+        "Roadshows multi-villes à l'heure",
+        "Minivans et autocars grands groupes",
+        "Escales optionnelles Lille et Champagne",
+        "Spécialistes autoroute A1/E19",
+        "Experts navigation Périphérique parisien",
+        "Tarifs tout compris incluant péages",
+        "Chauffeurs professionnels multilingues"
+      ],
+      "highlight": {
+        "title": "Vérifier la disponibilité et les tarifs",
+        "description": "\"Voyagez entre les deux capitales les plus emblématiques d'Europe occidentale dans le confort et le prestige — service de taxi premium porte-à-porte sur le corridor Bruxelles–Paris de 300 km.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Meet-and-greet aux aéroports BRU et Paris",
+          "Transferts La Défense et Champs-Élysées",
+          "Commodité alternative Eurostar",
+          "Escales optionnelles Lille et Champagne",
+          "Itinéraires tournées exécutives",
+          "Options minivan et autocar pour groupes",
+          "Tous les péages français et belges inclus",
+          "Assistance client en direct 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Vérifier la disponibilité et les tarifs",
+      "description": "Réservation rapide et simple pour un service de taxi fiable Bruxelles ⇌ Paris. Obtenez votre devis instantané et confirmez en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "luxembourg_city": {
+    "banner": {
+      "top_text_primary": "Bruxelles ⇌ Luxembourg",
+      "top_text_suffix": "Transfert corridor UE",
+      "title_line1": "Services de taxi privés :",
+      "title_accent": "Bruxelles ⇌ Luxembourg City",
+      "description": "Relier les deux cœurs administratifs de l'Union européenne exige ponctualité et discrétion. Nous proposons des services de taxi premium Bruxelles vers Luxembourg (et inversement), une alternative sophistiquée porte-à-porte aux trains régionaux ou vols de correspondance. Nous sommes spécialisés dans ce corridor diplomatique et financier, au service des fonctionnaires UE, banquiers privés et dirigeants corporate.",
+      "image_alt": "Transfert taxi premium Bruxelles vers Luxembourg avec chauffeur professionnel et véhicule de luxe"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "luxembourg_transfers": "Transferts Luxembourg",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Nos services transfrontaliers premium",
+      "description": "Que vous vous rendiez à un sommet dans le quartier Kirchberg ou à une réunion financière à Ville-Haute, nos chauffeurs professionnels garantissent un environnement calme et exécutif.",
+      "items": [
+        {
+          "title": "Brussels Airport (BRU) vers Luxembourg",
+          "description": "Le moyen le plus direct de passer de votre arrivée internationale à Zaventem au Grand-Duché.",
+          "points": [
+            "Itinéraire direct BRU vers Luxembourg",
+            "2 h 45 jusqu'à Findel (LUX)",
+            "Meet-and-greet à Zaventem",
+            "Aucun transfert train ou gare"
+          ]
+        },
+        {
+          "title": "Luxembourg vers quartier européen Bruxelles",
+          "description": "Transport fiable à tarif fixe pour diplomates et fonctionnaires revenant au cœur des institutions UE.",
+          "points": [
+            "Luxembourg vers quartier européen",
+            "Déposes institutions UE",
+            "Transferts diplomatiques à tarif fixe",
+            "Service discret et ponctuel"
+          ]
+        },
+        {
+          "title": "Liaison affaires Kirchberg",
+          "description": "Transport dédié pour la Cour de justice européenne, la Banque européenne d'investissement et les grandes institutions financières au Luxembourg.",
+          "points": [
+            "Cour de justice européenne",
+            "Banque européenne d'investissement",
+            "Quartier financier Kirchberg",
+            "Transport sommets UE"
+          ]
+        },
+        {
+          "title": "Locations exécutives horaires",
+          "description": "Gardez votre chauffeur à disposition pour une journée de réunions consécutives dans les deux villes.",
+          "points": [
+            "Chauffeur à disposition toute la journée",
+            "Réunions Bruxelles et Luxembourg",
+            "Horaires exécutifs flexibles",
+            "Itinéraires multi-escales"
+          ]
+        },
+        {
+          "title": "Délégations diplomatiques",
+          "description": "Transport de groupe coordonné en minivans spacieux (12 pax) ou autocars exécutifs (50 pax) pour sommets internationaux.",
+          "points": [
+            "Minivans jusqu'à 12 passagers",
+            "Autocars exécutifs jusqu'à 50 passagers",
+            "Transport sommets internationaux",
+            "Arrivées de groupe coordonnées"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Paysage luxembourgeois et service de transfert taxi premium Bruxelles vers Luxembourg",
+      "badge": {
+        "value": "E411",
+        "label": "Bruxelles ⇌ Luxembourg"
+      },
+      "title_line1": "Transfert corridor UE fluide",
+      "title_accent": "Entre deux capitales",
+      "paragraphs": [
+        "Que vous voyagiez entre institutions UE, centres financiers ou aéroports internationaux, notre service de taxi premium garantit un trajet professionnel et confortable entre les deux capitales. Profitez d'un environnement bureau mobile privé pendant le transfert de 2 h 30.",
+        "Basés à Bruxelles, nous sommes spécialistes du corridor diplomatique et financier Bruxelles–Luxembourg — maîtrisant l'autoroute E411 à travers les Ardennes avec des chauffeurs experts garantissant sécurité et efficacité par tous temps."
+      ],
+      "account": {
+        "title": "Combinaisons Bruxelles–Luxembourg populaires",
+        "description": "Connexions taxi privées directes entre institutions UE de Bruxelles et hubs affaires et financiers du Luxembourg.",
+        "points": [
+          "Commission européenne Bruxelles → Kirchberg Luxembourg (Hub UE) · 2 h 30",
+          "Brussels Airport (BRU) → Aéroport Luxembourg Findel (LUX) · 2 h 45",
+          "Ixelles / Etterbeek → Luxembourg Ville-Haute (Centre-ville) · 2 h 30",
+          "Brussels-Midi → Cloche d'Or Business District · 2 h 30"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Ce que comprend votre taxi Bruxelles–Luxembourg",
+      "description": "Expertise itinéraire E411, environnement bureau mobile et tarifs tout compris transparents pour chaque trajet transfrontalier.",
+      "items": [
+        {
+          "title": "Expertise itinéraire E411",
+          "description": "Chauffeurs basés à Bruxelles maîtres de la route des Ardennes — spécialistes E411 avec expertise conduite par tous temps et suivi trafic temps réel."
+        },
+        {
+          "title": "Un environnement de bureau mobile",
+          "description": "Nos véhicules offrent un espace sécurisé et calme avec Wi-Fi optionnel, vitres teintées et prises — pour préparer vos réunions ou passer des appels privés pendant le trajet de 2 h 30."
+        },
+        {
+          "title": "Tarifs tout compris transparents",
+          "description": "Tarifs fixes incluant toutes les taxes routières belges et luxembourgeoises — aucun coût inattendu selon le trafic local."
+        },
+        {
+          "title": "Service attente et retour",
+          "description": "Besoin que votre chauffeur attende pendant votre réunion au Luxembourg ? Notre service attente et retour garde votre emploi du temps flexible sans re-réserver un retour séparé."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Combien de temps dure le trajet entre Bruxelles et Luxembourg ?",
+          "answer": "Le trajet dure généralement environ 2 h 30. Nous utilisons principalement l'autoroute E411, lien direct entre les deux villes. Les transferts vers l'aéroport Luxembourg Findel (LUX) peuvent prendre environ 2 h 45."
+        },
+        {
+          "question": "Pouvez-vous me prendre au Luxembourg pour un retour à Bruxelles ?",
+          "answer": "Oui. Nous assurons des transferts complets Luxembourg vers Bruxelles depuis Kirchberg, Ville-Haute, Cloche d'Or, aéroport Findel (LUX) et toute adresse luxembourgeoise directement vers le centre-ville de Bruxelles, le quartier européen ou Brussels Airport. Votre chauffeur vous retrouvera au point convenu avec une pancarte."
+        },
+        {
+          "question": "Est-il possible d'inclure une escale à Namur ou dans les Ardennes ?",
+          "answer": "Absolument. Des escales optionnelles à Namur ou des pauses panoramiques dans les Ardennes peuvent être organisées lors de la réservation. Veuillez mentionner votre escale préférée lors de la demande de devis afin que nous puissions ajuster l'itinéraire et les horaires en conséquence."
+        },
+        {
+          "question": "En quoi ce service profite-t-il aux voyageurs d'affaires par rapport au train ?",
+          "answer": "Le taxi privé offre la commodité porte-à-porte sans transferts gare, un environnement bureau mobile calme avec Wi-Fi optionnel, horaires flexibles et accès direct à Kirchberg et Cloche d'Or — destinations nécessitant souvent un transport local supplémentaire depuis la gare."
+        },
+        {
+          "question": "Que se passe-t-il si ma réunion au Luxembourg se prolonge ?",
+          "answer": "Notre service attente et retour est conçu pour ce scénario. Lors de la réservation, sélectionnez l'option attente et retour et votre chauffeur restera en attente. En cas de retard imprévu, contactez-le directement via les coordonnées SMS envoyées avant le trajet."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire transfert Luxembourg",
+        "title": "Transferts Bruxelles–Luxembourg fluides",
+        "subtitle": "Que vous voyagiez entre institutions UE, centres financiers ou aéroports internationaux, notre service de taxi premium garantit un trajet professionnel et confortable entre les deux capitales. Profitez d'un environnement bureau mobile privé pendant le transfert de 2 h 30.",
+        "features": [
+          "Itinéraire direct autoroute E411",
+          "Bureau mobile avec Wi-Fi disponible",
+          "Accès institutions UE Kirchberg",
+          "Tarifs transfrontaliers tout compris",
+          "Trajet porte-à-porte de 2 h 30",
+          "Spécialistes corridor diplomatique et financier",
+          "Options location exécutive horaire",
+          "Service attente et retour disponible"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Les spécialistes de référence de l'itinéraire Bruxelles ⇌ Luxembourg",
+      "description": "Notre service de taxi Luxembourg offre un <highlight>transport porte-à-porte à tarif fixe</highlight> pour fonctionnaires UE, banquiers privés et dirigeants corporate — sans le stress des trains régionaux ou vols de correspondance.",
+      "reasons": [
+        "Transferts Brussels Airport vers Luxembourg",
+        "Luxembourg Findel (LUX) vers Bruxelles",
+        "Luxembourg vers quartier européen Bruxelles",
+        "Transport institutions UE Kirchberg",
+        "Transferts Cour de justice européenne",
+        "Connexions Banque européenne d'investissement",
+        "Quartier d'affaires Cloche d'Or",
+        "Déposes centre-ville Ville-Haute",
+        "Locations exécutives horaires",
+        "Transport de délégations diplomatiques",
+        "Escales optionnelles Namur et Ardennes",
+        "Spécialistes autoroute E411",
+        "Tarifs tout compris incluant péages",
+        "Service attente et retour disponible"
+      ],
+      "highlight": {
+        "title": "Vérifier la disponibilité et les tarifs",
+        "description": "\"Reliez les deux cœurs administratifs de l'Union européenne dans le confort et la discrétion — service de taxi premium porte-à-porte sur le corridor diplomatique Bruxelles–Luxembourg.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Meet-and-greet aux aéroports BRU et LUX",
+          "Transferts Kirchberg et Cloche d'Or",
+          "Connexions quartier européen",
+          "Escales optionnelles Namur et Ardennes",
+          "Options location exécutive horaire",
+          "Transport de délégations diplomatiques",
+          "Tous les péages belges et luxembourgeois inclus",
+          "Assistance client en direct 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Vérifier la disponibilité et les tarifs",
+      "description": "Réservation rapide et simple pour un service de taxi fiable Bruxelles ⇌ Luxembourg. Obtenez votre devis instantané et confirmez en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  },
+  "brussels_to_maastricht": {
+    "banner": {
+      "top_text_primary": "Brussels Airport vers Maastricht",
+      "top_text_suffix": "Transfert transfrontalier",
+      "title_line1": "Transfert privé depuis",
+      "title_accent": "Brussels Airport vers Maastricht",
+      "description": "Vous recherchez un transfert fiable de Brussels Airport (BRU) vers Maastricht ? City Airport Taxis propose des services de taxi privés professionnels avec meet-and-greet à l'aéroport, tarifs fixes et véhicules confortables pour un trajet fluide. Que vous voyagiez pour affaires, des événements comme TEFAF Maastricht, ou des loisirs, nos chauffeurs expérimentés garantissent un transfert sûr et sans stress vers le centre-ville, hôtels ou adresses privées de Maastricht.",
+      "image_alt": "Transfert taxi premium Brussels Airport vers Maastricht avec chauffeur professionnel"
+    },
+    "stats": {
+      "corporate_clients": "Clients corporate",
+      "maastricht_transfers": "Transferts Maastricht",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "premium_services": {
+      "title": "Service Meet and Greet à Brussels Airport",
+      "description": "Notre service meet-and-greet à Brussels Airport garantit un départ fluide vers Maastricht. Après l'atterrissage à BRU, votre chauffeur professionnel vous attendra dans le hall des arrivées avec une pancarte à votre nom.",
+      "items": [
+        {
+          "title": "Service Meet and Greet",
+          "description": "Votre chauffeur vous aidera avec les bagages et vous accompagnera directement à votre véhicule garé à proximité. Idéal pour voyageurs après longs vols, passagers d'affaires ou visiteurs pour la première fois.",
+          "points": [
+            "Pancarte nominative personnalisée aux arrivées",
+            "Aide aux bagages incluse",
+            "Véhicule garé à proximité",
+            "Contact chauffeur par SMS avant l'atterrissage"
+          ]
+        },
+        {
+          "title": "Service taxi exécutif TEFAF Maastricht",
+          "description": "Transferts directs de Brussels Airport vers TEFAF Maastricht avec véhicules business et de luxe. Chauffeurs anglophones professionnels et service taxi horaire flexible à Maastricht.",
+          "points": [
+            "Direct BRU vers TEFAF Maastricht",
+            "Véhicules business et de luxe",
+            "Chauffeurs anglophones",
+            "Location horaire flexible à Maastricht"
+          ]
+        },
+        {
+          "title": "Voyage d'affaires et transferts corporate",
+          "description": "Véhicules premium et chauffeurs expérimentés pour dirigeants corporate, collectionneurs d'art et voyageurs d'affaires internationaux assistant à des événements et conférences à Maastricht.",
+          "points": [
+            "Transport exécutif corporate",
+            "Spécialiste salons d'art et conférences",
+            "Connexions Université de Maastricht",
+            "Service discret et ponctuel"
+          ]
+        },
+        {
+          "title": "Transfert privé vs transport public",
+          "description": "Transport porte-à-porte direct sans files de taxi, voyage confortable avec bagages et horaires d'arrivée fiables pour réunions ou événements.",
+          "points": [
+            "Pas d'attente dans les files de taxi",
+            "Commodité porte-à-porte",
+            "Horaires d'arrivée fixes",
+            "Manipulation confortable des bagages"
+          ]
+        },
+        {
+          "title": "Transferts retour vers Bruxelles",
+          "description": "Réservez un retour fluide de Maastricht vers Brussels Airport, centre-ville ou toute adresse belge avec la même garantie de tarif fixe.",
+          "points": [
+            "Maastricht vers aéroport BRU",
+            "Retour centre-ville Bruxelles",
+            "Allers-retours à tarif fixe",
+            "Planification prise en charge flexible"
+          ]
+        }
+      ]
+    },
+    "story": {
+      "image_alt": "Itinéraire Bruxelles vers Maastricht et transfert taxi transfrontalier premium",
+      "badge": {
+        "value": "121km",
+        "label": "BRU → Maastricht"
+      },
+      "title_line1": "Aperçu de l'itinéraire",
+      "title_accent": "Brussels Airport vers Maastricht",
+      "paragraphs": [
+        "Évitez les longues files de taxis et les correspondances de transport en commun compliquées. Voyagez confortablement avec notre service de transfert aéroport privé de Brussels Airport vers Maastricht — fiable, tarif fixe et disponible 24h/24.",
+        "Le trajet de 121 km dure généralement environ 1 h 20 via l'autoroute E40/A2, en traversant la frontière belgo-néerlandaise avec des chauffeurs experts connaissant les itinéraires les plus rapides vers le centre-ville, hôtels et lieux d'événements de Maastricht."
+      ],
+      "account": {
+        "title": "Aperçu itinéraire – Brussels Airport vers Maastricht",
+        "description": "Détails clés du trajet pour votre transfert privé Brussels Airport vers Maastricht.",
+        "points": [
+          "Distance · 121 km (75 milles)",
+          "Durée moyenne · 1 h 20",
+          "Service · Transfert taxi privé avec meet-and-greet",
+          "Disponibilité · Service prise en charge aéroport 24h/24"
+        ]
+      }
+    },
+    "why_choose": {
+      "title": "Pourquoi choisir notre transfert Brussels Airport vers Maastricht ?",
+      "description": "Services de taxi premium entre Brussels Airport et Maastricht — idéal pour voyageurs corporate, familles et invités VIP.",
+      "items": [
+        {
+          "title": "Chauffeurs professionnels",
+          "description": "Chauffeurs expérimentés et vérifiés avec expertise locale de l'itinéraire Bruxelles–Maastricht et navigation autoroute transfrontalière."
+        },
+        {
+          "title": "Meet and Greet à Brussels Airport",
+          "description": "Meet-and-greet personnalisé dans le hall des arrivées avec aide aux bagages — votre chauffeur attend avec une pancarte avant même que vous récupériez vos bagages."
+        },
+        {
+          "title": "Tarif fixe — sans frais cachés",
+          "description": "Tarifs fixes tout compris couvrant prise en charge aéroport, péages, taxes et temps d'attente. Le prix affiché lors de la réservation est le prix final."
+        },
+        {
+          "title": "Suivi des vols en temps réel",
+          "description": "Nous surveillons votre vol arrivant et ajustons automatiquement les heures de prise en charge — avec 60 minutes d'attente gratuites incluses après l'atterrissage."
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "À quelle distance se trouve Maastricht de Brussels Airport ?",
+          "answer": "Maastricht se situe à environ 121 km (75 miles) de Brussels Airport. Le trajet dure généralement environ 1 h 20 en voiture privée via l'autoroute E40/A2."
+        },
+        {
+          "question": "Quel est le meilleur moyen de voyager de Brussels Airport à Maastricht ?",
+          "answer": "Un transfert en taxi privé est l'option la plus pratique — service direct porte-à-porte sans changements de train, transferts de gare ni files de taxis. Idéal pour les voyageurs d'affaires, les familles avec bagages et les visiteurs de TEFAF Maastricht nécessitant des horaires d'arrivée fiables."
+        },
+        {
+          "question": "Combien coûte un transfert de Brussels Airport à Maastricht ?",
+          "answer": "Le tarif dépend du type de véhicule (berline, business class ou minivan) et du nombre de passagers. Tous les devis sont des tarifs fixes tout compris sans frais cachés — couvrant péages, taxes, meet-and-greet et temps d'attente. Demandez un devis instantané en ligne pour votre prix exact."
+        },
+        {
+          "question": "Proposez-vous un service meet and greet à Brussels Airport ?",
+          "answer": "Oui. Votre chauffeur attendra dans le hall des arrivées avec une pancarte personnalisée, vous aidera avec les bagages et vous accompagnera à votre véhicule. Vous recevrez également le numéro direct de votre chauffeur par SMS avant l'atterrissage."
+        },
+        {
+          "question": "Puis-je réserver un transfert de Brussels Airport vers TEFAF Maastricht ?",
+          "answer": "Absolument. Nous sommes spécialisés dans le transport pour TEFAF Maastricht avec des véhicules business et de luxe, des chauffeurs anglophones et un service de taxi horaire flexible pour collectionneurs d'art et délégations corporate participant au salon."
+        }
+      ]
+    },
+    "why_choose_section": {
+      "sidebar": {
+        "badge": "Partenaire transfert Maastricht",
+        "title": "Réservez votre transfert Brussels Airport vers Maastricht",
+        "subtitle": "Évitez les longues files de taxis et les correspondances de transport en commun compliquées. Voyagez confortablement avec notre service de transfert aéroport privé de Brussels Airport vers Maastricht.",
+        "features": [
+          "Tarif fixe — péages, taxes et attente inclus",
+          "Meet-and-greet aux arrivées Brussels Airport",
+          "Suivi vols temps réel avec 60 min d'attente gratuite",
+          "Berlines premium, business class et minivans",
+          "Transport privé porte-à-porte",
+          "Spécialiste événement TEFAF Maastricht",
+          "Trajet 121 km en ~1 h 20",
+          "Confirmation instantanée et paiement en ligne sécurisé"
+        ],
+        "button": "Obtenir un devis instantané"
+      },
+      "title": "Les spécialistes de référence de l'itinéraire BRU vers Maastricht",
+      "description": "Notre service de transfert Maastricht offre un <highlight>transport porte-à-porte à tarif fixe</highlight> de Brussels Airport vers hôtels, lieux d'événements et adresses privées de Maastricht — sans le stress des connexions transport public.",
+      "reasons": [
+        "Brussels Airport vers centre-ville Maastricht",
+        "Transferts événement TEFAF Maastricht",
+        "Connexions Université de Maastricht",
+        "Transport invités corporate et VIP",
+        "Transferts retour vers Brussels Airport",
+        "Meet-and-greet aux arrivées BRU",
+        "Suivi des vols en temps réel",
+        "60 minutes d'attente gratuites à l'aéroport",
+        "Options berline, business et minivan",
+        "Tarifs fixes tout compris",
+        "Prise en charge aéroport disponible 24h/24",
+        "Itinéraire transfrontalier Belgique–Pays-Bas",
+        "Chauffeurs professionnels anglophones",
+        "Service taxi horaire à Maastricht"
+      ],
+      "highlight": {
+        "title": "Réservez votre transfert Maastricht",
+        "description": "\"Voyagez confortablement de Brussels Airport vers Maastricht avec des tarifs fixes, un service meet-and-greet et des chauffeurs professionnels maîtrisant l'itinéraire transfrontalier.\"",
+        "list_title": "Ce qui est inclus :",
+        "list_items": [
+          "Prise en charge aéroport et meet-and-greet",
+          "Péages autoroute et taxes inclus",
+          "Suivi vols et temps d'attente gratuit",
+          "Transport événement TEFAF Maastricht",
+          "Réservation trajet retour disponible",
+          "Sélection véhicules premium",
+          "Paiement en ligne sécurisé",
+          "Assistance client en direct 24h/24"
+        ],
+        "ctaText": "Obtenir un devis instantané",
+        "ctaHref": "/"
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert Brussels Airport vers Maastricht",
+      "description": "Transfert à tarif fixe incluant prise en charge aéroport, suivi vols, temps d'attente, péages autoroute et service chauffeur professionnel. Obtenez votre devis instantané et confirmez en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  }
+}

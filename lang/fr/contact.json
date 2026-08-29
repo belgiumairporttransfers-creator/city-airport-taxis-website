@@ -1,0 +1,134 @@
+{
+  "banner": {
+    "top_text_primary": "Contactez-nous",
+    "top_text_suffix": "Transferts Aéroport Belgique",
+    "title_line1": "Contactez",
+    "title_accent": "Notre Équipe",
+    "description": "Nous comprenons que les plans de voyage peuvent changer, que les horaires peuvent être serrés et que les besoins de transport varient. C'est pourquoi notre équipe d'assistance dédiée est disponible 24h/24 et 7j/7 pour vous apporter une aide rapide, répondre à vos questions et vous aider à réserver le transfert aéroport parfait partout en Belgique.",
+    "image_alt": "Chauffeur professionnel accueillant des voyageurs dans un aéroport belge"
+  },
+  "cards": {
+    "phone": {
+      "title": "Téléphone",
+      "description": "Parlez directement avec notre équipe d'assistance",
+      "call_label": "Téléphone",
+      "whatsapp_label": "WhatsApp"
+    },
+    "email": {
+      "title": "E-mail",
+      "description": "Demandes générales et devis entreprises"
+    },
+    "hours": {
+      "title": "Heures d'ouverture",
+      "description": "Disponible 24 heures sur 24, 7 jours sur 7"
+    }
+  },
+  "form": {
+    "top_text": "Envoyez-nous un message",
+    "title": "Entamons la conversation",
+    "description": "Nous apprécions votre temps et votre intérêt. Remplissez le formulaire et notre équipe vous recontactera rapidement pour discuter de vos besoins en transfert aéroport ou en service de chauffeur.",
+    "benefits": {
+      "personalized": {
+        "title": "Service personnalisé",
+        "description": "Des solutions adaptées à vos besoins de voyage spécifiques."
+      },
+      "privacy": {
+        "title": "Confidentialité garantie",
+        "description": "Vos informations sont traitées avec discrétion."
+      }
+    },
+    "labels": {
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "email": "Adresse e-mail",
+      "phone": "Numéro de téléphone",
+      "subject": "Objet",
+      "message": "Message"
+    },
+    "placeholders": {
+      "firstname": "Entrez votre prénom",
+      "lastname": "Entrez votre nom",
+      "email": "Entrez votre adresse e-mail",
+      "phone": "+32 2 520 75 26",
+      "subject": "Entrez l'objet de votre message",
+      "message": "Entrez votre message"
+    },
+    "button": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Merci ! Votre message a été envoyé avec succès.",
+    "error": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "service_locations": {
+    "title": "Nos zones de service en Belgique",
+    "image_alt": "Chauffeur professionnel avec un véhicule de luxe prêt pour les transferts aéroport en Belgique",
+    "categories": [
+      {
+        "label": "Grandes villes",
+        "items": [
+          "Bruxelles",
+          "Anvers",
+          "Gand",
+          "Bruges",
+          "Liège",
+          "Charleroi",
+          "Louvain",
+          "Namur"
+        ]
+      },
+      {
+        "label": "Principaux aéroports",
+        "items": [
+          "Brussels Airport (BRU)",
+          "Brussels South Charleroi (CRL)",
+          "Antwerp International (ANR)",
+          "Liège Airport (LGG)",
+          "Ostend-Bruges Airport (OST)"
+        ]
+      },
+      {
+        "label": "Destinations populaires",
+        "items": [
+          "Quartier européen Bruxelles",
+          "Port d'Anvers",
+          "Centre historique de Bruges",
+          "Pôles économiques de Wallonie"
+        ]
+      }
+    ]
+  },
+  "why_choose": {
+    "sidebar": {
+      "title": "Mettons-vous en route",
+      "subtitle": "Notre mission est de fournir un transport premium en Belgique, fondé sur le professionnalisme, la ponctualité et un service client exceptionnel.",
+      "features": [
+        "Disponibilité 24h/24",
+        "Chauffeurs professionnels",
+        "Flotte premium",
+        "Suivi des vols",
+        "Tarifs fixes",
+        "Couverture nationale en Belgique"
+      ],
+      "button": "Réserver maintenant"
+    },
+    "title": "Pourquoi choisir notre service de taxi professionnel ?",
+    "description": "Des milliers de voyageurs en Belgique nous choisissent parce que nous offrons constamment :",
+    "reasons": [
+      "Chauffeurs professionnels",
+      "Disponibilité 24h/24",
+      "Couverture nationale en Belgique",
+      "Options de flotte premium",
+      "Service Meet & Greet",
+      "Suivi des vols",
+      "Tarifs fixes",
+      "Transport sûr et fiable",
+      "Solutions de voyage d'affaires",
+      "Service client exceptionnel"
+    ],
+    "highlight": {
+      "tag": "Assistance à la réservation",
+      "title": "Besoin d'aide pour réserver votre trajet ?",
+      "description": "Notre équipe peut vous aider à choisir la bonne option de transport en fonction de vos besoins de voyage. Que vous voyagiez seul, en famille, dans le cadre d'une délégation d'entreprise ou en groupe, nous vous recommanderons le véhicule et le forfait de service les plus adaptés.",
+      "cta_text": "Demander un devis rapide"
+    }
+  }
+}

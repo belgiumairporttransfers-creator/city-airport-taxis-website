@@ -1,0 +1,32 @@
+{
+  "badge": "FAQ",
+  "title": "Veelgestelde vragen",
+  "description": "Alles wat u moet weten over het boeken van uw taxi-transfer naar Brussels Airport.",
+  "description_secondary": "Kunt u het antwoord niet vinden? Neem contact op met ons supportteam — we helpen u graag.",
+  "items": [
+    {
+      "question": "Hoe vind ik mijn chauffeur op Brussels Airport?",
+      "answer": "Uw chauffeur wacht u op in de aankomsthal met een bord met uw naam."
+    },
+    {
+      "question": "Wat gebeurt er als mijn vlucht vertraagd is?",
+      "answer": "We volgen alle binnenkomende vluchten en passen de ophaaltijd dienovereenkomstig aan zonder extra kosten."
+    },
+    {
+      "question": "Zijn uw prijzen vast?",
+      "answer": "Ja. Alle luchthaventransferprijzen zijn vast en worden bevestigd vóór uw rit."
+    },
+    {
+      "question": "Kan ik een transfer voor een groep boeken?",
+      "answer": "Absoluut. We bieden Mercedes V-Klasse en premium minivans voor grotere groepen."
+    },
+    {
+      "question": "Bieden jullie kinderzitjes aan?",
+      "answer": "Ja, kinder- en stoelverhogers zijn op verzoek beschikbaar."
+    },
+    {
+      "question": "Kan ik een retourtransfer boeken?",
+      "answer": "Ja, zowel enkele als retour luchthaventransfers kunnen worden geregeld."
+    }
+  ]
+}

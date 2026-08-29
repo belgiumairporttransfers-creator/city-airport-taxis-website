@@ -1,0 +1,108 @@
+{
+  "banner": {
+    "top_text": "Documentation",
+    "title": "Centre d'aide & FAQ",
+    "description": "Guide complet et questions fréquemment posées pour vous aider à gérer vos réservations et vos déplacements."
+  },
+  "sections": {
+    "general": {
+      "category": "Général",
+      "title": "Questions fréquemment posées",
+      "description": "Informations générales sur nos services, le processus de réservation et les politiques de l'entreprise."
+    },
+    "complications": {
+      "category": "Problèmes de réservation",
+      "title": "Gérer les complications de réservation",
+      "description": "Solutions et conseils pour les problèmes courants rencontrés pendant ou après le processus de réservation."
+    },
+    "management": {
+      "category": "Gestion",
+      "title": "Par réservation",
+      "description": "Comment gérer, consulter ou annuler vos réservations existantes via notre plateforme."
+    },
+    "travel": {
+      "category": "Voyage",
+      "title": "Problèmes de voyage et d'arrivée",
+      "description": "Informations concernant les retards de vol, les objets perdus et les procédures d'arrivée."
+    }
+  },
+  "faqs": {
+    "booking_advance": {
+      "question": "Combien de temps à l'avance puis-je réserver en ligne ?",
+      "answer": "Nous acceptons les réservations en ligne effectuées <strong_p>au moins 4 heures à l'avance</strong_p>. (du lundi au dimanche). Avez-vous besoin d'un taxi ou d'un service de chauffeur dans les 3 heures ? Appelez le <strong_s>+92 21 111 247 247</strong_s> pour vérifier la disponibilité."
+    },
+    "airport_meeting": {
+      "question": "Où puis-je retrouver mon chauffeur ?",
+      "answer": "Vous pouvez retrouver votre chauffeur dans la zone de prise en charge désignée à l'extérieur des arrivées de l'aéroport international Jinnah.\n\nAprès avoir passé l'immigration et récupéré vos bagages, sortez du hall des arrivées et rendez-vous au point de rencontre indiqué dans votre e-mail de confirmation. Votre chauffeur affichera votre nom ou une pancarte de l'entreprise. Si vous ne trouvez pas votre chauffeur, appelez immédiatement le numéro indiqué dans votre confirmation de réservation."
+    },
+    "cancellation": {
+      "question": "Quelle est votre politique d'annulation ?",
+      "answer": "Les annulations effectuées plus de 24 heures avant l'heure de prise en charge prévue sont généralement gratuites. Pour plus de détails, veuillez consulter nos conditions générales complètes."
+    },
+    "payment": {
+      "question": "Quels modes de paiement acceptez-vous ?",
+      "answer": "Nous acceptons toutes les principales cartes de crédit, PayPal et JazzCash. Vous pouvez payer en toute sécurité en ligne au moment de la réservation via notre passerelle de paiement sécurisée."
+    },
+    "wait_time": {
+      "question": "Combien de temps le chauffeur nous attend-il à l'aéroport ?",
+      "answer": "Pour les prises en charge à l'aéroport, nous incluons 60 minutes d'attente gratuite à partir de l'heure d'arrivée réelle du vol, afin de vous laisser le temps de récupérer vos bagages et de passer la douane."
+    },
+    "vip_pickup": {
+      "question": "Prise en charge VIP ?",
+      "answer": "Notre service de prise en charge VIP comprend un véhicule premium, un accueil dans le hall des arrivées et une assistance bagages dédiée pour une expérience fluide."
+    },
+    "luggage": {
+      "question": "Informations de voyage / Bagages",
+      "answer": "Veuillez indiquer le nombre correct de passagers et de bagages lors de la réservation. Cela nous aide à attribuer le véhicule le plus adapté à votre confort."
+    },
+    "no_journey": {
+      "question": "Le trajet n'a pas eu lieu",
+      "answer": "Si vous n'avez pas trouvé le chauffeur et que le trajet n'a pas eu lieu, soumettez une <a>demande de remboursement ici</a>."
+    },
+    "no_phone": {
+      "question": "Le chauffeur ou la société de transfert ne répond pas au téléphone",
+      "answer": "Si vous ne parvenez pas à joindre le chauffeur, veuillez contacter immédiatement notre ligne d'assistance 24h/24. Nous vous aiderons à coordonner avec le chauffeur ou à organiser une alternative."
+    },
+    "no_meeting_point": {
+      "question": "Je ne trouve pas mon chauffeur ou le point de rencontre",
+      "answer": "Veuillez vérifier attentivement votre e-mail de confirmation pour les instructions exactes. Si vous ne parvenez toujours pas à localiser le chauffeur, appelez-le directement via le numéro fourni."
+    },
+    "cancel_booking": {
+      "question": "Annuler ma réservation",
+      "answer": "Veuillez vous connecter avec votre <strong>identifiant client et mot de passe</strong> qui vous ont déjà été envoyés par e-mail. Si vous avez des questions, contactez-nous directement en indiquant votre numéro de réservation et nous serons ravis de vous aider."
+    },
+    "change_booking": {
+      "question": "Modifier ma réservation",
+      "answer": "Vous pouvez modifier les détails de votre réservation en vous connectant à votre compte ou en contactant notre service client."
+    },
+    "view_booking": {
+      "question": "Consulter ma réservation",
+      "answer": "Accédez à tous les détails de votre réservation, y compris les informations sur le chauffeur et le statut, en vous connectant à votre portail client."
+    },
+    "flight_delayed": {
+      "question": "Mon vol est retardé",
+      "answer": "Lorsque votre vol est retardé ou annulé, veuillez appeler directement le chauffeur ou la société de transfert. Si vous choisissez de ne pas contacter le prestataire, il pourrait quitter le point de prise en charge et vous risquez de ne pas obtenir votre transfert."
+    },
+    "left_item": {
+      "question": "J'ai oublié un objet dans la voiture",
+      "answer": "Veuillez nous contacter immédiatement avec votre numéro de réservation. Nous coordonnerons avec le chauffeur pour vous aider à récupérer vos objets perdus dès que possible."
+    },
+    "late_transfer": {
+      "question": "Je serai en retard pour mon transfert",
+      "answer": "Si vous prévoyez d'être en retard, informez immédiatement votre chauffeur ou notre équipe d'assistance. Veuillez noter que des frais d'attente peuvent s'appliquer après la période d'attente gratuite."
+    },
+    "local_taxis_connected": {
+      "question": "Les taxis locaux de l'aéroport sont-ils liés à Airport Transfer ?",
+      "answer": "Non. Les taxis locaux opérant à l'aéroport de Karachi sont des services indépendants et ne sont pas associés à Airport Transfer, sauf si la course a été réservée directement via notre site web."
+    },
+    "responsible_all_taxis": {
+      "question": "Airport Transfer est-il responsable de tous les taxis à l'aéroport de Karachi ?",
+      "answer": "Non. Airport Transfer n'est responsable que des courses officiellement réservées et confirmées via notre site web. Nous ne sommes pas responsables des taxis locaux de l'aéroport ni des courses réservées sur place à l'aéroport."
+    }
+  },
+  "cta": {
+    "title": "Vous ne trouvez pas ce que vous cherchez ?",
+    "description": "Si vous ne trouvez pas de réponse à votre question dans notre centre d'aide, notre équipe d'assistance se fera un plaisir de vous aider avec votre réservation.",
+    "button": "Contacter l'assistance"
+  }
+}

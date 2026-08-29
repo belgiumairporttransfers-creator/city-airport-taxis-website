@@ -15,6 +15,7 @@ import { Input } from "@/components/features/form/Input";
 import { DriverNotesField } from "./driver-notes-field";
 import { LuggageDetailsField } from "./luggage-details-field";
 import { AirportPickupField } from "./airport-pickup-field";
+import { PaymentMethodField } from "./payment-method-field";
 import { formatPrice } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { useHasHydrated } from "@/hooks/use-has-hydrated";
@@ -29,6 +30,7 @@ function Step3() {
     const { mutateAsync: createCheckoutSession, isPending } = useCreateCheckoutSession();
 
     const isAirportRoute = routeData?.isAirportSelected ?? false;
+    const paymentMethod = step3?.paymentMethod ?? "mollie";
 
     const form = useForm<PassengerDetailsFormValues>({
         defaultValues: {
@@ -42,9 +44,11 @@ function Step3() {
             handLuggage: step3?.handLuggage ?? 0,
             smallCheckedCase: step3?.smallCheckedCase ?? 0,
             largeCheckedCase: step3?.largeCheckedCase ?? 0,
+            paymentMethod,
         },
     });
     const totalPrice = useTotalPrice();
+    const selectedPaymentMethod = form.watch("paymentMethod");
 
     const handleSubmit = async (data: PassengerDetailsFormValues) => {
         setStep3Data(data);
@@ -122,8 +126,12 @@ function Step3() {
                         <DriverNotesField />
                     </div>
 
-                    <Button type="submit" className="mt-4" disabled={isPending}>
-                        {t("proceed_to_pay")} — {formatPrice(totalPrice)}
+                    <PaymentMethodField />
+
+                    <Button type="submit" className="mt-4" disabled={isPending} loading={isPending}>
+                        {selectedPaymentMethod === "pay_onboard"
+                            ? `${t("book_now")} — ${formatPrice(totalPrice)}`
+                            : `${t("proceed_to_pay")} — ${formatPrice(totalPrice)}`}
                     </Button>
                 </form>
             </Form>

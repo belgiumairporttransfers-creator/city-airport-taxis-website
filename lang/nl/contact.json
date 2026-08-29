@@ -1,0 +1,134 @@
+{
+  "banner": {
+    "top_text_primary": "Contact",
+    "top_text_suffix": "Luchthaventransfers België",
+    "title_line1": "Contacteer",
+    "title_accent": "Ons Team",
+    "description": "We begrijpen dat reisplannen kunnen wijzigen, schema's krap kunnen zijn en vervoersbehoeften kunnen variëren. Daarom is ons toegewijd supportteam 24/7 beschikbaar om u snel te helpen, uw vragen te beantwoorden en u te helpen bij het boeken van de perfecte luchthaventransfer overal in België.",
+    "image_alt": "Professionele chauffeur die reizigers begroet op een Belgische luchthaven"
+  },
+  "cards": {
+    "phone": {
+      "title": "Telefoon",
+      "description": "Spreek direct met ons supportteam",
+      "call_label": "Telefoon",
+      "whatsapp_label": "WhatsApp"
+    },
+    "email": {
+      "title": "E-mail",
+      "description": "Algemene vragen en zakelijke offertes"
+    },
+    "hours": {
+      "title": "Openingstijden",
+      "description": "24 uur per dag, 7 dagen per week beschikbaar"
+    }
+  },
+  "form": {
+    "top_text": "Stuur ons een bericht",
+    "title": "Laten we het gesprek starten",
+    "description": "We waarderen uw tijd en interesse. Vul het formulier in en ons team neemt spoedig contact met u op om uw luchthaventransfer of chauffeursdienst te bespreken.",
+    "benefits": {
+      "personalized": {
+        "title": "Gepersonaliseerde service",
+        "description": "Op maat gemaakte oplossingen voor uw specifieke reisbehoeften."
+      },
+      "privacy": {
+        "title": "Privacy gegarandeerd",
+        "description": "Uw gegevens worden discreet behandeld."
+      }
+    },
+    "labels": {
+      "firstname": "Voornaam",
+      "lastname": "Achternaam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "subject": "Onderwerp",
+      "message": "Bericht"
+    },
+    "placeholders": {
+      "firstname": "Voer uw voornaam in",
+      "lastname": "Voer uw achternaam in",
+      "email": "Voer uw e-mailadres in",
+      "phone": "+32 2 520 75 26",
+      "subject": "Voer uw onderwerp in",
+      "message": "Voer uw bericht in"
+    },
+    "button": "Bericht verzenden",
+    "sending": "Verzenden...",
+    "success": "Bedankt! Uw bericht is succesvol verzonden.",
+    "error": "Er is iets misgegaan. Probeer het opnieuw."
+  },
+  "service_locations": {
+    "title": "Onze servicelocaties in België",
+    "image_alt": "Professionele chauffeur met een luxevoertuig klaar voor luchthaventransfers in België",
+    "categories": [
+      {
+        "label": "Grote steden",
+        "items": [
+          "Brussel",
+          "Antwerpen",
+          "Gent",
+          "Brugge",
+          "Luik",
+          "Charleroi",
+          "Leuven",
+          "Namen"
+        ]
+      },
+      {
+        "label": "Belangrijke luchthavens",
+        "items": [
+          "Brussels Airport (BRU)",
+          "Brussels South Charleroi (CRL)",
+          "Antwerp International (ANR)",
+          "Liège Airport (LGG)",
+          "Ostend-Bruges Airport (OST)"
+        ]
+      },
+      {
+        "label": "Populaire bestemmingen",
+        "items": [
+          "EU-wijk Brussel",
+          "Haven van Antwerpen",
+          "Historisch centrum Brugge",
+          "Zakelijke centra in Wallonië"
+        ]
+      }
+    ]
+  },
+  "why_choose": {
+    "sidebar": {
+      "title": "Laten we u op weg helpen",
+      "subtitle": "Onze missie is premium vervoer in België te bieden, ondersteund door professionaliteit, punctualiteit en uitzonderlijke klantenservice.",
+      "features": [
+        "24/7 Beschikbaarheid",
+        "Professionele chauffeurs",
+        "Premium vloot",
+        "Vluchtmonitoring",
+        "Vaste prijzen",
+        "Heel België gedekt"
+      ],
+      "button": "Nu boeken"
+    },
+    "title": "Waarom kiezen voor onze professionele taxiservice?",
+    "description": "Duizenden reizigers in België kiezen voor ons omdat we consequent leveren:",
+    "reasons": [
+      "Professionele chauffeurs",
+      "24/7 Beschikbaarheid",
+      "Heel België gedekt",
+      "Premium vlootopties",
+      "Meet & Greet-service",
+      "Vluchtmonitoring",
+      "Vaste prijzen",
+      "Veilig en betrouwbaar vervoer",
+      "Zakelijke reisoplossingen",
+      "Uitzonderlijke klantenservice"
+    ],
+    "highlight": {
+      "tag": "Boekingshulp",
+      "title": "Hulp nodig bij het boeken van uw rit?",
+      "description": "Ons team kan u helpen de juiste vervoersoptie te kiezen op basis van uw reisbehoeften. Of u nu alleen reist, met familie, als onderdeel van een zakelijke delegatie of met een grotere groep — wij bevelen het meest geschikte voertuig en servicepakket aan.",
+      "cta_text": "Snelle offerte aanvragen"
+    }
+  }
+}

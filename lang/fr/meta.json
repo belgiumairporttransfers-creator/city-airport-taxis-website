@@ -1,0 +1,219 @@
+{
+  "title": "Transferts Aéroport Belgique | Service de Taxi Premium",
+  "description": "Réservez des transferts aéroport et des services de chauffeur fiables partout en Belgique. Chauffeurs professionnels, tarifs fixes et assistance 24h/24 pour Bruxelles, Anvers, Charleroi et Liège.",
+  "keywords": "transfert aéroport belgique, taxi aéroport bruxelles, transfert aéroport anvers, taxi aéroport charleroi, service chauffeur belgique",
+  "auth": {
+    "login": {
+      "title": "Connexion | Transferts Aéroport Belgique",
+      "description": "Connectez-vous à votre compte pour gérer vos réservations de transfert aéroport et votre profil en Belgique.",
+      "keywords": "connexion, transfert aéroport belgique, accès compte, gérer réservation"
+    },
+    "register": {
+      "title": "Inscription | Transferts Aéroport Belgique",
+      "description": "Créez un compte pour des transferts aéroport et des services de chauffeur fluides partout en Belgique.",
+      "keywords": "inscription, créer un compte, compte taxi belgique, compte transfert aéroport"
+    },
+    "forgot_password": {
+      "title": "Mot de passe oublié | Transferts Aéroport Belgique",
+      "description": "Réinitialisez le mot de passe de votre compte pour retrouver l'accès à vos réservations.",
+      "keywords": "mot de passe oublié, réinitialiser mot de passe, récupération de compte"
+    },
+    "reset_password": {
+      "title": "Réinitialiser le mot de passe | Transferts Aéroport Belgique",
+      "description": "Définissez un nouveau mot de passe pour votre compte de transfert aéroport.",
+      "keywords": "nouveau mot de passe, réinitialiser mot de passe, sécurité du compte"
+    }
+  },
+  "business": {
+    "partner": {
+      "title": "Devenez partenaire | Transferts Aéroport Belgique",
+      "description": "Devenez partenaire et rejoignez notre réseau de chauffeurs professionnels en Belgique. Horaires flexibles et revenus compétitifs.",
+      "keywords": "partenaire, chauffeur taxi belgique, rejoindre l'équipe, réseau chauffeur belgique"
+    },
+    "corporate": {
+      "title": "Solutions de voyage d'affaires | Transferts Aéroport Belgique",
+      "description": "Solutions professionnelles de voyage d'affaires et de transport exécutif pour les entreprises en Belgique.",
+      "keywords": "voyage d'affaires belgique, taxi entreprise, voyage exécutif bruxelles"
+    },
+    "corporate_register": {
+      "title": "Inscription entreprise | Transferts Aéroport Belgique",
+      "description": "Inscrivez-vous pour des solutions de voyage d'affaires et une gestion de compte dédiée en Belgique.",
+      "keywords": "inscription entreprise, compte professionnel, taxi entreprise belgique"
+    }
+  },
+  "about": {
+    "title": "À propos | Transferts Aéroport Premium Belgique",
+    "description": "Découvrez notre service professionnel de transfert aéroport et de chauffeur en Belgique — transport fiable, sûr et premium depuis 2013.",
+    "keywords": "à propos transfert aéroport belgique, service chauffeur belgique, taxi premium, transport aéroport bruxelles anvers charleroi"
+  },
+  "contact": {
+    "title": "Contact | Transferts Aéroport Belgique",
+    "description": "Contactez-nous pour les transferts aéroport, services de chauffeur et transport d'entreprise en Belgique. Notre équipe d'assistance est disponible 24h/24.",
+    "keywords": "contact transfert aéroport belgique, contact réservation chauffeur, contact taxi aéroport bruxelles, demande transport entreprise belgique"
+  },
+  "fleets": {
+    "title": "Notre flotte | Transferts Aéroport Belgique",
+    "description": "Découvrez notre flotte premium de berlines, véhicules exécutifs et vans pour les transferts aéroport et voyages avec chauffeur en Belgique.",
+    "keywords": "flotte taxi belgique, véhicules transfert aéroport luxe, berline exécutive bruxelles, van chauffeur belgique"
+  },
+  "help": {
+    "title": "Aide & FAQ | Transferts Aéroport Belgique",
+    "description": "Trouvez des réponses aux questions fréquentes et obtenez de l'aide pour vos réservations de transfert aéroport en Belgique.",
+    "keywords": "assistance, faq, support taxi belgique, aide réservation"
+  },
+  "legal": {
+    "disclaimer": {
+      "title": "Avertissement | Transferts Aéroport Belgique",
+      "description": "Avertissement juridique concernant nos services de transfert aéroport et l'utilisation du site en Belgique.",
+      "keywords": "avertissement, mention légale, conditions d'utilisation"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité | Transferts Aéroport Belgique",
+      "description": "Découvrez comment nous protégeons votre vie privée et traitons vos données personnelles lors de la réservation de transferts aéroport en Belgique.",
+      "keywords": "politique de confidentialité, protection des données belgique, confidentialité RGPD"
+    },
+    "terms": {
+      "title": "Conditions générales | Transferts Aéroport Belgique",
+      "description": "Lisez les conditions générales d'utilisation de nos services de transfert aéroport et de chauffeur en Belgique.",
+      "keywords": "conditions générales, accord utilisateur, conditions de service belgique"
+    }
+  },
+  "services": {
+    "airline_crew": {
+      "title": "Transferts équipages aériens Bruxelles | Navette équipage Zaventem",
+      "description": "Services de navette équipage haute précision à l'aéroport de Bruxelles (BRU). Suivi des vols 24h/24, flotte Mercedes Classe V, aviation privée Abelag et transferts équipage BRU ⇌ CRL.",
+      "keywords": "transferts équipage aérien bruxelles, navette équipage zaventem, transport équipage BRU, aviation privée abelag, rotation équipage belgique, van mercedes classe v équipage"
+    },
+    "corporate_transfers": {
+      "title": "Transferts entreprise Belgique | Service chauffeur exécutif",
+      "description": "Voyage d'affaires fluide pour dirigeants et équipes à Bruxelles et en Belgique. Flotte premium, chauffeurs anglophones, facturation centralisée et disponibilité 24h/24.",
+      "keywords": "transferts entreprise belgique, chauffeur exécutif bruxelles, taxi voyage d'affaires, compte taxi entreprise, transfert aéroport exécutif belgique"
+    },
+    "event_transfers": {
+      "title": "Transferts événements Bruxelles | Transport de groupe & MICE",
+      "description": "Logistique événementielle haute capacité pour congrès, sommets et événements MICE à Bruxelles. Plus de 50 véhicules premium, coordination éprouvée en F1, cars, minibus et dispatch sur site.",
+      "keywords": "transferts événements bruxelles, transport MICE belgique, navette conférence bruxelles, logistique événements, transport bus groupe belgique, transferts brussels expo"
+    },
+    "diplomatic_embassy_transfers": {
+      "title": "Transferts diplomatiques & ambassades Bruxelles | Transport de délégation",
+      "description": "Transport diplomatique axé protocole à Bruxelles. Expertise OTAN, Commission & Conseil européens, transferts ambassades, service VIP aéroport et logistique sécurisée de délégation avec une flotte de 50 véhicules.",
+      "keywords": "transferts diplomatiques bruxelles, transport ambassade belgique, service chauffeur OTAN, transport délégation UE, transfert aéroport diplomatique zaventem, taxi ambassade bruxelles"
+    },
+    "hourly_transfers": {
+      "title": "Service chauffeur à l'heure Bruxelles | Location flexible à la demande",
+      "description": "Location de chauffeur à l'heure flexible à Bruxelles pour réunions d'affaires, visites de la ville, trajets multi-arrêts et shopping. Tarifs fixes, disponibilité 24h/24 et chauffeurs professionnels dédiés.",
+      "keywords": "chauffeur à l'heure bruxelles, location à la demande belgique, taxi à l'heure bruxelles, service chauffeur multi-arrêts, chauffeur visite bruxelles, transfert aéroport à l'heure zaventem"
+    },
+    "cargo_crew": {
+      "title": "Transport équipages cargo | Transferts Aéroport Belgique",
+      "description": "Réservez le transport d'équipages cargo pour un service fiable dans les aéroports et hubs logistiques belges.",
+      "keywords": "taxi équipage cargo belgique, transport équipage fret, navette cargo aéroport"
+    },
+    "city_rides": {
+      "title": "Courses en ville | Transferts Aéroport Belgique",
+      "description": "Réservez des courses privées en ville et un service de chauffeur local dans les villes belges avec tarifs fixes.",
+      "keywords": "courses en ville belgique, taxi privé bruxelles, transfert urbain anvers"
+    },
+    "hourly_ride": {
+      "title": "Courses à l'heure | Transferts Aéroport Belgique",
+      "description": "Réservez un service de chauffeur flexible à l'heure partout en Belgique pour affaires, événements et voyages privés.",
+      "keywords": "taxi à l'heure belgique, chauffeur à l'heure, chauffeur privé bruxelles"
+    },
+    "private_jet": {
+      "title": "Transfert jet privé | Transferts Aéroport Belgique",
+      "description": "Réservez des transferts au sol pour jets privés et des navettes aéroport exécutives en Belgique.",
+      "keywords": "transfert jet privé belgique, navette aéroport exécutive, transfert VIP bruxelles"
+    },
+    "airport_transfer": {
+      "title": "Services de transfert aéroport Belgique | Service chauffeur premium",
+      "description": "Services fiables de prise en charge et de dépôt à l'aéroport partout en Belgique. Chauffeurs professionnels, suivi de vol, accueil personnalisé et tarifs fixes 24h/24.",
+      "keywords": "services transfert aéroport belgique, prise en charge aéroport bruxelles, dépôt aéroport, chauffeur professionnel, suivi de vol, accueil aéroport, tarif fixe transfert aéroport"
+    },
+    "city_ride": {
+      "title": "Trajets interurbains Belgique | Transferts privés ville à ville",
+      "description": "Réservez des trajets confortables de ville à ville en Belgique. Véhicules avec chauffeur privé, tarifs fixes et transport interurbain sûr.",
+      "keywords": "trajets ville à ville belgique, transfert interurbain privé, chauffeur interurbain, transport interurbain luxe, tarifs fixes courses urbaines"
+    }
+  },
+  "airport_transfers": {
+    "hub": {
+      "title": "Transferts aéroport de Bruxelles | Service chauffeur Zaventem & Charleroi",
+      "description": "Transferts professionnels depuis l'aéroport de Bruxelles (Zaventem) et Charleroi partout en Belgique. Accueil, suivi de vol, tarifs fixes et service chauffeur premium 24h/24.",
+      "keywords": "transfert aéroport bruxelles, taxi aéroport zaventem, chauffeur aéroport BRU, transfert aéroport charleroi, taxi aéroport belgique, transfert aéroport tarif fixe"
+    },
+    "brussels": {
+      "title": "Transfert aéroport de Bruxelles | Service taxi 24h/24",
+      "description": "Réservez des transferts fiables depuis l'aéroport de Bruxelles (Zaventem). Prise en charge, dépôt, chauffeur et transport d'entreprise 24h/24 à Bruxelles.",
+      "keywords": "transfert aéroport bruxelles, taxi aéroport BRU, prise en charge zaventem, service chauffeur bruxelles, transport aéroport entreprise bruxelles"
+    },
+    "charleroi": {
+      "title": "Transfert aéroport de Charleroi | Service taxi 24h/24",
+      "description": "Réservez des transferts fiables depuis l'aéroport de Bruxelles Sud Charleroi. Prise en charge, dépôt et transferts avec chauffeur 24h/24 vers Bruxelles et la Wallonie.",
+      "keywords": "transfert aéroport charleroi, taxi aéroport CRL, prise en charge bruxelles sud charleroi, service chauffeur charleroi"
+    }
+  },
+  "cities": {
+    "antwerp_city": {
+      "title": "Service de taxi Anvers | Transferts privés dans la capitale du diamant",
+      "description": "Service de taxi premium à Anvers pour les prises en charge à l'aéroport ANR, transferts au port d'Anvers, trajets dans le quartier des diamants et liaisons avec Bruxelles Zaventem. Tarifs fixes et disponibilité 24h/24.",
+      "keywords": "taxi anvers, transfert aéroport anvers ANR, taxi port d'anvers, quartier diamant anvers, taxi bruxelles anvers, prise en charge gare centrale anvers"
+    },
+    "brussels_city": {
+      "title": "Transfert aéroport de Bruxelles | Service taxi porte-à-porte",
+      "description": "Transferts professionnels depuis l'aéroport de Bruxelles (Zaventem) vers le centre-ville, le Quartier européen, l'OTAN, l'avenue Louise et la gare du Midi. Tarifs fixes, accueil personnalisé et 45 minutes d'attente gratuite.",
+      "keywords": "transfert aéroport bruxelles, taxi zaventem, prise en charge aéroport BRU, transfert quartier européen bruxelles, taxi siège OTAN, transfert aéroport avenue louise"
+    },
+    "ghent_city": {
+      "title": "Service de taxi Gand | Transferts privés en Flandre historique",
+      "description": "Service de taxi premium à Gand depuis les aéroports de Bruxelles et Charleroi. Transferts tech hub, visites Graslei, navettes Flanders Expo et liaisons transfrontalières vers Bruges, Lille et Paris.",
+      "keywords": "taxi gand, aéroport bruxelles vers gand, transfert gand, taxi flanders expo, taxi gand bruges, transport tech lane gand"
+    },
+    "bruges_city": {
+      "title": "Service de taxi Bruges | Transferts privés Bruxelles–Bruges",
+      "description": "Service de taxi premium Bruxelles–Bruges. Transferts aéroport directs, prises en charge au port de croisière de Zeebrugge, conférences BMCC, circuits aller-retour et tarifs tout compris fixes.",
+      "keywords": "taxi bruges, transfert bruxelles bruges, taxi privé bruges, taxi port croisière zeebrugge, transfert aéroport bruges, taxi bruxelles bruges"
+    },
+    "amsterdam_city": {
+      "title": "Transfert aéroport de Bruxelles vers Amsterdam | Service taxi privé",
+      "description": "Transferts premium de l'aéroport de Bruxelles vers Amsterdam. Dépose à l'hôtel, liaisons Schiphol, connexions corporate Zuidas, voyages de groupe et tarifs interurbains fixes avec expertise frontalière.",
+      "keywords": "aéroport bruxelles vers amsterdam, taxi BRU amsterdam, transfert amsterdam depuis bruxelles, transfert schiphol bruxelles, taxi privé amsterdam, interurbain bruxelles amsterdam"
+    },
+    "paris_city": {
+      "title": "Taxi Bruxelles–Paris | Transferts privés transfrontaliers",
+      "description": "Service de taxi premium Bruxelles–Paris. Transferts BRU vers Paris, alternative à l'Eurostar, liaisons La Défense et CDG, roadshows à l'heure et tarifs transfrontaliers tout compris fixes.",
+      "keywords": "taxi bruxelles paris, transfert paris depuis bruxelles, transfert BRU paris, transfert privé bruxelles paris, taxi cdg bruxelles, alternative eurostar bruxelles paris"
+    },
+    "luxembourg_city": {
+      "title": "Taxi Bruxelles–Luxembourg | Transferts privés corridor UE",
+      "description": "Service de taxi premium Bruxelles–Luxembourg. Transferts BRU vers Luxembourg, institutions UE Kirchberg, délégations diplomatiques, chartes exécutives à l'heure et tarifs tout compris fixes sur le corridor E411.",
+      "keywords": "taxi bruxelles luxembourg, transfert luxembourg depuis bruxelles, transfert BRU luxembourg, taxi kirchberg bruxelles, transfert aéroport findel luxembourg, corridor ue bruxelles luxembourg"
+    },
+    "brussels_to_maastricht": {
+      "title": "Transfert aéroport de Bruxelles vers Maastricht | Service taxi privé",
+      "description": "Transferts premium de l'aéroport de Bruxelles vers Maastricht. Accueil à BRU, transport événementiel TEFAF Maastricht, tarifs fixes, suivi de vol et service confortable porte-à-porte vers les hôtels de Maastricht.",
+      "keywords": "aéroport bruxelles vers maastricht, taxi BRU maastricht, transfert maastricht, transfert tefaf maastricht, taxi privé bruxelles maastricht, transfert aéroport maastricht"
+    }
+  },
+  "booking": {
+    "select_vehicle": {
+      "title": "Choisir un véhicule | Transferts Aéroport Belgique",
+      "description": "Choisissez le véhicule idéal pour votre transfert aéroport ou votre trajet avec chauffeur en Belgique.",
+      "keywords": "choisir véhicule, flotte taxi belgique, réservation aéroport"
+    },
+    "passenger_details": {
+      "title": "Coordonnées passager | Transferts Aéroport Belgique",
+      "description": "Indiquez vos coordonnées pour finaliser votre réservation de transfert aéroport en Belgique.",
+      "keywords": "coordonnées passager, informations de contact, réservation belgique"
+    },
+    "payment_success": {
+      "title": "Réservation confirmée | Transferts Aéroport Belgique",
+      "description": "Votre réservation de transfert aéroport a été confirmée. Merci d'avoir choisi notre service.",
+      "keywords": "réservation confirmée, succès, paiement réussi belgique"
+    },
+    "payment_cancel": {
+      "title": "Paiement annulé | Transferts Aéroport Belgique",
+      "description": "Votre paiement a été annulé. Vous pouvez réessayer pour finaliser votre réservation de transfert aéroport.",
+      "keywords": "paiement annulé, annulation, réessayer le paiement"
+    }
+  }
+}

@@ -61,10 +61,10 @@ export interface BookingStep3Data {
     handLuggage: number;
     smallCheckedCase: number;
     largeCheckedCase: number;
+    paymentMethod: 'mollie' | 'pay_onboard';
 }
 
 export interface BookingSettingsSnapshot {
-    stopFee?: number;
     airportPickup?: number;
 }
 

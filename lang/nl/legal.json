@@ -1,0 +1,127 @@
+{
+  "disclaimer": {
+    "banner": {
+      "top_text": "Servicebericht",
+      "title": "Website-disclaimer",
+      "description": "Juridische informatie over het gebruik van onze website en externe bronnen."
+    },
+    "sidebar": {
+      "notice": "Belangrijke mededeling",
+      "liability_title": "Beperkte aansprakelijkheid",
+      "liability_desc": "Deze disclaimer regelt de juridische beperkingen van de informatie op onze digitale platforms.",
+      "verified_title": "Geverifieerde inhoud",
+      "verified_desc": "Hoewel we streven naar nauwkeurigheid, moeten gebruikers kritieke informatie verifiëren voordat ze erop vertrouwen."
+    },
+    "content": {
+      "service_title": "Dienstverlening",
+      "service_desc": "Airport Transfer biedt de website aan als dienst aan het publiek. Wij zijn niet verantwoordelijk voor en wijzen uitdrukkelijk alle aansprakelijkheid af voor schade van welke aard dan ook voortvloeiend uit het gebruik, de verwijzing naar of het vertrouwen op informatie op de site.",
+      "accuracy_title": "Nauwkeurigheidsgarantie",
+      "accuracy_desc": "Hoewel de informatie op de site periodiek wordt bijgewerkt, wordt geen garantie gegeven dat de informatie op deze website correct, volledig en actueel is.",
+      "links_title": "Externe links",
+      "links_desc": "Deze website kan links bevatten die directe toegang bieden tot andere internetbronnen, inclusief websites. Airport Transfer is niet verantwoordelijk voor de nauwkeurigheid of inhoud van informatie op deze sites.",
+      "endorsement_title": "Geen goedkeuringen",
+      "endorsement_desc": "Links naar sites van derden vormen geen goedkeuring door Airport Transfer van de partijen of hun producten en diensten. Het verschijnen van advertenties of service-informatie vormt geen goedkeuring."
+    },
+    "last_reviewed": "Laatst beoordeeld"
+  },
+  "privacy": {
+    "banner": {
+      "top_text": "Documentatie",
+      "title": "Privacybeleid",
+      "description": "Uitgebreide gids over hoe wij uw persoonlijke gegevens verzamelen, gebruiken en beschermen."
+    },
+    "sidebar": {
+      "protocol": "Gegevensbeveiligingsprotocol",
+      "overview": "Beleidsoverzicht",
+      "desc": "Airport Transfer monitort alle gegevensverwerking om naleving van toepasselijke Pakistaanse privacy- en gegevensbeschermingsnormen te waarborgen.",
+      "agreement": "Door onze diensten te gebruiken, gaat u akkoord met onze privacypraktijken zoals hier beschreven.",
+      "updated": "Laatst bijgewerkt",
+      "support": "Snelle ondersteuning",
+      "contact_dpo": "Contact privacyfunctionaris"
+    },
+    "content": {
+      "overview": "Overzicht privacybeleid",
+      "standards": "Gegevensbeschermingsnormen en naleving.",
+      "intro_title": "Inleiding en reikwijdte",
+      "intro_desc": "Airport Transfer respecteert de privacy van gebruikers en erkent de noodzaak om persoonlijke informatie die u via onze website deelt te beschermen. Wij volgen industriestandaardpraktijken om uw privacy te beschermen in onze gehele digitale infrastructuur.",
+      "applies": "Dit privacybeleid is van toepassing op uw gebruik van onze website en onze diensten geboekt via ons platform.",
+      "agreement_box": "Door onze diensten te gebruiken, gaat u akkoord met de voorwaarden van dit privacybeleid. Lees de volgende documentatie zorgvuldig door om onze gegevensverwerkingspraktijken te begrijpen.",
+      "sections": [
+        { "title": "01", "label": "Gebruikersidentificatie", "content": "We verzamelen uw naam, mobiel nummer, wachtwoord en e-mailadres bij registratie als gebruiker. Deze gegevens zijn nodig om u als unieke gebruiker te identificeren om onze diensten te leveren." },
+        { "title": "02", "label": "Transactiebeveiliging", "content": "Alle online betalingen worden afgehandeld via een beveiligde verbinding op een beveiligde betaalpagina. We verzamelen betalingsgegevens alleen voor boekingsverzoeken en slaan deze informatie niet op onze interne servers op." },
+        { "title": "03", "label": "Logistieke en locatiegegevens", "content": "We verzamelen reisdetails zoals huidige locatie, reistijd, vertrekadres en bestemming voor boekingsverzoeken. Gebruikers kunnen favoriete adressen opslaan voor een handigere boekingservaring." },
+        { "title": "04", "label": "Reisgeschiedenis bijhouden", "content": "Ons systeem slaat adressen van recente reizen op om directe boeking voor frequente routes mogelijk te maken. Dit verbetert de gebruikerservaring voor onze vaste reizigers." },
+        { "title": "05", "label": "Serviceoptimalisatie", "content": "We verzamelen feedback, beoordelingen, mobiele OS-types en apparaat-ID's om onze dienstenaanbod te verbeteren en relevante pushmeldingen te versturen." }
+      ],
+      "utilization_title": "Gebruik van informatie",
+      "utilization_desc": "We hebben de informatie nodig om u als gebruiker te identificeren, onze diensten te verbeteren en betere service aan onze gebruikers te bieden. Behalve betalingsgegevens bewaren we deze informatie alleen voor interne administratie om u in de toekomst opnieuw te bedienen. Contactgegevens worden gebruikt voor ritgerelateerde updates, servicemeldingen en incidentele promotionele informatie over nieuwe aanbiedingen of speciale deals.",
+      "security_title": "Beveiligingsgarantie",
+      "security_desc": "We hebben geavanceerde technologie en strikte beleidsrichtlijnen geïmplementeerd om de privacy van uw persoonlijk identificeerbare informatie te beschermen tegen ongeautoriseerde toegang en misbruik.",
+      "third_party": "We verkopen of verhuren geen persoonlijke informatie aan derden."
+    }
+  },
+  "terms": {
+    "banner": {
+      "top_text": "Overeenkomst",
+      "title": "Algemene voorwaarden",
+      "description": "Lees deze algemene voorwaarden zorgvuldig door voordat u onze website en diensten gebruikt."
+    },
+    "sidebar": {
+      "identity": "Identiteit van de ondernemer",
+      "trading_name": "Handelsnaam",
+      "url": "URL",
+      "email": "E-mail",
+      "kvk": "NTN-nummer",
+      "vat": "Omzetbelastingnummer",
+      "knv_title": "SECP-registratie",
+      "knv_desc": "Airport Transfer opereert in overeenstemming met toepasselijke Pakistaanse transportregelgeving en SECP-bedrijfsregistratievereisten.",
+      "knv_link_transfers": "Voorwaarden transferservice",
+      "knv_link_coach": "Voorwaarden coacheservice"
+    },
+    "content": {
+      "intro_title": "Inleiding en definities",
+      "intro_desc": "Lees deze algemene voorwaarden zorgvuldig door voordat u deze website gebruikt. In deze mededeling worden het gebruik en al het materiaal van deze website gereguleerd. Door toegang te krijgen tot deze website accepteert u dat u gebonden bent aan deze gebruiksvoorwaarden.",
+      "entrepreneur_title": "Ondernemer",
+      "entrepreneur_desc": "De natuurlijke of rechtspersoon die producten en/of diensten op afstand aanbiedt aan passagiers.",
+      "passenger_title": "Passagier / Gebruiker",
+      "passenger_desc": "De natuurlijke persoon die onze diensten gebruikt door een boeking te maken op onze website.",
+      "availability_title": "Beschikbaarheid van de dienst",
+      "availability_desc": "Verwijzingen op de site naar onze diensten vormen geen aanbod om die dienst te verkopen of te leveren. Onze diensten worden aangeboden op basis van beschikbaarheid. We leveren 98,9% van de aangeboden diensten, maar het is mogelijk dat we een bepaalde dienst of voertuigtype niet kunnen leveren.",
+      "cancellation_title": "Annuleringsbeleid",
+      "cancellation_types": [
+        { "title": "Reguliere transfers", "time": "24 uur van tevoren", "details": "Klanten ontvangen een volledige terugbetaling of tegoed met voorafgaande kennisgeving. No-shows worden tegen de volledige prijs in rekening gebracht." },
+        { "title": "Uurlijks en evenementen", "time": "48 uur van tevoren", "details": "Van toepassing op roadshows, bruiloften en uurlijkse boekingen met volledige terugbetalingsmogelijkheid." },
+        { "title": "Rondleidingen", "time": "21 dagen van tevoren", "details": "Voor sightseeingtours is een voorafgaande kennisgeving vereist voor volledige terugbetaling of tegoed." },
+        { "title": "Coachtransfers", "time": "30 dagen van tevoren", "details": "Groepstransfers met grote voertuigen vereisen 30 dagen voorafgaande kennisgeving voor volledige terugbetaling." }
+      ],
+      "fee_note_title": "Opmerking over transactiekosten",
+      "fee_note_desc": "We betalen het betaalde bedrag terug minus de kosten in rekening gebracht door de betalingsprovider (bijv. kaart- of mobiele portemonnee-verwerkingskosten).",
+      "waiting_title": "Wachttijd en kosten",
+      "waiting_included": "Inbegrepen wachttijd",
+      "airport_pickups": "Luchthavenophaalservices",
+      "train_stations": "Treinstations",
+      "minutes": "Minuten",
+      "after_landing": "Inbegrepen na landing",
+      "after_arrival": "Inbegrepen na aankomst",
+      "additional_costs": "Extra wachttijdkosten (per voertuig)",
+      "per_hour": "uur",
+      "tracking_note": "We volgen vlucht- en treinaankomsttijden. Zorg ervoor dat uw telefoon aan staat na aankomst zodat we ontmoetingspunten kunnen coördineren.",
+      "hourly_title": "Uurlijkse boekingen",
+      "hourly_desc": "Voornamelijk gebruikt voor sightseeingtours, zakelijke bezoeken en bruiloften. Minimale periode is 4 uur en maximaal 14 uur/dag. Uurlijkse transfers eindigen altijd op de oorspronkelijke ophaallocatie.",
+      "liability_title": "Aansprakelijkheid en Pakistaans recht",
+      "liability_desc": "De informatie op deze site vormt geen medisch, juridisch of investeringsadvies. Pakistaans recht is van toepassing op alle kwesties met betrekking tot het gebruik van deze website.",
+      "submission_title": "Indienen van informatie",
+      "submission_desc": "Door informatie aan ons te verstrekken, gaat u akkoord dat we dit materiaal mogen gebruiken om de gevraagde diensten te leveren."
+    }
+  },
+  "common": {
+    "clarification": "Verduidelijking nodig?",
+    "questions_legal": "Vragen? Neem contact op met ons juridisch team",
+    "questions_policy": "Vragen over dit beleid?",
+    "incorrect_info": "Als u denkt dat informatie die wij bewaren onjuist of onvolledig is, laat het ons onmiddellijk weten. We corrigeren prompt alle details die onnauwkeurig blijken.",
+    "contact_email": "Als u vragen of klachten over deze site heeft, neem dan contact met ons op via e-mail",
+    "email_support": "E-mailondersteuning",
+    "contact_form": "Contactformulier",
+    "contact_page": "Contactpagina"
+  }
+}

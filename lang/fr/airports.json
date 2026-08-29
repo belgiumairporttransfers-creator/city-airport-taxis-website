@@ -1,0 +1,221 @@
+{
+  "airport_transfers": {
+    "banner": {
+      "top_text_primary": "Transferts Aéroport Bruxelles",
+      "top_text_suffix": "Zaventem & Belgique",
+      "title_line1": "Commencez votre voyage confortablement",
+      "title_accent": "à Brussels Airport",
+      "description": "Évitez les transports publics bondés, les itinéraires compliqués et les tarifs de taxi incertains. Nos chauffeurs professionnels vous accueillent à Brussels Zaventem (BRU), Charleroi (CRL) et dans les aéroports de Belgique — avec des tarifs fixes et un trajet fluide dès votre atterrissage.",
+      "book_ride": "Obtenir un devis instantané",
+      "view_fleets": "Voir notre flotte",
+      "image_alt": "Chauffeur professionnel et véhicule premium pour le service de transfert Brussels Airport Zaventem"
+    },
+    "stats": {
+      "airports_covered": "Aéroports en Belgique",
+      "annual_transfers": "Transferts aéroport",
+      "on_time_rate": "Taux de ponctualité",
+      "support": "Assistance 24h/24"
+    },
+    "airport_hubs": {
+      "title": "Nos principaux hubs aéroportuaires",
+      "description": "Services de transfert aéroport professionnels aux principales portes d'entrée internationales de la Belgique.",
+      "items": [
+        {
+          "title": "Brussels Zaventem Airport (BRU)",
+          "description": "Le plus grand aéroport international de Belgique et hub européen. Nous proposons un service Meet and Greet complet aux arrivées. Que vous ayez besoin d'un transfert vers le centre-ville, Place Luxemburg ou de trajets longue distance en Belgique, notre service de chauffeur aéroport de Bruxelles est le choix fiable.",
+          "points": [
+            "Meet and Greet aux arrivées",
+            "Transferts centre-ville et Place Luxemburg",
+            "Trajets longue distance en Belgique",
+            "Voir le service Brussels Zaventem Airport"
+          ]
+        },
+        {
+          "title": "Charleroi Airport (CRL)",
+          "description": "Brussels South Charleroi Airport est un hub majeur pour les compagnies low-cost en Belgique. Notre service de transfert professionnel vous connecte au centre de Bruxelles, Anvers, Gand et au-delà avec confort et fiabilité.",
+          "points": [
+            "Connexions vers le centre de Bruxelles",
+            "Transferts vers Anvers, Gand et partout en Belgique",
+            "Spécialiste passagers compagnies low-cost",
+            "Voir le service Charleroi Airport"
+          ]
+        },
+        {
+          "title": "Antwerp Airport (ANR)",
+          "description": "Antwerp International Airport dessert la capitale diamantaire et la grande ville portuaire de la Belgique. Notre service de chauffeur assure des transferts fiables vers et depuis le centre-ville, le quartier portuaire et les pôles d'affaires de la région d'Anvers.",
+          "points": [
+            "Centre-ville d'Anvers et quartier portuaire",
+            "Voyages d'affaires et de loisirs",
+            "Connexions Brussels Airport et Charleroi",
+            "Voir le service Antwerp Airport"
+          ]
+        }
+      ]
+    },
+    "journey": {
+      "image_alt": "Transfert Brussels Airport avec chauffeur professionnel et véhicule premium à Zaventem",
+      "title": "Commencez votre voyage confortablement",
+      "description": "Après un long vol, évitez les transports publics bondés, les itinéraires compliqués et les tarifs de taxi incertains. Notre service de chauffeur Brussels Airport vous prend en charge aux arrivées et vous emmène directement à votre hôtel, réunion ou destination en Belgique.",
+      "ideal_for": {
+        "title": "Arrivées aéroport fluides",
+        "items": [
+          "Meet and Greet à Brussels Airport (BRU)",
+          "Transferts directs depuis Charleroi Airport (CRL)",
+          "Suivi des vols sans frais de retard supplémentaires",
+          "Tarifs fixes sans frais cachés"
+        ]
+      },
+      "highlights": [
+        "Chauffeurs professionnels, véhicules impeccables",
+        "Disponibilité 24h/24 en Belgique",
+        "Service discret, ponctuel et fiable"
+      ]
+    },
+    "why_choose": {
+      "title": "Pourquoi choisir notre service ?",
+      "description": "Transferts aéroport professionnels fondés sur la clarté, la ponctualité et la discrétion.",
+      "items": [
+        {
+          "title": "Suivi des vols",
+          "description": "La surveillance des vols en temps réel garantit que votre chauffeur est là à votre arrivée, sans frais d'attente supplémentaires en cas de retard de vol."
+        },
+        {
+          "title": "Tarifs fixes",
+          "description": "Tarification transparente et fixe sans frais cachés. Sachez exactement ce que vous paierez avant de réserver."
+        },
+        {
+          "title": "Qualité suprême",
+          "description": "Chauffeurs professionnels, véhicules impeccables et service exceptionnel à chaque voyage."
+        },
+        {
+          "title": "Service Meet & Greet",
+          "description": "Votre chauffeur vous accueille aux arrivées avec une pancarte à votre nom, vous aide avec vos bagages et vous accompagne jusqu'à votre véhicule pour un départ en douceur."
+        }
+      ]
+    },
+    "areas_served": {
+      "top_text": "Zones desservies",
+      "title": "Le Nord, l'Ouest et au-delà",
+      "description": "Couverture complète des transferts aéroport dans les principales villes et régions de Belgique.",
+      "items": [
+        {
+          "title": "Bruxelles",
+          "description": "Couverture complète de Bruxelles et des communes environnantes. Du quartier européen à la Grand-Place historique, nous connaissons chaque itinéraire.",
+          "points": [
+            "Quartier européen et institutions de l'UE",
+            "Grand-Place et centre-ville",
+            "Transferts Brussels Airport (BRU)",
+            "Place Luxemburg et quartier Schuman"
+          ]
+        },
+        {
+          "title": "Anvers",
+          "description": "Transferts professionnels vers et depuis Anvers, capitale diamantaire et grande ville portuaire de la Belgique. Service fiable pour voyageurs d'affaires et de loisirs.",
+          "points": [
+            "Centre-ville d'Anvers et quartier portuaire",
+            "Voyages d'affaires et de loisirs",
+            "Connexions Charleroi et Brussels Airport",
+            "Transferts quartier diamantaire"
+          ]
+        },
+        {
+          "title": "Gand",
+          "description": "Connexions fluides vers Gand, Bruges et les villes flamandes pittoresques. Confort garanti à chaque voyage en Belgique.",
+          "points": [
+            "Centre historique de Gand",
+            "Bruges et villes flamandes",
+            "Itinéraires régionaux pittoresques",
+            "Connexions aéroport depuis BRU et CRL"
+          ]
+        }
+      ]
+    },
+    "faqs": {
+      "items": [
+        {
+          "question": "Comment réserver un transfert Brussels Airport (Zaventem) ?",
+          "answer": "Entrez votre lieu de prise en charge ou de dépose, la date de voyage et les détails du vol sur notre formulaire de réservation pour recevoir un devis fixe instantané. Confirmez en ligne en quelques minutes — notre chauffeur vous accueillera aux arrivées avec une pancarte pour le service Meet and Greet."
+        },
+        {
+          "question": "Suivez-vous mon vol en cas de retard ?",
+          "answer": "Oui. Nous surveillons votre vol en temps réel et ajustons automatiquement les heures de prise en charge. Il n'y a pas de frais d'attente supplémentaires en cas de retard de vol — votre chauffeur sera prêt à votre atterrissage."
+        },
+        {
+          "question": "Pouvez-vous me transférer de Charleroi Airport (CRL) à Bruxelles ?",
+          "answer": "Absolument. Nous assurons des transferts professionnels depuis Brussels South Charleroi Airport vers le centre de Bruxelles, Anvers, Gand et les destinations en Belgique avec des tarifs fixes et transparents."
+        },
+        {
+          "question": "Vos tarifs de transfert aéroport sont-ils fixes ?",
+          "answer": "Oui. Tous les devis sont fixes sans frais cachés. Le prix affiché lors de la réservation est le prix que vous payez — pas de tarification dynamique, pas de surprises au compteur et pas de frais supplémentaires pour les bagages standard."
+        },
+        {
+          "question": "Proposez-vous le Meet and Greet aux arrivées de Brussels Airport ?",
+          "answer": "Oui. Notre chauffeur vous accueille dans le hall des arrivées avec une pancarte à votre nom, vous aide avec vos bagages et vous accompagne jusqu'à votre véhicule pour un départ en douceur."
+        },
+        {
+          "question": "Quelles options de véhicules sont disponibles pour les transferts aéroport ?",
+          "answer": "Nous proposons des berlines Economy et Confort, des vans Mercedes Standard et Premium, des berlines exécutives First Class et des mini-coaches Mercedes Sprinter — adaptés aux voyageurs solo, familles et groupes jusqu'à 16 passagers."
+        },
+        {
+          "question": "Opérez-vous 24h/24 pour les vols tôt le matin et tard le soir ?",
+          "answer": "Oui. Notre service de transfert aéroport Bruxelles et Charleroi fonctionne 24 heures sur 24, 7 jours sur 7 — y compris les départs tôt le matin et les arrivées tard le soir."
+        },
+        {
+          "question": "Quelles zones servez-vous au-delà de Bruxelles ?",
+          "answer": "Nous couvrons Anvers, Gand, Bruges, Liège et les villes de Belgique et des régions voisines. Réservez des transferts interurbains depuis Brussels Airport ou Charleroi vers toute destination dans notre zone de couverture."
+        }
+      ]
+    },
+    "why_choose_safety": {
+      "why_choose": {
+        "title": "Pourquoi réserver avec City Airport Taxis ?",
+        "subtitle": "Transferts aéroport professionnels à Brussels Airport avec meet and greet, suivi des vols en temps réel et tarifs fixes en Belgique — clarté, ponctualité et discrétion à chaque voyage.",
+        "features": [
+          "Suivi des vols en temps réel inclus",
+          "Tarifs fixes sans frais cachés",
+          "Meet and Greet à BRU et CRL",
+          "Disponibilité 24h/24 pour tous les vols",
+          "Chauffeurs professionnels anglophones",
+          "Couverture Bruxelles, Anvers et nationale"
+        ]
+      },
+      "safety": {
+        "title": "Sécurité et fiabilité en qui vous pouvez avoir confiance",
+        "subtitle": "Chaque transfert aéroport est assuré par des chauffeurs vérifiés, des véhicules méticuleusement entretenus et une assistance 24h/24.",
+        "features": [
+          {
+            "icon": "UserCheck",
+            "title": "Chauffeurs professionnels vérifiés",
+            "description": "Chauffeurs licenciés, vérifiés avec connaissance locale de Brussels Airport, Charleroi et des itinéraires en Belgique."
+          },
+          {
+            "icon": "Wrench",
+            "title": "Flotte méticuleusement entretenue",
+            "description": "Véhicules premium inspectés et entretenus selon les normes les plus élevées pour le confort et la fiabilité à chaque voyage."
+          },
+          {
+            "icon": "Car",
+            "title": "Véhicules entièrement assurés",
+            "description": "Couverture d'assurance complète sur tous les véhicules pour une totale tranquillité d'esprit pendant votre transfert aéroport."
+          },
+          {
+            "icon": "ShieldPlus",
+            "title": "Réservation et paiements sécurisés",
+            "description": "Réservation en ligne sécurisée avec tarification transparente et traitement de paiement sécurisé — pas de frais cachés à la prise en charge."
+          },
+          {
+            "icon": "Headset",
+            "title": "Assistance client 24h/24",
+            "description": "Notre équipe de dispatch est disponible en permanence pour vous aider avec les réservations, changements de vol et demandes de voyage."
+          }
+        ]
+      }
+    },
+    "booking_cta": {
+      "title": "Réservez votre transfert",
+      "description": "Réservation rapide et facile pour des transferts aéroport fiables. Obtenez votre devis instantané et confirmez votre réservation en quelques minutes.",
+      "book_online": "Obtenir un devis instantané",
+      "call_support": "Appeler l'assistance 24h/24"
+    }
+  }
+}

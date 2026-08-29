@@ -1,0 +1,36 @@
+{
+  "banner": {
+    "top_text": "La collection",
+    "title": "L'excellence automobile à l'état pur",
+    "description": "Découvrez une sélection soignée des véhicules les plus prestigieux au monde. Conçue pour ceux qui apprécient la performance, le luxe et le voyage lui-même."
+  },
+  "stats": [
+    {
+      "value": "50+",
+      "label": "Modèles premium",
+      "description": "Sélectionnés parmi les grandes marques de luxe telles que Mercedes Classe S, BMW Série 7, Audi A8 et Mercedes-Benz Classe V"
+    },
+    {
+      "value": "24/7",
+      "label": "Service conciergerie",
+      "description": "Une équipe d'assistance dédiée, disponible à tout moment et partout pour vous"
+    },
+    {
+      "value": "15",
+      "label": "Lieux dans le monde",
+      "description": "Prise en charge et dépôt fluides dans les grands aéroports et villes"
+    },
+    {
+      "value": "100%",
+      "label": "Score d'entretien",
+      "description": "Inspection rigoureuse en 150 points avant chaque trajet"
+    }
+  ],
+  "list": {
+    "no_vehicles": "Aucun véhicule trouvé",
+    "no_vehicles_desc": "Nous n'avons trouvé aucun véhicule correspondant à vos critères. Essayez une autre catégorie.",
+    "reset_filters": "Réinitialiser les filtres",
+    "load_more": "CHARGER PLUS DE VÉHICULES",
+    "loading": "Chargement..."
+  }
+}

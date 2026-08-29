@@ -1,0 +1,322 @@
+{
+  "partner": {
+    "banner": {
+      "top_text": "Devenez partenaire",
+      "title": "Rejoignez notre équipe d'élite",
+      "description": "Faites partie du réseau de taxi le plus professionnel du Pakistan. Nous offrons des horaires flexibles, des revenus compétitifs et un flux constant de réservations premium."
+    },
+    "cards": {
+      "earnings": {
+        "title": "Revenus maximisés",
+        "description": "Profitez de nos structures de commission compétitives et de nos itinéraires à forte demande.",
+        "value": "Tarifs de premier niveau",
+        "cta": "Augmentez vos revenus"
+      },
+      "flexibility": {
+        "title": "Flexibilité totale",
+        "description": "Choisissez vos propres horaires et gérez votre planning via notre application chauffeur intuitive.",
+        "value": "Travaillez quand vous voulez",
+        "cta": "Définissez votre planning"
+      },
+      "support": {
+        "title": "Assistance chauffeur 24h/24",
+        "description": "Notre équipe d'opérations dédiée est disponible en permanence pour vous assister.",
+        "value": "Toujours à vos côtés",
+        "cta": "Commencer"
+      }
+    },
+    "form": {
+      "top_text": "Rejoignez le réseau",
+      "title": "Prêt à conduire avec Airport Transfer ?",
+      "description": "Complétez le formulaire pour enregistrer votre intérêt. Notre équipe de recrutement examinera votre candidature et vous guidera pour les prochaines étapes.",
+      "benefits": {
+        "onboarding": {
+          "title": "Intégration rapide",
+          "desc": "Soyez vérifié et prêt à conduire en aussi peu que 48 heures."
+        },
+        "payments": {
+          "title": "Paiements hebdomadaires",
+          "desc": "Recevez vos revenus directement sur votre compte chaque semaine."
+        },
+        "fleet": {
+          "title": "Flotte premium",
+          "desc": "Accès à des clients haut de gamme recherchant un transport de premier niveau."
+        }
+      },
+      "labels": {
+        "country": "Pays d'exploitation",
+        "city": "Ville d'exploitation",
+        "firstname": "Prénom",
+        "lastname": "Nom",
+        "email": "Adresse e-mail",
+        "phone": "Numéro de téléphone",
+        "cartype": "Type de voiture",
+        "carcolor": "Couleur de la voiture",
+        "license_plate": "Plaque d'immatriculation",
+        "experience": "Années d'expérience",
+        "address": "Adresse domicile",
+        "documents": "Documents requis",
+        "documents_desc": "Veuillez télécharger des copies claires (PNG, JPG ou PDF) des documents suivants.",
+        "pass_front": "Permis de conduire professionnel (Recto)",
+        "pass_back": "Permis de conduire professionnel (Verso)",
+        "kiwa": "Permis Airport Transfer",
+        "license_front": "Permis de conduire (Recto)",
+        "license_back": "Permis de conduire (Verso)",
+        "business_insurance": "Entreprise et assurance",
+        "insurance": "Police d'assurance véhicule commercial",
+        "kvk": "KVK Uittreksel",
+        "bankpas": "Copie de carte bancaire",
+        "vehicle_photos": "Photos du véhicule",
+        "vehicle_photos_desc": "Veuillez télécharger des photos claires de votre véhicule sous les angles suivants.",
+        "car_front": "Vue avant de la voiture",
+        "car_back": "Vue arrière de la voiture",
+        "car_left": "Vue côté gauche de la voiture",
+        "car_right": "Vue côté droit de la voiture",
+        "car_inside": "Vue intérieure de la voiture",
+        "car_plate": "Vue de la plaque d'immatriculation",
+        "car_year_model": "Année / Modèle de la voiture",
+        "shift": "Équipe (Jour / Nuit)",
+        "driver_timing": "Horaires du chauffeur",
+        "timing_from": "De",
+        "timing_to": "À",
+        "car_card": "Document d'immatriculation du véhicule",
+        "profile_photo": "Photo de profil (Optionnel)"
+      },
+      "shift_options": {
+        "day": "Équipe de jour",
+        "night": "Équipe de nuit",
+        "both": "Jour et nuit"
+      },
+      "placeholders": {
+        "country": "Sélectionnez le pays d'exploitation",
+        "city": "Sélectionnez la ville d'exploitation",
+        "firstname": "Entrez le prénom",
+        "lastname": "Entrez le nom",
+        "email": "Entrez l'adresse e-mail",
+        "phone": "Entrez le numéro de téléphone",
+        "cartype": "Entrez le type de voiture",
+        "carcolor": "Entrez la couleur de la voiture",
+        "license_plate": "Entrez la plaque d'immatriculation",
+        "experience": "Entrez l'expérience",
+        "car_year_model": "ex. 2022 Toyota Corolla",
+        "shift": "Sélectionnez l'équipe",
+        "timing_from": "Heure de début",
+        "timing_to": "Heure de fin",
+        "address": "Entrez l'adresse domicile"
+      },
+      "button": "Postuler pour rejoindre",
+      "button_submitting": "Envoi de la candidature..."
+    }
+  },
+  "corporate": {
+    "banner": {
+      "top_text": "Solutions de voyage d'affaires",
+      "title": "Solutions de voyage professionnelles pour votre entreprise",
+      "description": "Simplifiez le transport terrestre de votre entreprise avec une plateforme de voyage exécutif fiable conçue pour les entreprises au Pakistan.",
+      "button": "Rejoindre notre réseau"
+    },
+    "stats": [
+      { "title": "Excellence", "description": "Dans chaque détail" },
+      { "title": "Fiabilité", "description": "Toujours à l'heure" },
+      { "title": "Confort", "description": "Expérience first class" },
+      { "title": "Confidentialité", "description": "Discrétion garantie" }
+    ],
+    "story": {
+      "top_text": "principales fonctionnalités business",
+      "title": "Transport corporatif de confiance pour les entreprises au Pakistan",
+      "description": "Centralisez vos opérations de voyage d'affaires avec une plateforme de réservation et de gestion simplifiée. Planifiez les trajets, suivez les dépenses et contrôlez le transport des employés en toute simplicité",
+      "badge": "Axé sur l'excellence",
+      "features": {
+        "ride_mgmt": {
+          "title": "Gestion flexible des trajets",
+          "description": "Réservez, modifiez et suivez les trajets pour dirigeants et employés en temps réel."
+        },
+        "expense_ctrl": {
+          "title": "Contrôle des dépenses et paiements",
+          "description": "Simplifiez la facturation, les approbations et la comptabilité avec une gestion financière centralisée."
+        },
+        "coverage": {
+          "title": "Couverture nationale",
+          "description": "Service de transfert et de chauffeur professionnel dans tout le Pakistan."
+        },
+        "api": {
+          "title": "API Business et intégrations",
+          "description": "Connectez notre plateforme de transport à vos systèmes internes via une API sécurisée."
+        }
+      }
+    },
+    "process": {
+      "top_text": "PROCESSUS",
+      "title": "Corporate Business en 3 étapes simples",
+      "description": "Voici les solutions de voyage simplifiées pour vos besoins professionnels",
+      "button": "Commencer à réserver",
+      "steps": [
+        {
+          "id": "Étape 01",
+          "title": "Enregistrez votre compte",
+          "description": "Créez votre compte corporatif en quelques minutes. Ajoutez vos membres d'équipe et préférences de facturation depuis un tableau de bord sécurisé."
+        },
+        {
+          "id": "Étape 02",
+          "title": "Planifiez les trajets professionnels",
+          "description": "Réservez, modifiez et suivez les trajets pour dirigeants, employés et invités en temps réel au Pakistan."
+        },
+        {
+          "id": "Étape 03",
+          "title": "Suivez et gérez",
+          "description": "Surveillez toutes les réservations et dépenses depuis un tableau de bord. Votre équipe de transport sera prête et à l'heure."
+        }
+      ]
+    },
+    "parallax": {
+      "top_text": "confiance nationale",
+      "title": "Gérez le transport de votre entreprise en toute confiance",
+      "description": "Une plateforme conçue pour la fiabilité, le contrôle et un service premium — approuvée par les entreprises au Pakistan.",
+      "cards": [
+        {
+          "title": "Facturation centralisée",
+          "description": "Tableau de bord complet pour tous les trajets et dépenses corporatifs."
+        },
+        {
+          "title": "Réservation de trajets invités",
+          "description": "Gérez les comptes voyageurs et réservez des trajets pour le compte d'invités."
+        },
+        {
+          "title": "Supervision complète des trajets",
+          "description": "Visibilité totale pour les coordinateurs de voyage internes."
+        }
+      ]
+    },
+    "register": {
+      "title": "Inscription aux solutions de voyage d'affaires",
+      "description": "Simplifiez le transport de votre entreprise avec notre plateforme de voyage exécutif professionnelle. Partenaire d'Airport Transfer pour un transport terrestre fiable et fluide."
+    },
+    "cards": {
+      "executive": {
+        "title": "Service exécutif",
+        "description": "Véhicules premium et chauffeurs hautement formés pour votre équipe et vos invités.",
+        "value": "Qualité de premier niveau",
+        "cta": "S'inscrire maintenant"
+      },
+      "invoicing": {
+        "title": "Facturation mensuelle",
+        "description": "Facturation simplifiée avec factures mensuelles consolidées et suivi des dépenses.",
+        "value": "Comptabilité simplifiée",
+        "cta": "Simplifier les dépenses"
+      },
+      "support": {
+        "title": "Assistance prioritaire",
+        "description": "Gestionnaire de compte dédié et assistance client prioritaire 24h/24.",
+        "value": "Toujours disponible",
+        "cta": "Obtenir de l'aide"
+      }
+    },
+    "form": {
+      "top_text": "Devenez partenaire",
+      "title": "Enregistrez votre compte entreprise",
+      "description": "Complétez le formulaire pour enregistrer votre entreprise. Notre équipe d'intégration corporative examinera votre candidature et configurera votre tableau de bord.",
+      "labels": {
+        "agency_name": "Nom de l'entreprise / agence",
+        "firstname": "Prénom",
+        "lastname": "Nom",
+        "email": "E-mail professionnel",
+        "phone": "Numéro de téléphone"
+      },
+      "placeholders": {
+        "agency_name": "ex. Acme Pakistan Pvt Ltd",
+        "firstname": "Entrez le prénom",
+        "lastname": "Entrez le nom",
+        "email": "Entrez l'e-mail professionnel",
+        "phone": "Entrez le numéro de téléphone"
+      },
+      "button": "Enregistrer le compte"
+    }
+  },
+  "partner_page": {
+    "banner": {
+      "top_text": "DEVENEZ PARTENAIRE",
+      "title": "Devenez partenaire<br/>chauffeur professionnel",
+      "description": "Développez votre activité avec des demandes de trajets constantes dans les grandes villes pakistanaises.",
+      "button_text": "Postuler maintenant"
+    },
+    "demand": {
+      "title": "Débloquez une demande stable au Pakistan",
+      "description": "Connectez-vous avec des clients voyageant dans des villes comme Karachi, Lahore, Islamabad et Faisalabad. Acceptez uniquement les trajets qui correspondent à votre planning."
+    },
+    "features": {
+      "earnings": {
+        "title": "Augmentez vos revenus",
+        "description": "Recevez des demandes de trajets de haute qualité de clients professionnels et privés."
+      },
+      "payments": {
+        "title": "Paiements faciles",
+        "description": "Soyez payé de manière fiable avec une tarification transparente et sans frais cachés."
+      },
+      "schedule": {
+        "title": "Définissez votre planning",
+        "description": "Travaillez quand vous voulez. Acceptez ou refusez les trajets selon votre disponibilité."
+      },
+      "trust": {
+        "title": "Faites confiance à vos opérations",
+        "description": "Assistance dédiée et plateforme structurée pour gérer vos trajets efficacement."
+      }
+    },
+    "parallax": {
+      "title": "Conçu pour la mobilité moderne au Pakistan",
+      "subtitle": "VIVEZ UNE EXPÉRIENCE FLUIDE",
+      "description": "Nous soutenons les chauffeurs professionnels avec une distribution efficace des trajets, des itinéraires optimisés et une demande croissante de services de transport premium dans les villes pakistanaises.",
+      "button_text": "En savoir plus"
+    },
+    "faq": {
+      "top_text": "QUESTIONS FRÉQUEMMENT POSÉES",
+      "title": "Tout ce que vous devez savoir sur le partenariat avec nous",
+      "description": "Trouvez des réponses aux questions les plus courantes sur devenir partenaire chauffeur avec Airport Transfer. Des exigences et paiements aux opérations et à l'assistance, nous avons tout couvert.",
+      "items": {
+        "q1": {
+          "question": "Qui peut devenir partenaire ?",
+          "answer": "Tout chauffeur licencié ou entreprise de transport opérant au Pakistan avec un enregistrement NTN valide."
+        },
+        "q2": {
+          "question": "Quelles sont les exigences ?",
+          "answer": "Permis de conduire valide, véhicule commercial immatriculé, permis Airport Transfer, et apparence professionnelle et qualité de service."
+        },
+        "q3": {
+          "question": "Comment suis-je payé ?",
+          "answer": "Les paiements sont traités de manière sécurisée et transférés directement sur votre compte bancaire pakistanais."
+        },
+        "q4": {
+          "question": "Puis-je choisir mes trajets ?",
+          "answer": "Oui, vous avez le contrôle total pour accepter ou refuser les demandes."
+        },
+        "q5": {
+          "question": "Dans quelles villes opérez-vous ?",
+          "answer": "Nous opérons actuellement dans les grandes villes du Pakistan, notamment Karachi, Lahore, Islamabad, Faisalabad, Multan et Peshawar."
+        }
+      }
+    },
+    "cta": {
+      "title": "Vous avez encore des questions ?",
+      "description": "Notre équipe est prête à vous aider pour toute question que vous pourriez avoir.",
+      "button_text": "Contactez-nous"
+    }
+  },
+  "partner_register": {
+    "banner": {
+      "top_text": "POSTULER POUR CONDUIRE",
+      "title": "Postuler pour conduire avec Airport Transfer",
+      "description": "Rejoignez notre réseau de chauffeurs professionnels et accédez à un flux constant de demandes de trajets au Pakistan. Gagnez plus avec un travail flexible et des paiements fiables."
+    },
+    "modal": {
+      "title": "Où vous situez-vous ?",
+      "description": "Sélectionnez votre lieu d'exploitation pour continuer.",
+      "country_label": "Pays d'exploitation",
+      "country_placeholder": "Sélectionnez votre pays",
+      "city_label": "Ville d'exploitation",
+      "city_placeholder": "Sélectionnez votre ville",
+      "button_loading": "Entrée dans {city}...",
+      "button_ready": "Commencer l'inscription",
+      "button_disabled": "Sélectionnez une ville pour continuer",
+      "no_city_found": "Aucune ville trouvée."
+    }
+  }
+}

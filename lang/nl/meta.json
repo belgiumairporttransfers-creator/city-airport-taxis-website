@@ -1,0 +1,219 @@
+{
+  "title": "Luchthaventransfers België | Premium Taxidienst",
+  "description": "Boek betrouwbare luchthaventransfers en chauffeursdiensten in heel België. Professionele chauffeurs, vaste prijzen en 24/7 ondersteuning voor Brussel, Antwerpen, Charleroi en Luik.",
+  "keywords": "luchthaventransfer belgië, taxi brussels airport, antwerpen luchthaventransfer, charleroi airport taxi, chauffeursdienst belgië",
+  "auth": {
+    "login": {
+      "title": "Inloggen | Luchthaventransfers België",
+      "description": "Log in op uw account om uw luchthaventransferboekingen en profiel in België te beheren.",
+      "keywords": "inloggen, luchthaventransfer belgië, accounttoegang, boeking beheren"
+    },
+    "register": {
+      "title": "Registreren | Luchthaventransfers België",
+      "description": "Maak een account aan voor soepele luchthaventransfers en chauffeursdiensten in heel België.",
+      "keywords": "registreren, aanmelden, taxi-account belgië, luchthaventransfer account"
+    },
+    "forgot_password": {
+      "title": "Wachtwoord vergeten | Luchthaventransfers België",
+      "description": "Reset het wachtwoord van uw account om weer toegang te krijgen tot uw boekingen.",
+      "keywords": "wachtwoord vergeten, wachtwoord resetten, account herstellen"
+    },
+    "reset_password": {
+      "title": "Wachtwoord resetten | Luchthaventransfers België",
+      "description": "Stel een nieuw wachtwoord in voor uw luchthaventransferaccount.",
+      "keywords": "nieuw wachtwoord, wachtwoord resetten, accountbeveiliging"
+    }
+  },
+  "business": {
+    "partner": {
+      "title": "Word partner | Luchthaventransfers België",
+      "description": "Word partner en sluit u aan bij ons groeiende netwerk van professionele chauffeurs in België. Flexibele werktijden en concurrerende verdiensten.",
+      "keywords": "partner, taxichauffeur belgië, team joinen, chauffeursnetwerk belgië"
+    },
+    "corporate": {
+      "title": "Zakelijke reisoplossingen | Luchthaventransfers België",
+      "description": "Professionele zakelijke reis- en executive vervoersoplossingen voor bedrijven in heel België.",
+      "keywords": "zakelijk reizen belgië, bedrijfstaxi, executive travel brussel"
+    },
+    "corporate_register": {
+      "title": "Zakelijke registratie | Luchthaventransfers België",
+      "description": "Registreer voor zakelijke reisoplossingen en toegewijd accountbeheer in België.",
+      "keywords": "zakelijke registratie, bedrijfsaccount, bedrijfstaxi belgië"
+    }
+  },
+  "about": {
+    "title": "Over ons | Premium Luchthaventransfers België",
+    "description": "Leer meer over onze professionele luchthaventransfer- en chauffeursdienst in België — betrouwbaar, veilig en premium vervoer sinds 2013.",
+    "keywords": "over luchthaventransfer belgië, chauffeursdienst belgië, premium taxidienst, luchthavenvervoer brussel antwerpen charleroi"
+  },
+  "contact": {
+    "title": "Contact | Luchthaventransfers België",
+    "description": "Neem contact met ons op voor luchthaventransfers, chauffeursdiensten en zakelijk vervoer in België. Ons supportteam is 24/7 beschikbaar.",
+    "keywords": "contact luchthaventransfer belgië, chauffeur boeking contact, brussels airport taxi contact, zakelijk vervoer aanvraag belgië"
+  },
+  "fleets": {
+    "title": "Onze vloot | Luchthaventransfers België",
+    "description": "Ontdek onze premium vloot van sedans, executive voertuigen en vans voor luchthaventransfers en chauffeurreizen in heel België.",
+    "keywords": "taxivloot belgië, luxe luchthaventransfer voertuigen, executive sedan brussel, chauffeur van belgië"
+  },
+  "help": {
+    "title": "Helpdesk & FAQ | Luchthaventransfers België",
+    "description": "Vind antwoorden op veelgestelde vragen en krijg hulp bij uw luchthaventransferboekingen in België.",
+    "keywords": "helpdesk, faq, taxi support belgië, boekingshulp"
+  },
+  "legal": {
+    "disclaimer": {
+      "title": "Disclaimer | Luchthaventransfers België",
+      "description": "Juridische disclaimer voor onze luchthaventransferdiensten en het gebruik van de website in België.",
+      "keywords": "disclaimer, juridische kennisgeving, gebruiksvoorwaarden"
+    },
+    "privacy": {
+      "title": "Privacybeleid | Luchthaventransfers België",
+      "description": "Ontdek hoe wij uw privacy beschermen en uw persoonlijke gegevens verwerken wanneer u luchthaventransfers in België boekt.",
+      "keywords": "privacybeleid, gegevensbescherming belgië, AVG privacy"
+    },
+    "terms": {
+      "title": "Algemene voorwaarden | Luchthaventransfers België",
+      "description": "Lees de algemene voorwaarden voor het gebruik van onze luchthaventransfer- en chauffeursdiensten in België.",
+      "keywords": "algemene voorwaarden, gebruikersovereenkomst, servicevoorwaarden belgië"
+    }
+  },
+  "services": {
+    "airline_crew": {
+      "title": "Airline crew transfers Brussel | Zaventem crew shuttle",
+      "description": "Hoogprecieze airline crew shuttles op Brussels Airport (BRU). 24/7 vluchtmonitoring, Mercedes V-Klasse vloot, Abelag private aviation en BRU ⇌ CRL crew transfers.",
+      "keywords": "airline crew transfers brussel, zaventem crew shuttle, BRU crew transport, abelag private aviation, crew rotatie belgië, mercedes v-klasse crew van"
+    },
+    "corporate_transfers": {
+      "title": "Zakelijke transfers België | Executive chauffeursdienst",
+      "description": "Moeiteloos zakelijk reizen voor executives en teams in Brussel en heel België. Premium vloot, Engelstalige chauffeurs, gecentraliseerde facturatie en 24/7 beschikbaarheid.",
+      "keywords": "zakelijke transfers belgië, executive chauffeur brussel, business travel taxi, corporate account taxi, executive luchthaventransfer belgië"
+    },
+    "event_transfers": {
+      "title": "Event transfers Brussel | Grootschalig groeps- & MICE-vervoer",
+      "description": "Hoogcapacitaire eventlogistiek voor congressen, topontmoetingen en MICE-evenementen in Brussel. 50+ premium voertuigen, F1-bewezen coördinatie, touringcars, minibussen en on-site dispatch.",
+      "keywords": "event transfers brussel, MICE transport belgië, conferentieshuttle brussel, eventlogistiek, groepsbusvervoer belgië, brussels expo transfers"
+    },
+    "diplomatic_embassy_transfers": {
+      "title": "Diplomatieke & ambassade transfers Brussel | Delegatievervoer",
+      "description": "Protocolgericht diplomatiek vervoer in Brussel. Expertise bij NAVO, Europese Commissie & Raad, ambassadetransfers, VIP-luchthavenservice en veilige delegatielogistiek met een vloot van 50 voertuigen.",
+      "keywords": "diplomatieke transfers brussel, ambassadevervoer belgië, NAVO chauffeursdienst, EU-delegatievervoer, diplomatieke luchthaventransfer zaventem, ambassade taxi brussel"
+    },
+    "hourly_transfers": {
+      "title": "Chauffeur per uur Brussel | Flexibele as-directed hire",
+      "description": "Flexibele chauffeur per uur in Brussel voor zakelijke meetings, stadsrondritten, multi-stop ritten en shopping. Vaste tarieven, 24/7 beschikbaar en toegewijde professionele chauffeurs.",
+      "keywords": "chauffeur per uur brussel, as directed hire belgië, taxi per uur brussel, multi-stop chauffeursdienst, brussel stadsrondrit chauffeur, uurlijkse luchthaventransfer zaventem"
+    },
+    "cargo_crew": {
+      "title": "Cargo crew vervoer | Luchthaventransfers België",
+      "description": "Boek cargo crew vervoer voor betrouwbare service op Belgische luchthavens en logistieke hubs.",
+      "keywords": "cargo crew taxi belgië, freight crew transport, luchthaven cargo shuttle"
+    },
+    "city_rides": {
+      "title": "Stadsritten | Luchthaventransfers België",
+      "description": "Boek privé stadsritten en lokale chauffeursdienst in Belgische steden met vaste prijzen.",
+      "keywords": "stadsritten belgië, privé taxi brussel, antwerpen stads transfer"
+    },
+    "hourly_ride": {
+      "title": "Uurritten | Luchthaventransfers België",
+      "description": "Boek flexibele chauffeursdienst per uur in heel België voor zaken, events en privévervoer.",
+      "keywords": "taxi per uur belgië, chauffeur per uur, privéchauffeur brussel"
+    },
+    "private_jet": {
+      "title": "Private jet transfer | Luchthaventransfers België",
+      "description": "Boek private jet grondtransfers en executive luchthavenshuttles in België.",
+      "keywords": "private jet transfer belgië, executive luchthaven shuttle, VIP transfer brussel"
+    },
+    "airport_transfer": {
+      "title": "Luchthaventransferdiensten België | Premium chauffeursdienst",
+      "description": "Betrouwbare ophaal- en afzetdiensten op luchthavens in heel België. Professionele chauffeurs, vluchttracking, meet & greet en vaste prijzen 24/7 beschikbaar.",
+      "keywords": "luchthaventransferdiensten belgië, ophalen brussels airport, afzetten luchthaven, professionele chauffeur, vluchttracking, meet and greet luchthaven, vaste prijs luchthaventransfer"
+    },
+    "city_ride": {
+      "title": "Stad-tot-stad ritten België | Privé intercity transfers",
+      "description": "Boek comfortabele stad-tot-stad ritten in heel België. Privé chauffeursvoertuigen, vaste prijzen en veilig intercityvervoer.",
+      "keywords": "stad tot stad ritten belgië, privé intercity transfer, chauffeur intercity, luxe intercityvervoer, vaste prijzen stadsritten"
+    }
+  },
+  "airport_transfers": {
+    "hub": {
+      "title": "Brussels Airport transfers | Zaventem & Charleroi chauffeursdienst",
+      "description": "Professionele transfers vanaf Brussels Airport (Zaventem) en Charleroi in heel België. Meet and greet, vluchttracking, vaste prijzen en premium chauffeursdienst 24/7.",
+      "keywords": "brussels airport transfer, zaventem airport taxi, BRU airport chauffeur, charleroi airport transfer, belgië airport taxi, vaste prijs luchthaventransfer"
+    },
+    "brussels": {
+      "title": "Brussels Airport transfer | 24/7 taxidienst",
+      "description": "Boek betrouwbare transfers vanaf Brussels Airport (Zaventem). 24/7 ophalen, afzetten, chauffeur en zakelijk vervoer in Brussel.",
+      "keywords": "brussels airport transfer, BRU airport taxi, zaventem ophalen, brussels chauffeursdienst, zakelijk luchthavenvervoer brussel"
+    },
+    "charleroi": {
+      "title": "Charleroi Airport transfer | 24/7 taxidienst",
+      "description": "Boek betrouwbare transfers vanaf Brussels South Charleroi Airport. 24/7 ophalen, afzetten en chauffeurtransfers naar Brussel en Wallonië.",
+      "keywords": "charleroi airport transfer, CRL airport taxi, brussels south charleroi ophalen, charleroi chauffeursdienst"
+    }
+  },
+  "cities": {
+    "antwerp_city": {
+      "title": "Antwerpen taxidienst | Privétransfers in de diamantstad",
+      "description": "Premium Antwerpse taxidienst voor ANR-luchthavenophalingen, Port of Antwerp transfers, ritten in de diamantwijk en verbindingen met Brussels Zaventem. Vaste prijzen en 24/7 beschikbaar.",
+      "keywords": "antwerpen taxi, antwerpen luchthaventransfer ANR, port of antwerp taxi, diamantwijk antwerpen, brussel naar antwerpen taxi, antwerpen centraal station ophalen"
+    },
+    "brussels_city": {
+      "title": "Brussels Airport transfer | Deur-tot-deur taxidienst",
+      "description": "Professionele transfers vanaf Brussels Airport (Zaventem) naar het stadscentrum, de EU-wijk, NAVO, Louizalaan en station Zuid. Vaste prijzen, meet-and-greet en 45 minuten gratis wachten.",
+      "keywords": "brussels airport transfer, zaventem taxi, BRU ophalen, eu-wijk transfer brussel, nato hoofdkwartier taxi, louizalaan luchthaventransfer"
+    },
+    "ghent_city": {
+      "title": "Gent taxidienst | Privétransfers in historisch Vlaanderen",
+      "description": "Premium Gentse taxidienst vanaf Brussels Airport en Charleroi. Tech hub transfers, Graslei sightseeing, Flanders Expo shuttles en grensoverschrijdende links naar Brugge, Rijsel en Parijs.",
+      "keywords": "gent taxi, brussels airport naar gent, gent transfer, flanders expo taxi, gent naar brugge taxi, tech lane gent transport"
+    },
+    "bruges_city": {
+      "title": "Brugge taxidienst | Brussel naar Brugge privétransfers",
+      "description": "Premium Brussel–Brugge taxidienst. Directe luchthaventransfers, ophalen aan de cruisehaven van Zeebrugge, BMCC-conferenties, wait-and-return tours en vaste all-in prijzen.",
+      "keywords": "brugge taxi, brussel naar brugge transfer, brugge privé taxi, zeebrugge cruisehaven taxi, brugge luchthaventransfer, brussel brugge taxi"
+    },
+    "amsterdam_city": {
+      "title": "Brussels Airport naar Amsterdam transfer | Privé taxidienst",
+      "description": "Premium transfers van Brussels Airport naar Amsterdam. Directe hotel drops, Schiphol-verbindingen, zakelijke Zuidas-connecties, groepsreizen en vaste intercitytarieven met grensexpertise.",
+      "keywords": "brussels airport naar amsterdam, bru naar amsterdam taxi, amsterdam transfer vanaf brussel, schiphol brussel transfer, amsterdam privé taxi, brussel amsterdam intercity"
+    },
+    "paris_city": {
+      "title": "Brussel naar Parijs taxi | Privé grensoverschrijdende transfers",
+      "description": "Premium Brussel–Parijs taxidienst. BRU naar Parijs transfers, Eurostar-alternatief, La Défense- en CDG-verbindingen, uurlijkse roadshows en vaste all-in grensoverschrijdende prijzen.",
+      "keywords": "brussel naar parijs taxi, parijs transfer vanaf brussel, bru naar parijs transfer, brussel parijs privé transfer, cdg naar brussel taxi, eurostar alternatief brussel parijs"
+    },
+    "luxembourg_city": {
+      "title": "Brussel naar Luxemburg taxi | Privé EU-corridor transfers",
+      "description": "Premium Brussel–Luxemburg taxidienst. BRU naar Luxemburg transfers, Kirchberg EU-instellingen, diplomatieke delegaties, uurlijkse executive charters en vaste all-in E411-corridorprijzen.",
+      "keywords": "brussel naar luxemburg taxi, luxemburg transfer vanaf brussel, bru naar luxemburg transfer, kirchberg taxi brussel, luxemburg findel luchthaventransfer, eu-corridor brussel luxemburg"
+    },
+    "brussels_to_maastricht": {
+      "title": "Brussels Airport naar Maastricht transfer | Privé taxidienst",
+      "description": "Premium transfers van Brussels Airport naar Maastricht. Meet-and-greet op BRU, TEFAF Maastricht eventvervoer, vaste prijzen, vluchttracking en comfortabele deur-tot-deur service naar Maastrichtse hotels.",
+      "keywords": "brussels airport naar maastricht, bru naar maastricht taxi, maastricht transfer, tefaf maastricht transfer, brussel maastricht privé taxi, maastricht luchthaventransfer"
+    }
+  },
+  "booking": {
+    "select_vehicle": {
+      "title": "Voertuig kiezen | Luchthaventransfers België",
+      "description": "Kies het beste voertuig voor uw luchthaventransfer of chauffeurrit in België.",
+      "keywords": "voertuig kiezen, taxivloot belgië, luchthavenboeking"
+    },
+    "passenger_details": {
+      "title": "Passagiersgegevens | Luchthaventransfers België",
+      "description": "Geef uw gegevens op om uw luchthaventransferboeking in België te voltooien.",
+      "keywords": "passagiersgegevens, contactgegevens, boeking belgië"
+    },
+    "payment_success": {
+      "title": "Boeking bevestigd | Luchthaventransfers België",
+      "description": "Uw luchthaventransferboeking is bevestigd. Bedankt dat u voor onze service heeft gekozen.",
+      "keywords": "boeking bevestigd, succes, betaling geslaagd belgië"
+    },
+    "payment_cancel": {
+      "title": "Betaling geannuleerd | Luchthaventransfers België",
+      "description": "Uw betaling is geannuleerd. U kunt opnieuw proberen om uw luchthaventransferboeking te voltooien.",
+      "keywords": "betaling geannuleerd, annuleren, betaling opnieuw proberen"
+    }
+  }
+}

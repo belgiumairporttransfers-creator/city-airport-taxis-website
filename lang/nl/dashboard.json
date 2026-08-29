@@ -1,0 +1,190 @@
+{
+  "welcome_back": "Welkom terug",
+  "loading": "Laden...",
+  "overview_subtitle": "Hier is uw dashboardoverzicht voor vandaag.",
+  "ride_discounts": {
+    "title": "Uw ritkortingen",
+    "subtitle": "Kortingen worden automatisch toegepast tijdens het boeken.",
+    "one_way": "Enkele reis: {discount}%",
+    "return": "Retour: {discount}%"
+  },
+  "spending_bookings": {
+    "title": "Uitgaven en boekingen",
+    "months": "{value}M"
+  },
+  "stats": {
+    "total_rides": {
+      "label": "Totaal ritten",
+      "trend": "Altijd"
+    },
+    "completed_rides": {
+      "label": "Voltooide ritten",
+      "trend": "Succesvol afgerond"
+    },
+    "upcoming_rides": {
+      "label": "Aankomende ritten",
+      "trend": "Volgende: {date}"
+    },
+    "empty_date": "---"
+  },
+  "quick_actions": {
+    "book_transfer": {
+      "title": "Transfer boeken",
+      "subtitle": "Zoek en boek een nieuwe rit"
+    },
+    "statements": {
+      "title": "Overzichten",
+      "subtitle": "Bekijk maandelijkse rapporten"
+    },
+    "passengers": {
+      "title": "Passagiers",
+      "subtitle": "Beheer uw reizigers"
+    },
+    "settings": {
+      "title": "Instellingen",
+      "subtitle": "Account en voorkeuren"
+    }
+  },
+  "next_rides": {
+    "title": "Uw volgende ritten",
+    "view_all": "Alles bekijken",
+    "no_rides": "Geen aankomende ritten gevonden.",
+    "order": "Bestelling #{number}"
+  },
+  "activity_overview": {
+    "title": "Activiteitsoverzicht",
+    "upcoming": "Aankomende ritten",
+    "completed": "Voltooide ritten",
+    "cancelled": "Geannuleerde ritten",
+    "revenue": {
+      "label": "Totale omzet",
+      "subtitle": "Totale uitgaven"
+    },
+    "average_value": "Gemiddelde ritwaarde",
+    "top_destinations": {
+      "title": "Topbestemmingen",
+      "no_data": "Nog geen bestemmingsgegevens beschikbaar."
+    },
+    "security": {
+      "title": "Beveiliging en account",
+      "last_session": {
+        "label": "Laatste sessie",
+        "empty": "---"
+      },
+      "status": {
+        "label": "Beveiligingsstatus",
+        "strong": "Sterk",
+        "review": "Controleren",
+        "sessions_count": "{count} actieve sessie(s)",
+        "no_sessions": "Geen actieve sessies"
+      },
+      "device": {
+        "label": "Apparaat",
+        "empty": "---",
+        "member_since": "Lid sinds {date}"
+      }
+    },
+    "help": {
+      "title": "Hulp nodig?",
+      "subtitle": "Ons supportteam is 24/7 beschikbaar om u te helpen bij eventuele problemen.",
+      "button": "Contact opnemen met support"
+    }
+  },
+  "chart": {
+    "spending": "Uitgaven",
+    "bookings": "Boekingen",
+    "months": {
+      "jan": "Januari",
+      "feb": "Februari",
+      "mar": "Maart",
+      "apr": "April",
+      "may": "Mei",
+      "jun": "Juni",
+      "jul": "Juli",
+      "aug": "Augustus",
+      "sep": "September",
+      "oct": "Oktober",
+      "nov": "November",
+      "dec": "December"
+    }
+  },
+  "bookings_page": {
+    "title": "Mijn boekingen",
+    "search_placeholder": "Boekingsnummer",
+    "bulk_delete": {
+      "title": "Bulkverwijdering bevestigen",
+      "description": "Weet u zeker dat u {count} geselecteerde boekingen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "success": "{count} boekingen succesvol verwijderd"
+    }
+  },
+  "payments_page": {
+    "title": "Mijn betalingen",
+    "search_placeholder": "Betalings-ID",
+    "bulk_delete": {
+      "title": "Bulkverwijdering bevestigen",
+      "description": "Weet u zeker dat u {count} geselecteerde betalingen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+      "success": "{count} betalingen succesvol verwijderd"
+    }
+  },
+  "profile_page": {
+    "title": "Mijn profiel",
+    "loading": "Laden...",
+    "email_loading": "...",
+    "first_name": "Voornaam",
+    "last_name": "Achternaam",
+    "email": "E-mail",
+    "security": {
+      "title": "Beveiliging",
+      "subtitle": "Meld dit account af op alle actieve apparaten en sessies.",
+      "logout_all_button": "Afmelden op alle apparaten",
+      "dialog_title": "Afmelden op alle apparaten?",
+      "dialog_description": "Dit meldt u af op alle actieve sessies op alle apparaten. U moet opnieuw inloggen.",
+      "cancel": "Annuleren",
+      "confirm": "Bevestigen",
+      "logging_out": "Afmelden..."
+    }
+  },
+  "statements_page": {
+    "title": "Overzichten",
+    "subtitle": "Download maandelijkse overzichten vanaf uw accountregistratiedatum.",
+    "joined": "Lid sinds: {date}",
+    "loading": "Overzichten laden...",
+    "failed": "Overzichten laden mislukt.",
+    "no_data": "Nog geen maandelijkse overzichten beschikbaar.",
+    "refreshing": "Overzichten vernieuwen...",
+    "table": {
+      "month": "Maand",
+      "bookings": "Boekingen",
+      "completed": "Voltooid",
+      "spent": "Uitgegeven",
+      "action": "Actie",
+      "download_pdf": "PDF downloaden"
+    }
+  },
+  "table_columns": {
+    "booking_id": "Boekings-ID",
+    "passenger": "Passagier",
+    "pickup": "Ophalen",
+    "dropoff": "Afzetten",
+    "amount": "Bedrag",
+    "payment": "Betaling",
+    "status": "Status",
+    "booked_on": "Geboekt op",
+    "actions": "Acties",
+    "transaction": "Transactie",
+    "booking": "Boeking",
+    "method": "Methode",
+    "card": "Kaart",
+    "payment_status": "Betalingsstatus",
+    "paid_on": "Betaald op",
+    "na": "N.v.t.",
+    "cash": "Contant",
+    "online": "Kaart",
+    "cancel_ride": "Rit annuleren",
+    "delete": "Verwijderen",
+    "cancel_confirm_title": "Deze rit annuleren?",
+    "cancel_confirm_desc": "U kunt alleen annuleren tot 4 uur voor de ophaaltijd. Deze actie markeert de boeking als geannuleerd.",
+    "cancel_success": "Rit succesvol geannuleerd.",
+    "delete_success": "Boeking succesvol verwijderd."
+  }
+}

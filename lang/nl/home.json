@@ -1,0 +1,329 @@
+{
+  "hero": {
+    "title_line1": "Brussel",
+    "title_line2": "Luchthaven <accent>Taxi</accent> Transfers",
+    "description": "Betrouwbare luchthaventaxi-transfers van en naar Brussels Airport met professionele chauffeurs, vluchtmonitoring, meet & greet-service en comfortabele Mercedes-voertuigen 24/7 beschikbaar.",
+    "image_alt": "Brussels Airport taxitransfer met professionele chauffeur en luxevoertuig"
+  },
+  "cities": {
+    "title": "Populaire Brussels Airport transferbestemmingen",
+    "description": "Wij bieden luchthaventaxi-transfers van Brussels Airport naar:",
+    "prev": "Vorige bestemmingen",
+    "next": "Volgende bestemmingen",
+    "items": {
+      "brussels_city_centre": { "name": "Brussel stadscentrum" },
+      "european_quarter": { "name": "Europese wijk" },
+      "grand_place": { "name": "Grote Markt" },
+      "avenue_louise": { "name": "Louizalaan" },
+      "brussels_expo": { "name": "Brussels Expo" },
+      "atomium": { "name": "Atomium" },
+      "bruges": { "name": "Brugge" },
+      "ghent": { "name": "Gent" },
+      "antwerp": { "name": "Antwerpen" },
+      "leuven": { "name": "Leuven" },
+      "waterloo": { "name": "Waterloo" },
+      "namur": { "name": "Namen" },
+      "liege": { "name": "Luik" },
+      "charleroi": { "name": "Charleroi" },
+      "amsterdam": { "name": "Amsterdam" },
+      "paris": { "name": "Parijs" },
+      "luxembourg_city": { "name": "Luxemburg-Stad" }
+    }
+  },
+  "destinations": {
+    "badge": "Luchthavens die we bedienen",
+    "title": "Belangrijke Belgische luchthavens",
+    "description": "We bieden betrouwbare luchthaventransfers van en naar alle belangrijke Belgische luchthavens, en verbinden u met steden in het hele land met professionele chauffeurs en vaste prijzen.",
+    "items": {
+      "brussels": {
+        "name": "Brussels Airport (Zaventem)",
+        "subtitle": "Populaire routes:",
+        "tags": {
+          "0": "Brussel stadscentrum",
+          "1": "EU-wijk en kantoren",
+          "2": "Hotels en zakelijke centra",
+          "3": "Meet & greet bij aankomst"
+        }
+      },
+      "charleroi": {
+        "name": "Brussels South Charleroi",
+        "subtitle": "Populaire routes:",
+        "tags": {
+          "0": "Brussel stadstransfers",
+          "1": "Charleroi en Wallonië",
+          "2": "Low-cost vluchtaankomsten",
+          "3": "Deur-tot-deur service"
+        }
+      },
+      "antwerp": {
+        "name": "Antwerp International Airport",
+        "subtitle": "Populaire routes:",
+        "tags": {
+          "0": "Antwerpen stadscentrum",
+          "1": "Haven en zakelijke wijken",
+          "2": "Luchthavenophaalservices",
+          "3": "Luchthavenafzetten"
+        }
+      },
+      "liege": {
+        "name": "Liège Airport",
+        "subtitle": "Populaire routes:",
+        "tags": {
+          "0": "Luik stadscentrum",
+          "1": "Wallonië verbindingen",
+          "2": "Zakelijke reizen",
+          "3": "Regionale transfers"
+        }
+      },
+      "ostend": {
+        "name": "Ostend-Bruges Airport",
+        "subtitle": "Populaire routes:",
+        "tags": {
+          "0": "Oostende en kuststeden",
+          "1": "Brugge transfers",
+          "2": "Vakantiereizen",
+          "3": "Privé chauffeursdienst"
+        }
+      }
+    }
+  },
+  "fleet": {
+    "title": "Onze premium vloot in België",
+    "description": "Reis comfortabel met onze zorgvuldig onderhouden voertuigen, van executive sedans tot ruime SUV's — perfect voor luchthaventransfers, zakelijke reizen en groepsreizen in België.",
+    "view_details": "Details bekijken"
+  },
+  "why_choose_us": {
+    "badge": "Waarom kiezen voor ons",
+    "title": "Waarom kiezen voor onze Brussels Airport taxitransferservice?",
+    "image_alt": "Professionele Brussels Airport taxitransfer met luxe Mercedes-voertuig en chauffeur",
+    "flight_monitoring": {
+      "title": "Vluchtmonitoring inbegrepen",
+      "description": "We volgen uw vlucht in real-time en passen ophaaltijden automatisch aan bij vertragingen of vroege aankomsten."
+    },
+    "meet_greet": {
+      "title": "Meet & Greet-service",
+      "description": "Uw chauffeur verwelkomt u in de aankomsthal met een gepersonaliseerd naambord en helpt met uw bagage."
+    },
+    "fixed_rates": {
+      "title": "Vaste tarieven",
+      "description": "Geen verborgen kosten, dynamische prijzen of onverwachte toeslagen. De prijs die u boekt, is de prijs die u betaalt."
+    },
+    "professional_chauffeurs": {
+      "title": "Professionele chauffeurs",
+      "description": "Onze hoffelijke en ervaren chauffeurs bieden stipt, veilig en discreet vervoer."
+    },
+    "premium_mercedes_fleet": {
+      "title": "Premium Mercedes-vloot",
+      "description": "Reis comfortabel met onze selectie Mercedes E-Class, S-Class, V-Class en premium minivans."
+    },
+    "available_24_7": {
+      "title": "24/7 Beschikbaar",
+      "description": "We opereren rond de klok om alle vluchtschema's en reisbehoeften te accommoderen."
+    }
+  },
+  "safety_reliability": {
+    "badge": "Langeafstandsroutes",
+    "title": "Luchthaventaxi-transfers in België en Europa",
+    "description": "Naast Brussels Airport transfers bieden we privé langeafstandstransport naar bestemmingen in België en naburige landen. Populaire routes:",
+    "features": [
+      "Brussels Airport naar Brugge",
+      "Brussels Airport naar Gent",
+      "Brussels Airport naar Antwerpen",
+      "Brussels Airport naar Amsterdam",
+      "Brussels Airport naar Parijs",
+      "Brussels Airport naar Luxemburg",
+      "Brussels Airport naar Rotterdam",
+      "Brussels Airport naar Keulen"
+    ],
+    "cta": {
+      "text": "Alle ritten worden uitgevoerd met professionele chauffeurs en premium voertuigen voor maximaal comfort.",
+      "button": "Nu boeken"
+    },
+    "image_alt": "Langeafstand luchthaventaxitransfer in België en Europa"
+  },
+  "book_airport_transfer": {
+    "title": "Boek vandaag uw Brussels Airport taxitransfer",
+    "subtitle": "Betrouwbare Brussels Airport taxitransfers met een vertrouwde lokale chauffeursdienst.",
+    "features": [
+      "Professionele chauffeurs",
+      "Vaste prijzen",
+      "Vluchtmonitoring",
+      "Meet & Greet",
+      "Premium Mercedes-voertuigen",
+      "24/7 Beschikbaar"
+    ],
+    "button": "Nu boeken",
+    "hero": {
+      "badge": "Brussels Airport",
+      "title": "Uw vertrouwde lokale chauffeursdienst",
+      "description": "Ervaar betrouwbare, professionele en comfortabele Brussels Airport taxitransfers met een vertrouwde lokale chauffeursdienst. Of u nu een luchthavenophaalservice, hoteltransfer, zakelijk vervoer of een langeafstandsrit nodig heeft, wij zijn toegewijd aan uitzonderlijke service van begin tot eind.",
+      "image_alt": "Brussels Airport taxitransfer met professionele chauffeur en premium Mercedes-voertuig"
+    }
+  },
+  "corporate_transportation": {
+    "badge": "Voor elke reiziger",
+    "title": "Luchthaventransfers voor elke reiziger",
+    "description": "Of u nu zakelijk reist, met familie of als onderdeel van een groep — onze professionele luchthaventaxiservice is afgestemd op uw behoeften.",
+    "service_tags": [
+      "Zakelijke reizigers",
+      "Gezinnen",
+      "VIP- en luxereizigers",
+      "Groepen en delegaties"
+    ],
+    "bottom_features": [
+      "Kom op tijd aan voor vergaderingen, conferenties, beurzen en zakelijke evenementen met onze executive luchthaventransfer.",
+      "Ruime voertuigen en kinderzitjes op verzoek beschikbaar voor een comfortabele gezinsreis.",
+      "Ervaar premium chauffeurgedreven vervoer met luxe Mercedes-voertuigen en gepersonaliseerde service.",
+      "Mercedes V-Class en premium vans bieden comfortabel vervoer voor groepen, gezinnen en zakelijke delegaties."
+    ],
+    "image_alt": "Luchthaventransferservice voor zakelijke reizigers, gezinnen, VIP-gasten en groepen"
+  },
+  "servicesSection": {
+    "heading": "Ontdek onze",
+    "headingHighlight": "Premium",
+    "suffix": "Diensten in België",
+    "subtitle": "Van luchthaventransfers tot zakelijke reizen en ambassade-delegaties — professionele taxidiensten in Brussel en België.",
+    "prev": "Vorige diensten",
+    "next": "Volgende diensten",
+    "read_more": "Lees meer",
+    "cards": {
+      "charleroi_airport": {
+        "category": "CHARLEROI AIRPORT",
+        "title": "Charleroi Airport taxitransfers",
+        "description": "Geniet van betrouwbare luchthaventaxi-transfers van en naar Brussels South Charleroi Airport, met vaste tarieven, vluchttracking en stipte deur-tot-deur service."
+      },
+      "business_airport": {
+        "category": "ZAKELIJKE TRANSFERS",
+        "title": "Zakelijke luchthaventaxitransfers",
+        "description": "Professionele luchthaventaxi-transfers voor zakelijke reizigers, executives, vergaderingen, conferenties en zakelijke evenementen in België."
+      },
+      "luxury_airport": {
+        "category": "LUXE TRANSFERS",
+        "title": "Luxe luchthaventaxitransfers",
+        "description": "Reis stijlvol met onze luxe luchthaventaxi-transfers met premium Mercedes-voertuigen, uitzonderlijk comfort en first-class chauffeursdienst."
+      },
+      "group_airport": {
+        "category": "GROEPSTRANSFERS",
+        "title": "Groeps luchthaventaxitransfers",
+        "description": "Ruime luchthaventaxi-transfers voor gezinnen, groepen en zakelijke delegaties met Mercedes V-Class en premium minivan-voertuigen."
+      },
+      "long_distance_airport": {
+        "category": "LANGEAFSTANDSTRANSFERS",
+        "title": "Langeafstand luchthaventaxitransfers",
+        "description": "Privé luchthaventaxi-transfers tussen Brussels Airport en bestemmingen in België, Frankrijk, Nederland, Luxemburg en Duitsland."
+      },
+      "hotel_airport": {
+        "category": "HOTELTRANSFERS",
+        "title": "Hotel luchthaventaxitransfers",
+        "description": "Comfortabele luchthaventaxi-transfers tussen luchthavens, hotels, residenties en zakelijke locaties met betrouwbare deur-tot-deur service."
+      },
+      "private_chauffeur": {
+        "category": "PRIVÉ CHAUFFEURSDienst",
+        "title": "Privé chauffeur & luchthaventaxiservice",
+        "description": "Een toegewijde chauffeursdienst gecombineerd met premium luchthaventaxi-transfers, met flexibiliteit, comfort en gepersonaliseerd vervoer in België."
+      }
+    }
+  },
+  "services": {
+    "badge": "Onze diensten",
+    "title": "Luchthaventransferdiensten in België",
+    "description": "We bieden betrouwbaar luchthavenvervoer in België voor particulieren, gezinnen, zakelijke reizigers en groepen — met professionele chauffeurs, premium voertuigen en vaste prijzen.",
+    "perfect_for": "Perfect voor:",
+    "items": {
+      "airport_pickups": {
+        "title": "Luchthavenophaalservices",
+        "audiences": [
+          "Aankomsten in Brussel, Antwerpen en Charleroi",
+          "Zakelijke reizigers",
+          "Toeristen en vakantiegangers",
+          "Gezinnen en groepsaankomsten",
+          "Meet & greet bij de terminal"
+        ]
+      },
+      "airport_drop_off": {
+        "title": "Luchthavenafzetdiensten",
+        "audiences": [
+          "Deur-tot-luchthaven transfers",
+          "Geplande hotelophaalservices",
+          "Vroege ochtendvertrekken",
+          "Betrouwbare reisplanning"
+        ]
+      },
+      "executive_transportation": {
+        "title": "Executive vervoer",
+        "audiences": [
+          "Bedrijfsleiders",
+          "Zakelijke vergaderingen in Brussel",
+          "Conferentie- en evenementenreizen",
+          "EU-instellingen en kantoren",
+          "Internationale delegaties"
+        ]
+      },
+      "luxury_chauffeur": {
+        "title": "Luxe chauffeursdienst",
+        "audiences": [
+          "Premium zakelijke reizen",
+          "VIP luchthaventransfers",
+          "Stad-tot-stad reizen",
+          "Speciale evenementen en gelegenheden",
+          "Comfortgericht privéreizen"
+        ]
+      }
+    }
+  },
+  "howItWorks": {
+    "heading": "Hoe het",
+    "headingHighlight": "Werkt",
+    "subtitle": "Boek uw luchthaventransfer in slechts 3 eenvoudige stappen",
+    "steps": {
+      "enterLocation": {
+        "title": "Locatie invoeren",
+        "description": "Voer uw ophaal- en afzetlocatie in voor directe prijsberekening"
+      },
+      "chooseVehicle": {
+        "title": "Voertuig kiezen",
+        "description": "Selecteer uit onze premium vloot het voertuig dat het best bij uw behoeften past"
+      },
+      "confirmBook": {
+        "title": "Bevestigen en boeken",
+        "description": "Voltooi uw boeking en ontvang directe bevestiging"
+      }
+    }
+  },
+  "partnersSection": {
+    "title": "Partners en accreditaties",
+    "description": "We zijn trotse leden van 's werelds toonaangevende transportnetwerken, die de hoogste normen voor veiligheid, ethiek en professionele excellentie voor elke reis waarborgen."
+  },
+  "testimonials": {
+    "title": "Wat onze klanten zeggen",
+    "description": "Vertrouwd door reizigers in België voor betrouwbare luchthaventransfers. Lees reviews van klanten die transfers naar en van Brussel, Antwerpen, Charleroi en verder hebben geboekt.",
+    "stats": {
+      "happy_customers": "Tevreden klanten",
+      "countries": "Belangrijke luchthavens",
+      "avg_rating": "Gemiddelde beoordeling"
+    }
+  },
+  "newsletter": {
+    "explore": {
+      "title": "Ontdek nieuwe bestemmingen in comfort",
+      "description": "Ontdek verborgen parels en schilderachtige routes met onze premium vloot.",
+      "button": "Begin met verkennen"
+    },
+    "featured": {
+      "badge": "Uitgelichte ervaring",
+      "live_status": "Live status",
+      "vehicles_label": "Beschikbare voertuigen",
+      "vehicles_count": "50+",
+      "image_alt": "Uitgelichte ervaring"
+    },
+    "form": {
+      "badge": "Abonneren",
+      "title": "Abonneer u op onze nieuwsbrief voor de laatste reisupdates en exclusieve aanbiedingen!",
+      "description": "Ontvang de laatste updates en aanbiedingen direct in uw inbox.",
+      "email_placeholder": "Voer hier uw e-mailadres in...",
+      "button": "Abonneren",
+      "button_loading": "Abonneren...",
+      "image_alt": "Abonneren op nieuwsbrief"
+    }
+  }
+}

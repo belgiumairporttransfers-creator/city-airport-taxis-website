@@ -1,0 +1,37 @@
+{
+  "nationwide": {
+    "title": "Dekking in heel België",
+    "image_alt": "Chauffeur met een luxe voertuig klaar voor luchthaventransfers in heel België",
+    "categories": [
+      {
+        "label": "Grote steden",
+        "items": [
+          "Brussel",
+          "Antwerpen",
+          "Gent",
+          "Brugge",
+          "Luik"
+        ]
+      },
+      {
+        "label": "Grote luchthavens",
+        "items": [
+          "Brussel (BRU)",
+          "Charleroi (CRL)",
+          "Antwerpen (ANR)",
+          "Luik (LGG)",
+          "Oostende (OST)"
+        ]
+      },
+      {
+        "label": "Populaire bestemmingen",
+        "items": [
+          "EU-wijk",
+          "Zakelijke hubs",
+          "Kuststeden",
+          "Waals gewest"
+        ]
+      }
+    ]
+  }
+}

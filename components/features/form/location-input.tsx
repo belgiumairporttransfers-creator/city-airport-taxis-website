@@ -15,13 +15,16 @@ export interface LocationInputProps {
     error?: boolean
 }
 
-/** Biases Place Autocomplete to Belgium (approximate bounding box). */
-const BELGIUM_BOUNDS: google.maps.LatLngBoundsLiteral = {
-    north: 51.55,
-    south: 49.45,
-    west: 2.45,
-    east: 6.45,
+/** Biases Place Autocomplete to BE / NL / DE / FR / LU (approximate bounding box). */
+const SERVICE_AREA_BOUNDS: google.maps.LatLngBoundsLiteral = {
+    north: 53.7,
+    south: 41.3,
+    west: -5.2,
+    east: 15.0,
 }
+
+/** Google Autocomplete allows at most 5 country codes. */
+const SERVICE_AREA_COUNTRIES = ["be", "nl", "de", "fr", "lu"] as const
 
 export const LocationInput = React.forwardRef<HTMLInputElement, LocationInputProps>(
     ({ value, onChange, placeholder, className, label, error }, ref) => {
@@ -69,8 +72,10 @@ export const LocationInput = React.forwardRef<HTMLInputElement, LocationInputPro
                 serviceRef.current.getPlacePredictions(
                     {
                         input: newValue,
-                        bounds: BELGIUM_BOUNDS,
-                        componentRestrictions: { country: "be" },
+                        bounds: SERVICE_AREA_BOUNDS,
+                        componentRestrictions: {
+                            country: [...SERVICE_AREA_COUNTRIES],
+                        },
                     },
                     (results, status) => {
                         setLoading(false)

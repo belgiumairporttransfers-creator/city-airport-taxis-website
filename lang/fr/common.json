@@ -1,0 +1,186 @@
+{
+  "nav": {
+    "home": "Maison",
+    "services": "Services",
+    "fleets": "Flottes",
+    "about": "À propos",
+    "partner": "Devenez partenaire avec nous",
+    "contact": "Contactez-nous",
+    "business": "Entreprise",
+    "services_list": {
+      "airport_transfers": "Transferts aéroport",
+      "hourly_transfers": "Transferts horaires",
+      "corporate_transfers": "Transferts d'entreprise",
+      "event_transfers": "Transferts d'événements",
+      "airline_crew": "Transferts de l'équipage de la compagnie aérienne",
+      "diplomatic_embassy": "Transferts diplomatiques et d'ambassades"
+    },
+    "cities": "Principales villes",
+    "cities_list": {
+      "brussels": "Transfert Bruxelles",
+      "antwerp": "Transfert Anvers",
+      "ghent": "Transfert Gand",
+      "bruges": "Transfert Bruges",
+      "amsterdam": "Transfert Amsterdam",
+      "paris": "Transfert parisien",
+      "luxembourg": "Transfert luxembourgeois",
+      "maastricht": "Bruxelles à Maastricht"
+    },
+    "business_list": {
+      "solutions": "Solutions d'affaires"
+    }
+  },
+  "buttons": {
+    "book_now": "Réservez maintenant",
+    "learn_more": "Apprendre encore plus",
+    "sign_in": "Se connecter",
+    "subscribe": "S'abonner",
+    "apply": "Appliquer"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "nl": "Nederlands"
+  },
+  "footer": {
+    "description": "Service de transfert aéroport Elite en Belgique. Disponible 24h/24 et 7j/7 pour votre commodité.",
+    "quick_links": "Liens rapides",
+    "top_cities": "Principales villes",
+    "our_services": "Nos prestations",
+    "contact_info": "Contactez-nous",
+    "enterprise_label": "Entreprise NON :",
+    "copyright": "Droit d'auteur",
+    "rights": "Tous droits réservés.",
+    "links": {
+      "home": "Maison",
+      "about": "À propos",
+      "driver": "Conducteur",
+      "contact": "Contact",
+      "faqs": "FAQs",
+      "fleet": "Flotte",
+      "partner": "Devenez partenaire avec nous",
+      "help_desk": "Service d'assistance",
+      "privacy_policy": "politique de confidentialité",
+      "terms": "Termes et conditions",
+      "disclaimer": "Clause de non-responsabilité"
+    },
+    "cities": {
+      "brussels": "Transfert Bruxelles",
+      "antwerp": "Transfert Anvers",
+      "ghent": "Transfert Gand",
+      "bruges": "Transfert Bruges",
+      "amsterdam": "Transfert Amsterdam",
+      "paris": "Transfert parisien",
+      "luxembourg": "Transfert luxembourgeois",
+      "maastricht": "Bruxelles à Maastricht"
+    },
+    "services": {
+      "airport_transfers": "Transferts aéroport",
+      "hourly_transfers": "Transferts horaires",
+      "corporate_transfers": "Transferts d'entreprise",
+      "event_transfers": "Transferts d'événements",
+      "airline_crew": "Transferts de l'équipage de la compagnie aérienne",
+      "diplomatic_embassy": "Transferts diplomatiques et d'ambassades"
+    }
+  },
+  "airports": {
+    "brussels": "Aéroport de Bruxelles Zaventem (BRU)",
+    "charleroi": "Aéroport de Charleroi (CRL)",
+    "antwerp": "Aéroport d'Anvers",
+    "liege": "Liège Airport",
+    "ostend": "Aéroport d'Ostende-Bruges"
+  },
+  "vehicle": {
+    "bags": "Sacs",
+    "seats": "Sièges",
+    "passengers": "Passagers",
+    "similar": "ou similaire"
+  },
+  "booking_form": {
+    "categories": {
+      "one_way": "Sens Unique",
+      "return": "Aller-Retour",
+      "hourly": "À l'heure"
+    },
+    "labels": {
+      "from": "Depuis",
+      "to": "À",
+      "duration": "Durée",
+      "pickup_date": "Date de ramassage",
+      "pickup_time": "Heure de ramassage",
+      "return_date": "Date de retour",
+      "return_time": "Heure de retour",
+      "passengers": "Passagers"
+    },
+    "placeholders": {
+      "pickup": "Adresse de prise en charge",
+      "dropoff": "Adresse de dépôt",
+      "location": "Adresse, aéroport, hôtel, ...",
+      "duration": "Sélectionnez la durée",
+      "date": "Date de ramassage",
+      "time": "Heure de ramassage",
+      "return_date": "Date de retour",
+      "return_time": "Heure de retour"
+    },
+    "buttons": {
+      "add_return": "Ajouter un retour",
+      "remove_return": "Supprimer le retour",
+      "see_prices": "Voir les tarifs"
+    },
+    "notes": {
+      "chauffeur_wait": "Le chauffeur attend jusqu'à 45 minutes gratuites à l'aéroport."
+    },
+    "messages": {
+      "location_updated": "Adresse de prise en charge mise à jour selon votre emplacement actuel.",
+      "location_error": "Impossible de résoudre votre adresse de localisation actuelle.",
+      "settings_loading": "Les paramètres de réservation ne sont pas encore chargés. Veuillez réessayer dans un instant.",
+      "general_error": "Impossible de continuer. Veuillez réessayer."
+    },
+    "stops": {
+      "stop": "Arrêt",
+      "extra": "Supplémentaire",
+      "placeholder": "Adresse, aéroport, hôtel, ..."
+    }
+  },
+  "maintenance": {
+    "title": "Entretien",
+    "heading": "Nous sommes en maintenance.",
+    "description": "Nous rendons le système encore plus génial.",
+    "description_line_2": "Nous reviendrons sous peu.",
+    "contact_us": "Contactez-nous",
+    "links": {
+      "privacy": "politique de confidentialité",
+      "faq": "FAQ",
+      "contact": "Envoyez-nous un courriel"
+    }
+  },
+  "coming_soon": {
+    "title": "À venir",
+    "eyebrow": "À venir",
+    "heading": "Soyez averti lorsque nous lançons",
+    "description": "Nous mettons la touche finale à une meilleure façon de réserver les transferts aéroportuaires à travers le Pakistan. Laissez votre email et nous vous informerons dès que nous serons en direct.",
+    "email_placeholder": "Enter your email",
+    "notify_button": "Notify me",
+    "submitting": "Submitting...",
+    "success_message": "Thanks! We'll notify you when we launch.",
+    "email_required": "Email is required",
+    "email_invalid": "Please enter a valid email address",
+    "spam_disclaimer": "We respect your privacy. No spam, ever."
+  },
+  "dashboard": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "bookings": "My Bookings",
+      "payments": "My Payments",
+      "statements": "Statements",
+      "profile": "Profile"
+    },
+    "logout": "Log out",
+    "logging_out": "Logging out...",
+    "loading": "Loading...",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "deleting": "Deleting...",
+    "continue": "Continue"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "disclaimer": {
+    "banner": {
+      "top_text": "Avis de service",
+      "title": "Avertissement du site web",
+      "description": "Informations juridiques concernant l'utilisation de notre site web et des ressources externes."
+    },
+    "sidebar": {
+      "notice": "Avis important",
+      "liability_title": "Responsabilité limitée",
+      "liability_desc": "Cet avertissement encadre les limitations juridiques des informations fournies sur nos plateformes numériques.",
+      "verified_title": "Contenu vérifié",
+      "verified_desc": "Bien que nous nous efforcions d'être précis, les utilisateurs doivent vérifier les informations critiques avant de s'y fier."
+    },
+    "content": {
+      "service_title": "Prestation de service",
+      "service_desc": "Airport Transfer met le site web à disposition du public. Nous ne sommes pas responsables et déclinons expressément toute responsabilité pour les dommages de toute nature résultant de l'utilisation, de la référence ou de la confiance accordée à toute information contenue sur le site.",
+      "accuracy_title": "Garantie d'exactitude",
+      "accuracy_desc": "Bien que les informations contenues sur le site soient mises à jour périodiquement, aucune garantie n'est donnée que les informations fournies sur ce site web sont correctes, complètes et à jour.",
+      "links_title": "Liens externes",
+      "links_desc": "Ce site web peut inclure des liens donnant un accès direct à d'autres ressources Internet, y compris des sites web. Airport Transfer n'est pas responsable de l'exactitude ou du contenu des informations contenues sur ces sites.",
+      "endorsement_title": "Aucune approbation",
+      "endorsement_desc": "Les liens vers des sites tiers ne constituent pas une approbation par Airport Transfer des parties ou de leurs produits et services. L'apparition de publicités ou d'informations sur les services ne constitue pas une approbation."
+    },
+    "last_reviewed": "Dernière révision"
+  },
+  "privacy": {
+    "banner": {
+      "top_text": "Documentation",
+      "title": "Politique de confidentialité",
+      "description": "Guide complet sur la façon dont nous collectons, utilisons et protégeons vos informations personnelles."
+    },
+    "sidebar": {
+      "protocol": "Protocole de sécurité des données",
+      "overview": "Aperçu de la politique",
+      "desc": "Airport Transfer surveille tout traitement de données pour garantir la conformité aux normes pakistanaises applicables en matière de confidentialité et de protection des données.",
+      "agreement": "En utilisant nos services, vous acceptez nos pratiques de confidentialité telles qu'elles sont décrites ici.",
+      "updated": "Dernière mise à jour",
+      "support": "Assistance rapide",
+      "contact_dpo": "Contacter le responsable de la confidentialité"
+    },
+    "content": {
+      "overview": "Aperçu de la politique de confidentialité",
+      "standards": "Normes de protection des données et conformité.",
+      "intro_title": "Introduction et portée",
+      "intro_desc": "Airport Transfer respecte la vie privée de ses utilisateurs et reconnaît la nécessité de protéger toute information personnelle que vous partagez avec nous via notre site web. Nous suivons les pratiques standard de l'industrie pour protéger votre vie privée sur l'ensemble de notre infrastructure numérique.",
+      "applies": "Cette politique de confidentialité s'applique à votre utilisation de notre site web et de nos services réservés via notre plateforme.",
+      "agreement_box": "En utilisant nos services, vous acceptez les termes de cette politique de confidentialité. Veuillez lire attentivement la documentation suivante pour comprendre nos pratiques de traitement des données.",
+      "sections": [
+        { "title": "01", "label": "Identification de l'utilisateur", "content": "Nous collectons votre nom, numéro de mobile, mot de passe et adresse e-mail lors de votre inscription en tant qu'utilisateur. Ces informations sont nécessaires pour vous identifier en tant qu'utilisateur unique afin de vous fournir nos services." },
+        { "title": "02", "label": "Sécurité des transactions", "content": "Tous les paiements en ligne sont traités via une connexion sécurisée sur une page de paiement sécurisée. Nous collectons les détails de paiement uniquement pour les demandes de réservation et ne sauvegardons pas ces informations sur nos serveurs internes." },
+        { "title": "03", "label": "Données logistiques et de localisation", "content": "Nous collectons les détails de voyage tels que la localisation actuelle, l'heure de voyage, l'adresse de départ et la destination pour les demandes de réservation. Les utilisateurs peuvent choisir de sauvegarder des adresses favorites pour une expérience de réservation plus pratique." },
+        { "title": "04", "label": "Suivi de l'historique de voyage", "content": "Notre système enregistre les adresses des voyages récents pour permettre une réservation instantanée pour les trajets fréquents. Cela améliore l'expérience utilisateur pour nos voyageurs réguliers." },
+        { "title": "05", "label": "Optimisation du service", "content": "Nous collectons les commentaires, évaluations, types de systèmes d'exploitation mobile et identifiants d'appareils pour améliorer nos offres de services et envoyer des notifications push pertinentes." }
+      ],
+      "utilization_title": "Utilisation des informations",
+      "utilization_desc": "Nous avons besoin de ces informations pour vous identifier en tant qu'utilisateur, améliorer nos services et offrir un meilleur service à nos utilisateurs. À l'exception des détails de paiement, nous conservons ces informations uniquement à des fins d'archivage interne pour vous servir à nouveau à l'avenir. Les coordonnées sont utilisées pour les mises à jour liées aux trajets, les notifications de service et les informations promotionnelles occasionnelles relatives aux nouvelles offres ou aux offres spéciales.",
+      "security_title": "Assurance de sécurité",
+      "security_desc": "Nous avons mis en place des fonctionnalités technologiques avancées et des directives strictes pour protéger la confidentialité de vos informations personnelles identifiables contre tout accès non autorisé et toute utilisation abusive.",
+      "third_party": "Nous ne vendons ni ne louons aucune information personnelle à des tiers."
+    }
+  },
+  "terms": {
+    "banner": {
+      "top_text": "Accord",
+      "title": "Conditions générales",
+      "description": "Veuillez lire attentivement ces conditions générales avant d'utiliser notre site web et nos services."
+    },
+    "sidebar": {
+      "identity": "Identité de l'entrepreneur",
+      "trading_name": "Nom commercial",
+      "url": "URL",
+      "email": "E-mail",
+      "kvk": "Numéro NTN",
+      "vat": "Numéro de taxe sur les ventes",
+      "knv_title": "Enregistrement SECP",
+      "knv_desc": "Airport Transfer opère conformément aux réglementations pakistanaises applicables en matière de transport et aux exigences d'enregistrement corporatif de la SECP.",
+      "knv_link_transfers": "Conditions du service de transfert",
+      "knv_link_coach": "Conditions du service de car"
+    },
+    "content": {
+      "intro_title": "Introduction et définitions",
+      "intro_desc": "Veuillez lire attentivement ces conditions générales avant d'utiliser ce site web. Dans cet avis, l'utilisation et tout le contenu de ce site web sont réglementés. En accédant à ce site web, vous acceptez d'être lié par ces conditions d'utilisation.",
+      "entrepreneur_title": "Entrepreneur",
+      "entrepreneur_desc": "La personne physique ou morale qui propose des produits et/ou services à distance aux passagers.",
+      "passenger_title": "Passager / Utilisateur",
+      "passenger_desc": "La personne physique qui utilise nos services en effectuant une réservation sur notre site web.",
+      "availability_title": "Disponibilité du service",
+      "availability_desc": "Les références sur le site à nos services constituent une offre de vente ou de fourniture de ce service. Nos services sont proposés en fonction de la disponibilité. Nous fournissons 98,9 % des services que nous proposons, mais il est possible que nous ne puissions pas fournir un service ou un type de véhicule particulier.",
+      "cancellation_title": "Politique d'annulation",
+      "cancellation_types": [
+        { "title": "Transferts réguliers", "time": "Préavis de 24 heures", "details": "Les clients recevront un remboursement complet ou un crédit avec préavis. Les absences seront facturées au prix complet." },
+        { "title": "Horaire et événements", "time": "Préavis de 48 heures", "details": "Applicable aux roadshows, mariages et réservations horaires avec éligibilité au remboursement complet." },
+        { "title": "Visites guidées", "time": "Préavis de 21 jours", "details": "Délai de préavis requis pour les visites touristiques afin de recevoir un remboursement complet ou un crédit." },
+        { "title": "Transferts en car", "time": "Préavis de 30 jours", "details": "Les transferts de groupes en grands véhicules nécessitent un préavis de 30 jours pour un remboursement complet." }
+      ],
+      "fee_note_title": "Note sur les frais de transaction",
+      "fee_note_desc": "Nous rembourserons le montant payé moins les frais facturés par le prestataire de paiement (par ex. frais de traitement par carte ou portefeuille mobile).",
+      "waiting_title": "Temps d'attente et coûts",
+      "waiting_included": "Période d'attente incluse",
+      "airport_pickups": "Prises en charge à l'aéroport",
+      "train_stations": "Gares",
+      "minutes": "Minutes",
+      "after_landing": "Inclus après l'atterrissage",
+      "after_arrival": "Inclus après l'arrivée",
+      "additional_costs": "Coûts d'attente supplémentaires (par véhicule)",
+      "per_hour": "heure",
+      "tracking_note": "Nous suivons les heures d'arrivée des vols et des trains. Veuillez vous assurer que votre téléphone est allumé après l'arrivée afin que nous puissions coordonner les points de rencontre.",
+      "hourly_title": "Réservations horaires",
+      "hourly_desc": "Principalement utilisées pour les visites touristiques, les déplacements d'affaires et les mariages. La durée minimale est de 4 heures et la maximale de 14 heures/jour. Les transferts horaires se terminent toujours au point de prise en charge initial.",
+      "liability_title": "Responsabilité et droit pakistanais",
+      "liability_desc": "Les informations sur ce site ne constituent pas des conseils médicaux, juridiques ou d'investissement. Le droit pakistanais s'applique à toutes les questions liées à l'utilisation de ce site web.",
+      "submission_title": "Soumission d'informations",
+      "submission_desc": "En nous soumettant des informations, vous acceptez que nous puissions utiliser ce contenu pour fournir les services demandés."
+    }
+  },
+  "common": {
+    "clarification": "Besoin de clarification ?",
+    "questions_legal": "Des questions ? Contactez notre équipe juridique",
+    "questions_policy": "Des questions sur cette politique ?",
+    "incorrect_info": "Si vous pensez que des informations que nous détenons sont incorrectes ou incomplètes, informez-nous immédiatement. Nous corrigerons rapidement tout détail jugé inexact.",
+    "contact_email": "Si vous avez des questions ou des réclamations concernant ce site, veuillez nous contacter par e-mail",
+    "email_support": "Assistance par e-mail",
+    "contact_form": "Formulaire de contact",
+    "contact_page": "Page de contact"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "nationwide": {
+    "title": "Couverture dans toute la Belgique",
+    "image_alt": "Chauffeur avec un véhicule de luxe prêt pour les transferts aéroport partout en Belgique",
+    "categories": [
+      {
+        "label": "Grandes villes",
+        "items": [
+          "Bruxelles",
+          "Anvers",
+          "Gand",
+          "Bruges",
+          "Liège"
+        ]
+      },
+      {
+        "label": "Grands aéroports",
+        "items": [
+          "Bruxelles (BRU)",
+          "Charleroi (CRL)",
+          "Anvers (ANR)",
+          "Liège (LGG)",
+          "Ostende (OST)"
+        ]
+      },
+      {
+        "label": "Destinations populaires",
+        "items": [
+          "Quartier européen",
+          "Pôles d'affaires",
+          "Villes côtières",
+          "Région wallonne"
+        ]
+      }
+    ]
+  }
+}

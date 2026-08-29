@@ -165,7 +165,6 @@ export function EditBookingModal({ isOpen, onClose }: EditBookingModalProps) {
 
       if (settings) {
         setBookingSettings({
-          stopFee: settings.stopFee,
           airportPickup: settings.airportPickup,
         })
       }
