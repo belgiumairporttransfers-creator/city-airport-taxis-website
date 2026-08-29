@@ -11,6 +11,7 @@ import { useTranslations } from "next-intl";
 
 import { Logo } from "./logo";
 import { LanguageSelector } from "./language-selector";
+import { SignInDropdown } from "./sign-in-dropdown";
 
 interface HeaderMobileMenuProps {
   isOpen: boolean;
@@ -173,14 +174,10 @@ export const HeaderMobileMenu = forwardRef<HTMLDivElement, HeaderMobileMenuProps
                 </Link>
               ) : (
                 <div className="grid grid-cols-2 gap-3">
-                  <Link
-                    href="/login"
-                    onClick={onClose}
-                    className="flex min-w-0 items-center justify-center gap-2 rounded-md border border-gray-200 bg-white px-3 py-2 text-sm font-bold text-black transition-colors hover:bg-gray-100 active:scale-[0.98]"
-                  >
-                    <UserIcon className="h-5 w-5 shrink-0" />
-                    <span className="truncate">{t("buttons.sign_in")}</span>
-                  </Link>
+                  <SignInDropdown
+                    className="min-w-0 w-full justify-center"
+                    onNavigate={onClose}
+                  />
                   <LanguageSelector className="min-w-0 w-full" />
                 </div>
               )}

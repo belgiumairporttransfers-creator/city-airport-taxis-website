@@ -2,19 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { usePathname } from "@/i18n/routing";
-import { Link } from "@/i18n/routing";
-import { useTranslations } from "next-intl";
 import { useHeaderMenu } from "./use-header-menu";
 import { HeaderDesktopNav } from "./header-desktop-nav";
 import { HeaderMobileMenu } from "./header-mobile-menu";
 import { LanguageSelector } from "./language-selector";
 import { Logo } from "./logo";
-import { UserIcon } from "@/components/icons";
+import { SignInDropdown } from "./sign-in-dropdown";
 import { cn } from "@/lib/utils";
 
 export default function Header() {
   const pathname = usePathname();
-  const t = useTranslations("common");
   const isHome = pathname === "/";
   const [scrolled, setScrolled] = useState(false);
   const {
@@ -76,13 +73,7 @@ export default function Header() {
           {/* Actions — right */}
           <div className="relative z-10 ml-auto flex items-center gap-3 sm:gap-4">
             <div className="hidden items-center gap-3 md:flex">
-              <Link
-                href="/login"
-                className="flex items-center gap-2 rounded-md bg-white px-3 py-2 text-sm font-bold text-black transition-colors hover:bg-gray-100"
-              >
-                <UserIcon className="h-5 w-5" />
-                <span>{t("buttons.sign_in")}</span>
-              </Link>
+              <SignInDropdown />
               <LanguageSelector />
             </div>
 

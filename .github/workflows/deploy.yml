@@ -93,6 +93,7 @@ jobs:
             NEXT_PUBLIC_BACKEND_URL=${{ vars.NEXT_PUBLIC_BACKEND_URL || 'https://api.city-airport-taxis.be/api' }}
             NEXT_PUBLIC_SITE_URL=${{ vars.NEXT_PUBLIC_SITE_URL || 'https://www.city-airport-taxis.be' }}
             NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=${{ vars.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
+            NEXT_PUBLIC_DRIVER_PORTAL_URL=${{ vars.NEXT_PUBLIC_DRIVER_PORTAL_URL || 'https://driver.city-airport-taxis.be' }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 

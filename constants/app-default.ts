@@ -29,3 +29,14 @@ export const SOCIAL_LINKS = {
   twitter: "https://twitter.com",
   trustpilot: "https://www.trustpilot.com/review/cityairporttaxis.be",
 };
+
+const DEFAULT_DRIVER_PORTAL_URL =
+  process.env.NODE_ENV === "production"
+    ? "https://driver.city-airport-taxis.be"
+    : "http://localhost:3002";
+
+export const DRIVER_PORTAL_URL = (
+  process.env.NEXT_PUBLIC_DRIVER_PORTAL_URL || DEFAULT_DRIVER_PORTAL_URL
+).replace(/\/$/, "");
+
+export const DRIVER_PORTAL_LOGIN_URL = `${DRIVER_PORTAL_URL}/auth/login`;

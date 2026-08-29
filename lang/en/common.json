@@ -34,6 +34,8 @@
     "book_now": "Book Now",
     "learn_more": "Learn More",
     "sign_in": "Sign-in",
+    "customer_sign_in": "Customer",
+    "driver_sign_in": "Driver portal",
     "subscribe": "Subscribe",
     "apply": "Apply"
   },

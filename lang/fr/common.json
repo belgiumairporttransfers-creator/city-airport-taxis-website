@@ -34,6 +34,8 @@
     "book_now": "Réservez maintenant",
     "learn_more": "Apprendre encore plus",
     "sign_in": "Se connecter",
+    "customer_sign_in": "Client",
+    "driver_sign_in": "Portail chauffeur",
     "subscribe": "S'abonner",
     "apply": "Appliquer"
   },
