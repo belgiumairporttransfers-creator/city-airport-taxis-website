@@ -13,7 +13,7 @@ interface ServiceCTAProps {
 
 export default function ServiceCTA({
     title = "Book Your Airport Transfer Today",
-    description = "Experience reliable, professional, and on-time airport transfers with Airport Transfer. Book now for fixed-price, 24/7 taxi service across Pakistan.",
+    description = "Experience reliable, professional, and on-time airport transfers with Airport Transfer. Book now for fixed-price, 24/7 taxi service across Belgium.",
     buttonText = "BOOK NOW",
     buttonLink = "/booking",
     className = "",

@@ -16,7 +16,7 @@ interface StickyParallaxCTAProps {
 export default function StickyParallaxCTA({
     title = "Experience Seamless Airport Transfers",
     subtitle = "PREMIUM TAXI SERVICE",
-    description = "Book your professional airport transfer with Airport Transfer. Fixed prices, 24/7 availability, and comfortable vehicles across Pakistan.",
+    description = "Book your professional airport transfer with Airport Transfer. Fixed prices, 24/7 availability, and comfortable vehicles across Belgium.",
     buttonText = "BOOK YOUR RIDE NOW",
     buttonLink = "/booking",
     backgroundImage = "/assets/images/cta/cta-image-1.png",

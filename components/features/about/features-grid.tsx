@@ -34,8 +34,8 @@ interface FeaturesGridProps {
 const DEFAULT_FEATURES: FeatureItem[] = [
     {
         icon: "MapPin",
-        title: "Based at Jinnah Airport",
-        description: "Our office is located at Jinnah International Airport, Karachi.",
+        title: "Based at Brussels Airport",
+        description: "Our office is located at Brussels Airport, Zaventem.",
     },
     {
         icon: "ShieldCheck",

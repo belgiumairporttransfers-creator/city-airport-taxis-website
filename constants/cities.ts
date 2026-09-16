@@ -64,5 +64,5 @@ export const PAKISTAN_CITIES = [
   "Hunza",
 ].sort();
 
-/** @deprecated Use PAKISTAN_CITIES */
-export const NETHERLANDS_CITIES = PAKISTAN_CITIES;
+/** @deprecated Use BELGIUM_CITIES */
+export const NETHERLANDS_CITIES = BELGIUM_CITIES;

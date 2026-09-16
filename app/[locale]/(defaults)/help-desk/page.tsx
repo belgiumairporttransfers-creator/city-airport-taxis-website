@@ -50,7 +50,7 @@ export default async function HelpDeskPage() {
                             <div className="relative w-full rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
                                 <img
                                     src="https://res.cloudinary.com/dbov9nme7/image/upload/v1778780272/ams-taxi/meeting-instructions/schiphol-meeting-point.png"
-                                    alt="Jinnah Airport Meeting Point Map"
+                                    alt="Brussels Airport Meeting Point Map"
                                     className="w-full h-auto object-cover"
                                 />
                             </div>

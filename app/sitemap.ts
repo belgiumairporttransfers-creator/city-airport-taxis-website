@@ -4,16 +4,15 @@ import { routing } from '@/i18n/routing';
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://city-airport-taxis.be';
 
 const airportRoutes = [
-  '/karachi-jinnah-airport-transfer',
-  '/islamabad-airport-transfer',
-  '/gwadar-airport-transfer',
-  '/lahore-airport-transfer',
-  '/peshawar-airport-transfer',
-  '/multan-airport-transfer',
-  '/faisalabad-airport-transfer',
-  '/quetta-airport-transfer',
-  '/sialkot-airport-transfer',
-  '/sukkur-airport-transfer',
+  '/airport-transfers',
+  '/brussels-city',
+  '/antwerp-city',
+  '/ghent-city',
+  '/bruges-city',
+  '/brussels-to-maastricht',
+  '/amsterdam-city',
+  '/paris-city',
+  '/luxembourg-city',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

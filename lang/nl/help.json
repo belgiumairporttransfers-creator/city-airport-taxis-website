@@ -29,11 +29,11 @@
   "faqs": {
     "booking_advance": {
       "question": "Hoe ver van tevoren kan ik online boeken?",
-      "answer": "We accepteren online boekingen die <strong_p>minstens 4 uur van tevoren</strong_p> worden gemaakt. (van maandag tot zondag). Heeft u binnen 3 uur een taxi of chauffeursdienst nodig? Bel <strong_s>+92 21 111 247 247</strong_s> om de beschikbaarheid te controleren."
+      "answer": "We accepteren online boekingen die <strong_p>minstens 4 uur van tevoren</strong_p> worden gemaakt. (van maandag tot zondag). Heeft u binnen 3 uur een taxi of chauffeursdienst nodig? Bel <strong_s>+32 2 520 75 26</strong_s> om de beschikbaarheid te controleren."
     },
     "airport_meeting": {
       "question": "Waar kan ik mijn chauffeur ontmoeten?",
-      "answer": "U kunt uw chauffeur ontmoeten bij het aangewezen ophaalpunt buiten de aankomsthal van Jinnah International Airport.\n\nNa het passeren van immigratie en het ophalen van uw bagage, verlaat u de aankomsthal en gaat u naar het ontmoetingspunt dat in uw bevestigingsmail staat. Uw chauffeur toont uw naam of een bedrijfsbord. Als u uw chauffeur niet kunt vinden, bel dan onmiddellijk het nummer in uw boekingsbevestiging."
+      "answer": "U kunt uw chauffeur ontmoeten bij het aangewezen ophaalpunt buiten de aankomsthal van Brussels Airport.\n\nNa het passeren van immigratie en het ophalen van uw bagage, verlaat u de aankomsthal en gaat u naar het ontmoetingspunt dat in uw bevestigingsmail staat. Uw chauffeur toont uw naam of een bedrijfsbord. Als u uw chauffeur niet kunt vinden, bel dan onmiddellijk het nummer in uw boekingsbevestiging."
     },
     "cancellation": {
       "question": "Wat is uw annuleringsbeleid?",
@@ -41,7 +41,7 @@
     },
     "payment": {
       "question": "Welke betaalmethoden accepteert u?",
-      "answer": "We accepteren alle belangrijke creditcards, PayPal en JazzCash. U kunt veilig online betalen op het moment van boeking via onze beveiligde betaalgateway."
+      "answer": "We accepteren alle belangrijke creditcards, PayPal en Bancontact. U kunt veilig online betalen op het moment van boeking via onze beveiligde betaalgateway."
     },
     "wait_time": {
       "question": "Hoe lang wacht de chauffeur op ons op de luchthaven?",
@@ -93,10 +93,10 @@
     },
     "local_taxis_connected": {
       "question": "Zijn lokale luchthaventaxi's verbonden met Airport Transfer?",
-      "answer": "Nee. Lokale taxi's op Karachi Airport zijn onafhankelijke diensten en zijn niet verbonden met Airport Transfer, tenzij de rit rechtstreeks via onze website is geboekt."
+      "answer": "Nee. Lokale taxi's op Brussels Airport zijn onafhankelijke diensten en zijn niet verbonden met Airport Transfer, tenzij de rit rechtstreeks via onze website is geboekt."
     },
     "responsible_all_taxis": {
-      "question": "Is Airport Transfer verantwoordelijk voor alle taxi's op Karachi Airport?",
+      "question": "Is Airport Transfer verantwoordelijk voor alle taxi's op Brussels Airport?",
       "answer": "Nee. Airport Transfer is alleen verantwoordelijk voor ritten die officieel via onze website zijn geboekt en bevestigd. We zijn niet verantwoordelijk voor lokale luchthaventaxi's of ritten die op de luchthaven zijn geboekt."
     }
   },

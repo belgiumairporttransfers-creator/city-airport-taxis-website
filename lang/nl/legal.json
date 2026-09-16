@@ -33,7 +33,7 @@
     "sidebar": {
       "protocol": "Gegevensbeveiligingsprotocol",
       "overview": "Beleidsoverzicht",
-      "desc": "Airport Transfer monitort alle gegevensverwerking om naleving van toepasselijke Pakistaanse privacy- en gegevensbeschermingsnormen te waarborgen.",
+      "desc": "Airport Transfer monitort alle gegevensverwerking om naleving van toepasselijke Belgische privacy- en gegevensbeschermingsnormen te waarborgen.",
       "agreement": "Door onze diensten te gebruiken, gaat u akkoord met onze privacypraktijken zoals hier beschreven.",
       "updated": "Laatst bijgewerkt",
       "support": "Snelle ondersteuning",
@@ -71,10 +71,10 @@
       "trading_name": "Handelsnaam",
       "url": "URL",
       "email": "E-mail",
-      "kvk": "NTN-nummer",
-      "vat": "Omzetbelastingnummer",
-      "knv_title": "SECP-registratie",
-      "knv_desc": "Airport Transfer opereert in overeenstemming met toepasselijke Pakistaanse transportregelgeving en SECP-bedrijfsregistratievereisten.",
+      "kvk": "Ondernemingsnummer",
+      "vat": "Btw-nummer",
+      "knv_title": "Belgische transportregelgeving",
+      "knv_desc": "Airport Transfer opereert in overeenstemming met toepasselijke Belgische transportregelgeving en officiële ondernemingsregistratievereisten.",
       "knv_link_transfers": "Voorwaarden transferservice",
       "knv_link_coach": "Voorwaarden coacheservice"
     },
@@ -108,8 +108,8 @@
       "tracking_note": "We volgen vlucht- en treinaankomsttijden. Zorg ervoor dat uw telefoon aan staat na aankomst zodat we ontmoetingspunten kunnen coördineren.",
       "hourly_title": "Uurlijkse boekingen",
       "hourly_desc": "Voornamelijk gebruikt voor sightseeingtours, zakelijke bezoeken en bruiloften. Minimale periode is 4 uur en maximaal 14 uur/dag. Uurlijkse transfers eindigen altijd op de oorspronkelijke ophaallocatie.",
-      "liability_title": "Aansprakelijkheid en Pakistaans recht",
-      "liability_desc": "De informatie op deze site vormt geen medisch, juridisch of investeringsadvies. Pakistaans recht is van toepassing op alle kwesties met betrekking tot het gebruik van deze website.",
+      "liability_title": "Aansprakelijkheid en Belgisch recht",
+      "liability_desc": "De informatie op deze site vormt geen medisch, juridisch of investeringsadvies. Belgisch recht is van toepassing op alle kwesties met betrekking tot het gebruik van deze website.",
       "submission_title": "Indienen van informatie",
       "submission_desc": "Door informatie aan ons te verstrekken, gaat u akkoord dat we dit materiaal mogen gebruiken om de gevraagde diensten te leveren."
     }

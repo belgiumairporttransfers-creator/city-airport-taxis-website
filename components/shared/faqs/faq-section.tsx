@@ -6,7 +6,7 @@ import { FAQAccordion, FAQItem } from "./faq-accordion";
 interface FaqSectionProps {
     /** Namespace for custom FAQ items. Defaults to `faqs`. */
     itemsNamespace?: string;
-    /** Key prefix for custom FAQ items, e.g. `lahore.faqs`. */
+    /** Key prefix for custom FAQ items, e.g. `brussels.faqs`. */
     itemsKey?: string;
 }
 

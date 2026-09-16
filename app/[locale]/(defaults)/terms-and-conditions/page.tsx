@@ -50,7 +50,7 @@ export default async function TermsAndConditionsPage() {
                                         </div>
                                         <div className="flex flex-col gap-1">
                                             <span className="text-[10px] text-gray-400 uppercase tracking-widest">{t("terms.sidebar.url")}</span>
-                                            <span className="text-sm font-medium">www.airporttransfer.pk</span>
+                                            <span className="text-sm font-medium">www.cityairporttaxis.be</span>
                                         </div>
                                         <div className="flex flex-col gap-1">
                                             <span className="text-[10px] text-gray-400 uppercase tracking-widest">{t("terms.sidebar.email")}</span>

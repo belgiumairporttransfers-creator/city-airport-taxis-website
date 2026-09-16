@@ -33,7 +33,7 @@
     "sidebar": {
       "protocol": "Data Security Protocol",
       "overview": "Policy Overview",
-      "desc": "Airport Transfer monitors all data processing to ensure compliance with applicable Pakistani privacy and data protection standards.",
+      "desc": "Airport Transfer monitors all data processing to ensure compliance with applicable Belgian privacy and data protection standards.",
       "agreement": "By using our services, you agree to our privacy practices as outlined here.",
       "updated": "Last Updated",
       "support": "Quick Support",
@@ -71,10 +71,10 @@
       "trading_name": "Trading Name",
       "url": "URL",
       "email": "E-mail",
-      "kvk": "NTN Number",
-      "vat": "Sales Tax Number",
-      "knv_title": "SECP Registration",
-      "knv_desc": "Airport Transfer operates in accordance with applicable Pakistani transport regulations and SECP corporate registration requirements.",
+      "kvk": "Enterprise Number",
+      "vat": "VAT Number",
+      "knv_title": "Belgian Transport Regulation",
+      "knv_desc": "Airport Transfer operates in accordance with applicable Belgian transport regulations and official enterprise registration requirements.",
       "knv_link_transfers": "Transfer Service Terms",
       "knv_link_coach": "Coach Service Terms"
     },
@@ -108,8 +108,8 @@
       "tracking_note": "We track flight and train arrival times. Please ensure your phone is turned on after arrival so we can coordinate meeting points.",
       "hourly_title": "Hourly Bookings",
       "hourly_desc": "Mostly used for sightseeing tours, business visits, and weddings. Minimum period is 4 hours and maximum is 14 hours/day. Hourly transfers always end at original pickup.",
-      "liability_title": "Liability & Pakistani Law",
-      "liability_desc": "The information on this site does not constitute medical, legal or investment advice. Pakistani law is applicable to all issues related to the use of this website.",
+      "liability_title": "Liability & Belgian Law",
+      "liability_desc": "The information on this site does not constitute medical, legal or investment advice. Belgian law is applicable to all issues related to the use of this website.",
       "submission_title": "Submission of Information",
       "submission_desc": "By submitting information to us, you agree that we may use this material to provide the requested services."
     }

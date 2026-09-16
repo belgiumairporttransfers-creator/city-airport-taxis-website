@@ -33,7 +33,7 @@
     "sidebar": {
       "protocol": "Protocole de sécurité des données",
       "overview": "Aperçu de la politique",
-      "desc": "Airport Transfer surveille tout traitement de données pour garantir la conformité aux normes pakistanaises applicables en matière de confidentialité et de protection des données.",
+      "desc": "Airport Transfer surveille tout traitement de données pour garantir la conformité aux normes belges applicables en matière de confidentialité et de protection des données.",
       "agreement": "En utilisant nos services, vous acceptez nos pratiques de confidentialité telles qu'elles sont décrites ici.",
       "updated": "Dernière mise à jour",
       "support": "Assistance rapide",
@@ -71,10 +71,10 @@
       "trading_name": "Nom commercial",
       "url": "URL",
       "email": "E-mail",
-      "kvk": "Numéro NTN",
-      "vat": "Numéro de taxe sur les ventes",
-      "knv_title": "Enregistrement SECP",
-      "knv_desc": "Airport Transfer opère conformément aux réglementations pakistanaises applicables en matière de transport et aux exigences d'enregistrement corporatif de la SECP.",
+      "kvk": "Numéro d'entreprise",
+      "vat": "Numéro de TVA",
+      "knv_title": "Réglementation transport belge",
+      "knv_desc": "Airport Transfer opère conformément aux réglementations belges applicables en matière de transport et aux exigences d'enregistrement officiel des entreprises.",
       "knv_link_transfers": "Conditions du service de transfert",
       "knv_link_coach": "Conditions du service de car"
     },
@@ -108,8 +108,8 @@
       "tracking_note": "Nous suivons les heures d'arrivée des vols et des trains. Veuillez vous assurer que votre téléphone est allumé après l'arrivée afin que nous puissions coordonner les points de rencontre.",
       "hourly_title": "Réservations horaires",
       "hourly_desc": "Principalement utilisées pour les visites touristiques, les déplacements d'affaires et les mariages. La durée minimale est de 4 heures et la maximale de 14 heures/jour. Les transferts horaires se terminent toujours au point de prise en charge initial.",
-      "liability_title": "Responsabilité et droit pakistanais",
-      "liability_desc": "Les informations sur ce site ne constituent pas des conseils médicaux, juridiques ou d'investissement. Le droit pakistanais s'applique à toutes les questions liées à l'utilisation de ce site web.",
+      "liability_title": "Responsabilité et droit belge",
+      "liability_desc": "Les informations sur ce site ne constituent pas des conseils médicaux, juridiques ou d'investissement. Le droit belge s'applique à toutes les questions liées à l'utilisation de ce site web.",
       "submission_title": "Soumission d'informations",
       "submission_desc": "En nous soumettant des informations, vous acceptez que nous puissions utiliser ce contenu pour fournir les services demandés."
     }

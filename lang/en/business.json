@@ -3,7 +3,7 @@
     "banner": {
       "top_text": "Partner With Us",
       "title": "Join Our Elite Team",
-      "description": "Become a part of the most professional taxi network in Pakistan. We offer flexible schedules, competitive earnings, and a steady stream of premium bookings."
+      "description": "Become a part of the most professional taxi network in Belgium. We offer flexible schedules, competitive earnings, and a steady stream of premium bookings."
     },
     "cards": {
       "earnings": {
@@ -112,7 +112,7 @@
     "banner": {
       "top_text": "Corporate Travel Solutions",
       "title": "Professional Travel Solutions for Your Business",
-      "description": "Simplify your company's ground transportation with a reliable executive travel platform built for businesses across Pakistan.",
+      "description": "Simplify your company's ground transportation with a reliable executive travel platform built for businesses across Belgium.",
       "button": "Join Our Network"
     },
     "stats": [
@@ -135,7 +135,7 @@
     ],
     "story": {
       "top_text": "main business features",
-      "title": "Trusted Corporate Transport for Businesses Across Pakistan",
+      "title": "Trusted Corporate Transport for Businesses Across Belgium",
       "description": "Centralize your business travel operations with a streamlined booking and management platform. Schedule rides, monitor expenses, and control employee transportation with ease",
       "badge": "Focused on Excellence",
       "features": {
@@ -149,7 +149,7 @@
         },
         "coverage": {
           "title": "Nationwide Coverage",
-          "description": "Professional transfer and chauffeur service throughout Pakistan."
+          "description": "Professional transfer and chauffeur service throughout Belgium."
         },
         "api": {
           "title": "Business API & Integrations",
@@ -171,7 +171,7 @@
         {
           "id": "Step 02",
           "title": "Schedule Business Rides",
-          "description": "Book, modify, and monitor rides for executives, employees, and guests in real time across Pakistan."
+          "description": "Book, modify, and monitor rides for executives, employees, and guests in real time across Belgium."
         },
         {
           "id": "Step 03",
@@ -183,7 +183,7 @@
     "parallax": {
       "top_text": "trusted nationwide",
       "title": "Manage Your Business Transportation with Confidence",
-      "description": "A platform built for reliability, control, and premium service — trusted by companies across Pakistan.",
+      "description": "A platform built for reliability, control, and premium service — trusted by companies across Belgium.",
       "cards": [
         {
           "title": "Centralized Invoicing",
@@ -235,7 +235,7 @@
         "phone": "Phone Number"
       },
       "placeholders": {
-        "agency_name": "e.g. Acme Pakistan Pvt Ltd",
+        "agency_name": "e.g. Acme Belgium BV",
         "firstname": "Enter First Name",
         "lastname": "Enter Last Name",
         "email": "Enter Business Email",
@@ -248,12 +248,12 @@
     "banner": {
       "top_text": "PARTNER WITH US",
       "title": "Become a Professional<br/>Chauffeur Partner",
-      "description": "Grow your business with consistent ride requests across major Pakistani cities.",
+      "description": "Grow your business with consistent ride requests across major Belgian cities.",
       "button_text": "Apply Now"
     },
     "demand": {
-      "title": "Unlock steady demand across Pakistan",
-      "description": "Connect with clients traveling within cities like Karachi, Lahore, Islamabad, and Faisalabad. Accept only the rides that fit your schedule."
+      "title": "Unlock steady demand across Belgium",
+      "description": "Connect with clients traveling within cities like Brussels, Antwerp, Ghent, and Bruges. Accept only the rides that fit your schedule."
     },
     "features": {
       "earnings": {
@@ -274,9 +274,9 @@
       }
     },
     "parallax": {
-      "title": "Built for modern mobility in Pakistan",
+      "title": "Built for modern mobility in Belgium",
       "subtitle": "EXPERIENCE A SEAMLESS EXPERIENCE",
-      "description": "We support professional chauffeurs with efficient ride distribution, optimized routes, and a growing demand for premium transport services across Pakistani cities.",
+      "description": "We support professional chauffeurs with efficient ride distribution, optimized routes, and a growing demand for premium transport services across Belgian cities.",
       "button_text": "Learn More"
     },
     "faq": {
@@ -286,7 +286,7 @@
       "items": {
         "q1": {
           "question": "Who can become a partner?",
-          "answer": "Any licensed chauffeur or transport company operating in Pakistan with valid NTN registration."
+          "answer": "Any licensed chauffeur or transport company operating in Belgium with valid professional registration."
         },
         "q2": {
           "question": "What are the requirements?",
@@ -294,7 +294,7 @@
         },
         "q3": {
           "question": "How do I get paid?",
-          "answer": "Payments are processed securely and transferred directly to your Pakistani bank account."
+          "answer": "Payments are processed securely and transferred directly to your Belgian bank account."
         },
         "q4": {
           "question": "Can I choose my rides?",
@@ -302,7 +302,7 @@
         },
         "q5": {
           "question": "Which cities do you operate in?",
-          "answer": "We currently operate across major cities in Pakistan including Karachi, Lahore, Islamabad, Faisalabad, Multan, and Peshawar."
+          "answer": "We currently operate across major cities in Belgium including Brussels, Antwerp, Ghent, Charleroi, Liège, and Bruges."
         }
       }
     },
@@ -316,7 +316,7 @@
     "banner": {
       "top_text": "APPLY TO DRIVE",
       "title": "Apply to Drive with Airport Transfer",
-      "description": "Join our network of professional chauffeurs and access a steady stream of ride requests across Pakistan. Start earning more with flexible work and reliable payouts."
+      "description": "Join our network of professional chauffeurs and access a steady stream of ride requests across Belgium. Start earning more with flexible work and reliable payouts."
     },
     "modal": {
       "title": "Where are you located?",

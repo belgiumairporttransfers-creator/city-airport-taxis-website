@@ -3,7 +3,7 @@
     "banner": {
       "top_text": "Devenez partenaire",
       "title": "Rejoignez notre équipe d'élite",
-      "description": "Faites partie du réseau de taxi le plus professionnel du Pakistan. Nous offrons des horaires flexibles, des revenus compétitifs et un flux constant de réservations premium."
+      "description": "Faites partie du réseau de taxi le plus professionnel de Belgique. Nous offrons des horaires flexibles, des revenus compétitifs et un flux constant de réservations premium."
     },
     "cards": {
       "earnings": {
@@ -112,7 +112,7 @@
     "banner": {
       "top_text": "Solutions de voyage d'affaires",
       "title": "Solutions de voyage professionnelles pour votre entreprise",
-      "description": "Simplifiez le transport terrestre de votre entreprise avec une plateforme de voyage exécutif fiable conçue pour les entreprises au Pakistan.",
+      "description": "Simplifiez le transport terrestre de votre entreprise avec une plateforme de voyage exécutif fiable conçue pour les entreprises en Belgique.",
       "button": "Rejoindre notre réseau"
     },
     "stats": [
@@ -123,7 +123,7 @@
     ],
     "story": {
       "top_text": "principales fonctionnalités business",
-      "title": "Transport corporatif de confiance pour les entreprises au Pakistan",
+      "title": "Transport corporatif de confiance pour les entreprises en Belgique",
       "description": "Centralisez vos opérations de voyage d'affaires avec une plateforme de réservation et de gestion simplifiée. Planifiez les trajets, suivez les dépenses et contrôlez le transport des employés en toute simplicité",
       "badge": "Axé sur l'excellence",
       "features": {
@@ -137,7 +137,7 @@
         },
         "coverage": {
           "title": "Couverture nationale",
-          "description": "Service de transfert et de chauffeur professionnel dans tout le Pakistan."
+          "description": "Service de transfert et de chauffeur professionnel dans toute la Belgique."
         },
         "api": {
           "title": "API Business et intégrations",
@@ -159,7 +159,7 @@
         {
           "id": "Étape 02",
           "title": "Planifiez les trajets professionnels",
-          "description": "Réservez, modifiez et suivez les trajets pour dirigeants, employés et invités en temps réel au Pakistan."
+          "description": "Réservez, modifiez et suivez les trajets pour dirigeants, employés et invités en temps réel en Belgique."
         },
         {
           "id": "Étape 03",
@@ -171,7 +171,7 @@
     "parallax": {
       "top_text": "confiance nationale",
       "title": "Gérez le transport de votre entreprise en toute confiance",
-      "description": "Une plateforme conçue pour la fiabilité, le contrôle et un service premium — approuvée par les entreprises au Pakistan.",
+      "description": "Une plateforme conçue pour la fiabilité, le contrôle et un service premium — approuvée par les entreprises en Belgique.",
       "cards": [
         {
           "title": "Facturation centralisée",
@@ -223,7 +223,7 @@
         "phone": "Numéro de téléphone"
       },
       "placeholders": {
-        "agency_name": "ex. Acme Pakistan Pvt Ltd",
+        "agency_name": "ex. Acme Belgium SPRL",
         "firstname": "Entrez le prénom",
         "lastname": "Entrez le nom",
         "email": "Entrez l'e-mail professionnel",
@@ -236,12 +236,12 @@
     "banner": {
       "top_text": "DEVENEZ PARTENAIRE",
       "title": "Devenez partenaire<br/>chauffeur professionnel",
-      "description": "Développez votre activité avec des demandes de trajets constantes dans les grandes villes pakistanaises.",
+      "description": "Développez votre activité avec des demandes de trajets constantes dans les grandes villes belges.",
       "button_text": "Postuler maintenant"
     },
     "demand": {
-      "title": "Débloquez une demande stable au Pakistan",
-      "description": "Connectez-vous avec des clients voyageant dans des villes comme Karachi, Lahore, Islamabad et Faisalabad. Acceptez uniquement les trajets qui correspondent à votre planning."
+      "title": "Débloquez une demande stable en Belgique",
+      "description": "Connectez-vous avec des clients voyageant dans des villes comme Bruxelles, Anvers, Gand et Bruges. Acceptez uniquement les trajets qui correspondent à votre planning."
     },
     "features": {
       "earnings": {
@@ -262,9 +262,9 @@
       }
     },
     "parallax": {
-      "title": "Conçu pour la mobilité moderne au Pakistan",
+      "title": "Conçu pour la mobilité moderne en Belgique",
       "subtitle": "VIVEZ UNE EXPÉRIENCE FLUIDE",
-      "description": "Nous soutenons les chauffeurs professionnels avec une distribution efficace des trajets, des itinéraires optimisés et une demande croissante de services de transport premium dans les villes pakistanaises.",
+      "description": "Nous soutenons les chauffeurs professionnels avec une distribution efficace des trajets, des itinéraires optimisés et une demande croissante de services de transport premium dans les villes belges.",
       "button_text": "En savoir plus"
     },
     "faq": {
@@ -274,7 +274,7 @@
       "items": {
         "q1": {
           "question": "Qui peut devenir partenaire ?",
-          "answer": "Tout chauffeur licencié ou entreprise de transport opérant au Pakistan avec un enregistrement NTN valide."
+          "answer": "Tout chauffeur licencié ou entreprise de transport opérant en Belgique avec un enregistrement d'entreprise valide."
         },
         "q2": {
           "question": "Quelles sont les exigences ?",
@@ -282,7 +282,7 @@
         },
         "q3": {
           "question": "Comment suis-je payé ?",
-          "answer": "Les paiements sont traités de manière sécurisée et transférés directement sur votre compte bancaire pakistanais."
+          "answer": "Les paiements sont traités de manière sécurisée et transférés directement sur votre compte bancaire belge."
         },
         "q4": {
           "question": "Puis-je choisir mes trajets ?",
@@ -290,7 +290,7 @@
         },
         "q5": {
           "question": "Dans quelles villes opérez-vous ?",
-          "answer": "Nous opérons actuellement dans les grandes villes du Pakistan, notamment Karachi, Lahore, Islamabad, Faisalabad, Multan et Peshawar."
+          "answer": "Nous opérons actuellement dans les grandes villes de Belgique, notamment Bruxelles, Anvers, Gand, Charleroi, Liège et Bruges."
         }
       }
     },
@@ -304,7 +304,7 @@
     "banner": {
       "top_text": "POSTULER POUR CONDUIRE",
       "title": "Postuler pour conduire avec Airport Transfer",
-      "description": "Rejoignez notre réseau de chauffeurs professionnels et accédez à un flux constant de demandes de trajets au Pakistan. Gagnez plus avec un travail flexible et des paiements fiables."
+      "description": "Rejoignez notre réseau de chauffeurs professionnels et accédez à un flux constant de demandes de trajets en Belgique. Gagnez plus avec un travail flexible et des paiements fiables."
     },
     "modal": {
       "title": "Où vous situez-vous ?",

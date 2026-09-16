@@ -29,11 +29,11 @@
   "faqs": {
     "booking_advance": {
       "question": "Combien de temps à l'avance puis-je réserver en ligne ?",
-      "answer": "Nous acceptons les réservations en ligne effectuées <strong_p>au moins 4 heures à l'avance</strong_p>. (du lundi au dimanche). Avez-vous besoin d'un taxi ou d'un service de chauffeur dans les 3 heures ? Appelez le <strong_s>+92 21 111 247 247</strong_s> pour vérifier la disponibilité."
+      "answer": "Nous acceptons les réservations en ligne effectuées <strong_p>au moins 4 heures à l'avance</strong_p>. (du lundi au dimanche). Avez-vous besoin d'un taxi ou d'un service de chauffeur dans les 3 heures ? Appelez le <strong_s>+32 2 520 75 26</strong_s> pour vérifier la disponibilité."
     },
     "airport_meeting": {
       "question": "Où puis-je retrouver mon chauffeur ?",
-      "answer": "Vous pouvez retrouver votre chauffeur dans la zone de prise en charge désignée à l'extérieur des arrivées de l'aéroport international Jinnah.\n\nAprès avoir passé l'immigration et récupéré vos bagages, sortez du hall des arrivées et rendez-vous au point de rencontre indiqué dans votre e-mail de confirmation. Votre chauffeur affichera votre nom ou une pancarte de l'entreprise. Si vous ne trouvez pas votre chauffeur, appelez immédiatement le numéro indiqué dans votre confirmation de réservation."
+      "answer": "Vous pouvez retrouver votre chauffeur dans la zone de prise en charge désignée à l'extérieur des arrivées de l'aéroport de Bruxelles (Brussels Airport).\n\nAprès avoir passé l'immigration et récupéré vos bagages, sortez du hall des arrivées et rendez-vous au point de rencontre indiqué dans votre e-mail de confirmation. Votre chauffeur affichera votre nom ou une pancarte de l'entreprise. Si vous ne trouvez pas votre chauffeur, appelez immédiatement le numéro indiqué dans votre confirmation de réservation."
     },
     "cancellation": {
       "question": "Quelle est votre politique d'annulation ?",
@@ -41,7 +41,7 @@
     },
     "payment": {
       "question": "Quels modes de paiement acceptez-vous ?",
-      "answer": "Nous acceptons toutes les principales cartes de crédit, PayPal et JazzCash. Vous pouvez payer en toute sécurité en ligne au moment de la réservation via notre passerelle de paiement sécurisée."
+      "answer": "Nous acceptons toutes les principales cartes de crédit, PayPal et Bancontact. Vous pouvez payer en toute sécurité en ligne au moment de la réservation via notre passerelle de paiement sécurisée."
     },
     "wait_time": {
       "question": "Combien de temps le chauffeur nous attend-il à l'aéroport ?",
@@ -93,10 +93,10 @@
     },
     "local_taxis_connected": {
       "question": "Les taxis locaux de l'aéroport sont-ils liés à Airport Transfer ?",
-      "answer": "Non. Les taxis locaux opérant à l'aéroport de Karachi sont des services indépendants et ne sont pas associés à Airport Transfer, sauf si la course a été réservée directement via notre site web."
+      "answer": "Non. Les taxis locaux opérant à l'aéroport de Bruxelles sont des services indépendants et ne sont pas associés à Airport Transfer, sauf si la course a été réservée directement via notre site web."
     },
     "responsible_all_taxis": {
-      "question": "Airport Transfer est-il responsable de tous les taxis à l'aéroport de Karachi ?",
+      "question": "Airport Transfer est-il responsable de tous les taxis à l'aéroport de Bruxelles ?",
       "answer": "Non. Airport Transfer n'est responsable que des courses officiellement réservées et confirmées via notre site web. Nous ne sommes pas responsables des taxis locaux de l'aéroport ni des courses réservées sur place à l'aéroport."
     }
   },

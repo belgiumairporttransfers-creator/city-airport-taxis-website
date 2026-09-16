@@ -29,11 +29,11 @@
   "faqs": {
     "booking_advance": {
       "question": "How far in advance can I make a booking online?",
-      "answer": "We accept bookings online that are <strong_p>at least 4 hours in advance</strong_p>. (from Monday to Sunday). Do you need a taxi or chauffeur service within 3 hours? Call <strong_s>+92 21 111 247 247</strong_s> to check availability."
+      "answer": "We accept bookings online that are <strong_p>at least 4 hours in advance</strong_p>. (from Monday to Sunday). Do you need a taxi or chauffeur service within 3 hours? Call <strong_s>+32 2 520 75 26</strong_s> to check availability."
     },
     "airport_meeting": {
       "question": "Where can I meet my driver?",
-      "answer": "You can meet your driver at the designated pickup area outside Jinnah International Airport arrivals.\n\nAfter clearing immigration and collecting your luggage, exit the arrivals hall and proceed to the meeting point shown in your confirmation email. Your driver will display your name or company sign. If you cannot locate your driver, call the number in your booking confirmation immediately."
+      "answer": "You can meet your driver at the designated pickup area outside Brussels Airport arrivals.\n\nAfter clearing immigration and collecting your luggage, exit the arrivals hall and proceed to the meeting point shown in your confirmation email. Your driver will display your name or company sign. If you cannot locate your driver, call the number in your booking confirmation immediately."
     },
     "cancellation": {
       "question": "What's your cancellation policy?",
@@ -41,7 +41,7 @@
     },
     "payment": {
       "question": "Which payment method do you accept?",
-      "answer": "We accept all major credit cards, PayPal, and JazzCash. You can pay securely online at the time of booking via our secure payment gateway."
+      "answer": "We accept all major credit cards, PayPal, and Bancontact. You can pay securely online at the time of booking via our secure payment gateway."
     },
     "wait_time": {
       "question": "How long will the driver wait for us at the Airport?",
@@ -93,10 +93,10 @@
     },
     "local_taxis_connected": {
       "question": "Are local airport taxis connected with Airport Transfer?",
-      "answer": "No. Local taxis operating at Karachi Airport are independent services and are not associated with Airport Transfer unless the ride was booked directly through our website."
+      "answer": "No. Local taxis operating at Brussels Airport are independent services and are not associated with Airport Transfer unless the ride was booked directly through our website."
     },
     "responsible_all_taxis": {
-      "question": "Is Airport Transfer responsible for all taxis at Karachi Airport?",
+      "question": "Is Airport Transfer responsible for all taxis at Brussels Airport?",
       "answer": "No. Airport Transfer is only responsible for rides that are officially booked and confirmed through our website. We are not responsible for local airport taxis or rides booked on the airport."
     }
   },

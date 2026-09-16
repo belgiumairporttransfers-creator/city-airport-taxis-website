@@ -64,7 +64,7 @@ export const DEFAULT_FAQS: FAQItem[] = [
     },
     {
         question: "Can I book a one-way transfer between cities?",
-        answer: "Absolutely. We offer one-way transfers across major cities in Pakistan. Additional fees may apply based on distance.",
+        answer: "Absolutely. We offer one-way transfers across major cities in Belgium. Additional fees may apply based on distance.",
     },
     {
         question: "What is your cancellation policy?",
