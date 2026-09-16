@@ -3,18 +3,23 @@ import { useBookingStore } from "@/store/use-booking-store";
 
 /** True after the booking persist store has finished rehydrating (and migrating). */
 export function useHasHydrated() {
-  const [hasHydrated, setHasHydrated] = useState(() =>
-    useBookingStore.persist.hasHydrated()
-  );
+  const [hasHydrated, setHasHydrated] = useState(false);
 
   useEffect(() => {
-    const unsubFinish = useBookingStore.persist.onFinishHydration(() => {
+    const persistApi = useBookingStore.persist;
+    if (!persistApi) {
+      setHasHydrated(true);
+      return;
+    }
+
+    if (persistApi.hasHydrated()) {
+      setHasHydrated(true);
+      return;
+    }
+
+    return persistApi.onFinishHydration(() => {
       setHasHydrated(true);
     });
-
-    setHasHydrated(useBookingStore.persist.hasHydrated());
-
-    return unsubFinish;
   }, []);
 
   return hasHydrated;
