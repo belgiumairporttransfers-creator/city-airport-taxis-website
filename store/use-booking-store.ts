@@ -90,6 +90,42 @@ interface BookingState {
     resetAll: () => void;
 }
 
+type PersistedBookingState = Pick<
+    BookingState,
+    'category' | 'step1' | 'routeData' | 'step2' | 'step3' | 'bookingSettings'
+>;
+
+const BOOKING_STORAGE_VERSION = 2;
+
+const isSameStep1Trip = (
+    current: BookingStep1PersistedData | null,
+    next: BookingStep1PersistedData
+) =>
+    Boolean(
+        current &&
+            current.pickupAddress === next.pickupAddress &&
+            current.deliveryAddress === next.deliveryAddress &&
+            current.pickupDate === next.pickupDate &&
+            current.pickupTime === next.pickupTime &&
+            current.returnDate === next.returnDate &&
+            current.returnTime === next.returnTime &&
+            current.passengers === next.passengers
+    );
+
+const isSameRouteQuote = (
+    current: BookingRouteData | null,
+    next: BookingRouteData | null
+) => {
+    if (!current && !next) return true;
+    if (!current || !next) return false;
+
+    return (
+        current.distance === next.distance &&
+        current.durationMinutes === next.durationMinutes &&
+        JSON.stringify(current.duration ?? null) === JSON.stringify(next.duration ?? null)
+    );
+};
+
 // =============== STORE ===============
 
 export const useBookingStore = create<BookingState>()(
@@ -111,7 +147,8 @@ export const useBookingStore = create<BookingState>()(
                         (category === 'one-way' || category === 'return-trip');
 
                     if (preserveBooking) {
-                        return { category };
+                        // Trip type change still invalidates vehicle quote/price.
+                        return { category, step2: null, step3: null };
                     }
 
                     return {
@@ -123,15 +160,41 @@ export const useBookingStore = create<BookingState>()(
                     };
                 }),
 
-            setStep1Data: (data) => set({ step1: data }),
+            setStep1Data: (data) =>
+                set((state) => {
+                    if (isSameStep1Trip(state.step1, data)) {
+                        return { step1: data };
+                    }
 
-            setRouteData: (data) => set({ routeData: data }),
+                    return {
+                        step1: data,
+                        step2: null,
+                        step3: null,
+                    };
+                }),
+
+            setRouteData: (data) =>
+                set((state) => {
+                    if (isSameRouteQuote(state.routeData, data)) {
+                        return { routeData: data };
+                    }
+
+                    return {
+                        routeData: data,
+                        step2: null,
+                        step3: null,
+                    };
+                }),
 
             setStep2Data: (data) =>
-                set({
+                set((state) => ({
                     step2: data,
-                    step3: null,
-                }),
+                    // Keep passenger details when only refreshing the same vehicle quote.
+                    step3:
+                        data && state.step2?.categoryId === data.categoryId
+                            ? state.step3
+                            : null,
+                })),
 
             setStep3Data: (data) => set({ step3: data }),
 
@@ -159,9 +222,10 @@ export const useBookingStore = create<BookingState>()(
         }),
         {
             name: 'city-airport-taxi-booking-storage',
+            version: BOOKING_STORAGE_VERSION,
             storage: createJSONStorage(() => localStorage),
 
-            partialize: (state) => ({
+            partialize: (state): PersistedBookingState => ({
                 category: state.category,
                 step1: state.step1,
                 routeData: state.routeData,
@@ -169,6 +233,31 @@ export const useBookingStore = create<BookingState>()(
                 step3: state.step3,
                 bookingSettings: state.bookingSettings,
             }),
+
+            migrate: (persistedState, version) => {
+                const state = (persistedState ?? {}) as Partial<PersistedBookingState>;
+
+                // Drop stale vehicle quotes so the sidebar never shows an old total.
+                if (version < BOOKING_STORAGE_VERSION) {
+                    return {
+                        category: state.category ?? 'one-way',
+                        step1: state.step1 ?? null,
+                        routeData: state.routeData ?? null,
+                        step2: null,
+                        step3: null,
+                        bookingSettings: state.bookingSettings ?? null,
+                    };
+                }
+
+                return {
+                    category: state.category ?? 'one-way',
+                    step1: state.step1 ?? null,
+                    routeData: state.routeData ?? null,
+                    step2: state.step2 ?? null,
+                    step3: state.step3 ?? null,
+                    bookingSettings: state.bookingSettings ?? null,
+                };
+            },
         }
     )
 );
@@ -200,7 +289,7 @@ export const calculatePricing = (state: BookingState): Pricing | null => {
 export const selectBookingPricing = (state: BookingState) => calculatePricing(state);
 
 export const useTotalPrice = () =>
-    useBookingStore((state) => calculatePricing(state)?.total ?? 0);
+    useBookingStore((state) => calculatePricing(state)?.total ?? null);
 
 export const useBookingPricing = () => useBookingStore(selectBookingPricing);
 

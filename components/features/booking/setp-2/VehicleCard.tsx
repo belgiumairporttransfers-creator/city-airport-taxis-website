@@ -51,7 +51,7 @@ export default function VehicleCard({
     <div
       className={cn(
         "group relative overflow-visible rounded-sm border transition-all duration-300 bg-gray-50 border-border",
-        isSelected && "bg-white shadow-sm"
+        isSelected && "bg-white shadow-sm border-primary ring-1 ring-primary/30"
       )}
     >
       <div className="flex items-stretch gap-2 sm:gap-3 md:gap-4 md:p-4 p-2">

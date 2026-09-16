@@ -52,6 +52,49 @@ function Step2() {
         Boolean(pickupDate && pickupTime) && (!isHourly || duration !== null);
     const { data: quotes, isLoading } = useQuote(quoteParams, canFetchQuotes);
 
+    const quoteFingerprint = React.useMemo(
+        () =>
+            quotes
+                ?.map(
+                    (quote) =>
+                        `${quote.categoryId}:${quote.priceBreakdown.totalPrice}:${quote.passengers}:${quote.luggage}`
+                )
+                .join("|") ?? "",
+        [quotes]
+    );
+
+    // Always bind selection to the latest quotes: default first vehicle, never keep a stale total.
+    React.useEffect(() => {
+        if (!quotes?.length || isLoading) return;
+
+        const firstSelectable =
+            quotes.find((quote) => !quote.category.requestForQuote) ?? quotes[0];
+
+        if (firstSelectable.category.requestForQuote) return;
+
+        const matched = step2
+            ? quotes.find(
+                  (quote) =>
+                      quote.categoryId === step2.categoryId && !quote.category.requestForQuote
+              )
+            : undefined;
+
+        // Prefer first vehicle when nothing valid is selected yet.
+        const nextQuote = matched ?? firstSelectable;
+
+        if (
+            !step2 ||
+            step2.categoryId !== nextQuote.categoryId ||
+            step2.priceBreakdown.totalPrice !== nextQuote.priceBreakdown.totalPrice ||
+            step2.passengers !== nextQuote.passengers ||
+            step2.luggage !== nextQuote.luggage ||
+            step2.category.name !== nextQuote.category.name ||
+            step2.category.image !== nextQuote.category.image
+        ) {
+            setStep2Data(nextQuote);
+        }
+    }, [quoteFingerprint, isLoading, quotes, step2, setStep2Data]);
+
     const handleContinue = (quote: PublicQuote) => {
         if (loadingCategoryId) return;
         setLoadingCategoryId(quote.categoryId);

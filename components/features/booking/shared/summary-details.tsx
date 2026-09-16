@@ -134,7 +134,7 @@ function SummaryDetails() {
             <div className="flex items-center justify-between">
               <span className="text-gray-600 font-medium text-lg leading-none">{t('total')}</span>
               <span className="text-2xl font-bold text-gray-900 leading-none">
-                {formatPrice(totalPrice)}
+                {totalPrice == null ? "—" : formatPrice(totalPrice)}
               </span>
             </div>
           </div>

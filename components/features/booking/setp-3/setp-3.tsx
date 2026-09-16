@@ -128,10 +128,10 @@ function Step3() {
 
                     <PaymentMethodField />
 
-                    <Button type="submit" className="mt-4" disabled={isPending} loading={isPending}>
+                    <Button type="submit" className="mt-4" disabled={isPending || totalPrice == null} loading={isPending}>
                         {selectedPaymentMethod === "pay_onboard"
-                            ? `${t("book_now")} — ${formatPrice(totalPrice)}`
-                            : `${t("proceed_to_pay")} — ${formatPrice(totalPrice)}`}
+                            ? `${t("book_now")}${totalPrice == null ? "" : ` — ${formatPrice(totalPrice)}`}`
+                            : `${t("proceed_to_pay")}${totalPrice == null ? "" : ` — ${formatPrice(totalPrice)}`}`}
                     </Button>
                 </form>
             </Form>
