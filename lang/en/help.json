@@ -2,13 +2,13 @@
   "banner": {
     "top_text": "Documentation",
     "title": "Help Desk & FAQ",
-    "description": "Comprehensive guide and frequently asked questions to help you manage your bookings and travel."
+    "description": "Comprehensive guide and frequently asked questions to help you manage your Belgian airport transfers and travel bookings."
   },
   "sections": {
     "general": {
       "category": "General",
       "title": "Frequently Asked Questions",
-      "description": "General information about our services, booking process, and company policies."
+      "description": "General information about our Belgian airport taxi services, booking process, and company policies."
     },
     "complications": {
       "category": "Booking Issues",
@@ -23,86 +23,86 @@
     "travel": {
       "category": "Travel",
       "title": "Travel & Arrival Issues",
-      "description": "Information regarding flight delays, lost items, and arrival procedures."
+      "description": "Information regarding Belgian flight delays, lost items, and airport arrival procedures."
     }
   },
   "faqs": {
     "booking_advance": {
       "question": "How far in advance can I make a booking online?",
-      "answer": "We accept bookings online that are <strong_p>at least 4 hours in advance</strong_p>. (from Monday to Sunday). Do you need a taxi or chauffeur service within 3 hours? Call <strong_s>+32 2 520 75 26</strong_s> to check availability."
+      "answer": "We accept bookings online that are <strong_p>at least 4 hours in advance</strong_p> (from Monday to Sunday). Do you need an urgent taxi or chauffeur service in Belgium within 3 hours? Call <strong_s>+32 2 520 75 26</strong_s> to check immediate availability."
     },
     "airport_meeting": {
-      "question": "Where can I meet my driver?",
-      "answer": "You can meet your driver at the designated pickup area outside Brussels Airport arrivals.\n\nAfter clearing immigration and collecting your luggage, exit the arrivals hall and proceed to the meeting point shown in your confirmation email. Your driver will display your name or company sign. If you cannot locate your driver, call the number in your booking confirmation immediately."
+      "question": "Where can I meet my driver at Brussels or Charleroi Airport?",
+      "answer": "<strong>Brussels Airport (BRU - Zaventem):</strong> Your driver will be waiting in the Arrivals Hall near the central Meeting Point (opposite the Java Coffee Bar) holding a sign with your name or company logo. For kerbside pickups, follow instructions to the Express Parking area.\n\n<strong>Brussels South Charleroi Airport (CRL):</strong> Your driver will meet you at the official Express Pick-up Zone outside Terminal 1 or Terminal 2.\n\nYour driver tracks your flight live and will send an SMS/WhatsApp message upon landing. If you cannot locate your driver, please call <strong_s>+32 2 520 75 26</strong_s> or contact your driver directly."
     },
     "cancellation": {
-      "question": "What's your cancellation policy?",
-      "answer": "Cancellations made more than 24 hours before the scheduled pickup time are generally free of charge. For specific details, please refer to our full terms and conditions."
+      "question": "What is your cancellation policy?",
+      "answer": "Cancellations made more than 24 hours before the scheduled pickup time are 100% free of charge. Cancellations within 24 hours may incur a partial fee depending on the vehicle class. Please refer to our terms and conditions for complete details."
     },
     "payment": {
-      "question": "Which payment method do you accept?",
-      "answer": "We accept all major credit cards, PayPal, and Bancontact. You can pay securely online at the time of booking via our secure payment gateway."
+      "question": "Which payment methods do you accept?",
+      "answer": "We accept all major payment methods in Belgium: Bancontact, Visa, MasterCard, American Express, PayPal, and Apple Pay. You can also opt for secure corporate invoicing or cash payment to the driver upon request."
     },
     "wait_time": {
       "question": "How long will the driver wait for us at the Airport?",
-      "answer": "For airport pickups, we include 60 minutes of free waiting time from the actual flight arrival time to allow for luggage collection and customs."
+      "answer": "For all Belgian airport pickups (Brussels Airport Zaventem, Charleroi, Antwerp, Liège), we provide 60 minutes of complimentary waiting time starting from your flight's actual landing time to give you ample time for baggage collection and passport control."
     },
     "vip_pickup": {
-      "question": "VIP Pickup?",
-      "answer": "Our VIP Pickup service includes a premium vehicle, meet-and-greet at the arrival hall, and dedicated luggage assistance for a seamless experience."
+      "question": "What is included in the VIP Meet & Greet service?",
+      "answer": "Our VIP Pickup service includes an executive Mercedes-Benz E-Class, S-Class, or V-Class vehicle, personalized meet-and-greet inside the arrival terminal with a nameboard, luggage assistance, and complimentary onboard Wi-Fi and bottled water."
     },
     "luggage": {
-      "question": "Travel information/Luggage's",
-      "answer": "Please ensure you specify the correct number of passengers and luggage items during booking. This helps us assign the most suitable vehicle for your comfort."
+      "question": "How much luggage can I bring?",
+      "answer": "Standard sedans accommodate up to 3 large suitcases. If you are traveling with extra luggage, sports equipment, or child seats, please select an Estate (Station Wagon) or Luxury Van (Minivan up to 8 passengers) during your booking."
     },
     "no_journey": {
-      "question": "The journey did not take place",
-      "answer": "If you could not find the driver and the journey did not take place, submit a <a>refund request here</a>."
+      "question": "What should I do if the journey did not take place?",
+      "answer": "If you were unable to connect with your driver and the journey did not take place, please contact our 24/7 dispatch immediately or submit a <a>refund request here</a> with your booking reference."
     },
     "no_phone": {
-      "question": "The driver or transfer company does not pick up the phone",
-      "answer": "If you cannot reach the driver, please contact our 24/7 support line immediately. We will help coordinate with the driver or arrange an alternative."
+      "question": "What if the driver does not answer the phone?",
+      "answer": "If you cannot reach your assigned driver upon arrival, call our central Belgian dispatch desk immediately at +32 2 520 75 26. Our operations team will locate your driver or dispatch an immediate backup vehicle."
     },
     "no_meeting_point": {
       "question": "I can't find my driver or meeting point",
-      "answer": "Please double-check your confirmation email for exact instructions. If you're still unable to locate the driver, call them directly via the number provided."
+      "answer": "Check your SMS and confirmation email for your driver's exact location. At Brussels Airport, look for your name sign near the Java Coffee meeting area. If still unable to locate them, contact our helpline."
     },
     "cancel_booking": {
-      "question": "Cancel my booking",
-      "answer": "Please login with your <strong>customer ID and password</strong> which is already sent to your email. If you have any questions contact us directly on quoting your booking ID and we will be delighted to assist you further."
+      "question": "How do I cancel my booking?",
+      "answer": "You can cancel your booking online by logging into your account using your <strong>booking reference and email</strong>, or by contacting our customer service team."
     },
     "change_booking": {
-      "question": "Change My Booking",
-      "answer": "You can modify your booking details by logging into your account or by reaching out to our customer service team."
+      "question": "Can I modify my booking details?",
+      "answer": "Yes, you can change your pickup time, destination, passenger count, or flight number up to 12 hours before pickup via your confirmation link or by contacting our team."
     },
     "view_booking": {
-      "question": "View My Booking",
-      "answer": "Access all your booking details, including driver info and status, by logging into your customer portal."
+      "question": "Where can I view my booking status?",
+      "answer": "You can view your real-time booking status, assigned driver details, vehicle model, and receipt by entering your booking reference in the 'My Booking' section on our website."
     },
     "flight_delayed": {
-      "question": "My flight is delayed",
-      "answer": "When your flight is delayed or cancelled, please call the driver or transfer company directly. If you choose not to call the provider, he might leave the pickup point and you risk not getting your transfer."
+      "question": "What happens if my flight is delayed?",
+      "answer": "We monitor all incoming flights to Brussels (BRU), Charleroi (CRL), Antwerp (ANR), and Liège (LGG) in real time. Your driver will automatically adjust the pickup time according to your actual flight arrival, with no extra charge."
     },
     "left_item": {
-      "question": "I left an item in the car",
-      "answer": "Please contact us immediately with your booking ID. We will coordinate with the driver to help you retrieve your lost items as soon as possible."
+      "question": "I left an item in the vehicle",
+      "answer": "If you forgot personal belongings in the taxi, contact our dispatch team immediately at +32 2 520 75 26 with your booking reference and description of the item. We will coordinate quick return with your driver."
     },
     "late_transfer": {
-      "question": "I will be late for my transfer",
-      "answer": "If you anticipate being late, notify your driver or our support team immediately. Please note that waiting fees may apply after the complimentary waiting period."
+      "question": "What if I am running late for a city pickup?",
+      "answer": "For pickups at hotels, offices, or private addresses in Belgium, we include 15 minutes of complimentary waiting time. If you expect a delay, please contact your driver or dispatch team directly."
     },
     "local_taxis_connected": {
-      "question": "Are local airport taxis connected with Airport Transfer?",
-      "answer": "No. Local taxis operating at Brussels Airport are independent services and are not associated with Airport Transfer unless the ride was booked directly through our website."
+      "question": "Are local street taxis at Brussels Airport connected with your service?",
+      "answer": "No. Street taxis parked in the generic queue at Brussels or Charleroi airports operate on unregulated metered rates and are not part of our fixed-rate private network. Our service is pre-booked with fixed pricing and guaranteed driver assignment."
     },
     "responsible_all_taxis": {
-      "question": "Is Airport Transfer responsible for all taxis at Brussels Airport?",
-      "answer": "No. Airport Transfer is only responsible for rides that are officially booked and confirmed through our website. We are not responsible for local airport taxis or rides booked on the airport."
+      "question": "Is Airport Transfer responsible for public taxi stands at Belgian airports?",
+      "answer": "No. We only operate pre-booked private transfers reserved via our official website. We are not responsible for public curbside taxis taken without a reservation."
     }
   },
   "cta": {
     "title": "Can’t find what you’re looking for?",
-    "description": "If you can’t find an answer to your question in our Help Desk, our support team is happy to help you with your booking.",
+    "description": "If you can’t find an answer to your question in our Help Desk, our 24/7 Belgian support team is ready to assist you.",
     "button": "Contact Support"
   }
 }

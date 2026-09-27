@@ -44,15 +44,64 @@ export default async function HelpDeskPage() {
                     question: t("faqs.airport_meeting.question"),
                     answer: (
                         <div className="space-y-6">
-                            <p className="whitespace-pre-line text-gray-600">
-                                {t("faqs.airport_meeting.answer")}
-                            </p>
-                            <div className="relative w-full rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
-                                <img
-                                    src="https://res.cloudinary.com/dbov9nme7/image/upload/v1778780272/ams-taxi/meeting-instructions/schiphol-meeting-point.png"
-                                    alt="Brussels Airport Meeting Point Map"
-                                    className="w-full h-auto object-cover"
-                                />
+                            <div className="text-gray-600 leading-relaxed whitespace-pre-line">
+                                {t.rich("faqs.airport_meeting.answer", {
+                                    strong: (chunks) => <strong className="text-primary font-semibold">{chunks}</strong>,
+                                    strong_s: (chunks) => <strong className="text-secondary font-bold">{chunks}</strong>,
+                                })}
+                            </div>
+
+                            {/* Belgian Airports Meeting Guide Card */}
+                            <div className="rounded-2xl border border-gray-200 bg-gradient-to-br from-slate-50 to-amber-50/40 p-5 md:p-6 shadow-sm">
+                                <div className="flex items-center gap-2 mb-4">
+                                    <div className="w-8 h-8 rounded-lg bg-primary text-white flex items-center justify-center font-bold text-xs">
+                                        BE
+                                    </div>
+                                    <div>
+                                        <h4 className="text-sm font-bold text-primary">Belgian Airport Pick-Up Protocol</h4>
+                                        <p className="text-xs text-gray-500">Brussels Airport (BRU) & Charleroi (CRL)</p>
+                                    </div>
+                                </div>
+
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="bg-white rounded-xl p-4 border border-gray-100 shadow-xs">
+                                        <div className="flex items-center gap-2 mb-2">
+                                            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-primary/10 text-primary">
+                                                BRU • Zaventem
+                                            </span>
+                                            <span className="text-xs text-gray-500 font-medium">Brussels Airport</span>
+                                        </div>
+                                        <ul className="text-xs text-gray-600 space-y-1.5 list-disc list-inside">
+                                            <li>Meet & Greet at <strong className="text-gray-900">Arrivals Hall</strong></li>
+                                            <li>Opposite the central <strong className="text-gray-900">Java Coffee Bar</strong></li>
+                                            <li>Driver holds a nameboard with your name</li>
+                                            <li>60 minutes free waiting time from landing</li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="bg-white rounded-xl p-4 border border-gray-100 shadow-xs">
+                                        <div className="flex items-center gap-2 mb-2">
+                                            <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-bold bg-secondary/20 text-secondary-foreground font-semibold">
+                                                CRL • Charleroi
+                                            </span>
+                                            <span className="text-xs text-gray-500 font-medium">Brussels South</span>
+                                        </div>
+                                        <ul className="text-xs text-gray-600 space-y-1.5 list-disc list-inside">
+                                            <li>Meeting at <strong className="text-gray-900">Express Pick-Up Zone</strong></li>
+                                            <li>Located outside Terminal 1 & 2 exit</li>
+                                            <li>Direct driver SMS/WhatsApp coordination</li>
+                                            <li>Real-time flight arrival monitoring</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className="mt-4 pt-3 border-t border-gray-200/60 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-500">
+                                    <span>24/7 Operations Support: <a href="tel:+3225207526" className="text-secondary font-bold hover:underline">+32 2 520 75 26</a></span>
+                                    <span className="inline-flex items-center gap-1 text-emerald-600 font-medium">
+                                        <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                                        Live Flight Monitoring Active
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     )

@@ -2,13 +2,13 @@
   "banner": {
     "top_text": "Documentatie",
     "title": "Helpdesk & FAQ",
-    "description": "Uitgebreide gids en veelgestelde vragen om u te helpen bij het beheren van uw boekingen en reizen."
+    "description": "Uitgebreide gids en veelgestelde vragen om u te helpen bij het beheren van uw transfers naar Belgische luchthavens en reisboekingen."
   },
   "sections": {
     "general": {
       "category": "Algemeen",
       "title": "Veelgestelde vragen",
-      "description": "Algemene informatie over onze diensten, het boekingsproces en het bedrijfsbeleid."
+      "description": "Algemene informatie over onze Belgische luchthaventaxidiensten, het boekingsproces en het bedrijfsbeleid."
     },
     "complications": {
       "category": "Boekingsproblemen",
@@ -23,86 +23,86 @@
     "travel": {
       "category": "Reizen",
       "title": "Reis- en aankomstproblemen",
-      "description": "Informatie over vluchtvertragingen, verloren voorwerpen en aankomstprocedures."
+      "description": "Informatie over vluchtvertragingen in België, verloren voorwerpen en aankomstprocedures op de luchthaven."
     }
   },
   "faqs": {
     "booking_advance": {
       "question": "Hoe ver van tevoren kan ik online boeken?",
-      "answer": "We accepteren online boekingen die <strong_p>minstens 4 uur van tevoren</strong_p> worden gemaakt. (van maandag tot zondag). Heeft u binnen 3 uur een taxi of chauffeursdienst nodig? Bel <strong_s>+32 2 520 75 26</strong_s> om de beschikbaarheid te controleren."
+      "answer": "We accepteren online boekingen die <strong_p>minstens 4 uur van tevoren</strong_p> worden gemaakt (van maandag tot zondag). Heeft u binnen 3 uur een spoedtaxi of chauffeursdienst in België nodig? Bel <strong_s>+32 2 520 75 26</strong_s> om de directe beschikbaarheid te controleren."
     },
     "airport_meeting": {
-      "question": "Waar kan ik mijn chauffeur ontmoeten?",
-      "answer": "U kunt uw chauffeur ontmoeten bij het aangewezen ophaalpunt buiten de aankomsthal van Brussels Airport.\n\nNa het passeren van immigratie en het ophalen van uw bagage, verlaat u de aankomsthal en gaat u naar het ontmoetingspunt dat in uw bevestigingsmail staat. Uw chauffeur toont uw naam of een bedrijfsbord. Als u uw chauffeur niet kunt vinden, bel dan onmiddellijk het nummer in uw boekingsbevestiging."
+      "question": "Waar kan ik mijn chauffeur ontmoeten op Brussels Airport of Charleroi Airport?",
+      "answer": "<strong>Brussels Airport (BRU - Zaventem):</strong> Uw chauffeur wacht op u in de aankomsthal bij het centrale ontmoetingspunt (tegenover de Java Coffee Bar) met een bordje met uw naam of bedrijfslogo. Voor snelle ophaling volgt u de borden naar de Express Parking zone.\n\n<strong>Brussels South Charleroi Airport (CRL):</strong> Uw chauffeur ontmoet u bij de officiële Express Pick-up Zone buiten Terminal 1 of Terminal 2.\n\nUw chauffeur volgt uw vlucht live en stuurt een SMS/WhatsApp-bericht na de landing. Bel bij vragen direct naar <strong_s>+32 2 520 75 26</strong_s>."
     },
     "cancellation": {
       "question": "Wat is uw annuleringsbeleid?",
-      "answer": "Annuleringen die meer dan 24 uur voor de geplande ophaaltijd worden gedaan, zijn doorgaans kosteloos. Raadpleeg onze volledige algemene voorwaarden voor specifieke details."
+      "answer": "Annuleringen die meer dan 24 uur voor de geplande ophaaltijd worden doorgegeven, zijn 100% gratis. Raadpleeg onze volledige algemene voorwaarden voor specifieke details."
     },
     "payment": {
       "question": "Welke betaalmethoden accepteert u?",
-      "answer": "We accepteren alle belangrijke creditcards, PayPal en Bancontact. U kunt veilig online betalen op het moment van boeking via onze beveiligde betaalgateway."
+      "answer": "We accepteren alle gangbare betaalmethoden in België: Bancontact, Visa, MasterCard, American Express, PayPal en Apple Pay. Zakelijke facturering of betaling aan de chauffeur is eveneens mogelijk op aanvraag."
     },
     "wait_time": {
       "question": "Hoe lang wacht de chauffeur op ons op de luchthaven?",
-      "answer": "Voor luchthavenophaalservices is 60 minuten gratis wachttijd inbegrepen vanaf de werkelijke aankomsttijd van de vlucht, zodat u tijd heeft om bagage op te halen en douane te passeren."
+      "answer": "Voor alle ophaaldiensten op Belgische luchthavens (Brussels Airport Zaventem, Charleroi, Antwerpen, Luik) bieden we 60 minuten gratis wachttijd vanaf de werkelijke landingstijd van uw vlucht, zodat u ruim de tijd heeft voor bagage en paspoortcontrole."
     },
     "vip_pickup": {
-      "question": "VIP-ophaalservice?",
-      "answer": "Onze VIP-ophaalservice omvat een premium voertuig, meet-and-greet in de aankomsthal en toegewijde bagagehulp voor een naadloze ervaring."
+      "question": "Wat houdt de VIP Meet & Greet service in?",
+      "answer": "Onze VIP-ophaalservice omvat een directievoertuig van Mercedes-Benz (E-Klasse, S-Klasse of V-Klasse), persoonlijke ontvangst in de aankomsthal met naambord, bagagehulp, gratis Wi-Fi en mineraalwater aan boord."
     },
     "luggage": {
-      "question": "Reisinformatie / Bagage",
-      "answer": "Zorg ervoor dat u het juiste aantal passagiers en bagagestukken opgeeft tijdens het boeken. Dit helpt ons het meest geschikte voertuig voor uw comfort toe te wijzen."
+      "question": "Hoeveel bagage kan ik meenemen?",
+      "answer": "Een standaard sedan biedt plaats aan maximaal 3 grote koffers. Reist u met extra bagage, speciale uitrusting of kinderzitjes, kies dan tijdens het boeken voor een Stationwagon of Luxe Minivan (tot 8 passagiers)."
     },
     "no_journey": {
-      "question": "De rit heeft niet plaatsgevonden",
-      "answer": "Als u de chauffeur niet kon vinden en de rit niet heeft plaatsgevonden, dien dan een <a>terugbetalingsverzoek hier</a> in."
+      "question": "Wat moet ik doen als de rit niet heeft plaatsgevonden?",
+      "answer": "Als u uw chauffeur niet heeft kunnen vinden en de rit niet is doorgegaan, neem dan direct contact op met onze centrale of dien hier een <a>terugbetalingsverzoek in</a> met uw boekingsreferentie."
     },
     "no_phone": {
-      "question": "De chauffeur of transferbedrijf neemt de telefoon niet op",
-      "answer": "Als u de chauffeur niet kunt bereiken, neem dan onmiddellijk contact op met onze 24/7-supportlijn. We helpen u coördineren met de chauffeur of een alternatief regelen."
+      "question": "Wat als de chauffeur de telefoon niet opneemt?",
+      "answer": "Kunt u uw chauffeur bij aankomst niet bereiken, bel dan direct onze centrale Belgische meldkamer op +32 2 520 75 26. Ons team brengt u direct in contact of stuurt onmiddellijk een vervangende wagen."
     },
     "no_meeting_point": {
       "question": "Ik kan mijn chauffeur of ontmoetingspunt niet vinden",
-      "answer": "Controleer uw bevestigingsmail nogmaals voor exacte instructies. Als u de chauffeur nog steeds niet kunt vinden, bel hem dan rechtstreeks via het opgegeven nummer."
+      "answer": "Controleer uw sms en bevestigingsmail voor de exacte locatie. Op Brussels Airport zoekt u naar uw naambordje bij het ontmoetingspunt naast de Java Coffee. Bij twijfel staat onze hulplijn 24/7 klaar."
     },
     "cancel_booking": {
-      "question": "Mijn boeking annuleren",
-      "answer": "Log in met uw <strong>klant-ID en wachtwoord</strong> die al naar uw e-mail zijn gestuurd. Als u vragen heeft, neem dan direct contact met ons op onder vermelding van uw boekings-ID en we helpen u graag verder."
+      "question": "Hoe annuleer ik mijn boeking?",
+      "answer": "U kunt uw boeking online annuleren door in te loggen met uw <strong>boekingsreferentie en e-mailadres</strong>, of door contact op te nemen met onze klantenservice."
     },
     "change_booking": {
-      "question": "Mijn boeking wijzigen",
-      "answer": "U kunt uw boekingsgegevens wijzigen door in te loggen op uw account of contact op te nemen met ons klantenserviceteam."
+      "question": "Kan ik mijn boekingsgegevens wijzigen?",
+      "answer": "Ja, u kunt uw ophaaltijd, bestemming, aantal passagiers of vluchtnummer tot 12 uur voor vertrek wijzigen via uw bevestigingslink of telefonisch."
     },
     "view_booking": {
-      "question": "Mijn boeking bekijken",
-      "answer": "Bekijk al uw boekingsgegevens, inclusief chauffeurinformatie en status, door in te loggen op uw klantenportaal."
+      "question": "Waar kan ik mijn boeking bekijken?",
+      "answer": "Bekijk de live status van uw boeking, chauffeurgegevens en factuur via het onderdeel 'Mijn boeking' op onze website."
     },
     "flight_delayed": {
-      "question": "Mijn vlucht heeft vertraging",
-      "answer": "Wanneer uw vlucht vertraagd of geannuleerd is, bel dan rechtstreeks de chauffeur of het transferbedrijf. Als u ervoor kiest de aanbieder niet te bellen, kan hij het ophaalpunt verlaten en loopt u het risico uw transfer te missen."
+      "question": "Wat gebeurt er als mijn vlucht vertraagd is?",
+      "answer": "Wij monitoren alle binnenkomende vluchten naar Brussel (BRU), Charleroi (CRL), Antwerpen (ANR) en Luik (LGG) in realtime. Uw chauffeur past de ophaaltijd automatisch kosteloos aan op basis van uw werkelijke landingstijd."
     },
     "left_item": {
-      "question": "Ik heb een voorwerp in de auto achtergelaten",
-      "answer": "Neem onmiddellijk contact met ons op met uw boekings-ID. We coördineren met de chauffeur om u te helpen uw verloren voorwerpen zo snel mogelijk terug te krijgen."
+      "question": "Ik heb een voorwerp in het voertuig laten liggen",
+      "answer": "Neem onmiddellijk contact op met onze meldkamer via +32 2 520 75 26 onder vermelding van uw boekingsnummer. We regelen dat uw chauffeur het voorwerp zo snel mogelijk terugbrengt."
     },
     "late_transfer": {
-      "question": "Ik kom te laat voor mijn transfer",
-      "answer": "Als u verwacht te laat te komen, informeer dan onmiddellijk uw chauffeur of ons supportteam. Houd er rekening mee dat wachtkosten kunnen gelden na de gratis wachtperiode."
+      "question": "Wat als ik te laat ben voor een ophaalservice in de stad?",
+      "answer": "Voor ophaalservices bij hotels, kantoren of privéadressen in België is 15 minuten gratis wachttijd inbegrepen. Neem direct contact op als u verdere vertraging verwacht."
     },
     "local_taxis_connected": {
-      "question": "Zijn lokale luchthaventaxi's verbonden met Airport Transfer?",
-      "answer": "Nee. Lokale taxi's op Brussels Airport zijn onafhankelijke diensten en zijn niet verbonden met Airport Transfer, tenzij de rit rechtstreeks via onze website is geboekt."
+      "question": "Zijn reguliere taxistandplaatsen op Belgische luchthavens verbonden met uw dienst?",
+      "answer": "Nee. Taxi's in de openbare wachtrij op Brussels Airport of Charleroi rijden op variabele taxameters. Onze service is een vooraf gereserveerde privéluchthaventransfer met vaste prijsgarantie."
     },
     "responsible_all_taxis": {
-      "question": "Is Airport Transfer verantwoordelijk voor alle taxi's op Brussels Airport?",
-      "answer": "Nee. Airport Transfer is alleen verantwoordelijk voor ritten die officieel via onze website zijn geboekt en bevestigd. We zijn niet verantwoordelijk voor lokale luchthaventaxi's of ritten die op de luchthaven zijn geboekt."
+      "question": "Is Airport Transfer verantwoordelijk voor alle taxi's op luchthavens in België?",
+      "answer": "Nee. Wij zijn uitsluitend verantwoordelijk voor ritten die vooraf via ons officiële online platform zijn geboekt. Wij zijn niet aansprakelijk voor straattaxi's die zonder reservering ter plaatse worden genomen."
     }
   },
   "cta": {
     "title": "Kunt u niet vinden wat u zoekt?",
-    "description": "Als u geen antwoord op uw vraag kunt vinden in onze Helpdesk, helpt ons supportteam u graag met uw boeking.",
+    "description": "Als u geen antwoord op uw vraag kunt vinden in onze Helpdesk, helpt ons 24/7 Belgische supportteam u graag verder.",
     "button": "Contact opnemen met support"
   }
 }

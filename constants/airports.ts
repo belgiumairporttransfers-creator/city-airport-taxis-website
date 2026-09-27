@@ -21,9 +21,12 @@ export const AIRPORT_KEYWORDS = [
     ' she ', ' pek ', ' hkg ', ' tyo ', ' icn ', ' sin ', ' kul ', ' bkk ', ' mnl ', ' dri ',
     // Australia
     ' syd ', ' mel ', ' bne ', ' adl ', ' per ', ' aki ',
+    // Belgium & Benelux
+    ' bru ', ' crl ', ' anr ', ' lgg ', ' ost ', ' zaventem ', ' charleroi ', ' deurne ',
+    ' brussels airport ', ' brussels south ', ' liege airport ', ' antwerp airport ', ' ostend airport ',
     // Europe
-    ' zrh ', ' fra ', ' cdg ', ' ams ', ' mad ', ' bcn ', ' fco ', ' mxp ', ' vce ', ' muc ',
-    ' vie ', ' prg ', ' waw ', ' bru ', ' cph ', ' arn ', ' osl ', ' hel ', ' lis ', ' ath ', ' ist ',
+    ' zrh ', ' fra ', ' cdg ', ' orly ', ' ory ', ' ams ', ' mad ', ' bcn ', ' fco ', ' mxp ', ' vce ', ' muc ',
+    ' vie ', ' prg ', ' waw ', ' cph ', ' arn ', ' osl ', ' hel ', ' lis ', ' ath ', ' ist ',
     // Middle East
     ' dxb ', ' auh ', ' doh ', ' ruh ', ' jed ', ' tlv ',
     // Africa
@@ -33,12 +36,8 @@ export const AIRPORT_KEYWORDS = [
     ' gig ', ' gru ', ' bsb ', ' sdu ', ' vcp ', ' cwb ', ' poa ', ' rec ', ' ssa ', ' for ',
     ' mao ', ' bel ', ' mcj ', ' scl ', ' bog ', ' uio ', ' gye ', ' lim ',
     // Central America / Caribbean
-    ' pty ', ' sal ', ' gua ', ' sap ', ' tgu ', ' mga ', ' sjo ', ' lirm ', ' kin ', ' mbj ',
+    ' pty ', ' sal ', ' gua ', ' sap ', ' tgu ', ' practical ', ' mga ', ' sjo ', ' lirm ', ' kin ', ' mbj ',
     ' nas ', ' fpo ', ' bda ', ' sju ', ' stt ', ' stx ', ' sxm ', ' anu ', ' bgi ', ' uvf ',
     ' gnd ', ' pos ', ' tab ', ' cur ', ' aua ', ' bon ', ' pap ', ' sdq ', ' puj ', ' sti ',
     ' pop ', ' lrm ', ' azs ',
-    // Pakistan
-    ' jinnah ', ' karachi ', ' khi ', ' islamabad ', ' isb ', ' lahore ', ' lhe ', ' peshawar ', ' pew ',
-    ' multan ', ' mux ', ' faisalabad ', ' lyp ', ' quetta ', ' uet ', ' sialkot ', ' skt ', ' gwadar ', ' gwd ',
-    ' sukkur ', ' skz ', ' rawalpindi ', ' hyderabad ', ' sargodha ', ' bahawalpur ',
 ];

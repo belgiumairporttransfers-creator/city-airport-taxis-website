@@ -2,13 +2,13 @@
   "banner": {
     "top_text": "Documentation",
     "title": "Centre d'aide & FAQ",
-    "description": "Guide complet et questions fréquemment posées pour vous aider à gérer vos réservations et vos déplacements."
+    "description": "Guide complet et questions fréquemment posées pour gérer vos transferts vers les aéroports belges et vos réservations de transport."
   },
   "sections": {
     "general": {
       "category": "Général",
       "title": "Questions fréquemment posées",
-      "description": "Informations générales sur nos services, le processus de réservation et les politiques de l'entreprise."
+      "description": "Informations générales sur nos services de taxi d'aéroport en Belgique, le processus de réservation et nos politiques."
     },
     "complications": {
       "category": "Problèmes de réservation",
@@ -23,86 +23,86 @@
     "travel": {
       "category": "Voyage",
       "title": "Problèmes de voyage et d'arrivée",
-      "description": "Informations concernant les retards de vol, les objets perdus et les procédures d'arrivée."
+      "description": "Informations concernant les retards de vol en Belgique, les objets perdus et les procédures d'arrivée."
     }
   },
   "faqs": {
     "booking_advance": {
       "question": "Combien de temps à l'avance puis-je réserver en ligne ?",
-      "answer": "Nous acceptons les réservations en ligne effectuées <strong_p>au moins 4 heures à l'avance</strong_p>. (du lundi au dimanche). Avez-vous besoin d'un taxi ou d'un service de chauffeur dans les 3 heures ? Appelez le <strong_s>+32 2 520 75 26</strong_s> pour vérifier la disponibilité."
+      "answer": "Nous acceptons les réservations en ligne effectuées <strong_p>au moins 4 heures à l'avance</strong_p> (du lundi au dimanche). Avez-vous besoin d'un taxi urgent ou d'un chauffeur privé en Belgique dans les 3 heures ? Appelez le <strong_s>+32 2 520 75 26</strong_s> pour vérifier la disponibilité immédiate."
     },
     "airport_meeting": {
-      "question": "Où puis-je retrouver mon chauffeur ?",
-      "answer": "Vous pouvez retrouver votre chauffeur dans la zone de prise en charge désignée à l'extérieur des arrivées de l'aéroport de Bruxelles (Brussels Airport).\n\nAprès avoir passé l'immigration et récupéré vos bagages, sortez du hall des arrivées et rendez-vous au point de rencontre indiqué dans votre e-mail de confirmation. Votre chauffeur affichera votre nom ou une pancarte de l'entreprise. Si vous ne trouvez pas votre chauffeur, appelez immédiatement le numéro indiqué dans votre confirmation de réservation."
+      "question": "Où puis-je retrouver mon chauffeur à l'aéroport de Bruxelles ou de Charleroi ?",
+      "answer": "<strong>Aéroport de Bruxelles (BRU - Zaventem) :</strong> Votre chauffeur vous attendra dans le hall des arrivées près du point de rencontre central (en face du Java Coffee Bar) avec une pancarte à votre nom ou au logo de votre entreprise. Pour une prise en charge rapide, suivez les indications vers la zone Express Parking.\n\n<strong>Aéroport de Bruxelles-Sud Charleroi (CRL) :</strong> Votre chauffeur vous accueillera à la zone officielle de dépose/reprise Express devant le Terminal 1 ou le Terminal 2.\n\nVotre chauffeur suit votre vol en temps réel et vous contactera par SMS/WhatsApp dès l'atterrissage. En cas de doute, appelez le <strong_s>+32 2 520 75 26</strong_s>."
     },
     "cancellation": {
       "question": "Quelle est votre politique d'annulation ?",
-      "answer": "Les annulations effectuées plus de 24 heures avant l'heure de prise en charge prévue sont généralement gratuites. Pour plus de détails, veuillez consulter nos conditions générales complètes."
+      "answer": "Les annulations effectuées plus de 24 heures avant l'heure de prise en charge prévue sont 100% gratuites. Pour plus de détails, veuillez consulter nos conditions générales de vente."
     },
     "payment": {
       "question": "Quels modes de paiement acceptez-vous ?",
-      "answer": "Nous acceptons toutes les principales cartes de crédit, PayPal et Bancontact. Vous pouvez payer en toute sécurité en ligne au moment de la réservation via notre passerelle de paiement sécurisée."
+      "answer": "Nous acceptons tous les moyens de paiement courants en Belgique : Bancontact, Visa, MasterCard, American Express, PayPal et Apple Pay. La facturation professionnelle et le paiement à bord sont également possibles."
     },
     "wait_time": {
       "question": "Combien de temps le chauffeur nous attend-il à l'aéroport ?",
-      "answer": "Pour les prises en charge à l'aéroport, nous incluons 60 minutes d'attente gratuite à partir de l'heure d'arrivée réelle du vol, afin de vous laisser le temps de récupérer vos bagages et de passer la douane."
+      "answer": "Pour toutes les prises en charge aux aéroports belges (Bruxelles Zaventem, Charleroi, Anvers, Liège), nous incluons 60 minutes d'attente gratuite à partir de l'heure d'atterrissage effective pour vous permettre de récupérer vos bagages et passer la douane sereinement."
     },
     "vip_pickup": {
-      "question": "Prise en charge VIP ?",
-      "answer": "Notre service de prise en charge VIP comprend un véhicule premium, un accueil dans le hall des arrivées et une assistance bagages dédiée pour une expérience fluide."
+      "question": "Que comprend le service de prise en charge VIP ?",
+      "answer": "Notre service VIP comprend une berline Mercedes-Benz Classe E, Classe S ou un van Classe V, un accueil personnalisé avec pancarte nominative dans le terminal d'arrivée, une prise en charge de vos bagages, ainsi que le Wi-Fi et des bouteilles d'eau à bord."
     },
     "luggage": {
-      "question": "Informations de voyage / Bagages",
-      "answer": "Veuillez indiquer le nombre correct de passagers et de bagages lors de la réservation. Cela nous aide à attribuer le véhicule le plus adapté à votre confort."
+      "question": "Combien de bagages puis-je emporter ?",
+      "answer": "Une berline standard accueille jusqu'à 3 grandes valises. Si vous voyagez avec des bagages supplémentaires, des équipements spéciaux ou des sièges bébé, veuillez réserver un Break ou un Minivan (jusqu'à 8 passagers)."
     },
     "no_journey": {
-      "question": "Le trajet n'a pas eu lieu",
-      "answer": "Si vous n'avez pas trouvé le chauffeur et que le trajet n'a pas eu lieu, soumettez une <a>demande de remboursement ici</a>."
+      "question": "Que faire si la course n'a pas eu lieu ?",
+      "answer": "Si vous n'avez pas réussi à rejoindre votre chauffeur et que le trajet n'a pas eu lieu, contactez immédiatement notre centrale d'assistance ou soumettez une <a>demande de remboursement ici</a> avec votre référence de réservation."
     },
     "no_phone": {
-      "question": "Le chauffeur ou la société de transfert ne répond pas au téléphone",
-      "answer": "Si vous ne parvenez pas à joindre le chauffeur, veuillez contacter immédiatement notre ligne d'assistance 24h/24. Nous vous aiderons à coordonner avec le chauffeur ou à organiser une alternative."
+      "question": "Que faire si le chauffeur ne répond pas au téléphone ?",
+      "answer": "Si vous ne parvenez pas à joindre votre chauffeur, contactez immédiatement notre centrale belge au +32 2 520 75 26. Notre équipe coordonnera la rencontre ou dépêchera un véhicule de remplacement."
     },
     "no_meeting_point": {
       "question": "Je ne trouve pas mon chauffeur ou le point de rencontre",
-      "answer": "Veuillez vérifier attentivement votre e-mail de confirmation pour les instructions exactes. Si vous ne parvenez toujours pas à localiser le chauffeur, appelez-le directement via le numéro fourni."
+      "answer": "Vérifiez vos SMS et e-mails de confirmation pour connaître l'emplacement exact. À Brussels Airport, repérez le point de rencontre près du Java Coffee. En cas de besoin, notre support téléphonique est disponible 24h/24."
     },
     "cancel_booking": {
-      "question": "Annuler ma réservation",
-      "answer": "Veuillez vous connecter avec votre <strong>identifiant client et mot de passe</strong> qui vous ont déjà été envoyés par e-mail. Si vous avez des questions, contactez-nous directement en indiquant votre numéro de réservation et nous serons ravis de vous aider."
+      "question": "Comment annuler ma réservation ?",
+      "answer": "Vous pouvez annuler votre réservation en ligne en vous connectant à votre espace client avec votre <strong>référence de réservation et e-mail</strong>, ou en contactant notre support."
     },
     "change_booking": {
-      "question": "Modifier ma réservation",
-      "answer": "Vous pouvez modifier les détails de votre réservation en vous connectant à votre compte ou en contactant notre service client."
+      "question": "Puis-je modifier ma réservation ?",
+      "answer": "Oui, vous pouvez modifier l'heure, l'adresse, le nombre de passagers ou le numéro de vol jusqu'à 12 heures avant la prise en charge via votre lien de confirmation ou par téléphone."
     },
     "view_booking": {
-      "question": "Consulter ma réservation",
-      "answer": "Accédez à tous les détails de votre réservation, y compris les informations sur le chauffeur et le statut, en vous connectant à votre portail client."
+      "question": "Où puis-je consulter ma réservation ?",
+      "answer": "Consultez le statut en direct de votre réservation, les coordonnées du chauffeur et votre facture dans la rubrique 'Ma réservation' de notre site."
     },
     "flight_delayed": {
-      "question": "Mon vol est retardé",
-      "answer": "Lorsque votre vol est retardé ou annulé, veuillez appeler directement le chauffeur ou la société de transfert. Si vous choisissez de ne pas contacter le prestataire, il pourrait quitter le point de prise en charge et vous risquez de ne pas obtenir votre transfert."
+      "question": "Mon vol est retardé, que se passe-t-il ?",
+      "answer": "Nous suivons en direct tous les vols à destination de Bruxelles (BRU), Charleroi (CRL), Anvers (ANR) et Liège (LGG). Votre chauffeur ajuste automatiquement son arrivée en fonction de votre atterrissage réel, sans aucun supplément."
     },
     "left_item": {
-      "question": "J'ai oublié un objet dans la voiture",
-      "answer": "Veuillez nous contacter immédiatement avec votre numéro de réservation. Nous coordonnerons avec le chauffeur pour vous aider à récupérer vos objets perdus dès que possible."
+      "question": "J'ai oublié un objet dans le véhicule",
+      "answer": "Contactez immédiatement notre service au +32 2 520 75 26 en indiquant votre numéro de réservation. Nous organiserons la restitution rapide de vos effets personnels avec le chauffeur."
     },
     "late_transfer": {
-      "question": "Je serai en retard pour mon transfert",
-      "answer": "Si vous prévoyez d'être en retard, informez immédiatement votre chauffeur ou notre équipe d'assistance. Veuillez noter que des frais d'attente peuvent s'appliquer après la période d'attente gratuite."
+      "question": "Je suis en retard pour une prise en charge en ville",
+      "answer": "Pour les prises en charge aux hôtels, bureaux ou adresses privées en Belgique, 15 minutes d'attente gratuite sont incluses. Veuillez nous prévenir si votre retard dépasse ce délai."
     },
     "local_taxis_connected": {
-      "question": "Les taxis locaux de l'aéroport sont-ils liés à Airport Transfer ?",
-      "answer": "Non. Les taxis locaux opérant à l'aéroport de Bruxelles sont des services indépendants et ne sont pas associés à Airport Transfer, sauf si la course a été réservée directement via notre site web."
+      "question": "Les taxis des stations des aéroports belges sont-ils liés à votre service ?",
+      "answer": "Non. Les taxis de la file d'attente publique à Brussels Airport ou Charleroi facturent au compteur variable. Notre service est un transport privé avec prix fixe garanti et réservation préalable."
     },
     "responsible_all_taxis": {
-      "question": "Airport Transfer est-il responsable de tous les taxis à l'aéroport de Bruxelles ?",
-      "answer": "Non. Airport Transfer n'est responsable que des courses officiellement réservées et confirmées via notre site web. Nous ne sommes pas responsables des taxis locaux de l'aéroport ni des courses réservées sur place à l'aéroport."
+      "question": "Airport Transfer gère-t-il tous les taxis aux aéroports en Belgique ?",
+      "answer": "Non. Nous assurons uniquement les réservations effectuées via notre plateforme officielle. Nous ne sommes pas responsables des taxis pris sans réservation aux bornes de l'aéroport."
     }
   },
   "cta": {
     "title": "Vous ne trouvez pas ce que vous cherchez ?",
-    "description": "Si vous ne trouvez pas de réponse à votre question dans notre centre d'aide, notre équipe d'assistance se fera un plaisir de vous aider avec votre réservation.",
+    "description": "Si vous ne trouvez pas la réponse à votre question, notre équipe d'assistance belge 24h/24 et 7j/7 est là pour vous aider.",
     "button": "Contacter l'assistance"
   }
 }
