@@ -27,11 +27,11 @@ export const menus: MenuItemProps[] = [
     href: "/payments",
     icon: CreditCard,
   },
-  {
-    title: "Statements",
-    href: "/statements",
-    icon: FileText,
-  },
+  // {
+  //   title: "Statements",
+  //   href: "/statements",
+  //   icon: FileText,
+  // },
   {
     title: "Profile",
     href: "/profile",
