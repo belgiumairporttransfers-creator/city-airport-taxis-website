@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { Suspense } from "react";
 import LoginForm from "./login-form";
 
 export async function generateMetadata() {
@@ -12,5 +13,9 @@ export async function generateMetadata() {
 }
 
 export default function LoginPage() {
-    return <LoginForm />;
+    return (
+        <Suspense fallback={<div className="min-h-screen w-full bg-white" />}>
+            <LoginForm />
+        </Suspense>
+    );
 }
