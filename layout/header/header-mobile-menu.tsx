@@ -78,7 +78,7 @@ export const HeaderMobileMenu = forwardRef<HTMLDivElement, HeaderMobileMenuProps
           <div className="flex h-full flex-col overflow-hidden bg-primary">
             {/* Mobile Menu Header */}
             <div className="flex h-20 flex-shrink-0 items-center justify-between border-b border-white/20 px-4">
-              <Logo variant="white" />
+              <Logo />
               <button
                 onClick={toggleMobile}
                 className="p-2 text-white transition-colors hover:text-secondary"

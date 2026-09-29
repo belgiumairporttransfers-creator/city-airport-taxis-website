@@ -4,6 +4,8 @@ export const API_ROUTES = {
     AUTH_LOGOUT: `/auth/logout`,
     AUTH_FORGOT_PASSWORD: `/auth/forgot-password`,
     AUTH_RESET_PASSWORD: `/auth/reset-password`,
+    AUTH_VERIFY_EMAIL: `/auth/verify-email`,
+    AUTH_RESEND_VERIFICATION: `/auth/resend-verification`,
     AUTH_REFRESH: `/auth/refresh`,
     AUTH_ME: `/auth/me`,
     AUTH_LOGOUT_ALL: `/auth/logout-all`,
@@ -18,5 +20,9 @@ export const API_ROUTES = {
     PAYMENTS: `/payments`,
     CHECKOUT_SESSION: `/bookings`,
     UPLOAD: `/upload`,
+    // User dashboard
+    USER_DASHBOARD_OVERVIEW: `/user/overview`,
+    USER_DASHBOARD_BOOKINGS: `/user/bookings`,
+    USER_DASHBOARD_PAYMENTS: `/user/payments`,
 } as const;
 export default API_ROUTES;

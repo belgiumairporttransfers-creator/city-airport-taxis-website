@@ -4,8 +4,10 @@ import {
     logout,
     logoutAllDevices,
     me,
+    resendVerification,
     resetPassword,
     signup,
+    verifyEmail,
 } from "@/lib/api/auth";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
@@ -40,13 +42,41 @@ export const useAuthSignup = () => {
 
     return useMutation({
         mutationFn: signup,
-        onSuccess: async () => {
-            toast.success("Account created successfully!");
+        onSuccess: async (_data, variables) => {
+            toast.success("Account created successfully! Please check your email to verify your account.");
             await queryClient.invalidateQueries({ queryKey: AUTH_ME_QUERY_KEY });
-            router.push("/dashboard");
+            const emailParam = variables?.email ? `?email=${encodeURIComponent(variables.email)}` : "";
+            router.push(`/verify-email${emailParam}`);
         },
         onError: (error: ApiError) => {
             toast.error(error?.message || "Failed to create account. Please try again.");
+        },
+    });
+};
+
+export const useAuthVerifyEmail = () => {
+    const queryClient = useQueryClient();
+
+    return useMutation({
+        mutationFn: verifyEmail,
+        onSuccess: async () => {
+            toast.success("Email verified successfully!");
+            await queryClient.invalidateQueries({ queryKey: AUTH_ME_QUERY_KEY });
+        },
+        onError: (error: ApiError) => {
+            toast.error(error?.message || "Failed to verify email. The link may be invalid or expired.");
+        },
+    });
+};
+
+export const useAuthResendVerification = () => {
+    return useMutation({
+        mutationFn: resendVerification,
+        onSuccess: () => {
+            toast.success("Verification link sent! Please check your email.");
+        },
+        onError: (error: ApiError) => {
+            toast.error(error?.message || "Failed to send verification email. Please try again.");
         },
     });
 };

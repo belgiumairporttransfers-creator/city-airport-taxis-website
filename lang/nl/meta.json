@@ -22,6 +22,11 @@
       "title": "Wachtwoord resetten | Luchthaventransfers België",
       "description": "Stel een nieuw wachtwoord in voor uw luchthaventransferaccount.",
       "keywords": "nieuw wachtwoord, wachtwoord resetten, accountbeveiliging"
+    },
+    "verify_email": {
+      "title": "E-mailadres verifiëren | Luchthaventransfers België",
+      "description": "Verifieer uw e-mailadres om uw Luchthaventransfers België-account te activeren.",
+      "keywords": "e-mail verifiëren, e-mailbevestiging, accountactivatie"
     }
   },
   "business": {

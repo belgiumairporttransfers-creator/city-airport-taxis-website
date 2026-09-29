@@ -51,7 +51,7 @@ const ResetPasswordForm = () => {
                 <div className="mx-auto w-full max-w-md">
                     {/* Logo Section */}
                     <div className="mb-12 flex justify-start">
-                        <Logo variant="dark" />
+                        <Logo />
                     </div>
 
                     {/* Header Section */}

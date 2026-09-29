@@ -8,7 +8,7 @@ import { Link } from "@/i18n/routing";
 import { Mail, Lock, ArrowRight, ArrowLeft } from "lucide-react";
 import { Logo } from "@/layout/header/logo";
 import { useTranslations } from "next-intl";
-import SupportContactLinks from "@/components/shared/support-contact-links";
+import { useAuthLogin } from "@/hooks/queries/use-auth";
 
 interface LoginFormValues {
     email: string;
@@ -18,6 +18,7 @@ interface LoginFormValues {
 
 const LoginForm = () => {
     const t = useTranslations("auth");
+    const loginMutation = useAuthLogin();
     const methods = useForm<LoginFormValues>({
         defaultValues: {
             email: '',
@@ -27,7 +28,7 @@ const LoginForm = () => {
     });
 
     const onSubmit = async (data: LoginFormValues) => {
-        console.log(data);
+        await loginMutation.mutateAsync(data);
     };
 
     return (
@@ -35,7 +36,7 @@ const LoginForm = () => {
             <div className="flex w-full flex-col justify-center px-6 py-12 lg:w-1/2 lg:px-16 xl:px-24">
                 <div className="mx-auto w-full max-w-md">
                     <div className="mb-4 flex justify-start">
-                        <Logo variant="dark" />
+                        <Logo />
                     </div>
                     <div className="mb-10 text-left">
                         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
@@ -91,10 +92,11 @@ const LoginForm = () => {
 
                             <Button
                                 type="submit"
+                                disabled={loginMutation.isPending}
                                 className="w-full py-7 text-lg font-bold transition-all duration-300 hover:shadow-lg active:scale-[0.98]"
                             >
-                                {t("login.sign_in_button")}
-                                <ArrowRight size={20} className="ml-2" />
+                                {loginMutation.isPending ? "Signing in…" : t("login.sign_in_button")}
+                                {!loginMutation.isPending && <ArrowRight size={20} className="ml-2" />}
                             </Button>
                         </form>
                     </FormProvider>

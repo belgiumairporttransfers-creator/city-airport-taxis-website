@@ -51,52 +51,94 @@ export function getBookingColumns({
             id: "customer",
             header: ({ column }) => <DataTableColumnHeader column={column} title={translate("passenger", "Passenger")} />,
             accessorFn: (row) => {
-                const fullName = row.passengerDetails?.fullName
-                    || `${row.passengerDetails?.firstName || ""} ${row.passengerDetails?.lastName || ""}`.trim()
-                    || translate("na", "N/A");
-                return `${fullName} ${row.passengerDetails?.email || ""}`.trim();
+                const p = row.passengerDetails || (row as any).customer;
+                const fullName =
+                    p?.fullName ||
+                    `${p?.firstName || ""} ${p?.lastName || ""}`.trim() ||
+                    p?.firstName ||
+                    p?.name ||
+                    translate("na", "N/A");
+                return `${fullName} ${p?.email || ""}`.trim();
             },
             cell: ({ row }) => {
-                const fullName = row.original.passengerDetails?.fullName
-                    || `${row.original.passengerDetails?.firstName || ""} ${row.original.passengerDetails?.lastName || ""}`.trim()
-                    || translate("na", "N/A");
+                const p = row.original.passengerDetails || (row.original as any).customer;
+                const fullName =
+                    p?.fullName ||
+                    `${p?.firstName || ""} ${p?.lastName || ""}`.trim() ||
+                    p?.firstName ||
+                    p?.name ||
+                    translate("na", "N/A");
+                const email = p?.email || translate("na", "N/A");
                 return (
                     <div className="flex flex-col">
                         <span className="font-medium">{fullName}</span>
-                        <span className="text-xs text-muted-foreground">{row.original.passengerDetails?.email || translate("na", "N/A")}</span>
+                        <span className="text-xs text-muted-foreground">{email}</span>
                     </div>
                 );
             },
         },
         {
-            accessorKey: "tripDetails.pickupAddress",
+            id: "pickupAddress",
+            accessorFn: (row) => row.tripDetails?.pickupAddress || (row as any).route?.pickupAddress || "",
             header: ({ column }) => <DataTableColumnHeader column={column} title={translate("pickup", "Pickup")} />,
-            cell: ({ row }) => (
-                <span className="block max-w-[180px] truncate" title={row.original.tripDetails?.pickupAddress || translate("na", "N/A")}>
-                    {row.original.tripDetails?.pickupAddress || translate("na", "N/A")}
-                </span>
-            ),
+            cell: ({ row }) => {
+                const address =
+                    row.original.tripDetails?.pickupAddress ||
+                    (row.original as any).route?.pickupAddress ||
+                    translate("na", "N/A");
+                return (
+                    <span className="block max-w-[180px] truncate" title={address}>
+                        {address}
+                    </span>
+                );
+            },
         },
         {
-            accessorKey: "tripDetails.deliveryAddress",
+            id: "deliveryAddress",
+            accessorFn: (row) =>
+                row.tripDetails?.deliveryAddress ||
+                (row as any).route?.dropoffAddress ||
+                (row as any).route?.deliveryAddress ||
+                "",
             header: ({ column }) => <DataTableColumnHeader column={column} title={translate("dropoff", "Drop-off")} />,
-            cell: ({ row }) => (
-                <span className="block max-w-[180px] truncate" title={row.original.tripDetails?.deliveryAddress || translate("na", "N/A")}>
-                    {row.original.tripDetails?.deliveryAddress || translate("na", "N/A")}
-                </span>
-            ),
+            cell: ({ row }) => {
+                const address =
+                    row.original.tripDetails?.deliveryAddress ||
+                    (row.original as any).route?.dropoffAddress ||
+                    (row.original as any).route?.deliveryAddress ||
+                    translate("na", "N/A");
+                return (
+                    <span className="block max-w-[180px] truncate" title={address}>
+                        {address}
+                    </span>
+                );
+            },
         },
         {
-            accessorKey: "amount",
+            id: "amount",
+            accessorFn: (row) => Number(row.amount ?? (row as any).pricing?.total ?? 0),
             header: ({ column }) => <DataTableColumnHeader column={column} title={translate("amount", "Amount")} />,
-            cell: ({ row }) => <span className="font-semibold">{formatPrice(row.original.amount || 0)}</span>,
+            cell: ({ row }) => {
+                const amount = Number(row.original.amount ?? (row.original as any).pricing?.total ?? 0);
+                return <span className="font-semibold">{formatPrice(amount)}</span>;
+            },
         },
         {
-            accessorKey: "paymentMethod",
+            id: "paymentMethod",
+            accessorFn: (row) =>
+                row.paymentMethod ||
+                (row as any).payment?.paymentMethod ||
+                (row as any).paymentInfo?.paymentMethod ||
+                "mollie",
             header: ({ column }) => <DataTableColumnHeader column={column} title={translate("payment", "Payment")} />,
             cell: ({ row }) => {
-                const method = row.original.paymentMethod || "mollie";
-                const label = translate("online", "Card");
+                const method =
+                    row.original.paymentMethod ||
+                    (row.original as any).payment?.paymentMethod ||
+                    (row.original as any).paymentInfo?.paymentMethod ||
+                    "mollie";
+                const isCash = method === "cash";
+                const label = isCash ? translate("cash", "Cash") : translate("online", "Card");
                 return (
                     <Badge color="secondary" variant="soft" className="font-semibold">
                         {label}

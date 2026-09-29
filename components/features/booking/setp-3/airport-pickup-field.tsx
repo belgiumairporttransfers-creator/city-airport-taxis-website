@@ -9,7 +9,11 @@ import { Switch } from "@/components/features/form/switch";
 import { useBookingStore, type BookingStep3Data } from "@/store/use-booking-store";
 import { formatPrice } from "@/lib/utils";
 
-export const AirportPickupField = () => {
+interface AirportPickupFieldProps {
+    disabled?: boolean;
+}
+
+export const AirportPickupField = ({ disabled = false }: AirportPickupFieldProps) => {
     const t = useTranslations("booking.passenger_details.step3");
     const { control, setValue, getValues } = useFormContext();
     const setStep3Data = useBookingStore((state) => state.setStep3Data);
@@ -56,6 +60,7 @@ export const AirportPickupField = () => {
                 </div>
                 <Switch
                     checked={Boolean(isAirportPickup)}
+                    disabled={disabled}
                     onCheckedChange={(checked) =>
                         setValue("isAirportPickup", checked, { shouldDirty: true })
                     }

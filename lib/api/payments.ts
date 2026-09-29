@@ -34,13 +34,13 @@ export type UserPaymentsListResponse = {
 };
 
 export const getMyPayments = async (params?: UserPaymentsListParams) => {
-    return api.get<UserPaymentsListResponse>(API_ROUTES.PAYMENTS, { params });
+  return api.get<UserPaymentsListResponse>(API_ROUTES.USER_DASHBOARD_PAYMENTS, { params });
 };
 
 export const deleteMyPayment = async (paymentId: string) => {
-    return api.delete(`${API_ROUTES.PAYMENTS}/${paymentId}`);
+  return api.delete(`${API_ROUTES.PAYMENTS}/${paymentId}`);
 };
 
 export const deleteMyPayments = async (paymentIds: string[]) => {
-    return api.post(`${API_ROUTES.PAYMENTS}/bulk-delete`, { ids: paymentIds });
+  return api.post(`${API_ROUTES.PAYMENTS}/bulk-delete`, { ids: paymentIds });
 };

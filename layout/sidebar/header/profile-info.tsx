@@ -18,9 +18,14 @@ const ProfileInfo = () => {
   const logoutMutation = useAuthLogout();
   const currentAccount = data?.data?.account;
 
-  const fullName = currentAccount?.name?.trim() || `${currentAccount?.firstName ?? ""} ${currentAccount?.lastName ?? ""}`.trim();
+  const fullName =
+    currentAccount?.fullName?.trim() ||
+    currentAccount?.name?.trim() ||
+    (currentAccount?.firstName && currentAccount?.lastName && currentAccount.firstName !== currentAccount.lastName
+      ? `${currentAccount.firstName} ${currentAccount.lastName}`.trim()
+      : currentAccount?.firstName || currentAccount?.lastName || "");
   const email = currentAccount?.email;
-  const initials = getInitials(fullName || "Admin User", "AU");
+  const initials = getInitials(fullName || "User", "U");
 
   return (
     <DropdownMenu>

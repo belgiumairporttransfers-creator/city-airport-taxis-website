@@ -23,11 +23,14 @@ const PopoverSidebar = () => {
   const logoutMutation = useAuthLogout();
   const currentAccount = data?.data?.account;
   const fullName =
+    currentAccount?.fullName?.trim() ||
     currentAccount?.name?.trim() ||
-    `${currentAccount?.firstName ?? ""} ${currentAccount?.lastName ?? ""}`.trim() ||
-    "Admin User";
-  const email = currentAccount?.email || "admin@example.com";
-  const initials = getInitials(fullName, "AU");
+    (currentAccount?.firstName && currentAccount?.lastName && currentAccount.firstName !== currentAccount.lastName
+      ? `${currentAccount.firstName} ${currentAccount.lastName}`.trim()
+      : currentAccount?.firstName || currentAccount?.lastName || "") ||
+    "User";
+  const email = currentAccount?.email || "";
+  const initials = getInitials(fullName, "U");
 
   return (
     <div
@@ -46,7 +49,7 @@ const PopoverSidebar = () => {
             : "px-4 py-3 [&_a]:h-25 [&_a]:w-full"
         )}
       >
-        <Logo variant="dark" className="w-full h-full " />
+        <Logo className="w-full h-full " />
       </div>
       <Separator className="shrink-0" />
       <ScrollArea

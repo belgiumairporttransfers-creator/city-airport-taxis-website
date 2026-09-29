@@ -130,9 +130,12 @@
     "title": "My Profile",
     "loading": "Loading...",
     "email_loading": "...",
+    "full_name": "Full Name",
     "first_name": "First Name",
     "last_name": "Last Name",
     "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
     "security": {
       "title": "Security",
       "subtitle": "Sign out this account from all active devices and sessions.",

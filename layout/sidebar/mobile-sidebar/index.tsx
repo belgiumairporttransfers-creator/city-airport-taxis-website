@@ -53,7 +53,7 @@ const MobileSidebar = ({ className }: { className?: string }) => {
                 : "px-4 py-3 [&_a]:h-25 [&_a]:w-full"
             )}
           >
-            <Logo variant="dark" />
+            <Logo />
           </div>
           <ScrollArea
             className={cn("sidebar-menu min-h-0 flex-1 pt-5", {

@@ -3,12 +3,17 @@ import { api } from "./client";
 
 export type UserAccount = {
     _id?: string;
+    fullName?: string;
+    name?: string;
     firstName?: string;
     lastName?: string;
-    name?: string;
     email?: string;
     role?: string;
     phoneNumber?: string;
+    avatar?: string;
+    companyName?: string;
+    businessProfile?: string;
+    isVerified?: boolean;
     rideDiscounts?: {
         oneWay?: number;
         returnTrip?: number;
@@ -53,18 +58,34 @@ export type ResetPasswordPayload = {
     scope?: string;
 };
 
-const toSignupRequest = (payload: SignupPayload) => {
-    let firstName = payload.firstName;
-    let lastName = payload.lastName;
+export type VerifyEmailPayload = {
+    token: string;
+    email?: string;
+};
 
-    if (payload.fullName) {
-        const parts = payload.fullName.trim().split(/\s+/);
-        firstName = parts[0];
-        lastName = parts.slice(1).join(" ") || parts[0];
+export type ResendVerificationPayload = {
+    email: string;
+};
+
+const toSignupRequest = (payload: SignupPayload) => {
+    const fullName = (payload.fullName || "").trim();
+    let firstName = (payload.firstName || "").trim();
+    let lastName = (payload.lastName || "").trim();
+
+    if (fullName) {
+        const parts = fullName.split(/\s+/);
+        firstName = parts[0] || fullName;
+        lastName = parts.slice(1).join(" ") || "";
     }
 
-    if (!firstName?.trim() || !lastName?.trim()) {
-        throw { message: "First name and last name are required." };
+    const resolvedFullName =
+        fullName ||
+        (firstName && lastName && firstName !== lastName
+            ? `${firstName} ${lastName}`.trim()
+            : firstName || lastName);
+
+    if (!resolvedFullName && !firstName) {
+        throw { message: "Full name is required." };
     }
 
     if (payload.confirmPassword !== undefined && payload.password !== payload.confirmPassword) {
@@ -76,8 +97,10 @@ const toSignupRequest = (payload: SignupPayload) => {
     }
 
     return {
-        firstName: firstName.trim(),
-        lastName: lastName.trim(),
+        fullName: resolvedFullName,
+        name: resolvedFullName,
+        firstName: firstName || resolvedFullName,
+        lastName: lastName,
         email: payload.email,
         password: payload.password,
         phoneNumber: payload.phoneNumber || payload.phone || "",
@@ -106,6 +129,14 @@ export const forgotPassword = async (payload: ForgotPasswordPayload) => {
 export const resetPassword = async (payload: ResetPasswordPayload) => {
     const { token, password } = payload;
     return api.post(API_ROUTES.AUTH_RESET_PASSWORD, { token, password });
+};
+
+export const verifyEmail = async (payload: VerifyEmailPayload) => {
+    return api.post<UserAccount>(API_ROUTES.AUTH_VERIFY_EMAIL, payload);
+};
+
+export const resendVerification = async (payload: ResendVerificationPayload) => {
+    return api.post(API_ROUTES.AUTH_RESEND_VERIFICATION, payload);
 };
 
 export const me = async (): Promise<AuthMeResponse | undefined> => {

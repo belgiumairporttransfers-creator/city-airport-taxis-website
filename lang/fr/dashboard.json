@@ -130,9 +130,12 @@
     "title": "Mon profil",
     "loading": "Chargement...",
     "email_loading": "...",
+    "full_name": "Nom complet",
     "first_name": "Prénom",
     "last_name": "Nom",
     "email": "E-mail",
+    "phone": "Téléphone",
+    "company": "Entreprise",
     "security": {
       "title": "Sécurité",
       "subtitle": "Déconnectez ce compte de tous les appareils et sessions actifs.",

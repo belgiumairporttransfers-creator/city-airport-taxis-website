@@ -130,9 +130,12 @@
     "title": "Mijn profiel",
     "loading": "Laden...",
     "email_loading": "...",
+    "full_name": "Volledige naam",
     "first_name": "Voornaam",
     "last_name": "Achternaam",
     "email": "E-mail",
+    "phone": "Telefoon",
+    "company": "Bedrijf",
     "security": {
       "title": "Beveiliging",
       "subtitle": "Meld dit account af op alle actieve apparaten en sessies.",

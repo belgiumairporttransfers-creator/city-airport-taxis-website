@@ -117,7 +117,7 @@ function Step3() {
                             />
                         </div>
 
-                        {isAirportRoute && <AirportPickupField />}
+                        {isAirportRoute && <AirportPickupField disabled />}
                     </div>
 
                     <LuggageDetailsField />

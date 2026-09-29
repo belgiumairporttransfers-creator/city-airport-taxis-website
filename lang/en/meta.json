@@ -22,6 +22,11 @@
       "title": "Reset Password | Airport Transfers Belgium",
       "description": "Set a new password for your airport transfer account.",
       "keywords": "new password, reset password, account security"
+    },
+    "verify_email": {
+      "title": "Verify Email | Airport Transfers Belgium",
+      "description": "Verify your email address to activate your Airport Transfers Belgium account.",
+      "keywords": "verify email, email confirmation, account activation"
     }
   },
   "business": {

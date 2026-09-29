@@ -22,6 +22,11 @@
       "title": "Réinitialiser le mot de passe | Transferts Aéroport Belgique",
       "description": "Définissez un nouveau mot de passe pour votre compte de transfert aéroport.",
       "keywords": "nouveau mot de passe, réinitialiser mot de passe, sécurité du compte"
+    },
+    "verify_email": {
+      "title": "Vérifier l'e-mail | Transferts Aéroport Belgique",
+      "description": "Vérifiez votre adresse e-mail pour activer votre compte Transferts Aéroport Belgique.",
+      "keywords": "vérifier email, confirmation email, activation de compte"
     }
   },
   "business": {

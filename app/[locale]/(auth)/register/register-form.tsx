@@ -43,7 +43,7 @@ const RegisterForm = () => {
             <div className="flex w-full flex-col justify-center px-6 py-12 lg:w-1/2 lg:px-16 xl:px-24">
                 <div className="mx-auto w-full max-w-2xl">
                     <div className="mb-4 flex justify-start">
-                        <Logo variant="dark" />
+                        <Logo />
                     </div>
                     <div className="mb-10 text-left">
                         <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">

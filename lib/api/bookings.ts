@@ -65,6 +65,28 @@ export type BookingListItem = BookingStatusResponse & {
   passengerDetails?: BookingStatusResponse["passengerDetails"] & {
     fullName?: string;
   };
+  customer?: {
+    firstName?: string;
+    lastName?: string;
+    fullName?: string;
+    email?: string;
+    phone?: string;
+  };
+  route?: {
+    pickupAddress?: string;
+    dropoffAddress?: string;
+    deliveryAddress?: string;
+    pickupDate?: string;
+    pickupTime?: string;
+  };
+  pricing?: {
+    total?: number;
+    vehicleFare?: number;
+  };
+  payment?: {
+    paymentMethod?: string;
+    paymentStatus?: string;
+  };
 };
 
 export const isBookingPaymentSuccess = (booking?: BookingStatusResponse) =>
@@ -83,3 +105,41 @@ export const getBookingById = async (bookingId: string) => {
 
   return data;
 };
+
+export type UserBookingsListParams = {
+  page?: number;
+  limit?: number;
+};
+
+export type UserBookingsListResponse = {
+  items: BookingListItem[];
+  meta?: {
+    page?: number;
+    limit?: number;
+    total?: number;
+    totalPages?: number;
+  };
+};
+
+export const getMyBookings = async (params?: UserBookingsListParams) => {
+  return api.get<UserBookingsListResponse>(API_ROUTES.USER_DASHBOARD_BOOKINGS, { params });
+};
+
+export const deleteMyBooking = async (bookingId: string) => {
+  return api.delete(`${API_ROUTES.USER_DASHBOARD_BOOKINGS}/${bookingId}`);
+};
+
+export const deleteMyBookings = async (bookingIds: string[]) => {
+  return api.post(`${API_ROUTES.USER_DASHBOARD_BOOKINGS}/bulk-delete`, { bookingIds });
+};
+
+export const cancelMyBooking = async (bookingId: string, reason?: string) => {
+  return api.post(`${API_ROUTES.USER_DASHBOARD_BOOKINGS}/${bookingId}/cancel`, { reason });
+};
+
+export const getMyDashboardOverview = async (months?: number) => {
+  return api.get<Record<string, unknown>>(API_ROUTES.USER_DASHBOARD_OVERVIEW, {
+    params: months ? { months } : undefined,
+  });
+};
+

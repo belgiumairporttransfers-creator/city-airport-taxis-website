@@ -6,7 +6,11 @@ import { getPaymentColumns } from "@/components/Tables/data-table/columns/paymen
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import DeleteConfirmationDialog from "@/components/delete-confirmation-dialog";
 import type { UserPayment } from "@/lib/api/payments";
-// import { useDeleteMyPayment, useDeleteMyPayments, useMyPayments } from "@/hooks/queries/use-payment";
+import {
+    useDeleteMyPayment,
+    useDeleteMyPayments,
+    useMyPayments,
+} from "@/hooks/queries/use-user-dashboard";
 import { useTranslations } from "next-intl";
 
 const PaymentsPage = () => {
@@ -14,15 +18,9 @@ const PaymentsPage = () => {
     const tCol = useTranslations("dashboard.table_columns");
     const [page, setPage] = React.useState(1);
     const [limit, setLimit] = React.useState(10);
-    // const { data, isLoading, isFetching, error } = useMyPayments({ page, limit });
-    // const { mutateAsync: deleteMyPayment } = useDeleteMyPayment();
-    // const { mutateAsync: deleteMyPayments, isPending: isDeleting } = useDeleteMyPayments();
-    const data = { data: [] as UserPayment[], meta: undefined };
-    const isLoading = false;
-    const isFetching = false;
-    const isDeleting = false;
-    const deleteMyPayment = async (_id: string) => {};
-    const deleteMyPayments = async (_ids: string[]) => {};
+    const { data, isLoading, isFetching, error } = useMyPayments({ page, limit });
+    const { mutateAsync: deleteMyPayment } = useDeleteMyPayment();
+    const { mutateAsync: deleteMyPayments, isPending: isDeleting } = useDeleteMyPayments();
 
     const [selectedToDelete, setSelectedToDelete] = React.useState<UserPayment[]>([]);
     const [isBulkDeleteDialogOpen, setIsBulkDeleteDialogOpen] = React.useState(false);
@@ -33,9 +31,9 @@ const PaymentsPage = () => {
                 onDelete: async (payment) => {
                     await deleteMyPayment(payment._id);
                 },
-                t: tCol
+                t: tCol,
             }),
-        [tCol]
+        [tCol, deleteMyPayment]
     );
 
     const handleBulkDelete = (selectedRows: UserPayment[]) => {
@@ -48,6 +46,21 @@ const PaymentsPage = () => {
         await deleteMyPayments(ids);
     };
 
+    // Normalise the response — backend returns { items, meta }
+    const items = (data as { items?: UserPayment[]; data?: UserPayment[] } | undefined)?.items
+        ?? (data as { items?: UserPayment[]; data?: UserPayment[] } | undefined)?.data
+        ?? [];
+    const rawMeta = (data as { meta?: { total?: number; page?: number; totalPages?: number; limit?: number } } | undefined)?.meta;
+    const meta = rawMeta
+        ? {
+              total: rawMeta.total ?? 0,
+              page: rawMeta.page ?? 1,
+              pages: rawMeta.totalPages ?? 1,
+              limit: rawMeta.limit ?? limit,
+          }
+        : undefined;
+    const errorMessage = error ? (error as Error).message || "An error occurred" : null;
+
     return (
         <div className="space-y-6">
             <Card>
@@ -56,13 +69,13 @@ const PaymentsPage = () => {
                 </CardHeader>
                 <CardContent>
                     <DataTable
-                        columns={[]}
-                        data={data?.data || []}
+                        columns={columns}
+                        data={items}
                         loading={isLoading}
                         fetching={isFetching}
-                        error={null}
+                        error={errorMessage}
                         searchKey={t("search_placeholder")}
-                        pagination={data?.meta}
+                        pagination={meta}
                         onPageChange={setPage}
                         onPageSizeChange={setLimit}
                         onBulkDelete={handleBulkDelete}
