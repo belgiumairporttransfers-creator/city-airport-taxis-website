@@ -32,6 +32,10 @@
       "title": "Transfer boeken",
       "subtitle": "Zoek en boek een nieuwe rit"
     },
+    "payments": {
+      "title": "Mijn betalingen",
+      "subtitle": "Bekijk uw betalingsgeschiedenis"
+    },
     "statements": {
       "title": "Overzichten",
       "subtitle": "Bekijk maandelijkse rapporten"

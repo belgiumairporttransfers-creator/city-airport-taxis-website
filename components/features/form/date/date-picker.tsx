@@ -124,7 +124,7 @@ export default function DatePicker({
   };
 
   return (
-    <div className="relative w-full">
+    <div className={`relative w-full ${open ? "z-[210]" : ""}`}>
       {label && !boxed && (
         <label className="block text-sm mb-1.5 font-medium text-gray-700">
           {label}
@@ -186,10 +186,10 @@ export default function DatePicker({
       {open && (
         <>
           <div
-            className="fixed inset-0 bg-black/20 backdrop-blur-[2px] z-40 transition-opacity"
+            className="fixed inset-0 z-[200] bg-black/20 backdrop-blur-[2px] transition-opacity"
             onClick={() => setOpen(false)}
           />
-          <div className="fixed sm:absolute z-50 bottom-0 inset-x-0 sm:inset-auto sm:top-full sm:mt-2 w-full sm:w-[340px] bg-white rounded-t-2xl sm:rounded-xl shadow-2xl border border-border overflow-hidden sm:left-0 animate-in fade-in slide-in-from-bottom-4 duration-200">
+          <div className="fixed sm:absolute z-[210] bottom-0 inset-x-0 sm:inset-auto sm:top-full sm:mt-2 w-full sm:w-[340px] bg-white rounded-t-2xl sm:rounded-xl shadow-2xl border border-border overflow-hidden sm:left-0 animate-in fade-in slide-in-from-bottom-4 duration-200">
             <div className='p-5'>
               <div className="flex justify-between items-center mb-5">
                 <button

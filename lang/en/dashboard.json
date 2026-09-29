@@ -32,6 +32,10 @@
       "title": "Book a transfer",
       "subtitle": "Search and book a new ride"
     },
+    "payments": {
+      "title": "My Payments",
+      "subtitle": "View your payment history"
+    },
     "statements": {
       "title": "Statements",
       "subtitle": "View monthly reports"

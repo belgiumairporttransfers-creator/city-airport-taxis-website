@@ -1,83 +1,86 @@
 "use client";
 
 import React, { useState } from "react";
-import { Car, FileText, Settings } from "lucide-react";
+import { Car, CreditCard, Settings } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { useRouter } from "@/i18n/routing";
-import { EditBookingModal } from "@/components/features/booking/modals/edit-booking-modal";
+import { BookTransferModal } from "@/components/features/booking/modals/book-transfer-modal";
 
 const QuickActions = () => {
   const t = useTranslations("dashboard.quick_actions");
   const router = useRouter();
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isBookModalOpen, setIsBookModalOpen] = useState(false);
 
   const actions = [
     {
       id: "book",
       title: t("book_transfer.title"),
       subTitle: t("book_transfer.subtitle"),
-      icon: <Car className="w-5 h-5 text-white" />,
+      icon: <Car className="h-5 w-5 text-white" />,
       bg: "bg-secondary shadow-[0_4px_12px_rgba(249,178,51,0.3)]",
     },
     {
-      id: "statements",
-      title: t("statements.title"),
-      subTitle: t("statements.subtitle"),
-      icon: <FileText className="w-5 h-5 text-white" />,
+      id: "payments",
+      title: t("payments.title"),
+      subTitle: t("payments.subtitle"),
+      icon: <CreditCard className="h-5 w-5 text-white" />,
       bg: "bg-primary shadow-[0_4px_12px_rgba(0,0,0,0.15)]",
-      href: "/statements",
+      href: "/payments",
     },
     {
       id: "settings",
       title: t("settings.title"),
       subTitle: t("settings.subtitle"),
-      icon: <Settings className="w-5 h-5 text-white" />,
+      icon: <Settings className="h-5 w-5 text-white" />,
       bg: "bg-primary shadow-[0_4px_12px_rgba(0,0,0,0.15)]",
       href: "/profile",
     },
   ];
 
-  const handleAction = (item: typeof actions[0]) => {
+  const handleAction = (item: (typeof actions)[0]) => {
     if (item.id === "book") {
-      setIsModalOpen(true);
-    } else if (item.href) {
+      setIsBookModalOpen(true);
+      return;
+    }
+    if (item.href) {
       router.push(item.href);
     }
   };
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-        {actions.map((item, index) => (
-          <div
-            key={`quick-action-${index}`}
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {actions.map((item) => (
+          <button
+            key={item.id}
+            type="button"
             onClick={() => handleAction(item)}
-            className="flex items-center gap-4 p-4 bg-white border border-border shadow-sm rounded-md cursor-pointer hover:border-secondary/50 transition-all group"
+            className="group flex cursor-pointer items-center gap-4 rounded-md border border-border bg-white p-4 text-left shadow-sm transition-all hover:border-secondary/50"
           >
             <div
               className={cn(
-                "w-12 h-12 shrink-0 rounded-md flex items-center justify-center transition-transform group-hover:scale-105",
+                "flex h-12 w-12 shrink-0 items-center justify-center rounded-md transition-transform group-hover:scale-105",
                 item.bg
               )}
             >
               {item.icon}
             </div>
             <div className="min-w-0">
-              <h3 className="text-sm font-bold text-primary truncate">
+              <h3 className="truncate text-sm font-bold text-primary">
                 {item.title}
               </h3>
-              <p className="text-sm text-primary/70 truncate mt-0.5">
+              <p className="mt-0.5 truncate text-sm text-primary/70">
                 {item.subTitle}
               </p>
             </div>
-          </div>
+          </button>
         ))}
       </div>
 
-      <EditBookingModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
+      <BookTransferModal
+        isOpen={isBookModalOpen}
+        onClose={() => setIsBookModalOpen(false)}
       />
     </div>
   );

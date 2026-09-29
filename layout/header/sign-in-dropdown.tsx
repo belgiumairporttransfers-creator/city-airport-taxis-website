@@ -43,7 +43,7 @@ export function SignInDropdown({
         sideOffset={8}
         className="min-w-[12rem] rounded-md border border-gray-200 bg-white p-1 text-black shadow-lg"
       >
-        {/* <DropdownMenuItem asChild>
+        <DropdownMenuItem asChild>
           <Link
             href="/login"
             onClick={onNavigate}
@@ -52,7 +52,7 @@ export function SignInDropdown({
             <UserRound className="h-4 w-4 shrink-0 text-gray-600" />
             <span>{t("buttons.customer_sign_in")}</span>
           </Link>
-        </DropdownMenuItem> */}
+        </DropdownMenuItem>
         <DropdownMenuItem asChild>
           <a
             href={DRIVER_PORTAL_LOGIN_URL}

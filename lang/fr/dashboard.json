@@ -32,6 +32,10 @@
       "title": "Réserver un transfert",
       "subtitle": "Rechercher et réserver un nouveau trajet"
     },
+    "payments": {
+      "title": "Mes paiements",
+      "subtitle": "Voir votre historique de paiements"
+    },
     "statements": {
       "title": "Relevés",
       "subtitle": "Consulter les rapports mensuels"

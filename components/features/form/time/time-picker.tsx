@@ -86,7 +86,7 @@ export default function TimePicker({
   })();
 
   return (
-    <div className="relative w-full">
+    <div className={`relative w-full ${open ? "z-[210]" : ""}`}>
       {label && !boxed && (
         <label className="block text-sm mb-1.5 font-medium text-gray-700">
           {label}
@@ -146,10 +146,10 @@ export default function TimePicker({
       {open && (
         <>
           <div
-            className="fixed inset-0 bg-black/20 backdrop-blur-[2px] z-40 transition-opacity"
+            className="fixed inset-0 z-[200] bg-black/20 backdrop-blur-[2px] transition-opacity"
             onClick={() => setOpen(false)}
           />
-          <div className="fixed sm:absolute z-50 bottom-0 inset-x-0 sm:inset-auto sm:top-full sm:mt-2 w-full sm:w-64 bg-white rounded-t-xl sm:rounded-md border border-border shadow-2xl overflow-hidden sm:left-1/2 sm:-translate-x-1/2 animate-in fade-in slide-in-from-bottom-4 duration-200">
+          <div className="fixed sm:absolute z-[210] bottom-0 inset-x-0 sm:inset-auto sm:top-full sm:mt-2 w-full sm:w-64 bg-white rounded-t-xl sm:rounded-md border border-border shadow-2xl overflow-hidden sm:left-1/2 sm:-translate-x-1/2 animate-in fade-in slide-in-from-bottom-4 duration-200">
             <div className='p-4'>
               <div className="grid grid-cols-2 gap-4">
                 <TimeColumn

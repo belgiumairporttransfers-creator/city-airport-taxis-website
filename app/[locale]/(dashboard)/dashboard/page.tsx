@@ -4,7 +4,7 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import RevinueChart from "./components/revinue-chart";
 import Stats from "./components/stats";
-// import QuickActions from "./components/quick-actions";
+import QuickActions from "./components/quick-actions";
 import NextRides from "./components/next-rides";
 import ActivityOverview from "./components/activity-overview";
 import { useAuthMe } from "@/hooks/queries/use-auth";
@@ -100,7 +100,7 @@ const DashboardPageView = () => {
                 />
             </div>
 
-            {/* <QuickActions /> */}
+            <QuickActions />
 
             <div className="grid grid-cols-12 gap-6">
                 <div className="col-span-12 xl:col-span-8 space-y-6">
