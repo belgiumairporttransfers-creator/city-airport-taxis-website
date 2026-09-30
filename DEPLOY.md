@@ -7,11 +7,15 @@ Run these commands from your local machine (inside the `city-airport/website` fo
 rsync -az --delete \
   --exclude node_modules --exclude .next --exclude .git --exclude '.env*' \
   ./ root@82.29.177.100:/opt/city-airport-taxis-website/
+scp .env.production root@82.29.177.100:/opt/city-airport-taxis-website/.env.production
 
 # 2. Build Docker image on VPS
 ssh root@82.29.177.100 "cd /opt/city-airport-taxis-website && docker build \
   --build-arg NEXT_PUBLIC_BACKEND_URL='https://api.city-airport-taxis.be/api' \
   --build-arg NEXT_PUBLIC_SITE_URL='https://www.city-airport-taxis.be' \
+  --build-arg NEXT_PUBLIC_GOOGLE_MAPS_API_KEY='AIzaSyCiA137AgMyICM_WwnY8opxpELcB7quoKo' \
+  --build-arg NEXT_PUBLIC_DRIVER_PORTAL_URL='https://driver.city-airport-taxis.be' \
+  --build-arg NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION='google54d71b7881544' \
   --build-arg NEXT_PUBLIC_SOCKET_PATH='/socket.io' \
   -t city-airport-taxis-website:local ."
 
