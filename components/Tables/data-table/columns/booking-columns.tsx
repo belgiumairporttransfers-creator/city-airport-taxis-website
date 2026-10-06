@@ -4,18 +4,20 @@ import type { CheckedState } from "@radix-ui/react-checkbox";
 import { Checkbox } from "@/components/features/form/checkbox";
 import { DataTableColumnHeader } from "../data-table-column-header";
 import { DataTableRowActions } from "../data-table-row-actions";
-import type { BookingListItem } from "@/lib/api/bookings";
+import { canDownloadReceipt, type BookingListItem } from "@/lib/api/bookings";
 import { formatPrice } from "@/lib/utils";
-import { CircleX, Trash2 } from "lucide-react";
+import { CircleX, Download, Trash2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export function getBookingColumns({
     onCancel,
     onDelete,
+    onDownloadReceipt,
     t,
 }: {
     onCancel?: (booking: BookingListItem) => Promise<void>;
     onDelete?: (booking: BookingListItem) => Promise<void>;
+    onDownloadReceipt?: (booking: BookingListItem) => void | Promise<void>;
     t?: any;
 } = {}): ColumnDef<BookingListItem, unknown>[] {
     const translate = (key: string, fallback: string) => (t ? t(key) : fallback);
@@ -175,7 +177,16 @@ export function getBookingColumns({
             header: () => <div className="text-center">{translate("actions", "Actions")}</div>,
             cell: ({ row }) => {
                 const canCancel = ["pending", "confirmed"].includes(String(row.original.status || ""));
+                const canReceipt = canDownloadReceipt(row.original);
                 const actions = [
+                    {
+                        label: translate("download_receipt", "Download Receipt"),
+                        onClick:
+                            onDownloadReceipt && canReceipt
+                                ? () => onDownloadReceipt(row.original)
+                                : undefined,
+                        icon: <Download className="h-4 w-4" />,
+                    },
                     {
                         label: translate("cancel_ride", "Cancel Ride"),
                         onClick: onCancel && canCancel ? () => onCancel(row.original) : undefined,

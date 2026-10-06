@@ -96,6 +96,18 @@ export const isBookingPaymentFailed = (booking?: BookingStatusResponse) =>
   booking?.status === "cancelled" &&
   ["failed", "expired", "cancelled"].includes(booking.paymentStatus ?? "");
 
+export const canDownloadReceipt = (
+  booking: Pick<BookingListItem, "status" | "paymentStatus"> & {
+    payment?: { paymentStatus?: string };
+  }
+) => {
+  const paymentStatus = booking.paymentStatus || booking.payment?.paymentStatus;
+  if (paymentStatus === "paid") return true;
+  return ["confirmed", "accepted", "arrived", "started", "passenger-onboard", "complete"].includes(
+    String(booking.status || "")
+  );
+};
+
 export const getBookingById = async (bookingId: string) => {
   const data = await api.get<BookingStatusResponse>(`${API_ROUTES.BOOKINGS}/${bookingId}`);
 
@@ -135,6 +147,23 @@ export const deleteMyBookings = async (bookingIds: string[]) => {
 
 export const cancelMyBooking = async (bookingId: string, reason?: string) => {
   return api.post(`${API_ROUTES.USER_DASHBOARD_BOOKINGS}/${bookingId}/cancel`, { reason });
+};
+
+export const downloadMyBookingReceipt = async (bookingId: string) => {
+  const blob = await api.get<Blob>(`${API_ROUTES.USER_DASHBOARD_BOOKINGS}/${bookingId}/receipt`, {
+    responseType: "blob",
+  });
+
+  if (!blob) {
+    throw new Error("Receipt could not be downloaded");
+  }
+
+  if (blob.type?.includes("application/json")) {
+    const payload = JSON.parse(await blob.text()) as { error?: string; message?: string };
+    throw new Error(payload.error || payload.message || "Receipt could not be downloaded");
+  }
+
+  return blob;
 };
 
 export const getMyDashboardOverview = async (months?: number) => {

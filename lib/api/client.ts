@@ -80,6 +80,29 @@ const shouldSkipRefresh = (url?: string) => {
     );
 };
 
+const readErrorMessage = async (
+    error: AxiosError<{ error?: string; message?: string }>
+): Promise<string> => {
+    const data = error.response?.data as unknown;
+
+    if (typeof Blob !== "undefined" && data instanceof Blob) {
+        try {
+            const text = await data.text();
+            const parsed = JSON.parse(text) as { error?: string; message?: string };
+            return parsed.error || parsed.message || error.message || "Something went wrong";
+        } catch {
+            return error.message || "Something went wrong";
+        }
+    }
+
+    if (data && typeof data === "object") {
+        const payload = data as { error?: string; message?: string };
+        return payload.error || payload.message || error.message || "Something went wrong";
+    }
+
+    return error.message || "Something went wrong";
+};
+
 axiosInstance.interceptors.response.use(
     (response) => unwrapResponse(response) as unknown as typeof response,
     async (error: AxiosError<{ error?: string; message?: string }>) => {
@@ -109,14 +132,8 @@ axiosInstance.interceptors.response.use(
             }
         }
 
-        const message =
-            error.response?.data?.error ||
-            error.response?.data?.message ||
-            error.message ||
-            "Something went wrong";
-
         return Promise.reject({
-            message,
+            message: await readErrorMessage(error),
             status: error.response?.status,
         } satisfies ApiError);
     }

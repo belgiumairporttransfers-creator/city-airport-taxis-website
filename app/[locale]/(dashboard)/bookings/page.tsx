@@ -6,6 +6,7 @@ import { getBookingColumns } from "@/components/Tables/data-table/columns/bookin
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import DeleteConfirmationDialog from "@/components/delete-confirmation-dialog";
 import type { BookingListItem } from "@/lib/api/bookings";
+import { downloadBookingReceiptPdf } from "@/lib/receipt/download-receipt";
 import {
     useCancelMyBooking,
     useDeleteMyBooking,
@@ -13,6 +14,7 @@ import {
     useMyBookings,
 } from "@/hooks/queries/use-user-dashboard";
 import { useTranslations } from "next-intl";
+import toast from "react-hot-toast";
 
 const BookingsPage = () => {
     const t = useTranslations("dashboard.bookings_page");
@@ -26,10 +28,26 @@ const BookingsPage = () => {
 
     const [selectedToDelete, setSelectedToDelete] = React.useState<BookingListItem[]>([]);
     const [isBulkDeleteDialogOpen, setIsBulkDeleteDialogOpen] = React.useState(false);
+    const [isDownloadingReceipt, setIsDownloadingReceipt] = React.useState(false);
 
     const columns = React.useMemo(
         () =>
             getBookingColumns({
+                onDownloadReceipt: async (booking) => {
+                    if (isDownloadingReceipt) return;
+                    setIsDownloadingReceipt(true);
+                    try {
+                        await downloadBookingReceiptPdf(booking);
+                        toast.success(tCol("download_receipt_success"));
+                    } catch (downloadError) {
+                        toast.error(
+                            (downloadError as { message?: string })?.message ||
+                                tCol("download_receipt_error")
+                        );
+                    } finally {
+                        setIsDownloadingReceipt(false);
+                    }
+                },
                 onCancel: async (booking) => {
                     const id = (booking as any)._id || (booking as any).id || "";
                     if (id) await cancelMyBooking(id);
@@ -40,7 +58,7 @@ const BookingsPage = () => {
                 },
                 t: tCol,
             }),
-        [tCol, cancelMyBooking, deleteMyBooking]
+        [tCol, cancelMyBooking, deleteMyBooking, isDownloadingReceipt]
     );
 
     const handleBulkDelete = (selectedRows: BookingListItem[]) => {
