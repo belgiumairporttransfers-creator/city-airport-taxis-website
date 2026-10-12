@@ -96,6 +96,12 @@ export const isBookingPaymentFailed = (booking?: BookingStatusResponse) =>
   booking?.status === "cancelled" &&
   ["failed", "expired", "cancelled"].includes(booking.paymentStatus ?? "");
 
+export const canCancelUserBooking = (status?: string) =>
+  ["pending", "confirmed", "accepted"].includes(String(status || ""));
+
+export const canDeleteUserBooking = (status?: string) =>
+  ["pending", "cancelled"].includes(String(status || ""));
+
 export const canDownloadReceipt = (
   booking: Pick<BookingListItem, "status" | "paymentStatus"> & {
     payment?: { paymentStatus?: string };
@@ -135,6 +141,18 @@ export type UserBookingsListResponse = {
 
 export const getMyBookings = async (params?: UserBookingsListParams) => {
   return api.get<UserBookingsListResponse>(API_ROUTES.USER_DASHBOARD_BOOKINGS, { params });
+};
+
+export const getMyBooking = async (bookingId: string) => {
+  const data = await api.get<BookingListItem>(
+    `${API_ROUTES.USER_DASHBOARD_BOOKINGS}/${bookingId}`
+  );
+
+  if (!data) {
+    throw new Error("Booking not found");
+  }
+
+  return data;
 };
 
 export const deleteMyBooking = async (bookingId: string) => {

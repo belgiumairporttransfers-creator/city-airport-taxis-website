@@ -13,8 +13,8 @@ export const COMPANY_PHONE_HREF = "tel:+3225207526";
 export const COMPANY_EMAIL = "info@cityairporttaxis.be";
 export const COMPANY_EMAIL_HREF = `mailto:${COMPANY_EMAIL}`;
 
-export const COMPANY_WHATSAPP = "32489498492";
-export const COMPANY_WHATSAPP_DISPLAY = "+32 489 49 84 92";
+export const COMPANY_WHATSAPP = "32485964008";
+export const COMPANY_WHATSAPP_DISPLAY = "+32 485 96 40 08";
 export const COMPANY_WHATSAPP_HREF = `https://wa.me/${COMPANY_WHATSAPP}`;
 export const COMPANY_REGISTRATION = "0791634024";
 export const COMPANY_NTN = "BE 0791634024";

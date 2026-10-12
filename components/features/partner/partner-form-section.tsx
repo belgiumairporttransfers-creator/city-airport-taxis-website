@@ -3,17 +3,18 @@
 import { useForm, FormProvider } from "react-hook-form";
 import { Input } from "@/components/features/form/Input";
 import FileUpload from "@/components/features/form/file-upload";
+import MultiFileUpload from "@/components/features/form/multi-file-upload";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Loader2, MoveRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { BELGIUM_CITIES } from "@/constants/cities";
 import {
-    DRIVER_DOCUMENT_FIELDS,
-    type DriverDocuments,
     type DriverShiftType,
     type SubmitDriverApplicationPayload,
 } from "@/lib/api/drivers";
 import { useSubmitDriverApplication } from "@/hooks/queries/use-driver";
+
+const MIN_MANDATORY_UPLOADS = 6;
 
 type PartnerFormValues = {
     operatingCountry: string;
@@ -32,23 +33,42 @@ type PartnerFormValues = {
     availableFrom: string;
     availableTo: string;
     profilePhoto: string;
-} & DriverDocuments;
+    documentUploads: string[];
+};
 
-const SHIFT_OPTIONS: { value: DriverShiftType; labelKey: "partner.form.shift_options.day" | "partner.form.shift_options.night" | "partner.form.shift_options.both" }[] = [
+const SHIFT_OPTIONS: {
+    value: DriverShiftType;
+    labelKey:
+        | "partner.form.shift_options.day"
+        | "partner.form.shift_options.night"
+        | "partner.form.shift_options.both";
+}[] = [
     { value: "day", labelKey: "partner.form.shift_options.day" },
     { value: "night", labelKey: "partner.form.shift_options.night" },
     { value: "both", labelKey: "partner.form.shift_options.both" },
 ];
 
-const EMPTY_DOCUMENTS = Object.fromEntries(
-    DRIVER_DOCUMENT_FIELDS.map((field) => [field, ""])
-) as DriverDocuments;
+const DEFAULT_VALUES: PartnerFormValues = {
+    operatingCountry: "Belgium",
+    operatingCity: "",
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    homeAddress: "",
+    carType: "",
+    carColor: "",
+    carYearModel: "",
+    licensePlate: "",
+    yearsOfExperience: "",
+    shiftType: "",
+    availableFrom: "",
+    availableTo: "",
+    profilePhoto: "",
+    documentUploads: [],
+};
 
 function toSubmitPayload(data: PartnerFormValues): SubmitDriverApplicationPayload {
-    const documents = Object.fromEntries(
-        DRIVER_DOCUMENT_FIELDS.map((field) => [field, data[field]])
-    ) as DriverDocuments;
-
     return {
         operatingCountry: data.operatingCountry,
         operatingCity: data.operatingCity,
@@ -66,7 +86,7 @@ function toSubmitPayload(data: PartnerFormValues): SubmitDriverApplicationPayloa
         availableFrom: data.availableFrom,
         availableTo: data.availableTo,
         ...(data.profilePhoto ? { profilePhoto: data.profilePhoto } : {}),
-        documents,
+        documentUploads: data.documentUploads.filter(Boolean),
     };
 }
 
@@ -75,52 +95,25 @@ export default function PartnerFormSection() {
     const { mutate: submitApplication, isPending } = useSubmitDriverApplication();
 
     const methods = useForm<PartnerFormValues>({
-        defaultValues: {
-            operatingCountry: "Belgium",
-            operatingCity: "",
-            firstName: "",
-            lastName: "",
-            email: "",
-            phone: "",
-            homeAddress: "",
-            carType: "",
-            carColor: "",
-            carYearModel: "",
-            licensePlate: "",
-            yearsOfExperience: "",
-            shiftType: "",
-            availableFrom: "",
-            availableTo: "",
-            profilePhoto: "",
-            ...EMPTY_DOCUMENTS,
-        },
+        defaultValues: DEFAULT_VALUES,
     });
 
     const onSubmit = (data: PartnerFormValues) => {
         submitApplication(toSubmitPayload(data), {
             onSuccess: () => {
-                methods.reset({
-                    operatingCountry: "Belgium",
-                    operatingCity: "",
-                    firstName: "",
-                    lastName: "",
-                    email: "",
-                    phone: "",
-                    homeAddress: "",
-                    carType: "",
-                    carColor: "",
-                    carYearModel: "",
-                    licensePlate: "",
-                    yearsOfExperience: "",
-                    shiftType: "",
-                    availableFrom: "",
-                    availableTo: "",
-                    profilePhoto: "",
-                    ...EMPTY_DOCUMENTS,
-                });
+                methods.reset(DEFAULT_VALUES);
             },
         });
     };
+
+    const checklistItems = [
+        t("partner.form.labels.mandatory_item_license"),
+        t("partner.form.labels.mandatory_item_vtc"),
+        t("partner.form.labels.mandatory_item_registration"),
+        t("partner.form.labels.mandatory_item_insurance"),
+        t("partner.form.labels.mandatory_item_kvk"),
+        t("partner.form.labels.mandatory_item_photos"),
+    ];
 
     return (
         <section id="partner-form" className="py-12 lg:py-24 bg-white">
@@ -304,7 +297,7 @@ export default function PartnerFormSection() {
                                     />
                                 </div>
 
-                                <div className="space-y-8">
+                                <div className="space-y-6">
                                     <div className="flex flex-col space-y-1">
                                         <h3 className="text-xl font-bold text-gray-900 tracking-tight">
                                             {t("partner.form.labels.documents")}
@@ -319,107 +312,23 @@ export default function PartnerFormSection() {
                                         label={t("partner.form.labels.profile_photo")}
                                     />
 
-                                    <div className="space-y-4">
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                                            <FileUpload
-                                                name="chauffeurPassFront"
-                                                label={t("partner.form.labels.pass_front")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="chauffeurPassBack"
-                                                label={t("partner.form.labels.pass_back")}
-                                                required
-                                            />
-                                        </div>
-                                        <FileUpload
-                                            name="kiwaPermit"
-                                            label={t("partner.form.labels.kiwa")}
-                                            required
-                                        />
-                                    </div>
+                                    <div className="space-y-3 rounded-xl border border-border bg-white p-4 sm:p-5">
+                                        <p className="text-sm font-semibold text-gray-800">
+                                            {t("partner.form.labels.mandatory_documents_intro")}
+                                        </p>
+                                        <ul className="list-disc space-y-1.5 pl-5 text-sm text-gray-600">
+                                            {checklistItems.map((item) => (
+                                                <li key={item}>{item}</li>
+                                            ))}
+                                        </ul>
 
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                                        <FileUpload
-                                            name="driverLicenseFront"
-                                            label={t("partner.form.labels.license_front")}
+                                        <MultiFileUpload
+                                            name="documentUploads"
+                                            label={t("partner.form.labels.mandatory_documents")}
                                             required
-                                        />
-                                        <FileUpload
-                                            name="driverLicenseBack"
-                                            label={t("partner.form.labels.license_back")}
-                                            required
-                                        />
-                                    </div>
-
-                                    <div className="space-y-4 pt-4">
-                                        <div className="flex flex-col space-y-1">
-                                            <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest">
-                                                {t("partner.form.labels.vehicle_photos")}
-                                            </h4>
-                                            <p className="text-sm text-gray-500">
-                                                {t("partner.form.labels.vehicle_photos_desc")}
-                                            </p>
-                                        </div>
-                                        <FileUpload
-                                            name="carCard"
-                                            label={t("partner.form.labels.car_card")}
-                                            required
-                                        />
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                                            <FileUpload
-                                                name="carFrontView"
-                                                label={t("partner.form.labels.car_front")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="carBackView"
-                                                label={t("partner.form.labels.car_back")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="carLeftView"
-                                                label={t("partner.form.labels.car_left")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="carRightView"
-                                                label={t("partner.form.labels.car_right")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="carInsideView"
-                                                label={t("partner.form.labels.car_inside")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="licensePlateView"
-                                                label={t("partner.form.labels.car_plate")}
-                                                required
-                                            />
-                                        </div>
-                                    </div>
-
-                                    <div className="space-y-4 pt-4">
-                                        <h4 className="text-sm font-bold text-gray-400 uppercase tracking-widest">
-                                            {t("partner.form.labels.business_insurance")}
-                                        </h4>
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                                            <FileUpload
-                                                name="taxiInsurancePolicy"
-                                                label={t("partner.form.labels.insurance")}
-                                                required
-                                            />
-                                            <FileUpload
-                                                name="kvkUittreksel"
-                                                label={t("partner.form.labels.kvk")}
-                                                required
-                                            />
-                                        </div>
-                                        <FileUpload
-                                            name="bankCardCopy"
-                                            label={t("partner.form.labels.bankpas")}
-                                            required
+                                            minFiles={MIN_MANDATORY_UPLOADS}
+                                            maxFiles={30}
+                                            hint={t("partner.form.labels.mandatory_documents_note")}
                                         />
                                     </div>
                                 </div>

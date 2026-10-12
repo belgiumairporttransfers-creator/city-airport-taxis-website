@@ -4,17 +4,24 @@ import type { CheckedState } from "@radix-ui/react-checkbox";
 import { Checkbox } from "@/components/features/form/checkbox";
 import { DataTableColumnHeader } from "../data-table-column-header";
 import { DataTableRowActions } from "../data-table-row-actions";
-import { canDownloadReceipt, type BookingListItem } from "@/lib/api/bookings";
+import {
+    canCancelUserBooking,
+    canDeleteUserBooking,
+    canDownloadReceipt,
+    type BookingListItem,
+} from "@/lib/api/bookings";
 import { formatPrice } from "@/lib/utils";
-import { CircleX, Download, Trash2 } from "lucide-react";
+import { CircleX, Download, Eye, Trash2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export function getBookingColumns({
+    onView,
     onCancel,
     onDelete,
     onDownloadReceipt,
     t,
 }: {
+    onView?: (booking: BookingListItem) => void;
     onCancel?: (booking: BookingListItem) => Promise<void>;
     onDelete?: (booking: BookingListItem) => Promise<void>;
     onDownloadReceipt?: (booking: BookingListItem) => void | Promise<void>;
@@ -176,9 +183,15 @@ export function getBookingColumns({
             id: "actions",
             header: () => <div className="text-center">{translate("actions", "Actions")}</div>,
             cell: ({ row }) => {
-                const canCancel = ["pending", "confirmed"].includes(String(row.original.status || ""));
+                const canCancel = canCancelUserBooking(row.original.status);
+                const canDelete = canDeleteUserBooking(row.original.status);
                 const canReceipt = canDownloadReceipt(row.original);
                 const actions = [
+                    {
+                        label: translate("view_details", "View Details"),
+                        onClick: onView ? () => onView(row.original) : undefined,
+                        icon: <Eye className="h-4 w-4" />,
+                    },
                     {
                         label: translate("download_receipt", "Download Receipt"),
                         onClick:
@@ -195,16 +208,24 @@ export function getBookingColumns({
                         confirm: true,
                         successMessage: translate("cancel_success", "Ride cancelled successfully."),
                         confirmTitle: translate("cancel_confirm_title", "Cancel This Ride?"),
-                        confirmDescription: translate("cancel_confirm_desc", "You can only cancel up to 4 hours before pickup time. This action will mark the booking as cancelled."),
+                        confirmDescription: translate(
+                            "cancel_confirm_desc",
+                            "You can only cancel up to 4 hours before pickup time. This action will mark the booking as cancelled."
+                        ),
                         confirmLabel: translate("cancel_ride", "Cancel Ride"),
                     },
                     {
                         label: translate("delete", "Delete"),
-                        onClick: onDelete ? () => onDelete(row.original) : undefined,
+                        onClick: onDelete && canDelete ? () => onDelete(row.original) : undefined,
                         icon: <Trash2 className="h-4 w-4" />,
                         destructive: true,
                         confirm: true,
                         successMessage: translate("delete_success", "Booking deleted successfully."),
+                        confirmTitle: translate("delete_confirm_title", "Delete This Booking?"),
+                        confirmDescription: translate(
+                            "delete_confirm_desc",
+                            "Only pending or cancelled bookings can be deleted. This action cannot be undone."
+                        ),
                     },
                 ].filter((action) => Boolean(action.onClick));
 

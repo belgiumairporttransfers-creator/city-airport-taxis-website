@@ -13,12 +13,14 @@ import {
     useDeleteMyBookings,
     useMyBookings,
 } from "@/hooks/queries/use-user-dashboard";
+import { useRouter } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import toast from "react-hot-toast";
 
 const BookingsPage = () => {
     const t = useTranslations("dashboard.bookings_page");
     const tCol = useTranslations("dashboard.table_columns");
+    const router = useRouter();
     const [page, setPage] = React.useState(1);
     const [limit, setLimit] = React.useState(10);
     const { data, isLoading, isFetching, error } = useMyBookings({ page, limit });
@@ -33,6 +35,10 @@ const BookingsPage = () => {
     const columns = React.useMemo(
         () =>
             getBookingColumns({
+                onView: (booking) => {
+                    const id = booking._id || (booking as { id?: string }).id || "";
+                    if (id) router.push(`/bookings/${id}`);
+                },
                 onDownloadReceipt: async (booking) => {
                     if (isDownloadingReceipt) return;
                     setIsDownloadingReceipt(true);
@@ -49,16 +55,16 @@ const BookingsPage = () => {
                     }
                 },
                 onCancel: async (booking) => {
-                    const id = (booking as any)._id || (booking as any).id || "";
+                    const id = booking._id || (booking as { id?: string }).id || "";
                     if (id) await cancelMyBooking(id);
                 },
                 onDelete: async (booking) => {
-                    const id = (booking as any)._id || (booking as any).id || "";
+                    const id = booking._id || (booking as { id?: string }).id || "";
                     if (id) await deleteMyBooking(id);
                 },
                 t: tCol,
             }),
-        [tCol, cancelMyBooking, deleteMyBooking, isDownloadingReceipt]
+        [tCol, router, cancelMyBooking, deleteMyBooking, isDownloadingReceipt]
     );
 
     const handleBulkDelete = (selectedRows: BookingListItem[]) => {

@@ -42,7 +42,10 @@ export type SubmitDriverApplicationPayload = {
     availableFrom: string;
     availableTo: string;
     profilePhoto?: string;
-    documents: DriverDocuments;
+    /** Bundled mandatory documents & vehicle photos (single multi-upload field). */
+    documentUploads: string[];
+    /** Legacy per-field documents — kept optional for admin/manual flows. */
+    documents?: DriverDocuments;
 };
 
 export type SubmitDriverApplicationResponse = {

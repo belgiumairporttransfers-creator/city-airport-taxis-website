@@ -121,6 +121,31 @@
       "success": "{count} boekingen succesvol verwijderd"
     }
   },
+  "booking_details": {
+    "back": "Terug naar boekingen",
+    "loading": "Boekingsdetails laden...",
+    "not_found": "Boeking niet gevonden",
+    "load_error": "Deze boeking kan niet worden geladen.",
+    "booking_number": "Boekingsnummer",
+    "amount": "Bedrag",
+    "payment": "Betaling",
+    "payment_status": "Betalingsstatus",
+    "booked_on": "Geboekt op",
+    "trip": "Ritdetails",
+    "pickup": "Ophalen",
+    "dropoff": "Afzetten",
+    "date": "Ophaaldatum",
+    "time": "Ophaaltijd",
+    "distance": "Afstand",
+    "category": "Rittype",
+    "flight": "Vluchtnummer",
+    "notes": "Opmerkingen",
+    "passenger": "Passagier",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "vehicle": "Voertuig"
+  },
   "payments_page": {
     "title": "Mijn betalingen",
     "search_placeholder": "Betalings-ID",
@@ -190,11 +215,14 @@
     "download_receipt": "Bon downloaden",
     "download_receipt_success": "Bon succesvol gedownload.",
     "download_receipt_error": "Kan de bon niet downloaden. Probeer het opnieuw.",
+    "view_details": "Details bekijken",
     "cancel_ride": "Rit annuleren",
     "delete": "Verwijderen",
     "cancel_confirm_title": "Deze rit annuleren?",
     "cancel_confirm_desc": "U kunt alleen annuleren tot 4 uur voor de ophaaltijd. Deze actie markeert de boeking als geannuleerd.",
     "cancel_success": "Rit succesvol geannuleerd.",
+    "delete_confirm_title": "Deze boeking verwijderen?",
+    "delete_confirm_desc": "Alleen openstaande of geannuleerde boekingen kunnen worden verwijderd. Deze actie kan niet ongedaan worden gemaakt.",
     "delete_success": "Boeking succesvol verwijderd."
   }
 }

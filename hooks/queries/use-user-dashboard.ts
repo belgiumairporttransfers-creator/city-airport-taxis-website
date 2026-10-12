@@ -1,6 +1,7 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import toast from "react-hot-toast";
 import {
+    getMyBooking,
     getMyBookings,
     getMyDashboardOverview,
     deleteMyBooking,
@@ -19,6 +20,7 @@ import {
 
 export const USER_DASHBOARD_QUERY_KEY = ["user", "dashboard"] as const;
 export const USER_BOOKINGS_QUERY_KEY = ["user", "bookings"] as const;
+export const USER_BOOKING_QUERY_KEY = ["user", "booking"] as const;
 export const USER_PAYMENTS_QUERY_KEY = ["user", "payments"] as const;
 
 // ─── Dashboard overview ────────────────────────────────────────────────────
@@ -45,13 +47,29 @@ export const useMyBookings = (params?: UserBookingsListParams) => {
     });
 };
 
+export const useMyBooking = (bookingId?: string) => {
+    return useQuery({
+        queryKey: [...USER_BOOKING_QUERY_KEY, bookingId],
+        queryFn: () => getMyBooking(bookingId!),
+        enabled: Boolean(bookingId),
+        staleTime: 1000 * 15,
+        retry: false,
+        refetchOnWindowFocus: false,
+    });
+};
+
+const invalidateUserBookingQueries = (queryClient: ReturnType<typeof useQueryClient>) => {
+    void queryClient.invalidateQueries({ queryKey: USER_BOOKINGS_QUERY_KEY });
+    void queryClient.invalidateQueries({ queryKey: USER_BOOKING_QUERY_KEY });
+    void queryClient.invalidateQueries({ queryKey: USER_DASHBOARD_QUERY_KEY });
+};
+
 export const useCancelMyBooking = () => {
     const queryClient = useQueryClient();
     return useMutation({
         mutationFn: (bookingId: string) => cancelMyBooking(bookingId),
         onSuccess: () => {
-            queryClient.invalidateQueries({ queryKey: USER_BOOKINGS_QUERY_KEY });
-            queryClient.invalidateQueries({ queryKey: USER_DASHBOARD_QUERY_KEY });
+            invalidateUserBookingQueries(queryClient);
             toast.success("Booking cancelled.");
         },
         onError: (error: { message?: string }) => {
@@ -65,8 +83,7 @@ export const useDeleteMyBooking = () => {
     return useMutation({
         mutationFn: (bookingId: string) => deleteMyBooking(bookingId),
         onSuccess: () => {
-            queryClient.invalidateQueries({ queryKey: USER_BOOKINGS_QUERY_KEY });
-            queryClient.invalidateQueries({ queryKey: USER_DASHBOARD_QUERY_KEY });
+            invalidateUserBookingQueries(queryClient);
             toast.success("Booking removed.");
         },
         onError: (error: { message?: string }) => {
@@ -80,8 +97,7 @@ export const useDeleteMyBookings = () => {
     return useMutation({
         mutationFn: (bookingIds: string[]) => deleteMyBookings(bookingIds),
         onSuccess: () => {
-            queryClient.invalidateQueries({ queryKey: USER_BOOKINGS_QUERY_KEY });
-            queryClient.invalidateQueries({ queryKey: USER_DASHBOARD_QUERY_KEY });
+            invalidateUserBookingQueries(queryClient);
             toast.success("Bookings removed.");
         },
         onError: (error: { message?: string }) => {
