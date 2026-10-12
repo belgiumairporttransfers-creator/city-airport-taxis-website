@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useRef, useState } from "react";
 import { useForm, FormProvider } from "react-hook-form";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Input } from "@/components/features/form/Input";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, MoveRight, Loader2 } from "lucide-react";
@@ -18,10 +19,14 @@ interface ContactFormValues {
     message: string;
 }
 
+const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
+
 export default function ContactFormSection() {
     const t = useTranslations("contact");
     const { mutate: submitContact, isPending } = useSubmitContact();
-    
+    const recaptchaRef = useRef<ReCAPTCHA>(null);
+    const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+
     const methods = useForm<ContactFormValues>({
         defaultValues: {
             firstName: "",
@@ -34,6 +39,11 @@ export default function ContactFormSection() {
     });
 
     const onSubmit = (data: ContactFormValues) => {
+        if (RECAPTCHA_SITE_KEY && !captchaToken) {
+            toast.error(t("form.captcha_required"));
+            return;
+        }
+
         submitContact(
             {
                 firstName: data.firstName.trim(),
@@ -42,14 +52,19 @@ export default function ContactFormSection() {
                 phone: data.phone.trim(),
                 subject: data.subject.trim(),
                 message: data.message.trim(),
+                captchaToken: captchaToken || "",
             },
             {
                 onSuccess: () => {
                     toast.success(t("form.success"));
                     methods.reset();
+                    setCaptchaToken(null);
+                    recaptchaRef.current?.reset();
                 },
                 onError: (error: { message?: string }) => {
                     toast.error(error?.message || t("form.error"));
+                    setCaptchaToken(null);
+                    recaptchaRef.current?.reset();
                 },
             }
         );
@@ -152,6 +167,18 @@ export default function ContactFormSection() {
                                     rows={5}
                                     required
                                 />
+
+                                {RECAPTCHA_SITE_KEY ? (
+                                    <div className="overflow-x-auto">
+                                        <ReCAPTCHA
+                                            ref={recaptchaRef}
+                                            sitekey={RECAPTCHA_SITE_KEY}
+                                            onChange={(token) => setCaptchaToken(token)}
+                                            onExpired={() => setCaptchaToken(null)}
+                                            onErrored={() => setCaptchaToken(null)}
+                                        />
+                                    </div>
+                                ) : null}
 
                                 <Button
                                     type="submit"

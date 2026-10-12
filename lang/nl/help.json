@@ -37,7 +37,7 @@
     },
     "cancellation": {
       "question": "Wat is uw annuleringsbeleid?",
-      "answer": "Annuleringen die meer dan 24 uur voor de geplande ophaaltijd worden doorgegeven, zijn 100% gratis. Raadpleeg onze volledige algemene voorwaarden voor specifieke details."
+      "answer": "Annuleringen die meer dan 48 uur voor de geplande ophaaltijd worden doorgegeven, zijn 100% gratis. Raadpleeg onze volledige algemene voorwaarden voor specifieke details."
     },
     "payment": {
       "question": "Welke betaalmethoden accepteert u?",

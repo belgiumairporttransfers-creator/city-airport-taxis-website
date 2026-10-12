@@ -37,7 +37,7 @@
     },
     "cancellation": {
       "question": "What is your cancellation policy?",
-      "answer": "Cancellations made more than 24 hours before the scheduled pickup time are 100% free of charge. Cancellations within 24 hours may incur a partial fee depending on the vehicle class. Please refer to our terms and conditions for complete details."
+      "answer": "Cancellations made more than 48 hours before the scheduled pickup time are 100% free of charge. Cancellations within 48 hours may incur a partial fee depending on the vehicle class. Please refer to our terms and conditions for complete details."
     },
     "payment": {
       "question": "Which payment methods do you accept?",

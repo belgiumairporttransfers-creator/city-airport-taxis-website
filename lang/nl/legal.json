@@ -89,7 +89,7 @@
       "availability_desc": "Verwijzingen op de site naar onze diensten vormen geen aanbod om die dienst te verkopen of te leveren. Onze diensten worden aangeboden op basis van beschikbaarheid. We leveren 98,9% van de aangeboden diensten, maar het is mogelijk dat we een bepaalde dienst of voertuigtype niet kunnen leveren.",
       "cancellation_title": "Annuleringsbeleid",
       "cancellation_types": [
-        { "title": "Reguliere transfers", "time": "24 uur van tevoren", "details": "Klanten ontvangen een volledige terugbetaling of tegoed met voorafgaande kennisgeving. No-shows worden tegen de volledige prijs in rekening gebracht." },
+        { "title": "Reguliere transfers", "time": "48 uur van tevoren", "details": "Klanten ontvangen een volledige terugbetaling of tegoed met voorafgaande kennisgeving. No-shows worden tegen de volledige prijs in rekening gebracht." },
         { "title": "Uurlijks en evenementen", "time": "48 uur van tevoren", "details": "Van toepassing op roadshows, bruiloften en uurlijkse boekingen met volledige terugbetalingsmogelijkheid." },
         { "title": "Rondleidingen", "time": "21 dagen van tevoren", "details": "Voor sightseeingtours is een voorafgaande kennisgeving vereist voor volledige terugbetaling of tegoed." },
         { "title": "Coachtransfers", "time": "30 dagen van tevoren", "details": "Groepstransfers met grote voertuigen vereisen 30 dagen voorafgaande kennisgeving voor volledige terugbetaling." }

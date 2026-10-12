@@ -55,6 +55,7 @@
     },
     "button": "Bericht verzenden",
     "sending": "Verzenden...",
+    "captcha_required": "Voltooi de captcha-verificatie.",
     "success": "Bedankt! Uw bericht is succesvol verzonden.",
     "error": "Er is iets misgegaan. Probeer het opnieuw."
   },

@@ -89,7 +89,7 @@
       "availability_desc": "Les références sur le site à nos services constituent une offre de vente ou de fourniture de ce service. Nos services sont proposés en fonction de la disponibilité. Nous fournissons 98,9 % des services que nous proposons, mais il est possible que nous ne puissions pas fournir un service ou un type de véhicule particulier.",
       "cancellation_title": "Politique d'annulation",
       "cancellation_types": [
-        { "title": "Transferts réguliers", "time": "Préavis de 24 heures", "details": "Les clients recevront un remboursement complet ou un crédit avec préavis. Les absences seront facturées au prix complet." },
+        { "title": "Transferts réguliers", "time": "Préavis de 48 heures", "details": "Les clients recevront un remboursement complet ou un crédit avec préavis. Les absences seront facturées au prix complet." },
         { "title": "Horaire et événements", "time": "Préavis de 48 heures", "details": "Applicable aux roadshows, mariages et réservations horaires avec éligibilité au remboursement complet." },
         { "title": "Visites guidées", "time": "Préavis de 21 jours", "details": "Délai de préavis requis pour les visites touristiques afin de recevoir un remboursement complet ou un crédit." },
         { "title": "Transferts en car", "time": "Préavis de 30 jours", "details": "Les transferts de groupes en grands véhicules nécessitent un préavis de 30 jours pour un remboursement complet." }

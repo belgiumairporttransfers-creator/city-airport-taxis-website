@@ -55,6 +55,7 @@
     },
     "button": "Envoyer le message",
     "sending": "Envoi en cours...",
+    "captcha_required": "Veuillez compléter la vérification captcha.",
     "success": "Merci ! Votre message a été envoyé avec succès.",
     "error": "Une erreur s'est produite. Veuillez réessayer."
   },

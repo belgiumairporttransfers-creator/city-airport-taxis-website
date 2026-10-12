@@ -8,6 +8,7 @@ export type SubmitContactPayload = {
   phone: string;
   subject: string;
   message: string;
+  captchaToken: string;
 };
 
 export type SubmitContactResponse = {

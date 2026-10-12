@@ -89,7 +89,7 @@
       "availability_desc": "References on the site to our services do constitute an offer to sell or supply that service. Our services are offered based on availability. We supply 98.9% of the services offered by us but it is possible that we can not deliver a particular service or vehicle type.",
       "cancellation_title": "Cancellation Policy",
       "cancellation_types": [
-        { "title": "Regular Transfers", "time": "24 Hours Notice", "details": "Customers will receive a full refund or credit with notice. No-shows will be charged the full price." },
+        { "title": "Regular Transfers", "time": "48 Hours Notice", "details": "Customers will receive a full refund or credit with notice. No-shows will be charged the full price." },
         { "title": "Hourly & Events", "time": "48 Hours Notice", "details": "Applicable for roadshows, weddings, and hourly bookings with full refund eligibility." },
         { "title": "Guided Tours", "time": "21 Days Notice", "details": "Notice period required for sightseeing tours to receive a full refund or credit." },
         { "title": "Coach transfers", "time": "30 Days Notice", "details": "Large vehicle group transfers require a 30-day notice for full refund." }

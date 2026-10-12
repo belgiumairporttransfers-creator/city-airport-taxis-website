@@ -68,6 +68,6 @@ export const DEFAULT_FAQS: FAQItem[] = [
     },
     {
         question: "What is your cancellation policy?",
-        answer: "Cancellations made more than 24 hours before pickup are generally free of charge. See our terms and conditions for full details.",
+        answer: "Cancellations made more than 48 hours before pickup are generally free of charge. See our terms and conditions for full details.",
     },
 ];

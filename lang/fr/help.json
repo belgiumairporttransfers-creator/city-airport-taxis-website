@@ -37,7 +37,7 @@
     },
     "cancellation": {
       "question": "Quelle est votre politique d'annulation ?",
-      "answer": "Les annulations effectuées plus de 24 heures avant l'heure de prise en charge prévue sont 100% gratuites. Pour plus de détails, veuillez consulter nos conditions générales de vente."
+      "answer": "Les annulations effectuées plus de 48 heures avant l'heure de prise en charge prévue sont 100% gratuites. Pour plus de détails, veuillez consulter nos conditions générales de vente."
     },
     "payment": {
       "question": "Quels modes de paiement acceptez-vous ?",
